@@ -1,47 +1,40 @@
-<script>
-  export let pokemon;
+<script lang='ts'>
+  export let image: string;
+  export let name: string;
+  export let growth: number;
+  export let attack: number;
+  export let defense: number;
+  export let health: number;
 </script>
 
 <div class="card">
   <div class="card-header">
-    <h2>{pokemon.name}</h2>
-    <span class="hp">{pokemon.hp} HP</span>
+    <h2>{name}</h2>
+    <span class="hp">{health} HP</span>
   </div>
   
   <div class="card-image">
-    <img src={pokemon.imageUrl} alt={pokemon.name} />
+    <img src={image} alt={name} />
   </div>
 
   <div class="card-body"> 
     <div class="ability">
-      <h3>{pokemon.ability.name}</h3>
-      <p>{pokemon.ability.description}</p>
+      <h3>Growth</h3>
+      <p>{growth}</p>
     </div>
 
     <div class="attacks">
-      {#each pokemon.attacks as attack}
-        <div class="attack">
-          <h3>{attack.name}</h3>
-          <span class="cost">{attack.cost}</span>
-          <p>{attack.description}</p>
-        </div>
-      {/each}
+    <div class="attack">
+      <h3>Attack</h3>
+      <span class="cost">{attack}</span>
+    </div>
     </div>
   </div>
 
   <div class="card-footer">
     <div class="weakness">
-      <span class="weakness-value">{pokemon.weakness.value}</span>
-      <span class="weakness-type">{pokemon.weakness.type}</span>
-    </div>
-    <div class="resistance">
-      <span class="resistance-value">{pokemon.resistance.value}</span>  
-      <span class="resistance-type">{pokemon.resistance.type}</span>
-    </div>
-    <div class="retreat-cost">
-      {#each Array(pokemon.retreatCost) as _}
-        <span class="retreat-star">*</span>
-      {/each}
+      <span class="weakness-value">Defense</span>
+      <span class="weakness-type">{defense}</span>
     </div>
   </div>
 </div>

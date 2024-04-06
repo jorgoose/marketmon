@@ -9,7 +9,7 @@
   export let ticker: string;
 </script>
 
-<div class="card">
+<div class="card" on:click>
   <div class="card-header">
       <h2>{name}</h2>
       <span class="hp">{health} HP</span>

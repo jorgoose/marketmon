@@ -1,3020 +1,3523 @@
-{
-  "MMM": {
+[
+  {
+    "name": "MMM",
     "health": 7,
     "attack": 10,
     "growth": 0.744,
     "defense": 4
   },
-  "AOS": {
+  {
+    "name": "AOS",
     "health": 2,
     "attack": 3,
     "growth": 1,
     "defense": 2
   },
-  "ABT": {
+  {
+    "name": "ABT",
     "health": 10,
     "attack": 9,
     "growth": 0.55,
     "defense": 9
   },
-  "ABBV": {
+  {
+    "name": "ABBV",
     "health": 10,
     "attack": 10,
     "growth": -0.669,
     "defense": 6
   },
-  "ACN": {
+  {
+    "name": "ACN",
     "health": 10,
     "attack": 10,
     "growth": 0.101,
     "defense": 9
   },
-  "ADBE": {
+  {
+    "name": "ADBE",
     "health": 10,
     "attack": 10,
     "growth": -0.498,
     "defense": 7
   },
-  "AMD": {
+  {
+    "name": "AMD",
     "health": 10,
     "attack": 8,
     "growth": 48.693,
     "defense": 10
   },
-  "AES": {
+  {
+    "name": "AES",
     "health": 2,
     "attack": 1,
     "growth": 1,
     "defense": 4
   },
-  "AFL": {
+  {
+    "name": "AFL",
     "health": 7,
     "attack": 9,
     "growth": 0.435,
     "defense": 8
   },
-  "A": {
+  {
+    "name": "A",
     "health": 6,
     "attack": 5,
     "growth": -0.008,
     "defense": 4
   },
-  "APD": {
+  {
+    "name": "APD",
     "health": 7,
     "attack": 1,
     "growth": 0.062,
     "defense": 7
   },
-  "ABNB": {
+  {
+    "name": "ABNB",
     "health": 9,
     "attack": 8,
     "growth": 1,
     "defense": 5
   },
-  "AKAM": {
+  {
+    "name": "AKAM",
     "health": 2,
     "attack": 3,
     "growth": 0.257,
     "defense": 3
   },
-  "ALB": {
+  {
+    "name": "ALB",
     "health": 2,
     "attack": 1,
     "growth": 1,
     "defense": 6
   },
-  "ARE": {
+  {
+    "name": "ARE",
     "health": 4,
     "attack": 7,
     "growth": 1,
     "defense": 8
   },
-  "ALGN": {
+  {
+    "name": "ALGN",
     "health": 4,
     "attack": 4,
     "growth": 2.06,
     "defense": 3
   },
-  "ALLE": {
+  {
+    "name": "ALLE",
     "health": 1,
     "attack": 3,
     "growth": -0.127,
     "defense": 2
   },
-  "LNT": {
+  {
+    "name": "LNT",
     "health": 2,
     "attack": 1,
     "growth": 0.125,
     "defense": 4
   },
-  "ALL": {
+  {
+    "name": "ALL",
     "health": 7,
     "attack": 9,
     "growth": 1,
     "defense": 8
   },
-  "GOOGL": {
+  {
+    "name": "GOOGL",
     "health": 10,
     "attack": 10,
     "growth": 0.56,
     "defense": 10
   },
-  "GOOG": {
+  {
+    "name": "GOOG",
     "health": 10,
     "attack": 10,
     "growth": 0.56,
     "defense": 10
   },
-  "MO": {
+  {
+    "name": "MO",
     "health": 8,
     "attack": 10,
     "growth": -0.225,
     "defense": 1
   },
-  "AMZN": {
+  {
+    "name": "AMZN",
     "health": 10,
     "attack": 10,
     "growth": 50.693,
     "defense": 10
   },
-  "AMCR": {
+  {
+    "name": "AMCR",
     "health": 2,
     "attack": 4,
     "growth": -0.7,
     "defense": 3
   },
-  "AEE": {
+  {
+    "name": "AEE",
     "health": 3,
     "attack": 1,
     "growth": -0.047,
     "defense": 6
   },
-  "AAL": {
+  {
+    "name": "AAL",
     "health": 1,
     "attack": 7,
     "growth": -0.974,
     "defense": 1
   },
-  "AEP": {
+  {
+    "name": "AEP",
     "health": 6,
     "attack": 1,
     "growth": -0.155,
     "defense": 9
   },
-  "AXP": {
+  {
+    "name": "AXP",
     "health": 9,
     "attack": 2,
     "growth": 0.263,
     "defense": 9
   },
-  "AIG": {
+  {
+    "name": "AIG",
     "health": 7,
     "attack": 1,
     "growth": -0.841,
     "defense": 10
   },
-  "AMT": {
+  {
+    "name": "AMT",
     "health": 8,
     "attack": 9,
     "growth": 1,
     "defense": 6
   },
-  "AWK": {
+  {
+    "name": "AWK",
     "health": 4,
     "attack": 1,
     "growth": 0.086,
     "defense": 6
   },
-  "AMP": {
+  {
+    "name": "AMP",
     "health": 6,
     "attack": 9,
     "growth": -0.388,
     "defense": 4
   },
-  "AME": {
+  {
+    "name": "AME",
     "health": 6,
     "attack": 6,
     "growth": 0.113,
     "defense": 5
   },
-  "AMGN": {
+  {
+    "name": "AMGN",
     "health": 9,
     "attack": 8,
     "growth": -0.524,
     "defense": 4
   },
-  "APH": {
+  {
+    "name": "APH",
     "health": 8,
     "attack": 7,
     "growth": 0.011,
     "defense": 5
   },
-  "ADI": {
+  {
+    "name": "ADI",
     "health": 9,
     "attack": 8,
     "growth": -0.505,
     "defense": 9
   },
-  "ANSS": {
+  {
+    "name": "ANSS",
     "health": 5,
     "attack": 4,
     "growth": 0.066,
     "defense": 4
   },
-  "AON": {
+  {
+    "name": "AON",
     "health": 8,
     "attack": 8,
     "growth": -0.215,
     "defense": 1
   },
-  "APA": {
+  {
+    "name": "APA",
     "health": 1,
     "attack": 5,
     "growth": 3.272,
     "defense": 3
   },
-  "AAPL": {
+  {
+    "name": "AAPL",
     "health": 11,
     "attack": 11,
     "growth": 0.16,
     "defense": 10
   },
-  "AMAT": {
+  {
+    "name": "AMAT",
     "health": 10,
     "attack": 9,
     "growth": 0.193,
     "defense": 7
   },
-  "APTV": {
+  {
+    "name": "APTV",
     "health": 4,
     "attack": 4,
     "growth": 2.744,
     "defense": 7
   },
-  "ACGL": {
+  {
+    "name": "ACGL",
     "health": 6,
     "attack": 10,
     "growth": 1.708,
     "defense": 8
   },
-  "ADM": {
+  {
+    "name": "ADM",
     "health": 5,
     "attack": 9,
     "growth": -0.422,
     "defense": 8
   },
-  "ANET": {
+  {
+    "name": "ANET",
     "health": 9,
     "attack": 7,
     "growth": 0.418,
     "defense": 5
   },
-  "AJG": {
+  {
+    "name": "AJG",
     "health": 7,
     "attack": 6,
     "growth": 1,
     "defense": 6
   },
-  "AIZ": {
+  {
+    "name": "AIZ",
     "health": 1,
     "attack": 5,
     "growth": 1.69,
     "defense": 4
   },
-  "T": {
+  {
+    "name": "T",
     "health": 9,
     "attack": 10,
     "growth": 1,
     "defense": 10
   },
-  "ATO": {
+  {
+    "name": "ATO",
     "health": 3,
     "attack": 3,
     "growth": 0.087,
     "defense": 6
   },
-  "ADSK": {
+  {
+    "name": "ADSK",
     "health": 7,
     "attack": 7,
     "growth": -0.034,
     "defense": 1
   },
-  "ADP": {
+  {
+    "name": "ADP",
     "health": 9,
     "attack": 8,
     "growth": 0.092,
     "defense": 3
   },
-  "AZO": {
+  {
+    "name": "AZO",
     "health": 7,
     "attack": 6,
     "growth": 0.172,
     "defense": 1
   },
-  "AVB": {
+  {
+    "name": "AVB",
     "health": 4,
     "attack": 6,
     "growth": -0.012,
     "defense": 7
   },
-  "AVY": {
+  {
+    "name": "AVY",
     "health": 3,
     "attack": 3,
     "growth": 0.176,
     "defense": 2
   },
-  "AXON": {
+  {
+    "name": "AXON",
     "health": 4,
     "attack": 2,
     "growth": 0.866,
     "defense": 2
   },
-  "BKR": {
+  {
+    "name": "BKR",
     "health": 5,
     "attack": 8,
     "growth": 1.366,
     "defense": 7
   },
-  "BALL": {
+  {
+    "name": "BALL",
     "health": 4,
     "attack": 3,
     "growth": 1.803,
     "defense": 3
   },
-  "BAC": {
+  {
+    "name": "BAC",
     "health": 10,
     "attack": 2,
     "growth": -0.607,
     "defense": 10
   },
-  "BK": {
+  {
+    "name": "BK",
     "health": 6,
     "attack": 2,
     "growth": -0.681,
     "defense": 9
   },
-  "BBWI": {
+  {
+    "name": "BBWI",
     "health": 1,
     "attack": 3,
     "growth": 0.352,
     "defense": 1
   },
-  "BAX": {
+  {
+    "name": "BAX",
     "health": 4,
     "attack": 7,
     "growth": 0.338,
     "defense": 5
   },
-  "BDX": {
+  {
+    "name": "BDX",
     "health": 8,
     "attack": 9,
     "growth": -0.435,
     "defense": 9
   },
-  "BRK-B": {
+  {
+    "name": "BRK-B",
     "health": 10,
     "attack": 11,
     "growth": 1.108,
     "defense": 11
   },
-  "BBY": {
+  {
+    "name": "BBY",
     "health": 3,
     "attack": 4,
     "growth": -0.054,
     "defense": 2
   },
-  "BIO": {
+  {
+    "name": "BIO",
     "health": 1,
     "attack": 2,
     "growth": -0.563,
     "defense": 5
   },
-  "TECH": {
+  {
+    "name": "TECH",
     "health": 1,
     "attack": 2,
     "growth": -0.452,
     "defense": 2
   },
-  "BIIB": {
+  {
+    "name": "BIIB",
     "health": 5,
     "attack": 5,
     "growth": -0.549,
     "defense": 7
   },
-  "BLK": {
+  {
+    "name": "BLK",
     "health": 9,
     "attack": 9,
     "growth": 0.103,
     "defense": 9
   },
-  "BX": {
+  {
+    "name": "BX",
     "health": 9,
     "attack": 2,
     "growth": -0.733,
     "defense": 8
   },
-  "BA": {
+  {
+    "name": "BA",
     "health": 9,
     "attack": 10,
     "growth": 1,
     "defense": 1
   },
-  "BKNG": {
+  {
+    "name": "BKNG",
     "health": 9,
     "attack": 9,
     "growth": -0.803,
     "defense": 1
   },
-  "BWA": {
+  {
+    "name": "BWA",
     "health": 1,
     "attack": 5,
     "growth": -0.394,
     "defense": 4
   },
-  "BXP": {
+  {
+    "name": "BXP",
     "health": 1,
     "attack": 5,
     "growth": -0.023,
     "defense": 5
   },
-  "BSX": {
+  {
+    "name": "BSX",
     "health": 9,
     "attack": 7,
     "growth": 2.856,
     "defense": 8
   },
-  "BMY": {
+  {
+    "name": "BMY",
     "health": 9,
     "attack": 10,
     "growth": -0.089,
     "defense": 9
   },
-  "AVGO": {
+  {
+    "name": "AVGO",
     "health": 10,
     "attack": 10,
     "growth": 1.881,
     "defense": 8
   },
-  "BR": {
+  {
+    "name": "BR",
     "health": 4,
     "attack": 5,
     "growth": 0.229,
     "defense": 2
   },
-  "BRO": {
+  {
+    "name": "BRO",
     "health": 4,
     "attack": 5,
     "growth": 0.832,
     "defense": 4
   },
-  "BF-B": {
+  {
+    "name": "BF-B",
     "health": 4,
     "attack": 2,
     "growth": 1.875,
     "defense": 3
   },
-  "BLDR": {
+  {
+    "name": "BLDR",
     "health": 4,
     "attack": 7,
     "growth": 0.077,
     "defense": 4
   },
-  "BG": {
+  {
+    "name": "BG",
     "health": 2,
     "attack": 7,
     "growth": 0.898,
     "defense": 7
   },
-  "CDNS": {
+  {
+    "name": "CDNS",
     "health": 8,
     "attack": 6,
     "growth": 0.351,
     "defense": 3
   },
-  "CZR": {
+  {
+    "name": "CZR",
     "health": 1,
     "attack": 3,
     "growth": 1,
     "defense": 4
   },
-  "CPT": {
+  {
+    "name": "CPT",
     "health": 1,
     "attack": 4,
     "growth": 3.833,
     "defense": 4
   },
-  "CPB": {
+  {
+    "name": "CPB",
     "health": 2,
     "attack": 4,
     "growth": -0.117,
     "defense": 3
   },
-  "COF": {
+  {
+    "name": "COF",
     "health": 7,
     "attack": 2,
     "growth": -0.448,
     "defense": 10
   },
-  "CAH": {
+  {
+    "name": "CAH",
     "health": 5,
     "attack": 9,
     "growth": 1,
     "defense": 1
   },
-  "KMX": {
+  {
+    "name": "KMX",
     "health": 2,
     "attack": 2,
     "growth": 1.176,
     "defense": 4
   },
-  "CCL": {
+  {
+    "name": "CCL",
     "health": 3,
     "attack": 2,
     "growth": 1,
     "defense": 5
   },
-  "CARR": {
+  {
+    "name": "CARR",
     "health": 7,
     "attack": 1,
     "growth": 0.582,
     "defense": 5
   },
-  "CTLT": {
+  {
+    "name": "CTLT",
     "health": 1,
     "attack": 2,
     "growth": 1,
     "defense": 3
   },
-  "CAT": {
+  {
+    "name": "CAT",
     "health": 10,
     "attack": 10,
     "growth": 0.893,
     "defense": 8
   },
-  "CBOE": {
+  {
+    "name": "CBOE",
     "health": 3,
     "attack": 4,
     "growth": 0.326,
     "defense": 3
   },
-  "CBRE": {
+  {
+    "name": "CBRE",
     "health": 5,
     "attack": 3,
     "growth": 5.134,
     "defense": 6
   },
-  "CDW": {
+  {
+    "name": "CDW",
     "health": 5,
     "attack": 6,
     "growth": 0.045,
     "defense": 2
   },
-  "CE": {
+  {
+    "name": "CE",
     "health": 3,
     "attack": 5,
     "growth": -0.092,
     "defense": 5
   },
-  "COR": {
+  {
+    "name": "COR",
     "health": 7,
     "attack": 9,
     "growth": 0.279,
     "defense": 1
   },
-  "CNC": {
+  {
+    "name": "CNC",
     "health": 6,
     "attack": 9,
     "growth": 1,
     "defense": 9
   },
-  "CNP": {
+  {
+    "name": "CNP",
     "health": 3,
     "attack": 1,
     "growth": 0.586,
     "defense": 6
   },
-  "CF": {
+  {
+    "name": "CF",
     "health": 2,
     "attack": 7,
     "growth": -0.67,
     "defense": 5
   },
-  "CHRW": {
+  {
+    "name": "CHRW",
     "health": 1,
     "attack": 4,
     "growth": -0.679,
     "defense": 2
   },
-  "CRL": {
+  {
+    "name": "CRL",
     "health": 2,
     "attack": 2,
     "growth": -0.006,
     "defense": 3
   },
-  "SCHW": {
+  {
+    "name": "SCHW",
     "health": 9,
     "attack": 2,
     "growth": -0.475,
     "defense": 9
   },
-  "CHTR": {
+  {
+    "name": "CHTR",
     "health": 6,
     "attack": 9,
     "growth": -0.079,
     "defense": 7
   },
-  "CVX": {
+  {
+    "name": "CVX",
     "health": 10,
     "attack": 10,
     "growth": -0.636,
     "defense": 10
   },
-  "CMG": {
+  {
+    "name": "CMG",
     "health": 8,
     "attack": 5,
     "growth": 0.273,
     "defense": 2
   },
-  "CB": {
+  {
+    "name": "CB",
     "health": 9,
     "attack": 10,
     "growth": 1.567,
     "defense": 10
   },
-  "CHD": {
+  {
+    "name": "CHD",
     "health": 4,
     "attack": 4,
     "growth": 1,
     "defense": 3
   },
-  "CI": {
+  {
+    "name": "CI",
     "health": 9,
     "attack": 10,
     "growth": -0.105,
     "defense": 10
   },
-  "CINF": {
+  {
+    "name": "CINF",
     "health": 3,
     "attack": 9,
     "growth": 0.17,
     "defense": 7
   },
-  "CTAS": {
+  {
+    "name": "CTAS",
     "health": 8,
     "attack": 6,
     "growth": 0.223,
     "defense": 3
   },
-  "CSCO": {
+  {
+    "name": "CSCO",
     "health": 10,
     "attack": 10,
     "growth": -0.031,
     "defense": 10
   },
-  "C": {
+  {
+    "name": "C",
     "health": 9,
     "attack": 2,
     "growth": 1,
     "defense": 10
   },
-  "CFG": {
+  {
+    "name": "CFG",
     "health": 2,
     "attack": 2,
     "growth": -0.729,
     "defense": 8
   },
-  "CLX": {
+  {
+    "name": "CLX",
     "health": 3,
     "attack": 4,
     "growth": -0.064,
     "defense": 1
   },
-  "CME": {
+  {
+    "name": "CME",
     "health": 8,
     "attack": 8,
     "growth": 0.276,
     "defense": 9
   },
-  "CMS": {
+  {
+    "name": "CMS",
     "health": 3,
     "attack": 1,
     "growth": 0.805,
     "defense": 5
   },
-  "KO": {
+  {
+    "name": "KO",
     "health": 10,
     "attack": 9,
     "growth": -0.005,
     "defense": 9
   },
-  "CTSH": {
+  {
+    "name": "CTSH",
     "health": 6,
     "attack": 7,
     "growth": 0.107,
     "defense": 7
   },
-  "CL": {
+  {
+    "name": "CL",
     "health": 8,
     "attack": 8,
     "growth": 144.537,
     "defense": 1
   },
-  "CMCSA": {
+  {
+    "name": "CMCSA",
     "health": 10,
     "attack": 10,
     "growth": 0.144,
     "defense": 10
   },
-  "CMA": {
+  {
+    "name": "CMA",
     "health": 1,
     "attack": 2,
     "growth": -0.924,
     "defense": 4
   },
-  "CAG": {
+  {
+    "name": "CAG",
     "health": 2,
     "attack": 5,
     "growth": -0.099,
     "defense": 5
   },
-  "COP": {
+  {
+    "name": "COP",
     "health": 9,
     "attack": 9,
     "growth": -0.03,
     "defense": 10
   },
-  "ED": {
+  {
+    "name": "ED",
     "health": 5,
     "attack": 6,
     "growth": 0.821,
     "defense": 8
   },
-  "STZ": {
+  {
+    "name": "STZ",
     "health": 7,
     "attack": 5,
     "growth": 0.23,
     "defense": 5
   },
-  "CEG": {
+  {
+    "name": "CEG",
     "health": 7,
     "attack": 1,
     "growth": 1,
     "defense": 6
   },
-  "COO": {
+  {
+    "name": "COO",
     "health": 3,
     "attack": 2,
     "growth": -0.045,
     "defense": 5
   },
-  "CPRT": {
+  {
+    "name": "CPRT",
     "health": 7,
     "attack": 4,
     "growth": 0.1,
     "defense": 4
   },
-  "GLW": {
+  {
+    "name": "GLW",
     "health": 5,
     "attack": 2,
     "growth": 1,
     "defense": 7
   },
-  "CPAY": {
+  {
+    "name": "CPAY",
     "health": 4,
     "attack": 5,
     "growth": 0.143,
     "defense": 3
   },
-  "CTVA": {
+  {
+    "name": "CTVA",
     "health": 6,
     "attack": 6,
     "growth": 1,
     "defense": 9
   },
-  "CSGP": {
+  {
+    "name": "CSGP",
     "health": 6,
     "attack": 3,
     "growth": -0.228,
     "defense": 5
   },
-  "COST": {
+  {
+    "name": "COST",
     "health": 10,
     "attack": 9,
     "growth": 0.188,
     "defense": 9
   },
-  "CTRA": {
+  {
+    "name": "CTRA",
     "health": 4,
     "attack": 6,
     "growth": -0.579,
     "defense": 7
   },
-  "CCI": {
+  {
+    "name": "CCI",
     "health": 6,
     "attack": 7,
     "growth": -0.126,
     "defense": 4
   },
-  "CSX": {
+  {
+    "name": "CSX",
     "health": 8,
     "attack": 8,
     "growth": -0.078,
     "defense": 7
   },
-  "CMI": {
+  {
+    "name": "CMI",
     "health": 6,
     "attack": 9,
     "growth": 1,
     "defense": 6
   },
-  "CVS": {
+  {
+    "name": "CVS",
     "health": 9,
     "attack": 10,
     "growth": -0.105,
     "defense": 10
   },
-  "DHR": {
+  {
+    "name": "DHR",
     "health": 10,
     "attack": 9,
     "growth": -0.513,
     "defense": 10
   },
-  "DRI": {
+  {
+    "name": "DRI",
     "health": 3,
     "attack": 4,
     "growth": 0.11,
     "defense": 2
   },
-  "DVA": {
+  {
+    "name": "DVA",
     "health": 1,
     "attack": 6,
     "growth": 1.2,
     "defense": 2
   },
-  "DAY": {
+  {
+    "name": "DAY",
     "health": 1,
     "attack": 2,
     "growth": 1,
     "defense": 2
   },
-  "DECK": {
+  {
+    "name": "DECK",
     "health": 4,
     "attack": 5,
     "growth": 0.442,
     "defense": 2
   },
-  "DE": {
+  {
+    "name": "DE",
     "health": 9,
     "attack": 8,
     "growth": -0.049,
     "defense": 8
   },
-  "DAL": {
+  {
+    "name": "DAL",
     "health": 5,
     "attack": 3,
     "growth": 1.436,
     "defense": 6
   },
-  "DVN": {
+  {
+    "name": "DVN",
     "health": 5,
     "attack": 6,
     "growth": -0.005,
     "defense": 7
   },
-  "DXCM": {
+  {
+    "name": "DXCM",
     "health": 7,
     "attack": 3,
     "growth": 1.81,
     "defense": 2
   },
-  "FANG": {
+  {
+    "name": "FANG",
     "health": 6,
     "attack": 3,
     "growth": -0.051,
     "defense": 8
   },
-  "DLR": {
+  {
+    "name": "DLR",
     "health": 7,
     "attack": 7,
     "growth": 1,
     "defense": 8
   },
-  "DFS": {
+  {
+    "name": "DFS",
     "health": 5,
     "attack": 2,
     "growth": -0.588,
     "defense": 7
   },
-  "DG": {
+  {
+    "name": "DG",
     "health": 5,
     "attack": 2,
     "growth": -0.386,
     "defense": 4
   },
-  "DLTR": {
+  {
+    "name": "DLTR",
     "health": 5,
     "attack": 4,
     "growth": 1,
     "defense": 5
   },
-  "D": {
+  {
+    "name": "D",
     "health": 6,
     "attack": 1,
     "growth": -0.207,
     "defense": 9
   },
-  "DPZ": {
+  {
+    "name": "DPZ",
     "health": 3,
     "attack": 3,
     "growth": 0.301,
     "defense": 1
   },
-  "DOV": {
+  {
+    "name": "DOV",
     "health": 4,
     "attack": 5,
     "growth": 0.128,
     "defense": 4
   },
-  "DOW": {
+  {
+    "name": "DOW",
     "health": 6,
     "attack": 8,
     "growth": 1,
     "defense": 8
   },
-  "DHI": {
+  {
+    "name": "DHI",
     "health": 7,
     "attack": 7,
     "growth": 0.022,
     "defense": 8
   },
-  "DTE": {
+  {
+    "name": "DTE",
     "health": 4,
     "attack": 1,
     "growth": 0.539,
     "defense": 6
   },
-  "DUK": {
+  {
+    "name": "DUK",
     "health": 8,
     "attack": 1,
     "growth": 1,
     "defense": 10
   },
-  "DD": {
+  {
+    "name": "DD",
     "health": 5,
     "attack": 8,
     "growth": 1,
     "defense": 8
   },
-  "EMN": {
+  {
+    "name": "EMN",
     "health": 1,
     "attack": 3,
     "growth": 311.047,
     "defense": 4
   },
-  "ETN": {
+  {
+    "name": "ETN",
     "health": 9,
     "attack": 8,
     "growth": 0.304,
     "defense": 8
   },
-  "EBAY": {
+  {
+    "name": "EBAY",
     "health": 5,
     "attack": 8,
     "growth": 0.131,
     "defense": 4
   },
-  "ECL": {
+  {
+    "name": "ECL",
     "health": 8,
     "attack": 7,
     "growth": 1,
     "defense": 5
   },
-  "EIX": {
+  {
+    "name": "EIX",
     "health": 5,
     "attack": 1,
     "growth": -0.085,
     "defense": 8
   },
-  "EW": {
+  {
+    "name": "EW",
     "health": 7,
     "attack": 4,
     "growth": -0.061,
     "defense": 4
   },
-  "EA": {
+  {
+    "name": "EA",
     "health": 5,
     "attack": 7,
     "growth": 0.466,
     "defense": 5
   },
-  "ELV": {
+  {
+    "name": "ELV",
     "health": 9,
     "attack": 8,
     "growth": 0.012,
     "defense": 9
   },
-  "LLY": {
+  {
+    "name": "LLY",
     "health": 10,
     "attack": 2,
     "growth": 0.13,
     "defense": 6
   },
-  "EMR": {
+  {
+    "name": "EMR",
     "health": 8,
     "attack": 6,
     "growth": -0.937,
     "defense": 9
   },
-  "ENPH": {
+  {
+    "name": "ENPH",
     "health": 2,
     "attack": 3,
     "growth": -0.874,
     "defense": 1
   },
-  "ETR": {
+  {
+    "name": "ETR",
     "health": 4,
     "attack": 1,
     "growth": 8.115,
     "defense": 7
   },
-  "EOG": {
+  {
+    "name": "EOG",
     "health": 8,
     "attack": 8,
     "growth": -0.118,
     "defense": 9
   },
-  "EPAM": {
+  {
+    "name": "EPAM",
     "health": 2,
     "attack": 3,
     "growth": -0.366,
     "defense": 3
   },
-  "EQT": {
+  {
+    "name": "EQT",
     "health": 2,
     "attack": 3,
     "growth": -0.737,
     "defense": 7
   },
-  "EFX": {
+  {
+    "name": "EFX",
     "health": 5,
     "attack": 3,
     "growth": 0.209,
     "defense": 4
   },
-  "EQIX": {
+  {
+    "name": "EQIX",
     "health": 8,
     "attack": 8,
     "growth": 0.731,
     "defense": 7
   },
-  "EQR": {
+  {
+    "name": "EQR",
     "health": 4,
     "attack": 6,
     "growth": 0.957,
     "defense": 6
   },
-  "ESS": {
+  {
+    "name": "ESS",
     "health": 2,
     "attack": 4,
     "growth": -0.644,
     "defense": 4
   },
-  "EL": {
+  {
+    "name": "EL",
     "health": 7,
     "attack": 1,
     "growth": -0.202,
     "defense": 4
   },
-  "ETSY": {
+  {
+    "name": "ETSY",
     "health": 1,
     "attack": 3,
     "growth": -0.18,
     "defense": 1
   },
-  "EG": {
+  {
+    "name": "EG",
     "health": 2,
     "attack": 8,
     "growth": 0.447,
     "defense": 7
   },
-  "EVRG": {
+  {
+    "name": "EVRG",
     "health": 1,
     "attack": 1,
     "growth": 6.664,
     "defense": 6
   },
-  "ES": {
+  {
+    "name": "ES",
     "health": 4,
     "attack": 1,
     "growth": 1,
     "defense": 7
   },
-  "EXC": {
+  {
+    "name": "EXC",
     "health": 6,
     "attack": 1,
     "growth": 0.442,
     "defense": 9
   },
-  "EXPE": {
+  {
+    "name": "EXPE",
     "health": 3,
     "attack": 7,
     "growth": -0.165,
     "defense": 2
   },
-  "EXPD": {
+  {
+    "name": "EXPD",
     "health": 3,
     "attack": 5,
     "growth": -0.219,
     "defense": 2
   },
-  "EXR": {
+  {
+    "name": "EXR",
     "health": 5,
     "attack": 6,
     "growth": -0.35,
     "defense": 7
   },
-  "XOM": {
+  {
+    "name": "XOM",
     "health": 10,
     "attack": 10,
     "growth": -0.381,
     "defense": 10
   },
-  "FFIV": {
+  {
+    "name": "FFIV",
     "health": 1,
     "attack": 4,
     "growth": 0.933,
     "defense": 2
   },
-  "FDS": {
+  {
+    "name": "FDS",
     "health": 3,
     "attack": 4,
     "growth": 0.08,
     "defense": 2
   },
-  "FICO": {
+  {
+    "name": "FICO",
     "health": 5,
     "attack": 3,
     "growth": 0.25,
     "defense": 1
   },
-  "FAST": {
+  {
+    "name": "FAST",
     "health": 6,
     "attack": 5,
     "growth": 0.084,
     "defense": 3
   },
-  "FRT": {
+  {
+    "name": "FRT",
     "health": 1,
     "attack": 3,
     "growth": -0.458,
     "defense": 3
   },
-  "FDX": {
+  {
+    "name": "FDX",
     "health": 8,
     "attack": 9,
     "growth": -0.133,
     "defense": 9
   },
-  "FIS": {
+  {
+    "name": "FIS",
     "health": 6,
     "attack": 8,
     "growth": 1,
     "defense": 8
   },
-  "FITB": {
+  {
+    "name": "FITB",
     "health": 4,
     "attack": 2,
     "growth": -0.287,
     "defense": 8
   },
-  "FSLR": {
+  {
+    "name": "FSLR",
     "health": 3,
     "attack": 1,
     "growth": 1,
     "defense": 4
   },
-  "FE": {
+  {
+    "name": "FE",
     "health": 4,
     "attack": 7,
     "growth": 1,
     "defense": 6
   },
-  "FI": {
+  {
+    "name": "FI",
     "health": 9,
     "attack": 9,
     "growth": 0.179,
     "defense": 9
   },
-  "FMC": {
+  {
+    "name": "FMC",
     "health": 1,
     "attack": 1,
     "growth": 3.073,
     "defense": 3
   },
-  "F": {
+  {
+    "name": "F",
     "health": 7,
     "attack": 1,
     "growth": 1,
     "defense": 10
   },
-  "FTNT": {
+  {
+    "name": "FTNT",
     "health": 7,
     "attack": 6,
     "growth": 0.035,
     "defense": 1
   },
-  "FTV": {
+  {
+    "name": "FTV",
     "health": 5,
     "attack": 6,
     "growth": 0.162,
     "defense": 6
   },
-  "FOXA": {
+  {
+    "name": "FOXA",
     "health": 2,
     "attack": 6,
     "growth": -0.608,
     "defense": 6
   },
-  "FOX": {
+  {
+    "name": "FOX",
     "health": 2,
     "attack": 6,
     "growth": -0.608,
     "defense": 6
   },
-  "BEN": {
+  {
+    "name": "BEN",
     "health": 2,
     "attack": 5,
     "growth": 0.55,
     "defense": 7
   },
-  "FCX": {
+  {
+    "name": "FCX",
     "health": 8,
     "attack": 1,
     "growth": -0.446,
     "defense": 9
   },
-  "GRMN": {
+  {
+    "name": "GRMN",
     "health": 5,
     "attack": 5,
     "growth": 0.846,
     "defense": 5
   },
-  "IT": {
+  {
+    "name": "IT",
     "health": 6,
     "attack": 5,
     "growth": -0.175,
     "defense": 1
   },
-  "GE": {
+  {
+    "name": "GE",
     "health": 10,
     "attack": 9,
     "growth": -0.232,
     "defense": 9
   },
-  "GEHC": {
+  {
+    "name": "GEHC",
     "health": 6,
     "attack": 8,
     "growth": -0.279,
     "defense": 5
   },
-  "GEV": {
+  {
+    "name": "GEV",
     "health": 5,
     "attack": 5,
     "growth": 1,
     "defense": 5
   },
-  "GEN": {
+  {
+    "name": "GEN",
     "health": 2,
     "attack": 3,
     "growth": -0.12,
     "defense": 2
   },
-  "GNRC": {
+  {
+    "name": "GNRC",
     "health": 1,
     "attack": 3,
     "growth": 0.894,
     "defense": 2
   },
-  "GD": {
+  {
+    "name": "GD",
     "health": 8,
     "attack": 7,
     "growth": 0.014,
     "defense": 8
   },
-  "GIS": {
+  {
+    "name": "GIS",
     "health": 6,
     "attack": 7,
     "growth": 0.272,
     "defense": 6
   },
-  "GM": {
+  {
+    "name": "GM",
     "health": 7,
     "attack": 9,
     "growth": 0.135,
     "defense": 10
   },
-  "GPC": {
+  {
+    "name": "GPC",
     "health": 4,
     "attack": 4,
     "growth": 0.263,
     "defense": 3
   },
-  "GILD": {
+  {
+    "name": "GILD",
     "health": 8,
     "attack": 10,
     "growth": -0.131,
     "defense": 8
   },
-  "GPN": {
+  {
+    "name": "GPN",
     "health": 5,
     "attack": 8,
     "growth": 0.494,
     "defense": 8
   },
-  "GL": {
+  {
+    "name": "GL",
     "health": 1,
     "attack": 6,
     "growth": 0.168,
     "defense": 3
   },
-  "GS": {
+  {
+    "name": "GS",
     "health": 9,
     "attack": 2,
     "growth": 0.649,
     "defense": 10
   },
-  "HAL": {
+  {
+    "name": "HAL",
     "health": 6,
     "attack": 7,
     "growth": 0.013,
     "defense": 6
   },
-  "HIG": {
+  {
+    "name": "HIG",
     "health": 5,
     "attack": 9,
     "growth": 0.374,
     "defense": 7
   },
-  "HAS": {
+  {
+    "name": "HAS",
     "health": 1,
     "attack": 5,
     "growth": 1,
     "defense": 1
   },
-  "HCA": {
+  {
+    "name": "HCA",
     "health": 8,
     "attack": 8,
     "growth": -0.186,
     "defense": 1
   },
-  "DOC": {
+  {
+    "name": "DOC",
     "health": 2,
     "attack": 5,
     "growth": 126.349,
     "defense": 5
   },
-  "HSIC": {
+  {
+    "name": "HSIC",
     "health": 1,
     "attack": 2,
     "growth": -0.619,
     "defense": 4
   },
-  "HSY": {
+  {
+    "name": "HSY",
     "health": 6,
     "attack": 5,
     "growth": -0.115,
     "defense": 3
   },
-  "HES": {
+  {
+    "name": "HES",
     "health": 7,
     "attack": 1,
     "growth": -0.168,
     "defense": 6
   },
-  "HPE": {
+  {
+    "name": "HPE",
     "health": 4,
     "attack": 7,
     "growth": -0.237,
     "defense": 8
   },
-  "HLT": {
+  {
+    "name": "HLT",
     "health": 7,
     "attack": 6,
     "growth": -0.525,
     "defense": 1
   },
-  "HOLX": {
+  {
+    "name": "HOLX",
     "health": 3,
     "attack": 4,
     "growth": 0.373,
     "defense": 4
   },
-  "HD": {
+  {
+    "name": "HD",
     "health": 10,
     "attack": 10,
     "growth": -0.148,
     "defense": 1
   },
-  "HON": {
+  {
+    "name": "HON",
     "health": 9,
     "attack": 8,
     "growth": 0.268,
     "defense": 7
   },
-  "HRL": {
+  {
+    "name": "HRL",
     "health": 3,
     "attack": 4,
     "growth": 0.004,
     "defense": 5
   },
-  "HST": {
+  {
+    "name": "HST",
     "health": 2,
     "attack": 6,
     "growth": -0.063,
     "defense": 4
   },
-  "HWM": {
+  {
+    "name": "HWM",
     "health": 5,
     "attack": 3,
     "growth": 1.086,
     "defense": 3
   },
-  "HPQ": {
+  {
+    "name": "HPQ",
     "health": 5,
     "attack": 8,
     "growth": 0.319,
     "defense": 1
   },
-  "HUBB": {
+  {
+    "name": "HUBB",
     "health": 4,
     "attack": 3,
     "growth": 0.633,
     "defense": 2
   },
-  "HUM": {
+  {
+    "name": "HUM",
     "health": 6,
     "attack": 4,
     "growth": 1,
     "defense": 7
   },
-  "HBAN": {
+  {
+    "name": "HBAN",
     "health": 3,
     "attack": 2,
     "growth": -0.646,
     "defense": 8
   },
-  "HII": {
+  {
+    "name": "HII",
     "health": 1,
     "attack": 4,
     "growth": 1.249,
     "defense": 3
   },
-  "IBM": {
+  {
+    "name": "IBM",
     "health": 10,
     "attack": 10,
     "growth": 0.2,
     "defense": 8
   },
-  "IEX": {
+  {
+    "name": "IEX",
     "health": 3,
     "attack": 3,
     "growth": -0.16,
     "defense": 3
   },
-  "IDXX": {
+  {
+    "name": "IDXX",
     "health": 6,
     "attack": 4,
     "growth": 0.121,
     "defense": 2
   },
-  "ITW": {
+  {
+    "name": "ITW",
     "health": 8,
     "attack": 8,
     "growth": -0.193,
     "defense": 2
   },
-  "ILMN": {
+  {
+    "name": "ILMN",
     "health": 4,
     "attack": 3,
     "growth": 1,
     "defense": 4
   },
-  "INCY": {
+  {
+    "name": "INCY",
     "health": 2,
     "attack": 4,
     "growth": 6.324,
     "defense": 4
   },
-  "IR": {
+  {
+    "name": "IR",
     "health": 6,
     "attack": 6,
     "growth": 0.046,
     "defense": 6
   },
-  "PODD": {
+  {
+    "name": "PODD",
     "health": 1,
     "attack": 2,
     "growth": 5.043,
     "defense": 1
   },
-  "INTC": {
+  {
+    "name": "INTC",
     "health": 10,
     "attack": 1,
     "growth": 1,
     "defense": 10
   },
-  "ICE": {
+  {
+    "name": "ICE",
     "health": 8,
     "attack": 10,
     "growth": -0.147,
     "defense": 9
   },
-  "IFF": {
+  {
+    "name": "IFF",
     "health": 4,
     "attack": 7,
     "growth": 1,
     "defense": 7
   },
-  "IP": {
+  {
+    "name": "IP",
     "health": 2,
     "attack": 3,
     "growth": 1,
     "defense": 5
   },
-  "IPG": {
+  {
+    "name": "IPG",
     "health": 1,
     "attack": 2,
     "growth": 0.616,
     "defense": 3
   },
-  "INTU": {
+  {
+    "name": "INTU",
     "health": 10,
     "attack": 9,
     "growth": -0.185,
     "defense": 8
   },
-  "ISRG": {
+  {
+    "name": "ISRG",
     "health": 9,
     "attack": 4,
     "growth": 0.857,
     "defense": 7
   },
-  "IVZ": {
+  {
+    "name": "IVZ",
     "health": 1,
     "attack": 4,
     "growth": 1,
     "defense": 7
   },
-  "INVH": {
+  {
+    "name": "INVH",
     "health": 4,
     "attack": 5,
     "growth": 0.279,
     "defense": 6
   },
-  "IQV": {
+  {
+    "name": "IQV",
     "health": 6,
     "attack": 6,
     "growth": 1.125,
     "defense": 4
   },
-  "IRM": {
+  {
+    "name": "IRM",
     "health": 4,
     "attack": 2,
     "growth": -0.762,
     "defense": 1
   },
-  "JBHT": {
+  {
+    "name": "JBHT",
     "health": 3,
     "attack": 1,
     "growth": -0.236,
     "defense": 3
   },
-  "JBL": {
+  {
+    "name": "JBL",
     "health": 3,
     "attack": 6,
     "growth": 3.809,
     "defense": 2
   },
-  "JKHY": {
+  {
+    "name": "JKHY",
     "health": 1,
     "attack": 2,
     "growth": 0.145,
     "defense": 2
   },
-  "J": {
+  {
+    "name": "J",
     "health": 3,
     "attack": 5,
     "growth": 0.283,
     "defense": 5
   },
-  "JNJ": {
+  {
+    "name": "JNJ",
     "health": 10,
     "attack": 10,
     "growth": 0.106,
     "defense": 10
   },
-  "JCI": {
+  {
+    "name": "JCI",
     "health": 6,
     "attack": 8,
     "growth": 2.232,
     "defense": 8
   },
-  "JPM": {
+  {
+    "name": "JPM",
     "health": 10,
     "attack": 2,
     "growth": -0.15,
     "defense": 11
   },
-  "JNPR": {
+  {
+    "name": "JNPR",
     "health": 1,
     "attack": 4,
     "growth": -0.307,
     "defense": 3
   },
-  "K": {
+  {
+    "name": "K",
     "health": 3,
     "attack": 3,
     "growth": 1,
     "defense": 3
   },
-  "KVUE": {
+  {
+    "name": "KVUE",
     "health": 6,
     "attack": 8,
     "growth": -0.187,
     "defense": 6
   },
-  "KDP": {
+  {
+    "name": "KDP",
     "health": 6,
     "attack": 4,
     "growth": 0.554,
     "defense": 9
   },
-  "KEY": {
+  {
+    "name": "KEY",
     "health": 2,
     "attack": 2,
     "growth": -0.92,
     "defense": 7
   },
-  "KEYS": {
+  {
+    "name": "KEYS",
     "health": 5,
     "attack": 5,
     "growth": -0.324,
     "defense": 4
   },
-  "KMB": {
+  {
+    "name": "KMB",
     "health": 6,
     "attack": 8,
     "growth": 0.007,
     "defense": 1
   },
-  "KIM": {
+  {
+    "name": "KIM",
     "health": 2,
     "attack": 5,
     "growth": 1,
     "defense": 6
   },
-  "KMI": {
+  {
+    "name": "KMI",
     "health": 6,
     "attack": 1,
     "growth": -0.107,
     "defense": 9
   },
-  "KLAC": {
+  {
+    "name": "KLAC",
     "health": 8,
     "attack": 8,
     "growth": -0.379,
     "defense": 2
   },
-  "KHC": {
+  {
+    "name": "KHC",
     "health": 7,
     "attack": 8,
     "growth": -0.152,
     "defense": 10
   },
-  "KR": {
+  {
+    "name": "KR",
     "health": 6,
     "attack": 9,
     "growth": -0.882,
     "defense": 6
   },
-  "LHX": {
+  {
+    "name": "LHX",
     "health": 6,
     "attack": 7,
     "growth": -0.617,
     "defense": 8
   },
-  "LH": {
+  {
+    "name": "LH",
     "health": 3,
     "attack": 6,
     "growth": 1,
     "defense": 5
   },
-  "LRCX": {
+  {
+    "name": "LRCX",
     "health": 9,
     "attack": 9,
     "growth": -0.33,
     "defense": 5
   },
-  "LW": {
+  {
+    "name": "LW",
     "health": 1,
     "attack": 1,
     "growth": 1.085,
     "defense": 2
   },
-  "LVS": {
+  {
+    "name": "LVS",
     "health": 6,
     "attack": 7,
     "growth": 1,
     "defense": 3
   },
-  "LDOS": {
+  {
+    "name": "LDOS",
     "health": 3,
     "attack": 5,
     "growth": 0.296,
     "defense": 3
   },
-  "LEN": {
+  {
+    "name": "LEN",
     "health": 7,
     "attack": 9,
     "growth": 0.249,
     "defense": 9
   },
-  "LIN": {
+  {
+    "name": "LIN",
     "health": 10,
     "attack": 9,
     "growth": 0.184,
     "defense": 9
   },
-  "LYV": {
+  {
+    "name": "LYV",
     "health": 4,
     "attack": 5,
     "growth": 1,
     "defense": 2
   },
-  "LKQ": {
+  {
+    "name": "LKQ",
     "health": 2,
     "attack": 4,
     "growth": -0.09,
     "defense": 4
   },
-  "LMT": {
+  {
+    "name": "LMT",
     "health": 9,
     "attack": 9,
     "growth": 0.024,
     "defense": 5
   },
-  "L": {
+  {
+    "name": "L",
     "health": 3,
     "attack": 8,
     "growth": 0.334,
     "defense": 8
   },
-  "LOW": {
+  {
+    "name": "LOW",
     "health": 9,
     "attack": 9,
     "growth": 0.118,
     "defense": 1
   },
-  "LULU": {
+  {
+    "name": "LULU",
     "health": 7,
     "attack": 7,
     "growth": 4.639,
     "defense": 3
   },
-  "LYB": {
+  {
+    "name": "LYB",
     "health": 5,
     "attack": 7,
     "growth": -0.476,
     "defense": 7
   },
-  "MTB": {
+  {
+    "name": "MTB",
     "health": 4,
     "attack": 2,
     "growth": -0.361,
     "defense": 9
   },
-  "MRO": {
+  {
+    "name": "MRO",
     "health": 3,
     "attack": 6,
     "growth": -0.175,
     "defense": 6
   },
-  "MPC": {
+  {
+    "name": "MPC",
     "health": 8,
     "attack": 10,
     "growth": -0.459,
     "defense": 9
   },
-  "MKTX": {
+  {
+    "name": "MKTX",
     "health": 1,
     "attack": 2,
     "growth": 0.164,
     "defense": 1
   },
-  "MAR": {
+  {
+    "name": "MAR",
     "health": 8,
     "attack": 8,
     "growth": 0.354,
     "defense": 1
   },
-  "MMC": {
+  {
+    "name": "MMC",
     "health": 9,
     "attack": 9,
     "growth": 0.643,
     "defense": 7
   },
-  "MLM": {
+  {
+    "name": "MLM",
     "health": 6,
     "attack": 4,
     "growth": 0.541,
     "defense": 5
   },
-  "MAS": {
+  {
+    "name": "MAS",
     "health": 3,
     "attack": 5,
     "growth": 0.715,
     "defense": 1
   },
-  "MA": {
+  {
+    "name": "MA",
     "health": 10,
     "attack": 10,
     "growth": 0.136,
     "defense": 5
   },
-  "MTCH": {
+  {
+    "name": "MTCH",
     "health": 1,
     "attack": 4,
     "growth": 1.738,
     "defense": 1
   },
-  "MKC": {
+  {
+    "name": "MKC",
     "health": 3,
     "attack": 5,
     "growth": 0.193,
     "defense": 4
   },
-  "MCD": {
+  {
+    "name": "MCD",
     "health": 10,
     "attack": 10,
     "growth": 0.083,
     "defense": 1
   },
-  "MCK": {
+  {
+    "name": "MCK",
     "health": 8,
     "attack": 8,
     "growth": -0.423,
     "defense": 1
   },
-  "MDT": {
+  {
+    "name": "MDT",
     "health": 9,
     "attack": 9,
     "growth": 0.078,
     "defense": 10
   },
-  "MRK": {
+  {
+    "name": "MRK",
     "health": 10,
     "attack": 7,
     "growth": 1,
     "defense": 9
   },
-  "META": {
+  {
+    "name": "META",
     "health": 10,
     "attack": 10,
     "growth": 2.002,
     "defense": 10
   },
-  "MET": {
+  {
+    "name": "MET",
     "health": 7,
     "attack": 1,
     "growth": -0.607,
     "defense": 9
   },
-  "MTD": {
+  {
+    "name": "MTD",
     "health": 5,
     "attack": 4,
     "growth": -0.282,
     "defense": 1
   },
-  "MGM": {
+  {
+    "name": "MGM",
     "health": 2,
     "attack": 5,
     "growth": 0.342,
     "defense": 3
   },
-  "MCHP": {
+  {
+    "name": "MCHP",
     "health": 7,
     "attack": 8,
     "growth": -0.26,
     "defense": 4
   },
-  "MU": {
+  {
+    "name": "MU",
     "health": 9,
     "attack": 1,
     "growth": 1,
     "defense": 10
   },
-  "MSFT": {
+  {
+    "name": "MSFT",
     "health": 11,
     "attack": 10,
     "growth": 0.332,
     "defense": 10
   },
-  "MAA": {
+  {
+    "name": "MAA",
     "health": 2,
     "attack": 5,
     "growth": -0.177,
     "defense": 4
   },
-  "MRNA": {
+  {
+    "name": "MRNA",
     "health": 6,
     "attack": 1,
     "growth": -0.851,
     "defense": 7
   },
-  "MHK": {
+  {
+    "name": "MHK",
     "health": 1,
     "attack": 4,
     "growth": 3.194,
     "defense": 5
   },
-  "MOH": {
+  {
+    "name": "MOH",
     "health": 4,
     "attack": 5,
     "growth": 2.842,
     "defense": 3
   },
-  "TAP": {
+  {
+    "name": "TAP",
     "health": 2,
     "attack": 6,
     "growth": 1,
     "defense": 7
   },
-  "MDLZ": {
+  {
+    "name": "MDLZ",
     "health": 8,
     "attack": 9,
     "growth": 0.669,
     "defense": 9
   },
-  "MPWR": {
+  {
+    "name": "MPWR",
     "health": 5,
     "attack": 3,
     "growth": -0.191,
     "defense": 2
   },
-  "MNST": {
+  {
+    "name": "MNST",
     "health": 7,
     "attack": 5,
     "growth": 0.211,
     "defense": 5
   },
-  "MCO": {
+  {
+    "name": "MCO",
     "health": 8,
     "attack": 7,
     "growth": 0.382,
     "defense": 2
   },
-  "MS": {
+  {
+    "name": "MS",
     "health": 9,
     "attack": 2,
     "growth": -0.332,
     "defense": 10
   },
-  "MOS": {
+  {
+    "name": "MOS",
     "health": 1,
     "attack": 6,
     "growth": -0.264,
     "defense": 7
   },
-  "MSI": {
+  {
+    "name": "MSI",
     "health": 7,
     "attack": 6,
     "growth": 0.014,
     "defense": 1
   },
-  "MSCI": {
+  {
+    "name": "MSCI",
     "health": 6,
     "attack": 5,
     "growth": 0.902,
     "defense": 1
   },
-  "NDAQ": {
+  {
+    "name": "NDAQ",
     "health": 6,
     "attack": 6,
     "growth": -0.267,
     "defense": 6
   },
-  "NTAP": {
+  {
+    "name": "NTAP",
     "health": 4,
     "attack": 6,
     "growth": 3.933,
     "defense": 1
   },
-  "NFLX": {
+  {
+    "name": "NFLX",
     "health": 10,
     "attack": 10,
     "growth": 16.252,
     "defense": 8
   },
-  "NEM": {
+  {
+    "name": "NEM",
     "health": 7,
     "attack": 1,
     "growth": 1,
     "defense": 9
   },
-  "NWSA": {
+  {
+    "name": "NWSA",
     "health": 2,
     "attack": 4,
     "growth": 1.321,
     "defense": 5
   },
-  "NWS": {
+  {
+    "name": "NWS",
     "health": 2,
     "attack": 4,
     "growth": 1.321,
     "defense": 5
   },
-  "NEE": {
+  {
+    "name": "NEE",
     "health": 9,
     "attack": 1,
     "growth": -0.234,
     "defense": 10
   },
-  "NKE": {
+  {
+    "name": "NKE",
     "health": 9,
     "attack": 2,
     "growth": -0.025,
     "defense": 7
   },
-  "NI": {
+  {
+    "name": "NI",
     "health": 1,
     "attack": 1,
     "growth": -0.033,
     "defense": 6
   },
-  "NDSN": {
+  {
+    "name": "NDSN",
     "health": 2,
     "attack": 3,
     "growth": 0.05,
     "defense": 2
   },
-  "NSC": {
+  {
+    "name": "NSC",
     "health": 7,
     "attack": 7,
     "growth": -0.321,
     "defense": 7
   },
-  "NTRS": {
+  {
+    "name": "NTRS",
     "health": 3,
     "attack": 2,
     "growth": -0.275,
     "defense": 7
   },
-  "NOC": {
+  {
+    "name": "NOC",
     "health": 8,
     "attack": 7,
     "growth": 1,
     "defense": 7
   },
-  "NCLH": {
+  {
+    "name": "NCLH",
     "health": 1,
     "attack": 1,
     "growth": 1,
     "defense": 1
   },
-  "NRG": {
+  {
+    "name": "NRG",
     "health": 2,
     "attack": 8,
     "growth": 1,
     "defense": 2
   },
-  "NUE": {
+  {
+    "name": "NUE",
     "health": 7,
     "attack": 9,
     "growth": -0.353,
     "defense": 8
   },
-  "NVDA": {
+  {
+    "name": "NVDA",
     "health": 10,
     "attack": 10,
     "growth": 7.613,
     "defense": 10
   },
-  "NVR": {
+  {
+    "name": "NVR",
     "health": 4,
     "attack": 6,
     "growth": -0.089,
     "defense": 3
   },
-  "NXPI": {
+  {
+    "name": "NXPI",
     "health": 8,
     "attack": 7,
     "growth": -0.03,
     "defense": 5
   },
-  "ORLY": {
+  {
+    "name": "ORLY",
     "health": 8,
     "attack": 7,
     "growth": 0.107,
     "defense": 1
   },
-  "OXY": {
+  {
+    "name": "OXY",
     "health": 8,
     "attack": 9,
     "growth": -0.379,
     "defense": 9
   },
-  "ODFL": {
+  {
+    "name": "ODFL",
     "health": 7,
     "attack": 4,
     "growth": 0.008,
     "defense": 3
   },
-  "OMC": {
+  {
+    "name": "OMC",
     "health": 3,
     "attack": 6,
     "growth": 0.019,
     "defense": 3
   },
-  "ON": {
+  {
+    "name": "ON",
     "health": 5,
     "attack": 1,
     "growth": -0.052,
     "defense": 5
   },
-  "OKE": {
+  {
+    "name": "OKE",
     "health": 7,
     "attack": 6,
     "growth": 0.09,
     "defense": 7
   },
-  "ORCL": {
+  {
+    "name": "ORCL",
     "health": 10,
     "attack": 10,
     "growth": 0.25,
     "defense": 2
   },
-  "OTIS": {
+  {
+    "name": "OTIS",
     "health": 6,
     "attack": 7,
     "growth": 0.112,
     "defense": 1
   },
-  "PCAR": {
+  {
+    "name": "PCAR",
     "health": 8,
     "attack": 9,
     "growth": 0.528,
     "defense": 7
   },
-  "PKG": {
+  {
+    "name": "PKG",
     "health": 3,
     "attack": 4,
     "growth": -0.092,
     "defense": 3
   },
-  "PANW": {
+  {
+    "name": "PANW",
     "health": 8,
     "attack": 8,
     "growth": 18.56,
     "defense": 2
   },
-  "PARA": {
+  {
+    "name": "PARA",
     "health": 1,
     "attack": 10,
     "growth": 79.876,
     "defense": 8
   },
-  "PH": {
+  {
+    "name": "PH",
     "health": 8,
     "attack": 9,
     "growth": 0.72,
     "defense": 6
   },
-  "PAYX": {
+  {
+    "name": "PAYX",
     "health": 6,
     "attack": 7,
     "growth": 0.07,
     "defense": 3
   },
-  "PAYC": {
+  {
+    "name": "PAYC",
     "health": 1,
     "attack": 3,
     "growth": 0.034,
     "defense": 2
   },
-  "PYPL": {
+  {
+    "name": "PYPL",
     "health": 8,
     "attack": 9,
     "growth": 0.615,
     "defense": 8
   },
-  "PNR": {
+  {
+    "name": "PNR",
     "health": 2,
     "attack": 3,
     "growth": 1.161,
     "defense": 3
   },
-  "PEP": {
+  {
+    "name": "PEP",
     "health": 10,
     "attack": 10,
     "growth": 1.521,
     "defense": 8
   },
-  "PFE": {
+  {
+    "name": "PFE",
     "health": 9,
     "attack": 5,
     "growth": 1,
     "defense": 10
   },
-  "PCG": {
+  {
+    "name": "PCG",
     "health": 6,
     "attack": 1,
     "growth": 0.792,
     "defense": 9
   },
-  "PM": {
+  {
+    "name": "PM",
     "health": 9,
     "attack": 10,
     "growth": -0.085,
     "defense": 1
   },
-  "PSX": {
+  {
+    "name": "PSX",
     "health": 8,
     "attack": 8,
     "growth": -0.28,
     "defense": 9
   },
-  "PNW": {
+  {
+    "name": "PNW",
     "health": 1,
     "attack": 1,
     "growth": 1,
     "defense": 4
   },
-  "PXD": {
+  {
+    "name": "PXD",
     "health": 8,
     "attack": 8,
     "growth": -0.119,
     "defense": 8
   },
-  "PNC": {
+  {
+    "name": "PNC",
     "health": 8,
     "attack": 2,
     "growth": -0.464,
     "defense": 10
   },
-  "POOL": {
+  {
+    "name": "POOL",
     "health": 2,
     "attack": 4,
     "growth": -0.272,
     "defense": 2
   },
-  "PPG": {
+  {
+    "name": "PPG",
     "health": 5,
     "attack": 7,
     "growth": -0.62,
     "defense": 5
   },
-  "PPL": {
+  {
+    "name": "PPL",
     "health": 3,
     "attack": 1,
     "growth": -0.416,
     "defense": 7
   },
-  "PFG": {
+  {
+    "name": "PFG",
     "health": 3,
     "attack": 6,
     "growth": 1,
     "defense": 6
   },
-  "PG": {
+  {
+    "name": "PG",
     "health": 10,
     "attack": 10,
     "growth": -0.114,
     "defense": 10
   },
-  "PGR": {
+  {
+    "name": "PGR",
     "health": 9,
     "attack": 10,
     "growth": 1.424,
     "defense": 8
   },
-  "PLD": {
+  {
+    "name": "PLD",
     "health": 9,
     "attack": 9,
     "growth": 0.071,
     "defense": 10
   },
-  "PRU": {
+  {
+    "name": "PRU",
     "health": 6,
     "attack": 8,
     "growth": 1,
     "defense": 9
   },
-  "PEG": {
+  {
+    "name": "PEG",
     "health": 5,
     "attack": 2,
     "growth": -0.307,
     "defense": 7
   },
-  "PTC": {
+  {
+    "name": "PTC",
     "health": 4,
     "attack": 4,
     "growth": -0.127,
     "defense": 2
   },
-  "PSA": {
+  {
+    "name": "PSA",
     "health": 7,
     "attack": 8,
     "growth": 0.075,
     "defense": 6
   },
-  "PHM": {
+  {
+    "name": "PHM",
     "health": 4,
     "attack": 7,
     "growth": -0.146,
     "defense": 6
   },
-  "QRVO": {
+  {
+    "name": "QRVO",
     "health": 1,
     "attack": 3,
     "growth": 1,
     "defense": 3
   },
-  "PWR": {
+  {
+    "name": "PWR",
     "health": 6,
     "attack": 5,
     "growth": 0.281,
     "defense": 4
   },
-  "QCOM": {
+  {
+    "name": "QCOM",
     "health": 10,
     "attack": 10,
     "growth": 0.245,
     "defense": 8
   },
-  "DGX": {
+  {
+    "name": "DGX",
     "health": 2,
     "attack": 4,
     "growth": 0.868,
     "defense": 4
   },
-  "RL": {
+  {
+    "name": "RL",
     "health": 1,
     "attack": 4,
     "growth": 0.309,
     "defense": 2
   },
-  "RJF": {
+  {
+    "name": "RJF",
     "health": 5,
     "attack": 2,
     "growth": 0.009,
     "defense": 6
   },
-  "RTX": {
+  {
+    "name": "RTX",
     "health": 9,
     "attack": 9,
     "growth": 0.091,
     "defense": 10
   },
-  "O": {
+  {
+    "name": "O",
     "health": 7,
     "attack": 7,
     "growth": -0.16,
     "defense": 9
   },
-  "REG": {
+  {
+    "name": "REG",
     "health": 1,
     "attack": 3,
     "growth": -0.15,
     "defense": 5
   },
-  "REGN": {
+  {
+    "name": "REGN",
     "health": 9,
     "attack": 8,
     "growth": -0.029,
     "defense": 9
   },
-  "RF": {
+  {
+    "name": "RF",
     "health": 3,
     "attack": 2,
     "growth": 1,
     "defense": 8
   },
-  "RSG": {
+  {
+    "name": "RSG",
     "health": 7,
     "attack": 7,
     "growth": 0.28,
     "defense": 6
   },
-  "RMD": {
+  {
+    "name": "RMD",
     "health": 5,
     "attack": 5,
     "growth": -0.072,
     "defense": 3
   },
-  "RVTY": {
+  {
+    "name": "RVTY",
     "health": 2,
     "attack": 7,
     "growth": -0.373,
     "defense": 5
   },
-  "RHI": {
+  {
+    "name": "RHI",
     "health": 1,
     "attack": 3,
     "growth": -0.392,
     "defense": 2
   },
-  "ROK": {
+  {
+    "name": "ROK",
     "health": 5,
     "attack": 5,
     "growth": -0.438,
     "defense": 3
   },
-  "ROL": {
+  {
+    "name": "ROL",
     "health": 4,
     "attack": 3,
     "growth": 0.323,
     "defense": 1
   },
-  "ROP": {
+  {
+    "name": "ROP",
     "health": 7,
     "attack": 7,
     "growth": -0.8,
     "defense": 8
   },
-  "ROST": {
+  {
+    "name": "ROST",
     "health": 7,
     "attack": 6,
     "growth": 0.401,
     "defense": 4
   },
-  "RCL": {
+  {
+    "name": "RCL",
     "health": 5,
     "attack": 1,
     "growth": 1,
     "defense": 4
   },
-  "SPGI": {
+  {
+    "name": "SPGI",
     "health": 9,
     "attack": 9,
     "growth": 0.367,
     "defense": 9
   },
-  "CRM": {
+  {
+    "name": "CRM",
     "health": 10,
     "attack": 10,
     "growth": 1,
     "defense": 10
   },
-  "SBAC": {
+  {
+    "name": "SBAC",
     "health": 4,
     "attack": 5,
     "growth": 0.063,
     "defense": 1
   },
-  "SLB": {
+  {
+    "name": "SLB",
     "health": 8,
     "attack": 8,
     "growth": 0.042,
     "defense": 8
   },
-  "STX": {
+  {
+    "name": "STX",
     "health": 3,
     "attack": 5,
     "growth": 1,
     "defense": 1
   },
-  "SRE": {
+  {
+    "name": "SRE",
     "health": 6,
     "attack": 1,
     "growth": 0.682,
     "defense": 9
   },
-  "NOW": {
+  {
+    "name": "NOW",
     "health": 10,
     "attack": 9,
     "growth": 0.927,
     "defense": 5
   },
-  "SHW": {
+  {
+    "name": "SHW",
     "health": 8,
     "attack": 8,
     "growth": -0.065,
     "defense": 3
   },
-  "SPG": {
+  {
+    "name": "SPG",
     "health": 7,
     "attack": 7,
     "growth": 0.113,
     "defense": 3
   },
-  "SWKS": {
+  {
+    "name": "SWKS",
     "health": 3,
     "attack": 6,
     "growth": -0.254,
     "defense": 4
   },
-  "SJM": {
+  {
+    "name": "SJM",
     "health": 2,
     "attack": 5,
     "growth": -0.42,
     "defense": 5
   },
-  "SNA": {
+  {
+    "name": "SNA",
     "health": 2,
     "attack": 4,
     "growth": 0.076,
     "defense": 4
   },
-  "SOLV": {
+  {
+    "name": "SOLV",
     "health": 1,
     "attack": 7,
     "growth": 1,
     "defense": 3
   },
-  "SO": {
+  {
+    "name": "SO",
     "health": 8,
     "attack": 1,
     "growth": 1,
     "defense": 9
   },
-  "LUV": {
+  {
+    "name": "LUV",
     "health": 3,
     "attack": 3,
     "growth": 1,
     "defense": 6
   },
-  "SWK": {
+  {
+    "name": "SWK",
     "health": 2,
     "attack": 7,
     "growth": 1,
     "defense": 6
   },
-  "SBUX": {
+  {
+    "name": "SBUX",
     "health": 9,
     "attack": 9,
     "growth": 0.216,
     "defense": 1
   },
-  "STT": {
+  {
+    "name": "STT",
     "health": 4,
     "attack": 2,
     "growth": -0.71,
     "defense": 8
   },
-  "STLD": {
+  {
+    "name": "STLD",
     "health": 4,
     "attack": 6,
     "growth": -0.275,
     "defense": 5
   },
-  "STE": {
+  {
+    "name": "STE",
     "health": 4,
     "attack": 3,
     "growth": 0.145,
     "defense": 4
   },
-  "SYK": {
+  {
+    "name": "SYK",
     "health": 9,
     "attack": 8,
     "growth": 1.027,
     "defense": 8
   },
-  "SMCI": {
+  {
+    "name": "SMCI",
     "health": 7,
     "attack": 1,
     "growth": 0.624,
     "defense": 2
   },
-  "SYF": {
+  {
+    "name": "SYF",
     "health": 3,
     "attack": 2,
     "growth": -0.176,
     "defense": 7
   },
-  "SNPS": {
+  {
+    "name": "SNPS",
     "health": 8,
     "attack": 6,
     "growth": 0.651,
     "defense": 4
   },
-  "SYY": {
+  {
+    "name": "SYY",
     "health": 6,
     "attack": 7,
     "growth": 1.948,
     "defense": 2
   },
-  "TMUS": {
+  {
+    "name": "TMUS",
     "health": 10,
     "attack": 10,
     "growth": 0.41,
     "defense": 10
   },
-  "TROW": {
+  {
+    "name": "TROW",
     "health": 5,
     "attack": 7,
     "growth": 0.65,
     "defense": 6
   },
-  "TTWO": {
+  {
+    "name": "TTWO",
     "health": 4,
     "attack": 7,
     "growth": 1,
     "defense": 5
   },
-  "TPR": {
+  {
+    "name": "TPR",
     "health": 1,
     "attack": 5,
     "growth": 0.022,
     "defense": 2
   },
-  "TRGP": {
+  {
+    "name": "TRGP",
     "health": 5,
     "attack": 2,
     "growth": -0.109,
     "defense": 3
   },
-  "TGT": {
+  {
+    "name": "TGT",
     "health": 8,
     "attack": 8,
     "growth": 0.574,
     "defense": 7
   },
-  "TEL": {
+  {
+    "name": "TEL",
     "health": 6,
     "attack": 7,
     "growth": 3.617,
     "defense": 6
   },
-  "TDY": {
+  {
+    "name": "TDY",
     "health": 3,
     "attack": 4,
     "growth": 0.425,
     "defense": 6
   },
-  "TFX": {
+  {
+    "name": "TFX",
     "health": 1,
     "attack": 3,
     "growth": -0.603,
     "defense": 3
   },
-  "TER": {
+  {
+    "name": "TER",
     "health": 2,
     "attack": 3,
     "growth": -0.314,
     "defense": 2
   },
-  "TSLA": {
+  {
+    "name": "TSLA",
     "health": 10,
     "attack": 8,
     "growth": 1.115,
     "defense": 10
   },
-  "TXN": {
+  {
+    "name": "TXN",
     "health": 9,
     "attack": 1,
     "growth": -0.302,
     "defense": 8
   },
-  "TXT": {
+  {
+    "name": "TXT",
     "health": 3,
     "attack": 5,
     "growth": -0.065,
     "defense": 5
   },
-  "TMO": {
+  {
+    "name": "TMO",
     "health": 10,
     "attack": 9,
     "growth": 0.054,
     "defense": 10
   },
-  "TJX": {
+  {
+    "name": "TJX",
     "health": 9,
     "attack": 9,
     "growth": 0.368,
     "defense": 4
   },
-  "TSCO": {
+  {
+    "name": "TSCO",
     "health": 5,
     "attack": 3,
     "growth": -0.066,
     "defense": 2
   },
-  "TT": {
+  {
+    "name": "TT",
     "health": 8,
     "attack": 7,
     "growth": 0.161,
     "defense": 5
   },
-  "TDG": {
+  {
+    "name": "TDG",
     "health": 8,
     "attack": 6,
     "growth": 0.464,
     "defense": 1
   },
-  "TRV": {
+  {
+    "name": "TRV",
     "health": 7,
     "attack": 10,
     "growth": 1.032,
     "defense": 9
   },
-  "TRMB": {
+  {
+    "name": "TRMB",
     "health": 2,
     "attack": 3,
     "growth": -0.279,
     "defense": 3
   },
-  "TFC": {
+  {
+    "name": "TFC",
     "health": 7,
     "attack": 2,
     "growth": 1,
     "defense": 10
   },
-  "TYL": {
+  {
+    "name": "TYL",
     "health": 3,
     "attack": 3,
     "growth": 0.248,
     "defense": 2
   },
-  "TSN": {
+  {
+    "name": "TSN",
     "health": 4,
     "attack": 4,
     "growth": -0.659,
     "defense": 8
   },
-  "USB": {
+  {
+    "name": "USB",
     "health": 8,
     "attack": 2,
     "growth": -0.142,
     "defense": 10
   },
-  "UBER": {
+  {
+    "name": "UBER",
     "health": 9,
     "attack": 8,
     "growth": 1.269,
     "defense": 7
   },
-  "UDR": {
+  {
+    "name": "UDR",
     "health": 2,
     "attack": 4,
     "growth": -0.275,
     "defense": 4
   },
-  "ULTA": {
+  {
+    "name": "ULTA",
     "health": 4,
     "attack": 4,
     "growth": 0.209,
     "defense": 2
   },
-  "UNP": {
+  {
+    "name": "UNP",
     "health": 9,
     "attack": 9,
     "growth": 0.012,
     "defense": 7
   },
-  "UAL": {
+  {
+    "name": "UAL",
     "health": 2,
     "attack": 1,
     "growth": -0.29,
     "defense": 6
   },
-  "UPS": {
+  {
+    "name": "UPS",
     "health": 9,
     "attack": 9,
     "growth": -0.527,
     "defense": 8
   },
-  "URI": {
+  {
+    "name": "URI",
     "health": 7,
     "attack": 8,
     "growth": 0.098,
     "defense": 5
   },
-  "UNH": {
+  {
+    "name": "UNH",
     "health": 10,
     "attack": 10,
     "growth": 0.16,
     "defense": 10
   },
-  "UHS": {
+  {
+    "name": "UHS",
     "health": 1,
     "attack": 3,
     "growth": 0.297,
     "defense": 4
   },
-  "VLO": {
+  {
+    "name": "VLO",
     "health": 7,
     "attack": 10,
     "growth": -0.571,
     "defense": 9
   },
-  "VTR": {
+  {
+    "name": "VTR",
     "health": 3,
     "attack": 5,
     "growth": 1,
     "defense": 6
   },
-  "VLTO": {
+  {
+    "name": "VLTO",
     "health": 4,
     "attack": 5,
     "growth": -0.08,
     "defense": 2
   },
-  "VRSN": {
+  {
+    "name": "VRSN",
     "health": 3,
     "attack": 4,
     "growth": 0.531,
     "defense": 1
   },
-  "VRSK": {
+  {
+    "name": "VRSK",
     "health": 5,
     "attack": 5,
     "growth": 2.149,
     "defense": 1
   },
-  "VZ": {
+  {
+    "name": "VZ",
     "health": 10,
     "attack": 10,
     "growth": 1,
     "defense": 10
   },
-  "VRTX": {
+  {
+    "name": "VRTX",
     "health": 9,
     "attack": 9,
     "growth": 0.181,
     "defense": 8
   },
-  "VTRS": {
+  {
+    "name": "VTRS",
     "health": 2,
     "attack": 6,
     "growth": 1,
     "defense": 8
   },
-  "VICI": {
+  {
+    "name": "VICI",
     "health": 5,
     "attack": 1,
     "growth": 0.143,
     "defense": 9
   },
-  "V": {
+  {
+    "name": "V",
     "health": 10,
     "attack": 10,
     "growth": 0.203,
     "defense": 9
   },
-  "VMC": {
+  {
+    "name": "VMC",
     "health": 6,
     "attack": 4,
     "growth": 0.916,
     "defense": 5
   },
-  "WRB": {
+  {
+    "name": "WRB",
     "health": 4,
     "attack": 8,
     "growth": 0.066,
     "defense": 5
   },
-  "WAB": {
+  {
+    "name": "WAB",
     "health": 5,
     "attack": 4,
     "growth": 0.379,
     "defense": 6
   },
-  "WBA": {
+  {
+    "name": "WBA",
     "health": 3,
     "attack": 3,
     "growth": 1,
     "defense": 9
   },
-  "WMT": {
+  {
+    "name": "WMT",
     "health": 10,
     "attack": 10,
     "growth": -0.124,
     "defense": 10
   },
-  "DIS": {
+  {
+    "name": "DIS",
     "health": 10,
     "attack": 10,
     "growth": 0.486,
     "defense": 10
   },
-  "WBD": {
+  {
+    "name": "WBD",
     "health": 3,
     "attack": 10,
     "growth": 1,
     "defense": 10
   },
-  "WM": {
+  {
+    "name": "WM",
     "health": 8,
     "attack": 6,
     "growth": 0.01,
     "defense": 5
   },
-  "WAT": {
+  {
+    "name": "WAT",
     "health": 3,
     "attack": 3,
     "growth": -0.042,
     "defense": 1
   },
-  "WEC": {
+  {
+    "name": "WEC",
     "health": 4,
     "attack": 1,
     "growth": -0.133,
     "defense": 7
   },
-  "WFC": {
+  {
+    "name": "WFC",
     "health": 10,
     "attack": 2,
     "growth": 0.15,
     "defense": 10
   },
-  "WELL": {
+  {
+    "name": "WELL",
     "health": 7,
     "attack": 6,
     "growth": 1,
     "defense": 9
   },
-  "WST": {
+  {
+    "name": "WST",
     "health": 5,
     "attack": 2,
     "growth": 0.334,
     "defense": 2
   },
-  "WDC": {
+  {
+    "name": "WDC",
     "health": 4,
     "attack": 1,
     "growth": 1,
     "defense": 6
   },
-  "WRK": {
+  {
+    "name": "WRK",
     "health": 2,
     "attack": 6,
     "growth": 1,
     "defense": 6
   },
-  "WY": {
+  {
+    "name": "WY",
     "health": 4,
     "attack": 4,
     "growth": 22.206,
     "defense": 6
   },
-  "WMB": {
+  {
+    "name": "WMB",
     "health": 7,
     "attack": 7,
     "growth": 0.728,
     "defense": 7
   },
-  "WTW": {
+  {
+    "name": "WTW",
     "health": 5,
     "attack": 6,
     "growth": 0.116,
     "defense": 6
   },
-  "GWW": {
+  {
+    "name": "GWW",
     "health": 7,
     "attack": 6,
     "growth": 0.046,
     "defense": 3
   },
-  "WYNN": {
+  {
+    "name": "WYNN",
     "health": 1,
     "attack": 3,
     "growth": 21.116,
     "defense": 1
   },
-  "XEL": {
+  {
+    "name": "XEL",
     "health": 5,
     "attack": 1,
     "growth": 0.068,
     "defense": 8
   },
-  "XYL": {
+  {
+    "name": "XYL",
     "health": 5,
     "attack": 3,
     "growth": 0.341,
     "defense": 6
   },
-  "YUM": {
+  {
+    "name": "YUM",
     "health": 6,
     "attack": 6,
     "growth": 0.243,
     "defense": 1
   },
-  "ZBRA": {
+  {
+    "name": "ZBRA",
     "health": 2,
     "attack": 2,
     "growth": -0.911,
     "defense": 2
   },
-  "ZBH": {
+  {
+    "name": "ZBH",
     "health": 5,
     "attack": 6,
     "growth": 1,
     "defense": 7
   },
-  "ZTS": {
+  {
+    "name": "ZTS",
     "health": 8,
     "attack": 6,
     "growth": 0.164,
     "defense": 4
   }
-}
+]

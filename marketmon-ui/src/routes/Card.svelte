@@ -1,143 +1,124 @@
 <script lang='ts'>
-    export let image: string;
-    export let name: string;
-    export let growth: number;
-    export let attack: number;
-    export let defense: number;
-    export let health: number;
+  export let image: string;
+  export let name: string;
+  export let growth: number;
+  export let attack: number;
+  export let defense: number;
+  export let health: number;
+  export let company: string;
+  export let ticker: string;
 </script>
 
 <div class="card">
-    <div class="card-header">
-        <h2>{name}</h2>
-        <span class="hp">{health} HP</span>
+  <div class="card-header">
+      <h2>{name}</h2>
+      <span class="hp">{health} HP</span>
+  </div>
+  <div class="card-image">
+      <img src={image} alt={name} />
+  </div>
+  <div class="card-body">
+    <div class="abilities">
+      <div class="ability">
+          <h3>GRW</h3>
+          <p>{growth}</p>
+      </div>
+      <div class="ability attack">
+          <h3>ATK</h3>
+          <p>{attack}</p>
+      </div>
+      <div class="ability defense">
+          <h3>DEF</h3>
+          <p>{defense}</p>
+      </div>
     </div>
-    <div class="card-image">
-        <img src={image} alt={name} />
-    </div>
-    <div class="card-body">
-        <div class="ability">
-            <h3>Growth</h3>
-            <p>{growth}</p>
-        </div>
-        <div class="attack">
-            <h3>Attack</h3>
-            <span class="cost">{attack}</span>
-        </div>
-    </div>
-    <div class="card-footer">
-        <div class="weakness">
-            <span class="weakness-value">Defense</span>
-            <span class="weakness-type">{defense}</span>
-        </div>
-    </div>
+    <div class="weakness">Weakness: Utilities</div>
+    <div class="company-info">Caterpillar (CAT)</div>
+  </div>
 </div>
 
 <style>
 .card {
-    width: 300px;
-    border: 2px solid #8b0000;
-    border-radius: 10px;
-    background-color: #ffd700;
-    padding: 10px;
-    font-family: Arial, sans-serif;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  border: 5px solid silver; /* Added silver border */
+  border-radius: 20px;
+  background-color: #ffd700; /* Gold background */
+  padding: 8px; /* Padding similar to the example */
+  font-family: 'Lato', 'Gill Sans', 'Calibri', sans-serif; /* Font style from the example */
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6); /* Slight shadow for depth */
 }
 
 .card-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-    background-color: #8b0000;
-    padding: 5px;
-    color: #fff;
-    border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: transparent; /* Keep header transparent */
+  color: black; /* Darker text color */
 }
 
-.card-header h2 {
-    font-size: 24px;
-    margin: 0;
-}
-
-.hp {
-    font-size: 20px;
-    font-weight: bold;
+.card-header h2, .card-header .hp {
+  font-size: 20px; /* Font size from the example */
+  margin: 0;
+  font-weight: bold; /* Bold text for prominence */
+  background-color: rgba(255, 255, 255, 0.5); /* Slight transparency for background */
+  padding: 2px 5px;
+  border-radius: 5px;
 }
 
 .card-image {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-    background-color: #f0e68c;
-    padding: 5px;
-    border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  border: 5px yellow outset; /* Outset border like the example */
+  padding: 2px;
+  border-radius: 10px; /* Rounded corners */
 }
 
 .card-image img {
-    max-width: 100%;
-    max-height: 200px;
+  height: 200px; /* Adjusted to match the example */
+  object-fit: cover; /* Cover to fill the frame */
 }
 
-.ability {
-    margin-bottom: 10px;
-    background-color: #cd853f;
-    padding: 5px;
-    border-radius: 5px;
-    color: #fff;
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
-.ability h3 {
-    font-size: 18px;
-    margin: 0;
+.abilities {
+  display: flex;
+  justify-content: space-between;
 }
 
-.ability p {
-    margin: 5px 0;
+.ability, .attack, .defense {
+  background-color: #cd853f; /* Consistent background color */
+  padding: 2px;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center; /* Centered text */
+  flex: 1; /* Ensure equal width and side by side layout */
 }
 
-.attack {
-    margin-bottom: 5px;
-    background-color: #ff6347;
-    padding: 5px;
-    border-radius: 5px;
-    color: #fff;
+.ability h3, .attack h3, .defense h3 {
+  font-size: 16px; /* Adjusted font size to match the example */
+  margin: 0;
+  font-weight: bold; /* Bold like the example */
 }
 
-.attack h3 {
-    font-size: 16px;
-    margin: 0;
-    display: inline;
+.ability p, .attack p, .defense p {
+  margin: 5px 0;
+  font-size: 16px; /* Consistent font size */
+  font-weight: bold; /* Bold text */
 }
 
-.cost {
-    font-weight: bold;
-    margin-left: 5px;
-    color: #8b0000;
+.weakness, .company-info {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5px;
 }
 
-.card-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #8b0000;
-    padding: 5px;
-    border-radius: 5px;
-    color: #fff;
-}
-
-.weakness {
-    display: flex;
-    align-items: center;
-}
-
-.weakness-value {
-    font-size: 18px;
-    font-weight: bold;
-    margin-right: 5px;
-}
-
-.weakness-type {
-    font-size: 14px;
+.company-info {
+  font-size: 14px; /* Slightly smaller font for company info */
 }
 </style>

@@ -1,0 +1,3020 @@
+{
+  "MMM": {
+    "health": 7,
+    "attack": 10,
+    "growth": 0.744,
+    "defense": 4
+  },
+  "AOS": {
+    "health": 2,
+    "attack": 3,
+    "growth": 1,
+    "defense": 2
+  },
+  "ABT": {
+    "health": 10,
+    "attack": 9,
+    "growth": 0.55,
+    "defense": 9
+  },
+  "ABBV": {
+    "health": 10,
+    "attack": 10,
+    "growth": -0.669,
+    "defense": 6
+  },
+  "ACN": {
+    "health": 10,
+    "attack": 10,
+    "growth": 0.101,
+    "defense": 9
+  },
+  "ADBE": {
+    "health": 10,
+    "attack": 10,
+    "growth": -0.498,
+    "defense": 7
+  },
+  "AMD": {
+    "health": 10,
+    "attack": 8,
+    "growth": 48.693,
+    "defense": 10
+  },
+  "AES": {
+    "health": 2,
+    "attack": 1,
+    "growth": 1,
+    "defense": 4
+  },
+  "AFL": {
+    "health": 7,
+    "attack": 9,
+    "growth": 0.435,
+    "defense": 8
+  },
+  "A": {
+    "health": 6,
+    "attack": 5,
+    "growth": -0.008,
+    "defense": 4
+  },
+  "APD": {
+    "health": 7,
+    "attack": 1,
+    "growth": 0.062,
+    "defense": 7
+  },
+  "ABNB": {
+    "health": 9,
+    "attack": 8,
+    "growth": 1,
+    "defense": 5
+  },
+  "AKAM": {
+    "health": 2,
+    "attack": 3,
+    "growth": 0.257,
+    "defense": 3
+  },
+  "ALB": {
+    "health": 2,
+    "attack": 1,
+    "growth": 1,
+    "defense": 6
+  },
+  "ARE": {
+    "health": 4,
+    "attack": 7,
+    "growth": 1,
+    "defense": 8
+  },
+  "ALGN": {
+    "health": 4,
+    "attack": 4,
+    "growth": 2.06,
+    "defense": 3
+  },
+  "ALLE": {
+    "health": 1,
+    "attack": 3,
+    "growth": -0.127,
+    "defense": 2
+  },
+  "LNT": {
+    "health": 2,
+    "attack": 1,
+    "growth": 0.125,
+    "defense": 4
+  },
+  "ALL": {
+    "health": 7,
+    "attack": 9,
+    "growth": 1,
+    "defense": 8
+  },
+  "GOOGL": {
+    "health": 10,
+    "attack": 10,
+    "growth": 0.56,
+    "defense": 10
+  },
+  "GOOG": {
+    "health": 10,
+    "attack": 10,
+    "growth": 0.56,
+    "defense": 10
+  },
+  "MO": {
+    "health": 8,
+    "attack": 10,
+    "growth": -0.225,
+    "defense": 1
+  },
+  "AMZN": {
+    "health": 10,
+    "attack": 10,
+    "growth": 50.693,
+    "defense": 10
+  },
+  "AMCR": {
+    "health": 2,
+    "attack": 4,
+    "growth": -0.7,
+    "defense": 3
+  },
+  "AEE": {
+    "health": 3,
+    "attack": 1,
+    "growth": -0.047,
+    "defense": 6
+  },
+  "AAL": {
+    "health": 1,
+    "attack": 7,
+    "growth": -0.974,
+    "defense": 1
+  },
+  "AEP": {
+    "health": 6,
+    "attack": 1,
+    "growth": -0.155,
+    "defense": 9
+  },
+  "AXP": {
+    "health": 9,
+    "attack": 2,
+    "growth": 0.263,
+    "defense": 9
+  },
+  "AIG": {
+    "health": 7,
+    "attack": 1,
+    "growth": -0.841,
+    "defense": 10
+  },
+  "AMT": {
+    "health": 8,
+    "attack": 9,
+    "growth": 1,
+    "defense": 6
+  },
+  "AWK": {
+    "health": 4,
+    "attack": 1,
+    "growth": 0.086,
+    "defense": 6
+  },
+  "AMP": {
+    "health": 6,
+    "attack": 9,
+    "growth": -0.388,
+    "defense": 4
+  },
+  "AME": {
+    "health": 6,
+    "attack": 6,
+    "growth": 0.113,
+    "defense": 5
+  },
+  "AMGN": {
+    "health": 9,
+    "attack": 8,
+    "growth": -0.524,
+    "defense": 4
+  },
+  "APH": {
+    "health": 8,
+    "attack": 7,
+    "growth": 0.011,
+    "defense": 5
+  },
+  "ADI": {
+    "health": 9,
+    "attack": 8,
+    "growth": -0.505,
+    "defense": 9
+  },
+  "ANSS": {
+    "health": 5,
+    "attack": 4,
+    "growth": 0.066,
+    "defense": 4
+  },
+  "AON": {
+    "health": 8,
+    "attack": 8,
+    "growth": -0.215,
+    "defense": 1
+  },
+  "APA": {
+    "health": 1,
+    "attack": 5,
+    "growth": 3.272,
+    "defense": 3
+  },
+  "AAPL": {
+    "health": 11,
+    "attack": 11,
+    "growth": 0.16,
+    "defense": 10
+  },
+  "AMAT": {
+    "health": 10,
+    "attack": 9,
+    "growth": 0.193,
+    "defense": 7
+  },
+  "APTV": {
+    "health": 4,
+    "attack": 4,
+    "growth": 2.744,
+    "defense": 7
+  },
+  "ACGL": {
+    "health": 6,
+    "attack": 10,
+    "growth": 1.708,
+    "defense": 8
+  },
+  "ADM": {
+    "health": 5,
+    "attack": 9,
+    "growth": -0.422,
+    "defense": 8
+  },
+  "ANET": {
+    "health": 9,
+    "attack": 7,
+    "growth": 0.418,
+    "defense": 5
+  },
+  "AJG": {
+    "health": 7,
+    "attack": 6,
+    "growth": 1,
+    "defense": 6
+  },
+  "AIZ": {
+    "health": 1,
+    "attack": 5,
+    "growth": 1.69,
+    "defense": 4
+  },
+  "T": {
+    "health": 9,
+    "attack": 10,
+    "growth": 1,
+    "defense": 10
+  },
+  "ATO": {
+    "health": 3,
+    "attack": 3,
+    "growth": 0.087,
+    "defense": 6
+  },
+  "ADSK": {
+    "health": 7,
+    "attack": 7,
+    "growth": -0.034,
+    "defense": 1
+  },
+  "ADP": {
+    "health": 9,
+    "attack": 8,
+    "growth": 0.092,
+    "defense": 3
+  },
+  "AZO": {
+    "health": 7,
+    "attack": 6,
+    "growth": 0.172,
+    "defense": 1
+  },
+  "AVB": {
+    "health": 4,
+    "attack": 6,
+    "growth": -0.012,
+    "defense": 7
+  },
+  "AVY": {
+    "health": 3,
+    "attack": 3,
+    "growth": 0.176,
+    "defense": 2
+  },
+  "AXON": {
+    "health": 4,
+    "attack": 2,
+    "growth": 0.866,
+    "defense": 2
+  },
+  "BKR": {
+    "health": 5,
+    "attack": 8,
+    "growth": 1.366,
+    "defense": 7
+  },
+  "BALL": {
+    "health": 4,
+    "attack": 3,
+    "growth": 1.803,
+    "defense": 3
+  },
+  "BAC": {
+    "health": 10,
+    "attack": 2,
+    "growth": -0.607,
+    "defense": 10
+  },
+  "BK": {
+    "health": 6,
+    "attack": 2,
+    "growth": -0.681,
+    "defense": 9
+  },
+  "BBWI": {
+    "health": 1,
+    "attack": 3,
+    "growth": 0.352,
+    "defense": 1
+  },
+  "BAX": {
+    "health": 4,
+    "attack": 7,
+    "growth": 0.338,
+    "defense": 5
+  },
+  "BDX": {
+    "health": 8,
+    "attack": 9,
+    "growth": -0.435,
+    "defense": 9
+  },
+  "BRK-B": {
+    "health": 10,
+    "attack": 11,
+    "growth": 1.108,
+    "defense": 11
+  },
+  "BBY": {
+    "health": 3,
+    "attack": 4,
+    "growth": -0.054,
+    "defense": 2
+  },
+  "BIO": {
+    "health": 1,
+    "attack": 2,
+    "growth": -0.563,
+    "defense": 5
+  },
+  "TECH": {
+    "health": 1,
+    "attack": 2,
+    "growth": -0.452,
+    "defense": 2
+  },
+  "BIIB": {
+    "health": 5,
+    "attack": 5,
+    "growth": -0.549,
+    "defense": 7
+  },
+  "BLK": {
+    "health": 9,
+    "attack": 9,
+    "growth": 0.103,
+    "defense": 9
+  },
+  "BX": {
+    "health": 9,
+    "attack": 2,
+    "growth": -0.733,
+    "defense": 8
+  },
+  "BA": {
+    "health": 9,
+    "attack": 10,
+    "growth": 1,
+    "defense": 1
+  },
+  "BKNG": {
+    "health": 9,
+    "attack": 9,
+    "growth": -0.803,
+    "defense": 1
+  },
+  "BWA": {
+    "health": 1,
+    "attack": 5,
+    "growth": -0.394,
+    "defense": 4
+  },
+  "BXP": {
+    "health": 1,
+    "attack": 5,
+    "growth": -0.023,
+    "defense": 5
+  },
+  "BSX": {
+    "health": 9,
+    "attack": 7,
+    "growth": 2.856,
+    "defense": 8
+  },
+  "BMY": {
+    "health": 9,
+    "attack": 10,
+    "growth": -0.089,
+    "defense": 9
+  },
+  "AVGO": {
+    "health": 10,
+    "attack": 10,
+    "growth": 1.881,
+    "defense": 8
+  },
+  "BR": {
+    "health": 4,
+    "attack": 5,
+    "growth": 0.229,
+    "defense": 2
+  },
+  "BRO": {
+    "health": 4,
+    "attack": 5,
+    "growth": 0.832,
+    "defense": 4
+  },
+  "BF-B": {
+    "health": 4,
+    "attack": 2,
+    "growth": 1.875,
+    "defense": 3
+  },
+  "BLDR": {
+    "health": 4,
+    "attack": 7,
+    "growth": 0.077,
+    "defense": 4
+  },
+  "BG": {
+    "health": 2,
+    "attack": 7,
+    "growth": 0.898,
+    "defense": 7
+  },
+  "CDNS": {
+    "health": 8,
+    "attack": 6,
+    "growth": 0.351,
+    "defense": 3
+  },
+  "CZR": {
+    "health": 1,
+    "attack": 3,
+    "growth": 1,
+    "defense": 4
+  },
+  "CPT": {
+    "health": 1,
+    "attack": 4,
+    "growth": 3.833,
+    "defense": 4
+  },
+  "CPB": {
+    "health": 2,
+    "attack": 4,
+    "growth": -0.117,
+    "defense": 3
+  },
+  "COF": {
+    "health": 7,
+    "attack": 2,
+    "growth": -0.448,
+    "defense": 10
+  },
+  "CAH": {
+    "health": 5,
+    "attack": 9,
+    "growth": 1,
+    "defense": 1
+  },
+  "KMX": {
+    "health": 2,
+    "attack": 2,
+    "growth": 1.176,
+    "defense": 4
+  },
+  "CCL": {
+    "health": 3,
+    "attack": 2,
+    "growth": 1,
+    "defense": 5
+  },
+  "CARR": {
+    "health": 7,
+    "attack": 1,
+    "growth": 0.582,
+    "defense": 5
+  },
+  "CTLT": {
+    "health": 1,
+    "attack": 2,
+    "growth": 1,
+    "defense": 3
+  },
+  "CAT": {
+    "health": 10,
+    "attack": 10,
+    "growth": 0.893,
+    "defense": 8
+  },
+  "CBOE": {
+    "health": 3,
+    "attack": 4,
+    "growth": 0.326,
+    "defense": 3
+  },
+  "CBRE": {
+    "health": 5,
+    "attack": 3,
+    "growth": 5.134,
+    "defense": 6
+  },
+  "CDW": {
+    "health": 5,
+    "attack": 6,
+    "growth": 0.045,
+    "defense": 2
+  },
+  "CE": {
+    "health": 3,
+    "attack": 5,
+    "growth": -0.092,
+    "defense": 5
+  },
+  "COR": {
+    "health": 7,
+    "attack": 9,
+    "growth": 0.279,
+    "defense": 1
+  },
+  "CNC": {
+    "health": 6,
+    "attack": 9,
+    "growth": 1,
+    "defense": 9
+  },
+  "CNP": {
+    "health": 3,
+    "attack": 1,
+    "growth": 0.586,
+    "defense": 6
+  },
+  "CF": {
+    "health": 2,
+    "attack": 7,
+    "growth": -0.67,
+    "defense": 5
+  },
+  "CHRW": {
+    "health": 1,
+    "attack": 4,
+    "growth": -0.679,
+    "defense": 2
+  },
+  "CRL": {
+    "health": 2,
+    "attack": 2,
+    "growth": -0.006,
+    "defense": 3
+  },
+  "SCHW": {
+    "health": 9,
+    "attack": 2,
+    "growth": -0.475,
+    "defense": 9
+  },
+  "CHTR": {
+    "health": 6,
+    "attack": 9,
+    "growth": -0.079,
+    "defense": 7
+  },
+  "CVX": {
+    "health": 10,
+    "attack": 10,
+    "growth": -0.636,
+    "defense": 10
+  },
+  "CMG": {
+    "health": 8,
+    "attack": 5,
+    "growth": 0.273,
+    "defense": 2
+  },
+  "CB": {
+    "health": 9,
+    "attack": 10,
+    "growth": 1.567,
+    "defense": 10
+  },
+  "CHD": {
+    "health": 4,
+    "attack": 4,
+    "growth": 1,
+    "defense": 3
+  },
+  "CI": {
+    "health": 9,
+    "attack": 10,
+    "growth": -0.105,
+    "defense": 10
+  },
+  "CINF": {
+    "health": 3,
+    "attack": 9,
+    "growth": 0.17,
+    "defense": 7
+  },
+  "CTAS": {
+    "health": 8,
+    "attack": 6,
+    "growth": 0.223,
+    "defense": 3
+  },
+  "CSCO": {
+    "health": 10,
+    "attack": 10,
+    "growth": -0.031,
+    "defense": 10
+  },
+  "C": {
+    "health": 9,
+    "attack": 2,
+    "growth": 1,
+    "defense": 10
+  },
+  "CFG": {
+    "health": 2,
+    "attack": 2,
+    "growth": -0.729,
+    "defense": 8
+  },
+  "CLX": {
+    "health": 3,
+    "attack": 4,
+    "growth": -0.064,
+    "defense": 1
+  },
+  "CME": {
+    "health": 8,
+    "attack": 8,
+    "growth": 0.276,
+    "defense": 9
+  },
+  "CMS": {
+    "health": 3,
+    "attack": 1,
+    "growth": 0.805,
+    "defense": 5
+  },
+  "KO": {
+    "health": 10,
+    "attack": 9,
+    "growth": -0.005,
+    "defense": 9
+  },
+  "CTSH": {
+    "health": 6,
+    "attack": 7,
+    "growth": 0.107,
+    "defense": 7
+  },
+  "CL": {
+    "health": 8,
+    "attack": 8,
+    "growth": 144.537,
+    "defense": 1
+  },
+  "CMCSA": {
+    "health": 10,
+    "attack": 10,
+    "growth": 0.144,
+    "defense": 10
+  },
+  "CMA": {
+    "health": 1,
+    "attack": 2,
+    "growth": -0.924,
+    "defense": 4
+  },
+  "CAG": {
+    "health": 2,
+    "attack": 5,
+    "growth": -0.099,
+    "defense": 5
+  },
+  "COP": {
+    "health": 9,
+    "attack": 9,
+    "growth": -0.03,
+    "defense": 10
+  },
+  "ED": {
+    "health": 5,
+    "attack": 6,
+    "growth": 0.821,
+    "defense": 8
+  },
+  "STZ": {
+    "health": 7,
+    "attack": 5,
+    "growth": 0.23,
+    "defense": 5
+  },
+  "CEG": {
+    "health": 7,
+    "attack": 1,
+    "growth": 1,
+    "defense": 6
+  },
+  "COO": {
+    "health": 3,
+    "attack": 2,
+    "growth": -0.045,
+    "defense": 5
+  },
+  "CPRT": {
+    "health": 7,
+    "attack": 4,
+    "growth": 0.1,
+    "defense": 4
+  },
+  "GLW": {
+    "health": 5,
+    "attack": 2,
+    "growth": 1,
+    "defense": 7
+  },
+  "CPAY": {
+    "health": 4,
+    "attack": 5,
+    "growth": 0.143,
+    "defense": 3
+  },
+  "CTVA": {
+    "health": 6,
+    "attack": 6,
+    "growth": 1,
+    "defense": 9
+  },
+  "CSGP": {
+    "health": 6,
+    "attack": 3,
+    "growth": -0.228,
+    "defense": 5
+  },
+  "COST": {
+    "health": 10,
+    "attack": 9,
+    "growth": 0.188,
+    "defense": 9
+  },
+  "CTRA": {
+    "health": 4,
+    "attack": 6,
+    "growth": -0.579,
+    "defense": 7
+  },
+  "CCI": {
+    "health": 6,
+    "attack": 7,
+    "growth": -0.126,
+    "defense": 4
+  },
+  "CSX": {
+    "health": 8,
+    "attack": 8,
+    "growth": -0.078,
+    "defense": 7
+  },
+  "CMI": {
+    "health": 6,
+    "attack": 9,
+    "growth": 1,
+    "defense": 6
+  },
+  "CVS": {
+    "health": 9,
+    "attack": 10,
+    "growth": -0.105,
+    "defense": 10
+  },
+  "DHR": {
+    "health": 10,
+    "attack": 9,
+    "growth": -0.513,
+    "defense": 10
+  },
+  "DRI": {
+    "health": 3,
+    "attack": 4,
+    "growth": 0.11,
+    "defense": 2
+  },
+  "DVA": {
+    "health": 1,
+    "attack": 6,
+    "growth": 1.2,
+    "defense": 2
+  },
+  "DAY": {
+    "health": 1,
+    "attack": 2,
+    "growth": 1,
+    "defense": 2
+  },
+  "DECK": {
+    "health": 4,
+    "attack": 5,
+    "growth": 0.442,
+    "defense": 2
+  },
+  "DE": {
+    "health": 9,
+    "attack": 8,
+    "growth": -0.049,
+    "defense": 8
+  },
+  "DAL": {
+    "health": 5,
+    "attack": 3,
+    "growth": 1.436,
+    "defense": 6
+  },
+  "DVN": {
+    "health": 5,
+    "attack": 6,
+    "growth": -0.005,
+    "defense": 7
+  },
+  "DXCM": {
+    "health": 7,
+    "attack": 3,
+    "growth": 1.81,
+    "defense": 2
+  },
+  "FANG": {
+    "health": 6,
+    "attack": 3,
+    "growth": -0.051,
+    "defense": 8
+  },
+  "DLR": {
+    "health": 7,
+    "attack": 7,
+    "growth": 1,
+    "defense": 8
+  },
+  "DFS": {
+    "health": 5,
+    "attack": 2,
+    "growth": -0.588,
+    "defense": 7
+  },
+  "DG": {
+    "health": 5,
+    "attack": 2,
+    "growth": -0.386,
+    "defense": 4
+  },
+  "DLTR": {
+    "health": 5,
+    "attack": 4,
+    "growth": 1,
+    "defense": 5
+  },
+  "D": {
+    "health": 6,
+    "attack": 1,
+    "growth": -0.207,
+    "defense": 9
+  },
+  "DPZ": {
+    "health": 3,
+    "attack": 3,
+    "growth": 0.301,
+    "defense": 1
+  },
+  "DOV": {
+    "health": 4,
+    "attack": 5,
+    "growth": 0.128,
+    "defense": 4
+  },
+  "DOW": {
+    "health": 6,
+    "attack": 8,
+    "growth": 1,
+    "defense": 8
+  },
+  "DHI": {
+    "health": 7,
+    "attack": 7,
+    "growth": 0.022,
+    "defense": 8
+  },
+  "DTE": {
+    "health": 4,
+    "attack": 1,
+    "growth": 0.539,
+    "defense": 6
+  },
+  "DUK": {
+    "health": 8,
+    "attack": 1,
+    "growth": 1,
+    "defense": 10
+  },
+  "DD": {
+    "health": 5,
+    "attack": 8,
+    "growth": 1,
+    "defense": 8
+  },
+  "EMN": {
+    "health": 1,
+    "attack": 3,
+    "growth": 311.047,
+    "defense": 4
+  },
+  "ETN": {
+    "health": 9,
+    "attack": 8,
+    "growth": 0.304,
+    "defense": 8
+  },
+  "EBAY": {
+    "health": 5,
+    "attack": 8,
+    "growth": 0.131,
+    "defense": 4
+  },
+  "ECL": {
+    "health": 8,
+    "attack": 7,
+    "growth": 1,
+    "defense": 5
+  },
+  "EIX": {
+    "health": 5,
+    "attack": 1,
+    "growth": -0.085,
+    "defense": 8
+  },
+  "EW": {
+    "health": 7,
+    "attack": 4,
+    "growth": -0.061,
+    "defense": 4
+  },
+  "EA": {
+    "health": 5,
+    "attack": 7,
+    "growth": 0.466,
+    "defense": 5
+  },
+  "ELV": {
+    "health": 9,
+    "attack": 8,
+    "growth": 0.012,
+    "defense": 9
+  },
+  "LLY": {
+    "health": 10,
+    "attack": 2,
+    "growth": 0.13,
+    "defense": 6
+  },
+  "EMR": {
+    "health": 8,
+    "attack": 6,
+    "growth": -0.937,
+    "defense": 9
+  },
+  "ENPH": {
+    "health": 2,
+    "attack": 3,
+    "growth": -0.874,
+    "defense": 1
+  },
+  "ETR": {
+    "health": 4,
+    "attack": 1,
+    "growth": 8.115,
+    "defense": 7
+  },
+  "EOG": {
+    "health": 8,
+    "attack": 8,
+    "growth": -0.118,
+    "defense": 9
+  },
+  "EPAM": {
+    "health": 2,
+    "attack": 3,
+    "growth": -0.366,
+    "defense": 3
+  },
+  "EQT": {
+    "health": 2,
+    "attack": 3,
+    "growth": -0.737,
+    "defense": 7
+  },
+  "EFX": {
+    "health": 5,
+    "attack": 3,
+    "growth": 0.209,
+    "defense": 4
+  },
+  "EQIX": {
+    "health": 8,
+    "attack": 8,
+    "growth": 0.731,
+    "defense": 7
+  },
+  "EQR": {
+    "health": 4,
+    "attack": 6,
+    "growth": 0.957,
+    "defense": 6
+  },
+  "ESS": {
+    "health": 2,
+    "attack": 4,
+    "growth": -0.644,
+    "defense": 4
+  },
+  "EL": {
+    "health": 7,
+    "attack": 1,
+    "growth": -0.202,
+    "defense": 4
+  },
+  "ETSY": {
+    "health": 1,
+    "attack": 3,
+    "growth": -0.18,
+    "defense": 1
+  },
+  "EG": {
+    "health": 2,
+    "attack": 8,
+    "growth": 0.447,
+    "defense": 7
+  },
+  "EVRG": {
+    "health": 1,
+    "attack": 1,
+    "growth": 6.664,
+    "defense": 6
+  },
+  "ES": {
+    "health": 4,
+    "attack": 1,
+    "growth": 1,
+    "defense": 7
+  },
+  "EXC": {
+    "health": 6,
+    "attack": 1,
+    "growth": 0.442,
+    "defense": 9
+  },
+  "EXPE": {
+    "health": 3,
+    "attack": 7,
+    "growth": -0.165,
+    "defense": 2
+  },
+  "EXPD": {
+    "health": 3,
+    "attack": 5,
+    "growth": -0.219,
+    "defense": 2
+  },
+  "EXR": {
+    "health": 5,
+    "attack": 6,
+    "growth": -0.35,
+    "defense": 7
+  },
+  "XOM": {
+    "health": 10,
+    "attack": 10,
+    "growth": -0.381,
+    "defense": 10
+  },
+  "FFIV": {
+    "health": 1,
+    "attack": 4,
+    "growth": 0.933,
+    "defense": 2
+  },
+  "FDS": {
+    "health": 3,
+    "attack": 4,
+    "growth": 0.08,
+    "defense": 2
+  },
+  "FICO": {
+    "health": 5,
+    "attack": 3,
+    "growth": 0.25,
+    "defense": 1
+  },
+  "FAST": {
+    "health": 6,
+    "attack": 5,
+    "growth": 0.084,
+    "defense": 3
+  },
+  "FRT": {
+    "health": 1,
+    "attack": 3,
+    "growth": -0.458,
+    "defense": 3
+  },
+  "FDX": {
+    "health": 8,
+    "attack": 9,
+    "growth": -0.133,
+    "defense": 9
+  },
+  "FIS": {
+    "health": 6,
+    "attack": 8,
+    "growth": 1,
+    "defense": 8
+  },
+  "FITB": {
+    "health": 4,
+    "attack": 2,
+    "growth": -0.287,
+    "defense": 8
+  },
+  "FSLR": {
+    "health": 3,
+    "attack": 1,
+    "growth": 1,
+    "defense": 4
+  },
+  "FE": {
+    "health": 4,
+    "attack": 7,
+    "growth": 1,
+    "defense": 6
+  },
+  "FI": {
+    "health": 9,
+    "attack": 9,
+    "growth": 0.179,
+    "defense": 9
+  },
+  "FMC": {
+    "health": 1,
+    "attack": 1,
+    "growth": 3.073,
+    "defense": 3
+  },
+  "F": {
+    "health": 7,
+    "attack": 1,
+    "growth": 1,
+    "defense": 10
+  },
+  "FTNT": {
+    "health": 7,
+    "attack": 6,
+    "growth": 0.035,
+    "defense": 1
+  },
+  "FTV": {
+    "health": 5,
+    "attack": 6,
+    "growth": 0.162,
+    "defense": 6
+  },
+  "FOXA": {
+    "health": 2,
+    "attack": 6,
+    "growth": -0.608,
+    "defense": 6
+  },
+  "FOX": {
+    "health": 2,
+    "attack": 6,
+    "growth": -0.608,
+    "defense": 6
+  },
+  "BEN": {
+    "health": 2,
+    "attack": 5,
+    "growth": 0.55,
+    "defense": 7
+  },
+  "FCX": {
+    "health": 8,
+    "attack": 1,
+    "growth": -0.446,
+    "defense": 9
+  },
+  "GRMN": {
+    "health": 5,
+    "attack": 5,
+    "growth": 0.846,
+    "defense": 5
+  },
+  "IT": {
+    "health": 6,
+    "attack": 5,
+    "growth": -0.175,
+    "defense": 1
+  },
+  "GE": {
+    "health": 10,
+    "attack": 9,
+    "growth": -0.232,
+    "defense": 9
+  },
+  "GEHC": {
+    "health": 6,
+    "attack": 8,
+    "growth": -0.279,
+    "defense": 5
+  },
+  "GEV": {
+    "health": 5,
+    "attack": 5,
+    "growth": 1,
+    "defense": 5
+  },
+  "GEN": {
+    "health": 2,
+    "attack": 3,
+    "growth": -0.12,
+    "defense": 2
+  },
+  "GNRC": {
+    "health": 1,
+    "attack": 3,
+    "growth": 0.894,
+    "defense": 2
+  },
+  "GD": {
+    "health": 8,
+    "attack": 7,
+    "growth": 0.014,
+    "defense": 8
+  },
+  "GIS": {
+    "health": 6,
+    "attack": 7,
+    "growth": 0.272,
+    "defense": 6
+  },
+  "GM": {
+    "health": 7,
+    "attack": 9,
+    "growth": 0.135,
+    "defense": 10
+  },
+  "GPC": {
+    "health": 4,
+    "attack": 4,
+    "growth": 0.263,
+    "defense": 3
+  },
+  "GILD": {
+    "health": 8,
+    "attack": 10,
+    "growth": -0.131,
+    "defense": 8
+  },
+  "GPN": {
+    "health": 5,
+    "attack": 8,
+    "growth": 0.494,
+    "defense": 8
+  },
+  "GL": {
+    "health": 1,
+    "attack": 6,
+    "growth": 0.168,
+    "defense": 3
+  },
+  "GS": {
+    "health": 9,
+    "attack": 2,
+    "growth": 0.649,
+    "defense": 10
+  },
+  "HAL": {
+    "health": 6,
+    "attack": 7,
+    "growth": 0.013,
+    "defense": 6
+  },
+  "HIG": {
+    "health": 5,
+    "attack": 9,
+    "growth": 0.374,
+    "defense": 7
+  },
+  "HAS": {
+    "health": 1,
+    "attack": 5,
+    "growth": 1,
+    "defense": 1
+  },
+  "HCA": {
+    "health": 8,
+    "attack": 8,
+    "growth": -0.186,
+    "defense": 1
+  },
+  "DOC": {
+    "health": 2,
+    "attack": 5,
+    "growth": 126.349,
+    "defense": 5
+  },
+  "HSIC": {
+    "health": 1,
+    "attack": 2,
+    "growth": -0.619,
+    "defense": 4
+  },
+  "HSY": {
+    "health": 6,
+    "attack": 5,
+    "growth": -0.115,
+    "defense": 3
+  },
+  "HES": {
+    "health": 7,
+    "attack": 1,
+    "growth": -0.168,
+    "defense": 6
+  },
+  "HPE": {
+    "health": 4,
+    "attack": 7,
+    "growth": -0.237,
+    "defense": 8
+  },
+  "HLT": {
+    "health": 7,
+    "attack": 6,
+    "growth": -0.525,
+    "defense": 1
+  },
+  "HOLX": {
+    "health": 3,
+    "attack": 4,
+    "growth": 0.373,
+    "defense": 4
+  },
+  "HD": {
+    "health": 10,
+    "attack": 10,
+    "growth": -0.148,
+    "defense": 1
+  },
+  "HON": {
+    "health": 9,
+    "attack": 8,
+    "growth": 0.268,
+    "defense": 7
+  },
+  "HRL": {
+    "health": 3,
+    "attack": 4,
+    "growth": 0.004,
+    "defense": 5
+  },
+  "HST": {
+    "health": 2,
+    "attack": 6,
+    "growth": -0.063,
+    "defense": 4
+  },
+  "HWM": {
+    "health": 5,
+    "attack": 3,
+    "growth": 1.086,
+    "defense": 3
+  },
+  "HPQ": {
+    "health": 5,
+    "attack": 8,
+    "growth": 0.319,
+    "defense": 1
+  },
+  "HUBB": {
+    "health": 4,
+    "attack": 3,
+    "growth": 0.633,
+    "defense": 2
+  },
+  "HUM": {
+    "health": 6,
+    "attack": 4,
+    "growth": 1,
+    "defense": 7
+  },
+  "HBAN": {
+    "health": 3,
+    "attack": 2,
+    "growth": -0.646,
+    "defense": 8
+  },
+  "HII": {
+    "health": 1,
+    "attack": 4,
+    "growth": 1.249,
+    "defense": 3
+  },
+  "IBM": {
+    "health": 10,
+    "attack": 10,
+    "growth": 0.2,
+    "defense": 8
+  },
+  "IEX": {
+    "health": 3,
+    "attack": 3,
+    "growth": -0.16,
+    "defense": 3
+  },
+  "IDXX": {
+    "health": 6,
+    "attack": 4,
+    "growth": 0.121,
+    "defense": 2
+  },
+  "ITW": {
+    "health": 8,
+    "attack": 8,
+    "growth": -0.193,
+    "defense": 2
+  },
+  "ILMN": {
+    "health": 4,
+    "attack": 3,
+    "growth": 1,
+    "defense": 4
+  },
+  "INCY": {
+    "health": 2,
+    "attack": 4,
+    "growth": 6.324,
+    "defense": 4
+  },
+  "IR": {
+    "health": 6,
+    "attack": 6,
+    "growth": 0.046,
+    "defense": 6
+  },
+  "PODD": {
+    "health": 1,
+    "attack": 2,
+    "growth": 5.043,
+    "defense": 1
+  },
+  "INTC": {
+    "health": 10,
+    "attack": 1,
+    "growth": 1,
+    "defense": 10
+  },
+  "ICE": {
+    "health": 8,
+    "attack": 10,
+    "growth": -0.147,
+    "defense": 9
+  },
+  "IFF": {
+    "health": 4,
+    "attack": 7,
+    "growth": 1,
+    "defense": 7
+  },
+  "IP": {
+    "health": 2,
+    "attack": 3,
+    "growth": 1,
+    "defense": 5
+  },
+  "IPG": {
+    "health": 1,
+    "attack": 2,
+    "growth": 0.616,
+    "defense": 3
+  },
+  "INTU": {
+    "health": 10,
+    "attack": 9,
+    "growth": -0.185,
+    "defense": 8
+  },
+  "ISRG": {
+    "health": 9,
+    "attack": 4,
+    "growth": 0.857,
+    "defense": 7
+  },
+  "IVZ": {
+    "health": 1,
+    "attack": 4,
+    "growth": 1,
+    "defense": 7
+  },
+  "INVH": {
+    "health": 4,
+    "attack": 5,
+    "growth": 0.279,
+    "defense": 6
+  },
+  "IQV": {
+    "health": 6,
+    "attack": 6,
+    "growth": 1.125,
+    "defense": 4
+  },
+  "IRM": {
+    "health": 4,
+    "attack": 2,
+    "growth": -0.762,
+    "defense": 1
+  },
+  "JBHT": {
+    "health": 3,
+    "attack": 1,
+    "growth": -0.236,
+    "defense": 3
+  },
+  "JBL": {
+    "health": 3,
+    "attack": 6,
+    "growth": 3.809,
+    "defense": 2
+  },
+  "JKHY": {
+    "health": 1,
+    "attack": 2,
+    "growth": 0.145,
+    "defense": 2
+  },
+  "J": {
+    "health": 3,
+    "attack": 5,
+    "growth": 0.283,
+    "defense": 5
+  },
+  "JNJ": {
+    "health": 10,
+    "attack": 10,
+    "growth": 0.106,
+    "defense": 10
+  },
+  "JCI": {
+    "health": 6,
+    "attack": 8,
+    "growth": 2.232,
+    "defense": 8
+  },
+  "JPM": {
+    "health": 10,
+    "attack": 2,
+    "growth": -0.15,
+    "defense": 11
+  },
+  "JNPR": {
+    "health": 1,
+    "attack": 4,
+    "growth": -0.307,
+    "defense": 3
+  },
+  "K": {
+    "health": 3,
+    "attack": 3,
+    "growth": 1,
+    "defense": 3
+  },
+  "KVUE": {
+    "health": 6,
+    "attack": 8,
+    "growth": -0.187,
+    "defense": 6
+  },
+  "KDP": {
+    "health": 6,
+    "attack": 4,
+    "growth": 0.554,
+    "defense": 9
+  },
+  "KEY": {
+    "health": 2,
+    "attack": 2,
+    "growth": -0.92,
+    "defense": 7
+  },
+  "KEYS": {
+    "health": 5,
+    "attack": 5,
+    "growth": -0.324,
+    "defense": 4
+  },
+  "KMB": {
+    "health": 6,
+    "attack": 8,
+    "growth": 0.007,
+    "defense": 1
+  },
+  "KIM": {
+    "health": 2,
+    "attack": 5,
+    "growth": 1,
+    "defense": 6
+  },
+  "KMI": {
+    "health": 6,
+    "attack": 1,
+    "growth": -0.107,
+    "defense": 9
+  },
+  "KLAC": {
+    "health": 8,
+    "attack": 8,
+    "growth": -0.379,
+    "defense": 2
+  },
+  "KHC": {
+    "health": 7,
+    "attack": 8,
+    "growth": -0.152,
+    "defense": 10
+  },
+  "KR": {
+    "health": 6,
+    "attack": 9,
+    "growth": -0.882,
+    "defense": 6
+  },
+  "LHX": {
+    "health": 6,
+    "attack": 7,
+    "growth": -0.617,
+    "defense": 8
+  },
+  "LH": {
+    "health": 3,
+    "attack": 6,
+    "growth": 1,
+    "defense": 5
+  },
+  "LRCX": {
+    "health": 9,
+    "attack": 9,
+    "growth": -0.33,
+    "defense": 5
+  },
+  "LW": {
+    "health": 1,
+    "attack": 1,
+    "growth": 1.085,
+    "defense": 2
+  },
+  "LVS": {
+    "health": 6,
+    "attack": 7,
+    "growth": 1,
+    "defense": 3
+  },
+  "LDOS": {
+    "health": 3,
+    "attack": 5,
+    "growth": 0.296,
+    "defense": 3
+  },
+  "LEN": {
+    "health": 7,
+    "attack": 9,
+    "growth": 0.249,
+    "defense": 9
+  },
+  "LIN": {
+    "health": 10,
+    "attack": 9,
+    "growth": 0.184,
+    "defense": 9
+  },
+  "LYV": {
+    "health": 4,
+    "attack": 5,
+    "growth": 1,
+    "defense": 2
+  },
+  "LKQ": {
+    "health": 2,
+    "attack": 4,
+    "growth": -0.09,
+    "defense": 4
+  },
+  "LMT": {
+    "health": 9,
+    "attack": 9,
+    "growth": 0.024,
+    "defense": 5
+  },
+  "L": {
+    "health": 3,
+    "attack": 8,
+    "growth": 0.334,
+    "defense": 8
+  },
+  "LOW": {
+    "health": 9,
+    "attack": 9,
+    "growth": 0.118,
+    "defense": 1
+  },
+  "LULU": {
+    "health": 7,
+    "attack": 7,
+    "growth": 4.639,
+    "defense": 3
+  },
+  "LYB": {
+    "health": 5,
+    "attack": 7,
+    "growth": -0.476,
+    "defense": 7
+  },
+  "MTB": {
+    "health": 4,
+    "attack": 2,
+    "growth": -0.361,
+    "defense": 9
+  },
+  "MRO": {
+    "health": 3,
+    "attack": 6,
+    "growth": -0.175,
+    "defense": 6
+  },
+  "MPC": {
+    "health": 8,
+    "attack": 10,
+    "growth": -0.459,
+    "defense": 9
+  },
+  "MKTX": {
+    "health": 1,
+    "attack": 2,
+    "growth": 0.164,
+    "defense": 1
+  },
+  "MAR": {
+    "health": 8,
+    "attack": 8,
+    "growth": 0.354,
+    "defense": 1
+  },
+  "MMC": {
+    "health": 9,
+    "attack": 9,
+    "growth": 0.643,
+    "defense": 7
+  },
+  "MLM": {
+    "health": 6,
+    "attack": 4,
+    "growth": 0.541,
+    "defense": 5
+  },
+  "MAS": {
+    "health": 3,
+    "attack": 5,
+    "growth": 0.715,
+    "defense": 1
+  },
+  "MA": {
+    "health": 10,
+    "attack": 10,
+    "growth": 0.136,
+    "defense": 5
+  },
+  "MTCH": {
+    "health": 1,
+    "attack": 4,
+    "growth": 1.738,
+    "defense": 1
+  },
+  "MKC": {
+    "health": 3,
+    "attack": 5,
+    "growth": 0.193,
+    "defense": 4
+  },
+  "MCD": {
+    "health": 10,
+    "attack": 10,
+    "growth": 0.083,
+    "defense": 1
+  },
+  "MCK": {
+    "health": 8,
+    "attack": 8,
+    "growth": -0.423,
+    "defense": 1
+  },
+  "MDT": {
+    "health": 9,
+    "attack": 9,
+    "growth": 0.078,
+    "defense": 10
+  },
+  "MRK": {
+    "health": 10,
+    "attack": 7,
+    "growth": 1,
+    "defense": 9
+  },
+  "META": {
+    "health": 10,
+    "attack": 10,
+    "growth": 2.002,
+    "defense": 10
+  },
+  "MET": {
+    "health": 7,
+    "attack": 1,
+    "growth": -0.607,
+    "defense": 9
+  },
+  "MTD": {
+    "health": 5,
+    "attack": 4,
+    "growth": -0.282,
+    "defense": 1
+  },
+  "MGM": {
+    "health": 2,
+    "attack": 5,
+    "growth": 0.342,
+    "defense": 3
+  },
+  "MCHP": {
+    "health": 7,
+    "attack": 8,
+    "growth": -0.26,
+    "defense": 4
+  },
+  "MU": {
+    "health": 9,
+    "attack": 1,
+    "growth": 1,
+    "defense": 10
+  },
+  "MSFT": {
+    "health": 11,
+    "attack": 10,
+    "growth": 0.332,
+    "defense": 10
+  },
+  "MAA": {
+    "health": 2,
+    "attack": 5,
+    "growth": -0.177,
+    "defense": 4
+  },
+  "MRNA": {
+    "health": 6,
+    "attack": 1,
+    "growth": -0.851,
+    "defense": 7
+  },
+  "MHK": {
+    "health": 1,
+    "attack": 4,
+    "growth": 3.194,
+    "defense": 5
+  },
+  "MOH": {
+    "health": 4,
+    "attack": 5,
+    "growth": 2.842,
+    "defense": 3
+  },
+  "TAP": {
+    "health": 2,
+    "attack": 6,
+    "growth": 1,
+    "defense": 7
+  },
+  "MDLZ": {
+    "health": 8,
+    "attack": 9,
+    "growth": 0.669,
+    "defense": 9
+  },
+  "MPWR": {
+    "health": 5,
+    "attack": 3,
+    "growth": -0.191,
+    "defense": 2
+  },
+  "MNST": {
+    "health": 7,
+    "attack": 5,
+    "growth": 0.211,
+    "defense": 5
+  },
+  "MCO": {
+    "health": 8,
+    "attack": 7,
+    "growth": 0.382,
+    "defense": 2
+  },
+  "MS": {
+    "health": 9,
+    "attack": 2,
+    "growth": -0.332,
+    "defense": 10
+  },
+  "MOS": {
+    "health": 1,
+    "attack": 6,
+    "growth": -0.264,
+    "defense": 7
+  },
+  "MSI": {
+    "health": 7,
+    "attack": 6,
+    "growth": 0.014,
+    "defense": 1
+  },
+  "MSCI": {
+    "health": 6,
+    "attack": 5,
+    "growth": 0.902,
+    "defense": 1
+  },
+  "NDAQ": {
+    "health": 6,
+    "attack": 6,
+    "growth": -0.267,
+    "defense": 6
+  },
+  "NTAP": {
+    "health": 4,
+    "attack": 6,
+    "growth": 3.933,
+    "defense": 1
+  },
+  "NFLX": {
+    "health": 10,
+    "attack": 10,
+    "growth": 16.252,
+    "defense": 8
+  },
+  "NEM": {
+    "health": 7,
+    "attack": 1,
+    "growth": 1,
+    "defense": 9
+  },
+  "NWSA": {
+    "health": 2,
+    "attack": 4,
+    "growth": 1.321,
+    "defense": 5
+  },
+  "NWS": {
+    "health": 2,
+    "attack": 4,
+    "growth": 1.321,
+    "defense": 5
+  },
+  "NEE": {
+    "health": 9,
+    "attack": 1,
+    "growth": -0.234,
+    "defense": 10
+  },
+  "NKE": {
+    "health": 9,
+    "attack": 2,
+    "growth": -0.025,
+    "defense": 7
+  },
+  "NI": {
+    "health": 1,
+    "attack": 1,
+    "growth": -0.033,
+    "defense": 6
+  },
+  "NDSN": {
+    "health": 2,
+    "attack": 3,
+    "growth": 0.05,
+    "defense": 2
+  },
+  "NSC": {
+    "health": 7,
+    "attack": 7,
+    "growth": -0.321,
+    "defense": 7
+  },
+  "NTRS": {
+    "health": 3,
+    "attack": 2,
+    "growth": -0.275,
+    "defense": 7
+  },
+  "NOC": {
+    "health": 8,
+    "attack": 7,
+    "growth": 1,
+    "defense": 7
+  },
+  "NCLH": {
+    "health": 1,
+    "attack": 1,
+    "growth": 1,
+    "defense": 1
+  },
+  "NRG": {
+    "health": 2,
+    "attack": 8,
+    "growth": 1,
+    "defense": 2
+  },
+  "NUE": {
+    "health": 7,
+    "attack": 9,
+    "growth": -0.353,
+    "defense": 8
+  },
+  "NVDA": {
+    "health": 10,
+    "attack": 10,
+    "growth": 7.613,
+    "defense": 10
+  },
+  "NVR": {
+    "health": 4,
+    "attack": 6,
+    "growth": -0.089,
+    "defense": 3
+  },
+  "NXPI": {
+    "health": 8,
+    "attack": 7,
+    "growth": -0.03,
+    "defense": 5
+  },
+  "ORLY": {
+    "health": 8,
+    "attack": 7,
+    "growth": 0.107,
+    "defense": 1
+  },
+  "OXY": {
+    "health": 8,
+    "attack": 9,
+    "growth": -0.379,
+    "defense": 9
+  },
+  "ODFL": {
+    "health": 7,
+    "attack": 4,
+    "growth": 0.008,
+    "defense": 3
+  },
+  "OMC": {
+    "health": 3,
+    "attack": 6,
+    "growth": 0.019,
+    "defense": 3
+  },
+  "ON": {
+    "health": 5,
+    "attack": 1,
+    "growth": -0.052,
+    "defense": 5
+  },
+  "OKE": {
+    "health": 7,
+    "attack": 6,
+    "growth": 0.09,
+    "defense": 7
+  },
+  "ORCL": {
+    "health": 10,
+    "attack": 10,
+    "growth": 0.25,
+    "defense": 2
+  },
+  "OTIS": {
+    "health": 6,
+    "attack": 7,
+    "growth": 0.112,
+    "defense": 1
+  },
+  "PCAR": {
+    "health": 8,
+    "attack": 9,
+    "growth": 0.528,
+    "defense": 7
+  },
+  "PKG": {
+    "health": 3,
+    "attack": 4,
+    "growth": -0.092,
+    "defense": 3
+  },
+  "PANW": {
+    "health": 8,
+    "attack": 8,
+    "growth": 18.56,
+    "defense": 2
+  },
+  "PARA": {
+    "health": 1,
+    "attack": 10,
+    "growth": 79.876,
+    "defense": 8
+  },
+  "PH": {
+    "health": 8,
+    "attack": 9,
+    "growth": 0.72,
+    "defense": 6
+  },
+  "PAYX": {
+    "health": 6,
+    "attack": 7,
+    "growth": 0.07,
+    "defense": 3
+  },
+  "PAYC": {
+    "health": 1,
+    "attack": 3,
+    "growth": 0.034,
+    "defense": 2
+  },
+  "PYPL": {
+    "health": 8,
+    "attack": 9,
+    "growth": 0.615,
+    "defense": 8
+  },
+  "PNR": {
+    "health": 2,
+    "attack": 3,
+    "growth": 1.161,
+    "defense": 3
+  },
+  "PEP": {
+    "health": 10,
+    "attack": 10,
+    "growth": 1.521,
+    "defense": 8
+  },
+  "PFE": {
+    "health": 9,
+    "attack": 5,
+    "growth": 1,
+    "defense": 10
+  },
+  "PCG": {
+    "health": 6,
+    "attack": 1,
+    "growth": 0.792,
+    "defense": 9
+  },
+  "PM": {
+    "health": 9,
+    "attack": 10,
+    "growth": -0.085,
+    "defense": 1
+  },
+  "PSX": {
+    "health": 8,
+    "attack": 8,
+    "growth": -0.28,
+    "defense": 9
+  },
+  "PNW": {
+    "health": 1,
+    "attack": 1,
+    "growth": 1,
+    "defense": 4
+  },
+  "PXD": {
+    "health": 8,
+    "attack": 8,
+    "growth": -0.119,
+    "defense": 8
+  },
+  "PNC": {
+    "health": 8,
+    "attack": 2,
+    "growth": -0.464,
+    "defense": 10
+  },
+  "POOL": {
+    "health": 2,
+    "attack": 4,
+    "growth": -0.272,
+    "defense": 2
+  },
+  "PPG": {
+    "health": 5,
+    "attack": 7,
+    "growth": -0.62,
+    "defense": 5
+  },
+  "PPL": {
+    "health": 3,
+    "attack": 1,
+    "growth": -0.416,
+    "defense": 7
+  },
+  "PFG": {
+    "health": 3,
+    "attack": 6,
+    "growth": 1,
+    "defense": 6
+  },
+  "PG": {
+    "health": 10,
+    "attack": 10,
+    "growth": -0.114,
+    "defense": 10
+  },
+  "PGR": {
+    "health": 9,
+    "attack": 10,
+    "growth": 1.424,
+    "defense": 8
+  },
+  "PLD": {
+    "health": 9,
+    "attack": 9,
+    "growth": 0.071,
+    "defense": 10
+  },
+  "PRU": {
+    "health": 6,
+    "attack": 8,
+    "growth": 1,
+    "defense": 9
+  },
+  "PEG": {
+    "health": 5,
+    "attack": 2,
+    "growth": -0.307,
+    "defense": 7
+  },
+  "PTC": {
+    "health": 4,
+    "attack": 4,
+    "growth": -0.127,
+    "defense": 2
+  },
+  "PSA": {
+    "health": 7,
+    "attack": 8,
+    "growth": 0.075,
+    "defense": 6
+  },
+  "PHM": {
+    "health": 4,
+    "attack": 7,
+    "growth": -0.146,
+    "defense": 6
+  },
+  "QRVO": {
+    "health": 1,
+    "attack": 3,
+    "growth": 1,
+    "defense": 3
+  },
+  "PWR": {
+    "health": 6,
+    "attack": 5,
+    "growth": 0.281,
+    "defense": 4
+  },
+  "QCOM": {
+    "health": 10,
+    "attack": 10,
+    "growth": 0.245,
+    "defense": 8
+  },
+  "DGX": {
+    "health": 2,
+    "attack": 4,
+    "growth": 0.868,
+    "defense": 4
+  },
+  "RL": {
+    "health": 1,
+    "attack": 4,
+    "growth": 0.309,
+    "defense": 2
+  },
+  "RJF": {
+    "health": 5,
+    "attack": 2,
+    "growth": 0.009,
+    "defense": 6
+  },
+  "RTX": {
+    "health": 9,
+    "attack": 9,
+    "growth": 0.091,
+    "defense": 10
+  },
+  "O": {
+    "health": 7,
+    "attack": 7,
+    "growth": -0.16,
+    "defense": 9
+  },
+  "REG": {
+    "health": 1,
+    "attack": 3,
+    "growth": -0.15,
+    "defense": 5
+  },
+  "REGN": {
+    "health": 9,
+    "attack": 8,
+    "growth": -0.029,
+    "defense": 9
+  },
+  "RF": {
+    "health": 3,
+    "attack": 2,
+    "growth": 1,
+    "defense": 8
+  },
+  "RSG": {
+    "health": 7,
+    "attack": 7,
+    "growth": 0.28,
+    "defense": 6
+  },
+  "RMD": {
+    "health": 5,
+    "attack": 5,
+    "growth": -0.072,
+    "defense": 3
+  },
+  "RVTY": {
+    "health": 2,
+    "attack": 7,
+    "growth": -0.373,
+    "defense": 5
+  },
+  "RHI": {
+    "health": 1,
+    "attack": 3,
+    "growth": -0.392,
+    "defense": 2
+  },
+  "ROK": {
+    "health": 5,
+    "attack": 5,
+    "growth": -0.438,
+    "defense": 3
+  },
+  "ROL": {
+    "health": 4,
+    "attack": 3,
+    "growth": 0.323,
+    "defense": 1
+  },
+  "ROP": {
+    "health": 7,
+    "attack": 7,
+    "growth": -0.8,
+    "defense": 8
+  },
+  "ROST": {
+    "health": 7,
+    "attack": 6,
+    "growth": 0.401,
+    "defense": 4
+  },
+  "RCL": {
+    "health": 5,
+    "attack": 1,
+    "growth": 1,
+    "defense": 4
+  },
+  "SPGI": {
+    "health": 9,
+    "attack": 9,
+    "growth": 0.367,
+    "defense": 9
+  },
+  "CRM": {
+    "health": 10,
+    "attack": 10,
+    "growth": 1,
+    "defense": 10
+  },
+  "SBAC": {
+    "health": 4,
+    "attack": 5,
+    "growth": 0.063,
+    "defense": 1
+  },
+  "SLB": {
+    "health": 8,
+    "attack": 8,
+    "growth": 0.042,
+    "defense": 8
+  },
+  "STX": {
+    "health": 3,
+    "attack": 5,
+    "growth": 1,
+    "defense": 1
+  },
+  "SRE": {
+    "health": 6,
+    "attack": 1,
+    "growth": 0.682,
+    "defense": 9
+  },
+  "NOW": {
+    "health": 10,
+    "attack": 9,
+    "growth": 0.927,
+    "defense": 5
+  },
+  "SHW": {
+    "health": 8,
+    "attack": 8,
+    "growth": -0.065,
+    "defense": 3
+  },
+  "SPG": {
+    "health": 7,
+    "attack": 7,
+    "growth": 0.113,
+    "defense": 3
+  },
+  "SWKS": {
+    "health": 3,
+    "attack": 6,
+    "growth": -0.254,
+    "defense": 4
+  },
+  "SJM": {
+    "health": 2,
+    "attack": 5,
+    "growth": -0.42,
+    "defense": 5
+  },
+  "SNA": {
+    "health": 2,
+    "attack": 4,
+    "growth": 0.076,
+    "defense": 4
+  },
+  "SOLV": {
+    "health": 1,
+    "attack": 7,
+    "growth": 1,
+    "defense": 3
+  },
+  "SO": {
+    "health": 8,
+    "attack": 1,
+    "growth": 1,
+    "defense": 9
+  },
+  "LUV": {
+    "health": 3,
+    "attack": 3,
+    "growth": 1,
+    "defense": 6
+  },
+  "SWK": {
+    "health": 2,
+    "attack": 7,
+    "growth": 1,
+    "defense": 6
+  },
+  "SBUX": {
+    "health": 9,
+    "attack": 9,
+    "growth": 0.216,
+    "defense": 1
+  },
+  "STT": {
+    "health": 4,
+    "attack": 2,
+    "growth": -0.71,
+    "defense": 8
+  },
+  "STLD": {
+    "health": 4,
+    "attack": 6,
+    "growth": -0.275,
+    "defense": 5
+  },
+  "STE": {
+    "health": 4,
+    "attack": 3,
+    "growth": 0.145,
+    "defense": 4
+  },
+  "SYK": {
+    "health": 9,
+    "attack": 8,
+    "growth": 1.027,
+    "defense": 8
+  },
+  "SMCI": {
+    "health": 7,
+    "attack": 1,
+    "growth": 0.624,
+    "defense": 2
+  },
+  "SYF": {
+    "health": 3,
+    "attack": 2,
+    "growth": -0.176,
+    "defense": 7
+  },
+  "SNPS": {
+    "health": 8,
+    "attack": 6,
+    "growth": 0.651,
+    "defense": 4
+  },
+  "SYY": {
+    "health": 6,
+    "attack": 7,
+    "growth": 1.948,
+    "defense": 2
+  },
+  "TMUS": {
+    "health": 10,
+    "attack": 10,
+    "growth": 0.41,
+    "defense": 10
+  },
+  "TROW": {
+    "health": 5,
+    "attack": 7,
+    "growth": 0.65,
+    "defense": 6
+  },
+  "TTWO": {
+    "health": 4,
+    "attack": 7,
+    "growth": 1,
+    "defense": 5
+  },
+  "TPR": {
+    "health": 1,
+    "attack": 5,
+    "growth": 0.022,
+    "defense": 2
+  },
+  "TRGP": {
+    "health": 5,
+    "attack": 2,
+    "growth": -0.109,
+    "defense": 3
+  },
+  "TGT": {
+    "health": 8,
+    "attack": 8,
+    "growth": 0.574,
+    "defense": 7
+  },
+  "TEL": {
+    "health": 6,
+    "attack": 7,
+    "growth": 3.617,
+    "defense": 6
+  },
+  "TDY": {
+    "health": 3,
+    "attack": 4,
+    "growth": 0.425,
+    "defense": 6
+  },
+  "TFX": {
+    "health": 1,
+    "attack": 3,
+    "growth": -0.603,
+    "defense": 3
+  },
+  "TER": {
+    "health": 2,
+    "attack": 3,
+    "growth": -0.314,
+    "defense": 2
+  },
+  "TSLA": {
+    "health": 10,
+    "attack": 8,
+    "growth": 1.115,
+    "defense": 10
+  },
+  "TXN": {
+    "health": 9,
+    "attack": 1,
+    "growth": -0.302,
+    "defense": 8
+  },
+  "TXT": {
+    "health": 3,
+    "attack": 5,
+    "growth": -0.065,
+    "defense": 5
+  },
+  "TMO": {
+    "health": 10,
+    "attack": 9,
+    "growth": 0.054,
+    "defense": 10
+  },
+  "TJX": {
+    "health": 9,
+    "attack": 9,
+    "growth": 0.368,
+    "defense": 4
+  },
+  "TSCO": {
+    "health": 5,
+    "attack": 3,
+    "growth": -0.066,
+    "defense": 2
+  },
+  "TT": {
+    "health": 8,
+    "attack": 7,
+    "growth": 0.161,
+    "defense": 5
+  },
+  "TDG": {
+    "health": 8,
+    "attack": 6,
+    "growth": 0.464,
+    "defense": 1
+  },
+  "TRV": {
+    "health": 7,
+    "attack": 10,
+    "growth": 1.032,
+    "defense": 9
+  },
+  "TRMB": {
+    "health": 2,
+    "attack": 3,
+    "growth": -0.279,
+    "defense": 3
+  },
+  "TFC": {
+    "health": 7,
+    "attack": 2,
+    "growth": 1,
+    "defense": 10
+  },
+  "TYL": {
+    "health": 3,
+    "attack": 3,
+    "growth": 0.248,
+    "defense": 2
+  },
+  "TSN": {
+    "health": 4,
+    "attack": 4,
+    "growth": -0.659,
+    "defense": 8
+  },
+  "USB": {
+    "health": 8,
+    "attack": 2,
+    "growth": -0.142,
+    "defense": 10
+  },
+  "UBER": {
+    "health": 9,
+    "attack": 8,
+    "growth": 1.269,
+    "defense": 7
+  },
+  "UDR": {
+    "health": 2,
+    "attack": 4,
+    "growth": -0.275,
+    "defense": 4
+  },
+  "ULTA": {
+    "health": 4,
+    "attack": 4,
+    "growth": 0.209,
+    "defense": 2
+  },
+  "UNP": {
+    "health": 9,
+    "attack": 9,
+    "growth": 0.012,
+    "defense": 7
+  },
+  "UAL": {
+    "health": 2,
+    "attack": 1,
+    "growth": -0.29,
+    "defense": 6
+  },
+  "UPS": {
+    "health": 9,
+    "attack": 9,
+    "growth": -0.527,
+    "defense": 8
+  },
+  "URI": {
+    "health": 7,
+    "attack": 8,
+    "growth": 0.098,
+    "defense": 5
+  },
+  "UNH": {
+    "health": 10,
+    "attack": 10,
+    "growth": 0.16,
+    "defense": 10
+  },
+  "UHS": {
+    "health": 1,
+    "attack": 3,
+    "growth": 0.297,
+    "defense": 4
+  },
+  "VLO": {
+    "health": 7,
+    "attack": 10,
+    "growth": -0.571,
+    "defense": 9
+  },
+  "VTR": {
+    "health": 3,
+    "attack": 5,
+    "growth": 1,
+    "defense": 6
+  },
+  "VLTO": {
+    "health": 4,
+    "attack": 5,
+    "growth": -0.08,
+    "defense": 2
+  },
+  "VRSN": {
+    "health": 3,
+    "attack": 4,
+    "growth": 0.531,
+    "defense": 1
+  },
+  "VRSK": {
+    "health": 5,
+    "attack": 5,
+    "growth": 2.149,
+    "defense": 1
+  },
+  "VZ": {
+    "health": 10,
+    "attack": 10,
+    "growth": 1,
+    "defense": 10
+  },
+  "VRTX": {
+    "health": 9,
+    "attack": 9,
+    "growth": 0.181,
+    "defense": 8
+  },
+  "VTRS": {
+    "health": 2,
+    "attack": 6,
+    "growth": 1,
+    "defense": 8
+  },
+  "VICI": {
+    "health": 5,
+    "attack": 1,
+    "growth": 0.143,
+    "defense": 9
+  },
+  "V": {
+    "health": 10,
+    "attack": 10,
+    "growth": 0.203,
+    "defense": 9
+  },
+  "VMC": {
+    "health": 6,
+    "attack": 4,
+    "growth": 0.916,
+    "defense": 5
+  },
+  "WRB": {
+    "health": 4,
+    "attack": 8,
+    "growth": 0.066,
+    "defense": 5
+  },
+  "WAB": {
+    "health": 5,
+    "attack": 4,
+    "growth": 0.379,
+    "defense": 6
+  },
+  "WBA": {
+    "health": 3,
+    "attack": 3,
+    "growth": 1,
+    "defense": 9
+  },
+  "WMT": {
+    "health": 10,
+    "attack": 10,
+    "growth": -0.124,
+    "defense": 10
+  },
+  "DIS": {
+    "health": 10,
+    "attack": 10,
+    "growth": 0.486,
+    "defense": 10
+  },
+  "WBD": {
+    "health": 3,
+    "attack": 10,
+    "growth": 1,
+    "defense": 10
+  },
+  "WM": {
+    "health": 8,
+    "attack": 6,
+    "growth": 0.01,
+    "defense": 5
+  },
+  "WAT": {
+    "health": 3,
+    "attack": 3,
+    "growth": -0.042,
+    "defense": 1
+  },
+  "WEC": {
+    "health": 4,
+    "attack": 1,
+    "growth": -0.133,
+    "defense": 7
+  },
+  "WFC": {
+    "health": 10,
+    "attack": 2,
+    "growth": 0.15,
+    "defense": 10
+  },
+  "WELL": {
+    "health": 7,
+    "attack": 6,
+    "growth": 1,
+    "defense": 9
+  },
+  "WST": {
+    "health": 5,
+    "attack": 2,
+    "growth": 0.334,
+    "defense": 2
+  },
+  "WDC": {
+    "health": 4,
+    "attack": 1,
+    "growth": 1,
+    "defense": 6
+  },
+  "WRK": {
+    "health": 2,
+    "attack": 6,
+    "growth": 1,
+    "defense": 6
+  },
+  "WY": {
+    "health": 4,
+    "attack": 4,
+    "growth": 22.206,
+    "defense": 6
+  },
+  "WMB": {
+    "health": 7,
+    "attack": 7,
+    "growth": 0.728,
+    "defense": 7
+  },
+  "WTW": {
+    "health": 5,
+    "attack": 6,
+    "growth": 0.116,
+    "defense": 6
+  },
+  "GWW": {
+    "health": 7,
+    "attack": 6,
+    "growth": 0.046,
+    "defense": 3
+  },
+  "WYNN": {
+    "health": 1,
+    "attack": 3,
+    "growth": 21.116,
+    "defense": 1
+  },
+  "XEL": {
+    "health": 5,
+    "attack": 1,
+    "growth": 0.068,
+    "defense": 8
+  },
+  "XYL": {
+    "health": 5,
+    "attack": 3,
+    "growth": 0.341,
+    "defense": 6
+  },
+  "YUM": {
+    "health": 6,
+    "attack": 6,
+    "growth": 0.243,
+    "defense": 1
+  },
+  "ZBRA": {
+    "health": 2,
+    "attack": 2,
+    "growth": -0.911,
+    "defense": 2
+  },
+  "ZBH": {
+    "health": 5,
+    "attack": 6,
+    "growth": 1,
+    "defense": 7
+  },
+  "ZTS": {
+    "health": 8,
+    "attack": 6,
+    "growth": 0.164,
+    "defense": 4
+  }
+}

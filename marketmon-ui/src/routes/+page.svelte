@@ -25,31 +25,14 @@
             <h3 class="text-3xl font-bold mb-4">Real-Time Market Dynamics</h3>
             <p class="text-lg mb-8">Marketmon cards update dynamically to reflect current market conditions, providing a unique and engaging gaming experience.</p>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <Card pokemon={{
-                    name: 'name',
-                    hp: 5,
-                    imageUrl: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png',
-                    ability: {
-                        name: 'Nice',
-                        description: 'Nice'
-                    },
-                    attacks: [
-                        {
-                            name: 'nice',
-                            cost: 'nice',
-                            description: 'nice'
-                        }
-                    ],
-                    weakness: {
-                        value: 'nice',
-                        type: 'nice'
-                    },
-                    resistance: {
-                        value: 'nice',
-                        type: 'nice'
-                    },
-                    retreatCost: 4
-                }}/>
+                <Card
+                    health={10}
+                    growth={2}
+                    attack={3}
+                    defense={1}
+                    name={'Chris'}
+                    image={'https://img.pokemondb.net/sprites/scarlet-violet/normal/charizard.png'}
+                />
             </div>
         </section>
     </main>

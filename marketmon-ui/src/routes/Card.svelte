@@ -7,118 +7,161 @@
   export let health: number;
   export let company: string;
   export let ticker: string;
+  export let sector: string;
 </script>
 
 <div class="card" on:click>
   <div class="card-header">
-      <h2>{name}</h2>
-      <span class="hp">{health} HP</span>
+    <h2>{name}</h2>
+    <span class="hp">{health} HP</span>
   </div>
+
   <div class="card-image">
-      <img src={image} alt={name} />
+    <img src={image} alt={name} />
   </div>
+
   <div class="card-body">
     <div class="abilities">
       <div class="ability">
-          <h3>GRW</h3>
-          <p>{growth}</p>
+        <div class="ability-circle">
+          <h3>{growth}</h3>
+        </div>
+        <p>Growth</p>
       </div>
-      <div class="ability attack">
-          <h3>ATK</h3>
-          <p>{attack}</p>
+
+      <div class="ability">
+        <div class="ability-circle">
+          <h3>{attack}</h3>
+        </div>
+        <p>Attack</p>
       </div>
-      <div class="ability defense">
-          <h3>DEF</h3>
-          <p>{defense}</p>
+
+      <div class="ability">
+        <div class="ability-circle">
+          <h3>{defense}</h3>
+        </div>
+        <p>Defense</p>
       </div>
     </div>
-    <div class="weakness">Weakness: Utilities</div>
-    <div class="company-info">Caterpillar (CAT)</div>
+
+    <div class="sector-box">
+      {sector}
+    </div>
+
+    <div class="card-footer">
+      <div class="weakness">Weakness: Utilities</div>
+      <div class="company-info">{company} ({ticker})</div>
+    </div>
   </div>
 </div>
 
 <style>
-.card {
-  width: 300px;
-  border: 5px solid silver; /* Added silver border */
-  border-radius: 20px;
-  background-color: #ffd700; /* Gold background */
-  padding: 8px; /* Padding similar to the example */
-  font-family: 'Lato', 'Gill Sans', 'Calibri', sans-serif; /* Font style from the example */
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6); /* Slight shadow for depth */
-}
+  .card {
+    width: 300px;
+    border: 5px solid silver;
+    border-radius: 20px;
+    background-color: #ffd700;
+    padding: 8px;
+    font-family: 'Lato', 'Gill Sans', 'Calibri', sans-serif;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+  }
 
-.card-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 10px;
-  background-color: transparent; /* Keep header transparent */
-  color: black; /* Darker text color */
-}
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: transparent;
+    color: black;
+  }
 
-.card-header h2, .card-header .hp {
-  font-size: 20px; /* Font size from the example */
-  margin: 0;
-  font-weight: bold; /* Bold text for prominence */
-  background-color: rgba(255, 255, 255, 0.5); /* Slight transparency for background */
-  padding: 2px 5px;
-  border-radius: 5px;
-}
+  .card-header h2,
+  .card-header .hp {
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 2px 5px;
+    border-radius: 5px;
+  }
 
-.card-image {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
-  border: 5px yellow outset; /* Outset border like the example */
-  padding: 2px;
-  border-radius: 10px; /* Rounded corners */
-}
+  .card-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    border: 5px yellow outset;
+    padding: 2px;
+    border-radius: 10px;
+  }
 
-.card-image img {
-  height: 200px; /* Adjusted to match the example */
-  object-fit: cover; /* Cover to fill the frame */
-}
+  .card-image img {
+    height: 200px;
+    object-fit: cover;
+  }
 
-.card-body {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
 
-.abilities {
-  display: flex;
-  justify-content: space-between;
-}
+  .abilities {
+    display: flex;
+    justify-content: space-evenly;
+  }
 
-.ability, .attack, .defense {
-  background-color: #cd853f; /* Consistent background color */
-  padding: 2px;
-  border-radius: 5px;
-  color: #fff;
-  text-align: center; /* Centered text */
-  flex: 1; /* Ensure equal width and side by side layout */
-}
+  .ability {
+    text-align: center;
+  }
 
-.ability h3, .attack h3, .defense h3 {
-  font-size: 16px; /* Adjusted font size to match the example */
-  margin: 0;
-  font-weight: bold; /* Bold like the example */
-}
+  .ability-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 5px solid silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
 
-.ability p, .attack p, .defense p {
-  margin: 5px 0;
-  font-size: 16px; /* Consistent font size */
-  font-weight: bold; /* Bold text */
-}
+  .ability h3 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+    color: black;
+  }
 
-.weakness, .company-info {
-  text-align: center;
-  font-weight: bold;
-  margin-top: 5px;
-}
+  .ability p {
+    font-size: 14px;
+    margin: 5px 0;
+    font-weight: bold;
+    color: black;
+  }
 
-.company-info {
-  font-size: 14px; /* Slightly smaller font for company info */
-}
+  .sector-box {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+  }
+
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+  }
+
+  .weakness,
+  .company-info {
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+  }
 </style>

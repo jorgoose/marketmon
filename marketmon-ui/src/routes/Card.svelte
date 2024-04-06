@@ -10,60 +10,67 @@
   export let sector: string;
 </script>
 
-<div class="card" on:click>
-  <div class="card-header">
-    <h2>{name}</h2>
-    <span class="hp">{health} HP</span>
-  </div>
-
-  <div class="card-image">
-    <img src={image} alt={name} />
-  </div>
-
-  <div class="card-body">
-    <div class="abilities">
-      <div class="ability">
-        <div class="ability-circle">
-          <h3>{growth}</h3>
-        </div>
-        <p>Growth</p>
-      </div>
-
-      <div class="ability">
-        <div class="ability-circle">
-          <h3>{attack}</h3>
-        </div>
-        <p>Attack</p>
-      </div>
-
-      <div class="ability">
-        <div class="ability-circle">
-          <h3>{defense}</h3>
-        </div>
-        <p>Defense</p>
-      </div>
+<div class="card-container">
+  <div class="card" on:click>
+    <div class="card-header">
+      <h2>{name}</h2>
+      <span class="hp">{health} HP</span>
     </div>
 
-    <div class="sector-box">
-      {sector}
+    <div class="card-image">
+      <img src={image} alt={name} />
     </div>
 
-    <div class="card-footer">
-      <div class="weakness">Weakness: Utilities</div>
-      <div class="company-info">{company} ({ticker})</div>
+    <div class="card-body">
+      <div class="abilities">
+        <div class="ability">
+          <div class="ability-circle">
+            <h3>{growth}</h3>
+          </div>
+          <p>Growth</p>
+        </div>
+
+        <div class="ability">
+          <div class="ability-circle">
+            <h3>{attack}</h3>
+          </div>
+          <p>Attack</p>
+        </div>
+
+        <div class="ability">
+          <div class="ability-circle">
+            <h3>{defense}</h3>
+          </div>
+          <p>Defense</p>
+        </div>
+      </div>
+
+      <div class="sector-box">
+        {sector}
+      </div>
+
+      <div class="card-footer">
+        <div class="weakness">Weakness: Utilities</div>
+        <div class="company-info">{company} ({ticker})</div>
+      </div>
     </div>
   </div>
 </div>
 
 <style>
-  .card {
+  .card-container {
     width: 300px;
-    border: 5px solid silver;
+    background: linear-gradient(45deg, #c0c0c0, #ffffff, #c0c0c0);
     border-radius: 20px;
+    padding: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+  }
+
+  .card {
     background-color: #ffd700;
     padding: 8px;
     font-family: 'Lato', 'Gill Sans', 'Calibri', sans-serif;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
   }
 
   .card-header {

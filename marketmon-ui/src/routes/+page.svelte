@@ -1,6 +1,5 @@
 <script>
     import Card from "./Card.svelte";
-
 </script>
 <div class="min-h-screen bg-gradient-to-b from-amber-400 to-rose-600 text-white font-retro">
     <header class="container mx-auto px-4 py-6 flex justify-between items-center">

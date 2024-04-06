@@ -1,0 +1,3523 @@
+[
+  {
+    "ticker": "MMM",
+    "marketCap": 50372452352,
+    "freeCashFlow": 8937749504,
+    "earningsGrowth": 0.744,
+    "shareholderEquity": 4868000000.0
+  },
+  {
+    "ticker": "AOS",
+    "marketCap": 12873895936,
+    "freeCashFlow": 497162496,
+    "earningsGrowth": null,
+    "shareholderEquity": 1844400000.0
+  },
+  {
+    "ticker": "ABT",
+    "marketCap": 192952008704,
+    "freeCashFlow": 4990374912,
+    "earningsGrowth": 0.55,
+    "shareholderEquity": 38827000000.0
+  },
+  {
+    "ticker": "ABBV",
+    "marketCap": 301010485248,
+    "freeCashFlow": 22628499456,
+    "earningsGrowth": -0.669,
+    "shareholderEquity": 10397000000.0
+  },
+  {
+    "ticker": "ACN",
+    "marketCap": 209366761472,
+    "freeCashFlow": 8528630272,
+    "earningsGrowth": 0.101,
+    "shareholderEquity": 26458593000.0
+  },
+  {
+    "ticker": "ADBE",
+    "marketCap": 217333760000,
+    "freeCashFlow": 6730375168,
+    "earningsGrowth": -0.498,
+    "shareholderEquity": 16518000000.0
+  },
+  {
+    "ticker": "AMD",
+    "marketCap": 275422576640,
+    "freeCashFlow": 2205374976,
+    "earningsGrowth": 48.693,
+    "shareholderEquity": 55892000000.0
+  },
+  {
+    "ticker": "AES",
+    "marketCap": 12851408896,
+    "freeCashFlow": -4750249984,
+    "earningsGrowth": null,
+    "shareholderEquity": 5985000000.0
+  },
+  {
+    "ticker": "AFL",
+    "marketCap": 49151348736,
+    "freeCashFlow": 4310750208,
+    "earningsGrowth": 0.435,
+    "shareholderEquity": 21985000000.0
+  },
+  {
+    "ticker": "A",
+    "marketCap": 42235084800,
+    "freeCashFlow": 1024249984,
+    "earningsGrowth": -0.008,
+    "shareholderEquity": 5845000000.0
+  },
+  {
+    "ticker": "APD",
+    "marketCap": 53058797568,
+    "freeCashFlow": -2326024960,
+    "earningsGrowth": 0.062,
+    "shareholderEquity": 15660300000.0
+  },
+  {
+    "ticker": "ABNB",
+    "marketCap": 103187431424,
+    "freeCashFlow": 2831875072,
+    "earningsGrowth": null,
+    "shareholderEquity": 8165000000.0
+  },
+  {
+    "ticker": "AKAM",
+    "marketCap": 16277137408,
+    "freeCashFlow": 431221504,
+    "earningsGrowth": 0.257,
+    "shareholderEquity": 4597155000.0
+  },
+  {
+    "ticker": "ALB",
+    "marketCap": 14508461056,
+    "freeCashFlow": -1899428096,
+    "earningsGrowth": null,
+    "shareholderEquity": 9665099000.0
+  },
+  {
+    "ticker": "ARE",
+    "marketCap": 21794523136,
+    "freeCashFlow": 1537363456,
+    "earningsGrowth": null,
+    "shareholderEquity": 22622993000.0
+  },
+  {
+    "ticker": "ALGN",
+    "marketCap": 23851556864,
+    "freeCashFlow": 617687744,
+    "earningsGrowth": 2.06,
+    "shareholderEquity": 3630489000.0
+  },
+  {
+    "ticker": "ALLE",
+    "marketCap": 11584322560,
+    "freeCashFlow": 463550016,
+    "earningsGrowth": -0.127,
+    "shareholderEquity": 1318300000.0
+  },
+  {
+    "ticker": "LNT",
+    "marketCap": 12524064768,
+    "freeCashFlow": -1106125056,
+    "earningsGrowth": 0.125,
+    "shareholderEquity": 6777000000.0
+  },
+  {
+    "ticker": "ALL",
+    "marketCap": 45582835712,
+    "freeCashFlow": 4055124992,
+    "earningsGrowth": null,
+    "shareholderEquity": 17630000000.0
+  },
+  {
+    "ticker": "GOOGL",
+    "marketCap": 1901995229184,
+    "freeCashFlow": 58657751040,
+    "earningsGrowth": 0.56,
+    "shareholderEquity": 283379000000.0
+  },
+  {
+    "ticker": "GOOG",
+    "marketCap": 1906808717312,
+    "freeCashFlow": 58657751040,
+    "earningsGrowth": 0.56,
+    "shareholderEquity": 283379000000.0
+  },
+  {
+    "ticker": "MO",
+    "marketCap": 71539294208,
+    "freeCashFlow": 13886125056,
+    "earningsGrowth": -0.225,
+    "shareholderEquity": -3490000000.0
+  },
+  {
+    "ticker": "AMZN",
+    "marketCap": 1922396192768,
+    "freeCashFlow": 45475749888,
+    "earningsGrowth": 50.693,
+    "shareholderEquity": 201875000000.0
+  },
+  {
+    "ticker": "AMCR",
+    "marketCap": 13311582208,
+    "freeCashFlow": 749124992,
+    "earningsGrowth": -0.7,
+    "shareholderEquity": 4090000000.0
+  },
+  {
+    "ticker": "AEE",
+    "marketCap": 19378014208,
+    "freeCashFlow": -1158625024,
+    "earningsGrowth": -0.047,
+    "shareholderEquity": 11478000000.0
+  },
+  {
+    "ticker": "AAL",
+    "marketCap": 9009456128,
+    "freeCashFlow": 1579500032,
+    "earningsGrowth": -0.974,
+    "shareholderEquity": -5202000000.0
+  },
+  {
+    "ticker": "AEP",
+    "marketCap": 44207230976,
+    "freeCashFlow": -3056362496,
+    "earningsGrowth": -0.155,
+    "shareholderEquity": 25285900000.0
+  },
+  {
+    "ticker": "AXP",
+    "marketCap": 160179879936,
+    "freeCashFlow": null,
+    "earningsGrowth": 0.263,
+    "shareholderEquity": 28057000000.0
+  },
+  {
+    "ticker": "AIG",
+    "marketCap": 52379025408,
+    "freeCashFlow": -606499968,
+    "earningsGrowth": -0.841,
+    "shareholderEquity": 51301000000.0
+  },
+  {
+    "ticker": "AMT",
+    "marketCap": 88686157824,
+    "freeCashFlow": 4962887680,
+    "earningsGrowth": null,
+    "shareholderEquity": 10865400000.0
+  },
+  {
+    "ticker": "AWK",
+    "marketCap": 23090302976,
+    "freeCashFlow": -940499968,
+    "earningsGrowth": 0.086,
+    "shareholderEquity": 9797000000.0
+  },
+  {
+    "ticker": "AMP",
+    "marketCap": 43564048384,
+    "freeCashFlow": 4145250048,
+    "earningsGrowth": -0.388,
+    "shareholderEquity": 4729000000.0
+  },
+  {
+    "ticker": "AME",
+    "marketCap": 42131451904,
+    "freeCashFlow": 1143280000,
+    "earningsGrowth": 0.113,
+    "shareholderEquity": 8730191000.0
+  },
+  {
+    "ticker": "AMGN",
+    "marketCap": 144671342592,
+    "freeCashFlow": 3120624896,
+    "earningsGrowth": -0.524,
+    "shareholderEquity": 6232000000.0
+  },
+  {
+    "ticker": "APH",
+    "marketCap": 70410977280,
+    "freeCashFlow": 1655437440,
+    "earningsGrowth": 0.011,
+    "shareholderEquity": 8426500000.0
+  },
+  {
+    "ticker": "ADI",
+    "marketCap": 96583041024,
+    "freeCashFlow": 2990379776,
+    "earningsGrowth": -0.505,
+    "shareholderEquity": 35565122000.0
+  },
+  {
+    "ticker": "ANSS",
+    "marketCap": 29748774912,
+    "freeCashFlow": 645751424,
+    "earningsGrowth": 0.066,
+    "shareholderEquity": 5390364000.0
+  },
+  {
+    "ticker": "AON",
+    "marketCap": 63255076864,
+    "freeCashFlow": 2771000064,
+    "earningsGrowth": -0.215,
+    "shareholderEquity": -742000000.0
+  },
+  {
+    "ticker": "APA",
+    "marketCap": 10777504768,
+    "freeCashFlow": 989750016,
+    "earningsGrowth": 3.272,
+    "shareholderEquity": 3691000000.0
+  },
+  {
+    "ticker": "AAPL",
+    "marketCap": 2618637418496,
+    "freeCashFlow": 86563127296,
+    "earningsGrowth": 0.16,
+    "shareholderEquity": 62146000000.0
+  },
+  {
+    "ticker": "AMAT",
+    "marketCap": 172701958144,
+    "freeCashFlow": 5388125184,
+    "earningsGrowth": 0.193,
+    "shareholderEquity": 16349000000.0
+  },
+  {
+    "ticker": "APTV",
+    "marketCap": 20377303040,
+    "freeCashFlow": 692875008,
+    "earningsGrowth": 2.744,
+    "shareholderEquity": 11844000000.0
+  },
+  {
+    "ticker": "ACGL",
+    "marketCap": 35601260544,
+    "freeCashFlow": 7956874752,
+    "earningsGrowth": 1.708,
+    "shareholderEquity": 18355000000.0
+  },
+  {
+    "ticker": "ADM",
+    "marketCap": 32355016704,
+    "freeCashFlow": 3439624960,
+    "earningsGrowth": -0.422,
+    "shareholderEquity": 24465000000.0
+  },
+  {
+    "ticker": "ANET",
+    "marketCap": 93039878144,
+    "freeCashFlow": 1506269184,
+    "earningsGrowth": 0.418,
+    "shareholderEquity": 7219059000.0
+  },
+  {
+    "ticker": "AJG",
+    "marketCap": 53263753216,
+    "freeCashFlow": 1477325056,
+    "earningsGrowth": null,
+    "shareholderEquity": 10815300000.0
+  },
+  {
+    "ticker": "AIZ",
+    "marketCap": 9348171776,
+    "freeCashFlow": 1001524992,
+    "earningsGrowth": 1.69,
+    "shareholderEquity": 4809500000.0
+  },
+  {
+    "ticker": "T",
+    "marketCap": 124961144832,
+    "freeCashFlow": 6526875136,
+    "earningsGrowth": null,
+    "shareholderEquity": 119415000000.0
+  },
+  {
+    "ticker": "ATO",
+    "marketCap": 17532133376,
+    "freeCashFlow": 491834496,
+    "earningsGrowth": 0.087,
+    "shareholderEquity": 10870064000.0
+  },
+  {
+    "ticker": "ADSK",
+    "marketCap": 52353560576,
+    "freeCashFlow": 1791000064,
+    "earningsGrowth": -0.034,
+    "shareholderEquity": 1145000000.0
+  },
+  {
+    "ticker": "ADP",
+    "marketCap": 100582178816,
+    "freeCashFlow": 3193912576,
+    "earningsGrowth": 0.092,
+    "shareholderEquity": 3509100000.0
+  },
+  {
+    "ticker": "AZO",
+    "marketCap": 53724467200,
+    "freeCashFlow": 1419633536,
+    "earningsGrowth": 0.172,
+    "shareholderEquity": -4349894000.0
+  },
+  {
+    "ticker": "AVB",
+    "marketCap": 25746679808,
+    "freeCashFlow": 1256773504,
+    "earningsGrowth": -0.012,
+    "shareholderEquity": 11784791000.0
+  },
+  {
+    "ticker": "AVY",
+    "marketCap": 17562304512,
+    "freeCashFlow": 511362496,
+    "earningsGrowth": 0.176,
+    "shareholderEquity": 2127900000.0
+  },
+  {
+    "ticker": "AXON",
+    "marketCap": 23386075136,
+    "freeCashFlow": 149029744,
+    "earningsGrowth": 0.866,
+    "shareholderEquity": 1612034000.0
+  },
+  {
+    "ticker": "BKR",
+    "marketCap": 34580365312,
+    "freeCashFlow": 2389250048,
+    "earningsGrowth": 1.366,
+    "shareholderEquity": 15519000000.0
+  },
+  {
+    "ticker": "BALL",
+    "marketCap": 20926085120,
+    "freeCashFlow": 557374976,
+    "earningsGrowth": 1.803,
+    "shareholderEquity": 3837000000.0
+  },
+  {
+    "ticker": "BAC",
+    "marketCap": 292821663744,
+    "freeCashFlow": null,
+    "earningsGrowth": -0.607,
+    "shareholderEquity": 291646000000.0
+  },
+  {
+    "ticker": "BK",
+    "marketCap": 42717900800,
+    "freeCashFlow": null,
+    "earningsGrowth": -0.681,
+    "shareholderEquity": 41009000000.0
+  },
+  {
+    "ticker": "BBWI",
+    "marketCap": 10230564864,
+    "freeCashFlow": 510500000,
+    "earningsGrowth": 0.352,
+    "shareholderEquity": -1626000000.0
+  },
+  {
+    "ticker": "BAX",
+    "marketCap": 21708369920,
+    "freeCashFlow": 1702625024,
+    "earningsGrowth": 0.338,
+    "shareholderEquity": 8468000000.0
+  },
+  {
+    "ticker": "BDX",
+    "marketCap": 71119011840,
+    "freeCashFlow": 3786625024,
+    "earningsGrowth": -0.435,
+    "shareholderEquity": 25797000000.0
+  },
+  {
+    "ticker": "BRK-B",
+    "marketCap": 905144369152,
+    "freeCashFlow": 69802622976,
+    "earningsGrowth": 1.108,
+    "shareholderEquity": 570770000000.0
+  },
+  {
+    "ticker": "BBY",
+    "marketCap": 17146480640,
+    "freeCashFlow": 572875008,
+    "earningsGrowth": -0.054,
+    "shareholderEquity": 3053000000.0
+  },
+  {
+    "ticker": "BIO",
+    "marketCap": 9174666240,
+    "freeCashFlow": 170823632,
+    "earningsGrowth": -0.563,
+    "shareholderEquity": 8741133000.0
+  },
+  {
+    "ticker": "TECH",
+    "marketCap": 10530291712,
+    "freeCashFlow": 162750624,
+    "earningsGrowth": -0.452,
+    "shareholderEquity": 1966516000.0
+  },
+  {
+    "ticker": "BIIB",
+    "marketCap": 29634744320,
+    "freeCashFlow": 971062528,
+    "earningsGrowth": -0.549,
+    "shareholderEquity": 14799400000.0
+  },
+  {
+    "ticker": "BLK",
+    "marketCap": 118790184960,
+    "freeCashFlow": 4171375104,
+    "earningsGrowth": 0.103,
+    "shareholderEquity": 41240000000.0
+  },
+  {
+    "ticker": "BX",
+    "marketCap": 154610368512,
+    "freeCashFlow": null,
+    "earningsGrowth": -0.733,
+    "shareholderEquity": 18075214000.0
+  },
+  {
+    "ticker": "BA",
+    "marketCap": 111740116992,
+    "freeCashFlow": 6562250240,
+    "earningsGrowth": null,
+    "shareholderEquity": -17228000000.0
+  },
+  {
+    "ticker": "BKNG",
+    "marketCap": 123080523776,
+    "freeCashFlow": 6398499840,
+    "earningsGrowth": -0.803,
+    "shareholderEquity": -2744000000.0
+  },
+  {
+    "ticker": "BWA",
+    "marketCap": 7993387520,
+    "freeCashFlow": 896374976,
+    "earningsGrowth": -0.394,
+    "shareholderEquity": 6066000000.0
+  },
+  {
+    "ticker": "BXP",
+    "marketCap": 9632624640,
+    "freeCashFlow": 1038149888,
+    "earningsGrowth": -0.023,
+    "shareholderEquity": 8192364000.0
+  },
+  {
+    "ticker": "BSX",
+    "marketCap": 100776345600,
+    "freeCashFlow": 1880000000,
+    "earningsGrowth": 2.856,
+    "shareholderEquity": 19530000000.0
+  },
+  {
+    "ticker": "BMY",
+    "marketCap": 104013316096,
+    "freeCashFlow": 13780249600,
+    "earningsGrowth": -0.089,
+    "shareholderEquity": 29485000000.0
+  },
+  {
+    "ticker": "AVGO",
+    "marketCap": 620720029696,
+    "freeCashFlow": 18839500800,
+    "earningsGrowth": 1.881,
+    "shareholderEquity": 23988000000.0
+  },
+  {
+    "ticker": "BR",
+    "marketCap": 23878273024,
+    "freeCashFlow": 846187520,
+    "earningsGrowth": 0.229,
+    "shareholderEquity": 2240600000.0
+  },
+  {
+    "ticker": "BRO",
+    "marketCap": 24296785920,
+    "freeCashFlow": 800512512,
+    "earningsGrowth": 0.832,
+    "shareholderEquity": 5578800000.0
+  },
+  {
+    "ticker": "BF-B",
+    "marketCap": 24337852416,
+    "freeCashFlow": 114625000,
+    "earningsGrowth": 1.875,
+    "shareholderEquity": 3268000000.0
+  },
+  {
+    "ticker": "BLDR",
+    "marketCap": 24892831744,
+    "freeCashFlow": 1583809536,
+    "earningsGrowth": 0.077,
+    "shareholderEquity": 4732351000.0
+  },
+  {
+    "ticker": "BG",
+    "marketCap": 15325647872,
+    "freeCashFlow": 1806499968,
+    "earningsGrowth": 0.898,
+    "shareholderEquity": 11815000000.0
+  },
+  {
+    "ticker": "CDNS",
+    "marketCap": 83966558208,
+    "freeCashFlow": 1115208576,
+    "earningsGrowth": 0.351,
+    "shareholderEquity": 3404271000.0
+  },
+  {
+    "ticker": "CZR",
+    "marketCap": 9281432576,
+    "freeCashFlow": 563000000,
+    "earningsGrowth": null,
+    "shareholderEquity": 4720000000.0
+  },
+  {
+    "ticker": "CPT",
+    "marketCap": 10316020736,
+    "freeCashFlow": 723021504,
+    "earningsGrowth": 3.833,
+    "shareholderEquity": 5051771000.0
+  },
+  {
+    "ticker": "CPB",
+    "marketCap": 12907859968,
+    "freeCashFlow": 637625024,
+    "earningsGrowth": -0.117,
+    "shareholderEquity": 3663000000.0
+  },
+  {
+    "ticker": "COF",
+    "marketCap": 54593859584,
+    "freeCashFlow": null,
+    "earningsGrowth": -0.448,
+    "shareholderEquity": 58089000000.0
+  },
+  {
+    "ticker": "CAH",
+    "marketCap": 26736171008,
+    "freeCashFlow": 3837125120,
+    "earningsGrowth": null,
+    "shareholderEquity": -2851000000.0
+  },
+  {
+    "ticker": "KMX",
+    "marketCap": 12868981760,
+    "freeCashFlow": 72596248,
+    "earningsGrowth": 1.176,
+    "shareholderEquity": 5613077000.0
+  },
+  {
+    "ticker": "CCL",
+    "marketCap": 19807199232,
+    "freeCashFlow": null,
+    "earningsGrowth": null,
+    "shareholderEquity": 6883000000.0
+  },
+  {
+    "ticker": "CARR",
+    "marketCap": 50801811456,
+    "freeCashFlow": -85125000,
+    "earningsGrowth": 0.582,
+    "shareholderEquity": 9005000000.0
+  },
+  {
+    "ticker": "CTLT",
+    "marketCap": 10256881664,
+    "freeCashFlow": 49875000,
+    "earningsGrowth": null,
+    "shareholderEquity": 4611000000.0
+  },
+  {
+    "ticker": "CAT",
+    "marketCap": 189413687296,
+    "freeCashFlow": 8487499776,
+    "earningsGrowth": 0.893,
+    "shareholderEquity": 19503000000.0
+  },
+  {
+    "ticker": "CBOE",
+    "marketCap": 19102951424,
+    "freeCashFlow": 618612480,
+    "earningsGrowth": 0.326,
+    "shareholderEquity": 3985000000.0
+  },
+  {
+    "ticker": "CBRE",
+    "marketCap": 29389613056,
+    "freeCashFlow": 325150016,
+    "earningsGrowth": 5.134,
+    "shareholderEquity": 9067000000.0
+  },
+  {
+    "ticker": "CDW",
+    "marketCap": 34250326016,
+    "freeCashFlow": 1330300032,
+    "earningsGrowth": 0.045,
+    "shareholderEquity": 2042500000.0
+  },
+  {
+    "ticker": "CE",
+    "marketCap": 18142373888,
+    "freeCashFlow": 1076125056,
+    "earningsGrowth": -0.092,
+    "shareholderEquity": 7552000000.0
+  },
+  {
+    "ticker": "COR",
+    "marketCap": 48466448384,
+    "freeCashFlow": 5722477568,
+    "earningsGrowth": 0.279,
+    "shareholderEquity": 666287000.0
+  },
+  {
+    "ticker": "CNC",
+    "marketCap": 38930456576,
+    "freeCashFlow": 5966125056,
+    "earningsGrowth": null,
+    "shareholderEquity": 25956000000.0
+  },
+  {
+    "ticker": "CNP",
+    "marketCap": 17758371840,
+    "freeCashFlow": -858374976,
+    "earningsGrowth": 0.586,
+    "shareholderEquity": 9667000000.0
+  },
+  {
+    "ticker": "CF",
+    "marketCap": 15977360384,
+    "freeCashFlow": 1861624960,
+    "earningsGrowth": -0.67,
+    "shareholderEquity": 8373000000.0
+  },
+  {
+    "ticker": "CHRW",
+    "marketCap": 8327632896,
+    "freeCashFlow": 607872896,
+    "earningsGrowth": -0.679,
+    "shareholderEquity": 1418697000.0
+  },
+  {
+    "ticker": "CRL",
+    "marketCap": 13037383680,
+    "freeCashFlow": 218757504,
+    "earningsGrowth": -0.006,
+    "shareholderEquity": 3658998000.0
+  },
+  {
+    "ticker": "SCHW",
+    "marketCap": 131153960960,
+    "freeCashFlow": null,
+    "earningsGrowth": -0.475,
+    "shareholderEquity": 40958000000.0
+  },
+  {
+    "ticker": "CHTR",
+    "marketCap": 38621810688,
+    "freeCashFlow": 3324750080,
+    "earningsGrowth": -0.079,
+    "shareholderEquity": 14718000000.0
+  },
+  {
+    "ticker": "CVX",
+    "marketCap": 300134858752,
+    "freeCashFlow": 14623375360,
+    "earningsGrowth": -0.636,
+    "shareholderEquity": 161929000000.0
+  },
+  {
+    "ticker": "CMG",
+    "marketCap": 79670099968,
+    "freeCashFlow": 927684224,
+    "earningsGrowth": 0.273,
+    "shareholderEquity": 3062207000.0
+  },
+  {
+    "ticker": "CB",
+    "marketCap": 102673850368,
+    "freeCashFlow": 11338000384,
+    "earningsGrowth": 1.567,
+    "shareholderEquity": 63691000000.0
+  },
+  {
+    "ticker": "CHD",
+    "marketCap": 24878309376,
+    "freeCashFlow": 704162496,
+    "earningsGrowth": null,
+    "shareholderEquity": 3855400000.0
+  },
+  {
+    "ticker": "CI",
+    "marketCap": 102807863296,
+    "freeCashFlow": 8246750208,
+    "earningsGrowth": -0.105,
+    "shareholderEquity": 46351000000.0
+  },
+  {
+    "ticker": "CINF",
+    "marketCap": 19040845824,
+    "freeCashFlow": 4757499904,
+    "earningsGrowth": 0.17,
+    "shareholderEquity": 12098000000.0
+  },
+  {
+    "ticker": "CTAS",
+    "marketCap": 68354609152,
+    "freeCashFlow": 1363939968,
+    "earningsGrowth": 0.223,
+    "shareholderEquity": 3863986000.0
+  },
+  {
+    "ticker": "CSCO",
+    "marketCap": 196588158976,
+    "freeCashFlow": 13752875008,
+    "earningsGrowth": -0.031,
+    "shareholderEquity": 44353000000.0
+  },
+  {
+    "ticker": "C",
+    "marketCap": 117981241344,
+    "freeCashFlow": null,
+    "earningsGrowth": null,
+    "shareholderEquity": 206251000000.0
+  },
+  {
+    "ticker": "CFG",
+    "marketCap": 15576397824,
+    "freeCashFlow": null,
+    "earningsGrowth": -0.729,
+    "shareholderEquity": 24342000000.0
+  },
+  {
+    "ticker": "CLX",
+    "marketCap": 18112030720,
+    "freeCashFlow": 669000000,
+    "earningsGrowth": -0.064,
+    "shareholderEquity": 388000000.0
+  },
+  {
+    "ticker": "CME",
+    "marketCap": 75994710016,
+    "freeCashFlow": 2565812480,
+    "earningsGrowth": 0.276,
+    "shareholderEquity": 26737900000.0
+  },
+  {
+    "ticker": "CMS",
+    "marketCap": 17513945088,
+    "freeCashFlow": -917374976,
+    "earningsGrowth": 0.805,
+    "shareholderEquity": 8125000000.0
+  },
+  {
+    "ticker": "KO",
+    "marketCap": 256558907392,
+    "freeCashFlow": 4864249856,
+    "earningsGrowth": -0.005,
+    "shareholderEquity": 27480000000.0
+  },
+  {
+    "ticker": "CTSH",
+    "marketCap": 35411496960,
+    "freeCashFlow": 2059750016,
+    "earningsGrowth": 0.107,
+    "shareholderEquity": 13227000000.0
+  },
+  {
+    "ticker": "CL",
+    "marketCap": 72236122112,
+    "freeCashFlow": 2742374912,
+    "earningsGrowth": 144.537,
+    "shareholderEquity": 957000000.0
+  },
+  {
+    "ticker": "CMCSA",
+    "marketCap": 162449080320,
+    "freeCashFlow": 23133249536,
+    "earningsGrowth": 0.144,
+    "shareholderEquity": 83467000000.0
+  },
+  {
+    "ticker": "CMA",
+    "marketCap": 6974273536,
+    "freeCashFlow": null,
+    "earningsGrowth": -0.924,
+    "shareholderEquity": 6406000000.0
+  },
+  {
+    "ticker": "CAG",
+    "marketCap": 14862979072,
+    "freeCashFlow": 970162496,
+    "earningsGrowth": -0.099,
+    "shareholderEquity": 8807300000.0
+  },
+  {
+    "ticker": "COP",
+    "marketCap": 156365275136,
+    "freeCashFlow": 5435250176,
+    "earningsGrowth": -0.03,
+    "shareholderEquity": 49279000000.0
+  },
+  {
+    "ticker": "ED",
+    "marketCap": 30974973952,
+    "freeCashFlow": 1446625024,
+    "earningsGrowth": 0.821,
+    "shareholderEquity": 21158000000.0
+  },
+  {
+    "ticker": "STZ",
+    "marketCap": 48562479104,
+    "freeCashFlow": 899262528,
+    "earningsGrowth": 0.23,
+    "shareholderEquity": 8733900000.0
+  },
+  {
+    "ticker": "CEG",
+    "marketCap": 60843560960,
+    "freeCashFlow": -1611624960,
+    "earningsGrowth": null,
+    "shareholderEquity": 11286000000.0
+  },
+  {
+    "ticker": "COO",
+    "marketCap": 19597340672,
+    "freeCashFlow": 137975008,
+    "earningsGrowth": -0.045,
+    "shareholderEquity": 7551000000.0
+  },
+  {
+    "ticker": "CPRT",
+    "marketCap": 54370676736,
+    "freeCashFlow": 588481600,
+    "earningsGrowth": 0.1,
+    "shareholderEquity": 5987440000.0
+  },
+  {
+    "ticker": "GLW",
+    "marketCap": 27833155584,
+    "freeCashFlow": 214875008,
+    "earningsGrowth": null,
+    "shareholderEquity": 11868000000.0
+  },
+  {
+    "ticker": "CPAY",
+    "marketCap": 22001573888,
+    "freeCashFlow": 1065945280,
+    "earningsGrowth": 0.143,
+    "shareholderEquity": 3282359000.0
+  },
+  {
+    "ticker": "CTVA",
+    "marketCap": 39731326976,
+    "freeCashFlow": 1219124992,
+    "earningsGrowth": null,
+    "shareholderEquity": 25279000000.0
+  },
+  {
+    "ticker": "CSGP",
+    "marketCap": 38696751104,
+    "freeCashFlow": 340912512,
+    "earningsGrowth": -0.228,
+    "shareholderEquity": 7338600000.0
+  },
+  {
+    "ticker": "COST",
+    "marketCap": 316537667584,
+    "freeCashFlow": 3954749952,
+    "earningsGrowth": 0.188,
+    "shareholderEquity": 25058000000.0
+  },
+  {
+    "ticker": "CTRA",
+    "marketCap": 21276532736,
+    "freeCashFlow": 1257500032,
+    "earningsGrowth": -0.579,
+    "shareholderEquity": 13039000000.0
+  },
+  {
+    "ticker": "CCI",
+    "marketCap": 43790925824,
+    "freeCashFlow": 1484749952,
+    "earningsGrowth": -0.126,
+    "shareholderEquity": 6381000000.0
+  },
+  {
+    "ticker": "CSX",
+    "marketCap": 71060512768,
+    "freeCashFlow": 2519124992,
+    "earningsGrowth": -0.078,
+    "shareholderEquity": 12133000000.0
+  },
+  {
+    "ticker": "CMI",
+    "marketCap": 41119334400,
+    "freeCashFlow": 4170625024,
+    "earningsGrowth": null,
+    "shareholderEquity": 9904000000.0
+  },
+  {
+    "ticker": "CVS",
+    "marketCap": 93855203328,
+    "freeCashFlow": 11075375104,
+    "earningsGrowth": -0.105,
+    "shareholderEquity": 76636000000.0
+  },
+  {
+    "ticker": "DHR",
+    "marketCap": 180900085760,
+    "freeCashFlow": 4856374784,
+    "earningsGrowth": -0.513,
+    "shareholderEquity": 53490000000.0
+  },
+  {
+    "ticker": "DRI",
+    "marketCap": 18661779456,
+    "freeCashFlow": 746262528,
+    "earningsGrowth": 0.11,
+    "shareholderEquity": 2201500000.0
+  },
+  {
+    "ticker": "DVA",
+    "marketCap": 11666424832,
+    "freeCashFlow": 1195490176,
+    "earningsGrowth": 1.2,
+    "shareholderEquity": 2743350000.0
+  },
+  {
+    "ticker": "DAY",
+    "marketCap": 9495504896,
+    "freeCashFlow": 102437504,
+    "earningsGrowth": null,
+    "shareholderEquity": 2398200000.0
+  },
+  {
+    "ticker": "DECK",
+    "marketCap": 22585192448,
+    "freeCashFlow": 847063232,
+    "earningsGrowth": 0.442,
+    "shareholderEquity": 1765733000.0
+  },
+  {
+    "ticker": "DE",
+    "marketCap": 114833817600,
+    "freeCashFlow": 2432250112,
+    "earningsGrowth": -0.049,
+    "shareholderEquity": 21886000000.0
+  },
+  {
+    "ticker": "DAL",
+    "marketCap": 29631506432,
+    "freeCashFlow": 367375008,
+    "earningsGrowth": 1.436,
+    "shareholderEquity": 11105000000.0
+  },
+  {
+    "ticker": "DVN",
+    "marketCap": 33826449408,
+    "freeCashFlow": 1434499968,
+    "earningsGrowth": -0.005,
+    "shareholderEquity": 12217000000.0
+  },
+  {
+    "ticker": "DXCM",
+    "marketCap": 53559599104,
+    "freeCashFlow": 477075008,
+    "earningsGrowth": 1.81,
+    "shareholderEquity": 2068600000.0
+  },
+  {
+    "ticker": "FANG",
+    "marketCap": 36460294144,
+    "freeCashFlow": 273624992,
+    "earningsGrowth": -0.051,
+    "shareholderEquity": 17430000000.0
+  },
+  {
+    "ticker": "DLR",
+    "marketCap": 45452754944,
+    "freeCashFlow": 1493728768,
+    "earningsGrowth": null,
+    "shareholderEquity": 20996321000.0
+  },
+  {
+    "ticker": "DFS",
+    "marketCap": 31536109568,
+    "freeCashFlow": null,
+    "earningsGrowth": -0.588,
+    "shareholderEquity": 14828000000.0
+  },
+  {
+    "ticker": "DG",
+    "marketCap": 35048509440,
+    "freeCashFlow": 226484880,
+    "earningsGrowth": -0.386,
+    "shareholderEquity": 6749119000.0
+  },
+  {
+    "ticker": "DLTR",
+    "marketCap": 28492560384,
+    "freeCashFlow": 576687488,
+    "earningsGrowth": null,
+    "shareholderEquity": 7313100000.0
+  },
+  {
+    "ticker": "D",
+    "marketCap": 40681893888,
+    "freeCashFlow": -14229499904,
+    "earningsGrowth": -0.207,
+    "shareholderEquity": 27529000000.0
+  },
+  {
+    "ticker": "DPZ",
+    "marketCap": 17177564160,
+    "freeCashFlow": 440516640,
+    "earningsGrowth": 0.301,
+    "shareholderEquity": -4070367000.0
+  },
+  {
+    "ticker": "DOV",
+    "marketCap": 24156194816,
+    "freeCashFlow": 913177344,
+    "earningsGrowth": 0.128,
+    "shareholderEquity": 5106605000.0
+  },
+  {
+    "ticker": "DOW",
+    "marketCap": 42259861504,
+    "freeCashFlow": 2639624960,
+    "earningsGrowth": null,
+    "shareholderEquity": 19108000000.0
+  },
+  {
+    "ticker": "DHI",
+    "marketCap": 52599631872,
+    "freeCashFlow": 1925612544,
+    "earningsGrowth": 0.022,
+    "shareholderEquity": 23137900000.0
+  },
+  {
+    "ticker": "DTE",
+    "marketCap": 22575515648,
+    "freeCashFlow": -1108125056,
+    "earningsGrowth": 0.539,
+    "shareholderEquity": 11055000000.0
+  },
+  {
+    "ticker": "DUK",
+    "marketCap": 73990725632,
+    "freeCashFlow": -4369625088,
+    "earningsGrowth": null,
+    "shareholderEquity": 50187000000.0
+  },
+  {
+    "ticker": "DD",
+    "marketCap": 31540043776,
+    "freeCashFlow": 2264000000,
+    "earningsGrowth": null,
+    "shareholderEquity": 24725000000.0
+  },
+  {
+    "ticker": "EMN",
+    "marketCap": 11740307456,
+    "freeCashFlow": 444500000,
+    "earningsGrowth": 311.047,
+    "shareholderEquity": 5530000000.0
+  },
+  {
+    "ticker": "ETN",
+    "marketCap": 132168310784,
+    "freeCashFlow": 2407124992,
+    "earningsGrowth": 0.304,
+    "shareholderEquity": 19069000000.0
+  },
+  {
+    "ticker": "EBAY",
+    "marketCap": 26967080960,
+    "freeCashFlow": 2138875008,
+    "earningsGrowth": 0.131,
+    "shareholderEquity": 6396000000.0
+  },
+  {
+    "ticker": "ECL",
+    "marketCap": 65116459008,
+    "freeCashFlow": 1553762560,
+    "earningsGrowth": null,
+    "shareholderEquity": 8072200000.0
+  },
+  {
+    "ticker": "EIX",
+    "marketCap": 27243036672,
+    "freeCashFlow": -2384624896,
+    "earningsGrowth": -0.085,
+    "shareholderEquity": 17944000000.0
+  },
+  {
+    "ticker": "EW",
+    "marketCap": 55798628352,
+    "freeCashFlow": 751025024,
+    "earningsGrowth": -0.061,
+    "shareholderEquity": 6719400000.0
+  },
+  {
+    "ticker": "EA",
+    "marketCap": 34833031168,
+    "freeCashFlow": 1904249984,
+    "earningsGrowth": 0.466,
+    "shareholderEquity": 7293000000.0
+  },
+  {
+    "ticker": "ELV",
+    "marketCap": 118044614656,
+    "freeCashFlow": 3004875008,
+    "earningsGrowth": 0.012,
+    "shareholderEquity": 39405000000.0
+  },
+  {
+    "ticker": "LLY",
+    "marketCap": 745600253952,
+    "freeCashFlow": 236875008,
+    "earningsGrowth": 0.13,
+    "shareholderEquity": 10863700000.0
+  },
+  {
+    "ticker": "EMR",
+    "marketCap": 65482514432,
+    "freeCashFlow": 1153250048,
+    "earningsGrowth": -0.937,
+    "shareholderEquity": 26598000000.0
+  },
+  {
+    "ticker": "ENPH",
+    "marketCap": 15241663488,
+    "freeCashFlow": 356627264,
+    "earningsGrowth": -0.874,
+    "shareholderEquity": 983624000.0
+  },
+  {
+    "ticker": "ETR",
+    "marketCap": 22226319360,
+    "freeCashFlow": -1294451200,
+    "earningsGrowth": 8.115,
+    "shareholderEquity": 14743106000.0
+  },
+  {
+    "ticker": "EOG",
+    "marketCap": 78845468672,
+    "freeCashFlow": 3150625024,
+    "earningsGrowth": -0.118,
+    "shareholderEquity": 28090000000.0
+  },
+  {
+    "ticker": "EPAM",
+    "marketCap": 15287276544,
+    "freeCashFlow": 545148352,
+    "earningsGrowth": -0.366,
+    "shareholderEquity": 3471470000.0
+  },
+  {
+    "ticker": "EQT",
+    "marketCap": 16077501440,
+    "freeCashFlow": 266102256,
+    "earningsGrowth": -0.737,
+    "shareholderEquity": 14780817000.0
+  },
+  {
+    "ticker": "EFX",
+    "marketCap": 31821770752,
+    "freeCashFlow": 464987488,
+    "earningsGrowth": 0.209,
+    "shareholderEquity": 4687500000.0
+  },
+  {
+    "ticker": "EQIX",
+    "marketCap": 74221969408,
+    "freeCashFlow": 2943023616,
+    "earningsGrowth": 0.731,
+    "shareholderEquity": 12513499000.0
+  },
+  {
+    "ticker": "EQR",
+    "marketCap": 23452641280,
+    "freeCashFlow": 1331129088,
+    "earningsGrowth": 0.957,
+    "shareholderEquity": 11578376000.0
+  },
+  {
+    "ticker": "ESS",
+    "marketCap": 15796806656,
+    "freeCashFlow": 731478656,
+    "earningsGrowth": -0.644,
+    "shareholderEquity": 5626183000.0
+  },
+  {
+    "ticker": "EL",
+    "marketCap": 51774251008,
+    "freeCashFlow": -1557124992,
+    "earningsGrowth": -0.202,
+    "shareholderEquity": 6417000000.0
+  },
+  {
+    "ticker": "ETSY",
+    "marketCap": 7699610624,
+    "freeCashFlow": 561033856,
+    "earningsGrowth": -0.18,
+    "shareholderEquity": -543715000.0
+  },
+  {
+    "ticker": "EG",
+    "marketCap": 16478934016,
+    "freeCashFlow": 2444937472,
+    "earningsGrowth": 0.447,
+    "shareholderEquity": 13202000000.0
+  },
+  {
+    "ticker": "EVRG",
+    "marketCap": 11991906304,
+    "freeCashFlow": -632825024,
+    "earningsGrowth": 6.664,
+    "shareholderEquity": 9685000000.0
+  },
+  {
+    "ticker": "ES",
+    "marketCap": 20521035776,
+    "freeCashFlow": -3243781632,
+    "earningsGrowth": null,
+    "shareholderEquity": 14329461000.0
+  },
+  {
+    "ticker": "EXC",
+    "marketCap": 37330104320,
+    "freeCashFlow": -3436624896,
+    "earningsGrowth": 0.442,
+    "shareholderEquity": 25755000000.0
+  },
+  {
+    "ticker": "EXPE",
+    "marketCap": 17961394176,
+    "freeCashFlow": 1823750016,
+    "earningsGrowth": -0.165,
+    "shareholderEquity": 2786000000.0
+  },
+  {
+    "ticker": "EXPD",
+    "marketCap": 16649970688,
+    "freeCashFlow": 879105152,
+    "earningsGrowth": -0.219,
+    "shareholderEquity": 2391413000.0
+  },
+  {
+    "ticker": "EXR",
+    "marketCap": 32013207552,
+    "freeCashFlow": 1123178368,
+    "earningsGrowth": -0.35,
+    "shareholderEquity": 15413949000.0
+  },
+  {
+    "ticker": "XOM",
+    "marketCap": 481576747008,
+    "freeCashFlow": 23707750400,
+    "earningsGrowth": -0.381,
+    "shareholderEquity": 212538000000.0
+  },
+  {
+    "ticker": "FFIV",
+    "marketCap": 11315488768,
+    "freeCashFlow": 587947008,
+    "earningsGrowth": 0.933,
+    "shareholderEquity": 2800232000.0
+  },
+  {
+    "ticker": "FDS",
+    "marketCap": 16510621696,
+    "freeCashFlow": 575541632,
+    "earningsGrowth": 0.08,
+    "shareholderEquity": 1619930000.0
+  },
+  {
+    "ticker": "FICO",
+    "marketCap": 30609090560,
+    "freeCashFlow": 450654752,
+    "earningsGrowth": 0.25,
+    "shareholderEquity": -687990000.0
+  },
+  {
+    "ticker": "FAST",
+    "marketCap": 43865079808,
+    "freeCashFlow": 1064587520,
+    "earningsGrowth": 0.084,
+    "shareholderEquity": 3348800000.0
+  },
+  {
+    "ticker": "FRT",
+    "marketCap": 8332070400,
+    "freeCashFlow": 371599616,
+    "earningsGrowth": -0.458,
+    "shareholderEquity": 3225522000.0
+  },
+  {
+    "ticker": "FDX",
+    "marketCap": 67308068864,
+    "freeCashFlow": 3312375040,
+    "earningsGrowth": -0.133,
+    "shareholderEquity": 26088000000.0
+  },
+  {
+    "ticker": "FIS",
+    "marketCap": 41759199232,
+    "freeCashFlow": 3176875008,
+    "earningsGrowth": null,
+    "shareholderEquity": 19099000000.0
+  },
+  {
+    "ticker": "FITB",
+    "marketCap": 24129314816,
+    "freeCashFlow": null,
+    "earningsGrowth": -0.287,
+    "shareholderEquity": 19172000000.0
+  },
+  {
+    "ticker": "FSLR",
+    "marketCap": 18688835584,
+    "freeCashFlow": -1647105024,
+    "earningsGrowth": null,
+    "shareholderEquity": 6687469000.0
+  },
+  {
+    "ticker": "FE",
+    "marketCap": 21834502144,
+    "freeCashFlow": 1683874944,
+    "earningsGrowth": null,
+    "shareholderEquity": 10916000000.0
+  },
+  {
+    "ticker": "FI",
+    "marketCap": 92659523584,
+    "freeCashFlow": 4365875200,
+    "earningsGrowth": 0.179,
+    "shareholderEquity": 30669000000.0
+  },
+  {
+    "ticker": "FMC",
+    "marketCap": 7331750912,
+    "freeCashFlow": -427649984,
+    "earningsGrowth": 3.073,
+    "shareholderEquity": 4433400000.0
+  },
+  {
+    "ticker": "F",
+    "marketCap": 52769804288,
+    "freeCashFlow": -2417125120,
+    "earningsGrowth": null,
+    "shareholderEquity": 42798000000.0
+  },
+  {
+    "ticker": "FTNT",
+    "marketCap": 54106529792,
+    "freeCashFlow": 1438787456,
+    "earningsGrowth": 0.035,
+    "shareholderEquity": -463400000.0
+  },
+  {
+    "ticker": "FTV",
+    "marketCap": 29610790912,
+    "freeCashFlow": 1141562496,
+    "earningsGrowth": 0.162,
+    "shareholderEquity": 10325300000.0
+  },
+  {
+    "ticker": "FOXA",
+    "marketCap": 14124895232,
+    "freeCashFlow": 1462625024,
+    "earningsGrowth": -0.608,
+    "shareholderEquity": 10658000000.0
+  },
+  {
+    "ticker": "FOX",
+    "marketCap": 14125566976,
+    "freeCashFlow": 1462625024,
+    "earningsGrowth": -0.608,
+    "shareholderEquity": 10658000000.0
+  },
+  {
+    "ticker": "BEN",
+    "marketCap": 14243393536,
+    "freeCashFlow": 915299968,
+    "earningsGrowth": 0.55,
+    "shareholderEquity": 13573900000.0
+  },
+  {
+    "ticker": "FCX",
+    "marketCap": 70960267264,
+    "freeCashFlow": -1042875008,
+    "earningsGrowth": -0.446,
+    "shareholderEquity": 27310000000.0
+  },
+  {
+    "ticker": "GRMN",
+    "marketCap": 28292859904,
+    "freeCashFlow": 869590016,
+    "earningsGrowth": 0.846,
+    "shareholderEquity": 7012060000.0
+  },
+  {
+    "ticker": "IT",
+    "marketCap": 36672983040,
+    "freeCashFlow": 1007134656,
+    "earningsGrowth": -0.175,
+    "shareholderEquity": 680634000.0
+  },
+  {
+    "ticker": "GE",
+    "marketCap": 170878107648,
+    "freeCashFlow": 3441999872,
+    "earningsGrowth": -0.232,
+    "shareholderEquity": 28580000000.0
+  },
+  {
+    "ticker": "GEHC",
+    "marketCap": 40371339264,
+    "freeCashFlow": 2596999936,
+    "earningsGrowth": -0.279,
+    "shareholderEquity": 7310000000.0
+  },
+  {
+    "ticker": "GEV",
+    "marketCap": 33384706048,
+    "freeCashFlow": 1091500032,
+    "earningsGrowth": null,
+    "shareholderEquity": 8968000000.0
+  },
+  {
+    "ticker": "GEN",
+    "marketCap": 14107556864,
+    "freeCashFlow": 285000000,
+    "earningsGrowth": -0.12,
+    "shareholderEquity": 2200000000.0
+  },
+  {
+    "ticker": "GNRC",
+    "marketCap": 8100796928,
+    "freeCashFlow": 336064992,
+    "earningsGrowth": 0.894,
+    "shareholderEquity": 2349619000.0
+  },
+  {
+    "ticker": "GD",
+    "marketCap": 80987947008,
+    "freeCashFlow": 2126499968,
+    "earningsGrowth": 0.014,
+    "shareholderEquity": 21299000000.0
+  },
+  {
+    "ticker": "GIS",
+    "marketCap": 39399874560,
+    "freeCashFlow": 1894300032,
+    "earningsGrowth": 0.272,
+    "shareholderEquity": 10700000000.0
+  },
+  {
+    "ticker": "GM",
+    "marketCap": 51060436992,
+    "freeCashFlow": 4468125184,
+    "earningsGrowth": 0.135,
+    "shareholderEquity": 68307000000.0
+  },
+  {
+    "ticker": "GPC",
+    "marketCap": 20912058368,
+    "freeCashFlow": 663679616,
+    "earningsGrowth": 0.263,
+    "shareholderEquity": 4416985000.0
+  },
+  {
+    "ticker": "GILD",
+    "marketCap": 86764175360,
+    "freeCashFlow": 8793249792,
+    "earningsGrowth": -0.131,
+    "shareholderEquity": 22749000000.0
+  },
+  {
+    "ticker": "GPN",
+    "marketCap": 32120301568,
+    "freeCashFlow": 2312339712,
+    "earningsGrowth": 0.494,
+    "shareholderEquity": 23787515000.0
+  },
+  {
+    "ticker": "GL",
+    "marketCap": 10198300672,
+    "freeCashFlow": 1176091776,
+    "earningsGrowth": 0.168,
+    "shareholderEquity": 4486803000.0
+  },
+  {
+    "ticker": "GS",
+    "marketCap": 132429742080,
+    "freeCashFlow": null,
+    "earningsGrowth": 0.649,
+    "shareholderEquity": 116905000000.0
+  },
+  {
+    "ticker": "HAL",
+    "marketCap": 36555300864,
+    "freeCashFlow": 1638375040,
+    "earningsGrowth": 0.013,
+    "shareholderEquity": 9433000000.0
+  },
+  {
+    "ticker": "HIG",
+    "marketCap": 30698414080,
+    "freeCashFlow": 4362250240,
+    "earningsGrowth": 0.374,
+    "shareholderEquity": 15327000000.0
+  },
+  {
+    "ticker": "HAS",
+    "marketCap": 7853494272,
+    "freeCashFlow": 958937472,
+    "earningsGrowth": null,
+    "shareholderEquity": 1087000000.0
+  },
+  {
+    "ticker": "HCA",
+    "marketCap": 86962659328,
+    "freeCashFlow": 2873625088,
+    "earningsGrowth": -0.186,
+    "shareholderEquity": 1060000000.0
+  },
+  {
+    "ticker": "DOC",
+    "marketCap": 13219419136,
+    "freeCashFlow": 954228992,
+    "earningsGrowth": 126.349,
+    "shareholderEquity": 6924870000.0
+  },
+  {
+    "ticker": "HSIC",
+    "marketCap": 9319255040,
+    "freeCashFlow": 181000000,
+    "earningsGrowth": -0.619,
+    "shareholderEquity": 5153000000.0
+  },
+  {
+    "ticker": "HSY",
+    "marketCap": 39564034048,
+    "freeCashFlow": 1028696256,
+    "earningsGrowth": -0.115,
+    "shareholderEquity": 4099086000.0
+  },
+  {
+    "ticker": "HES",
+    "marketCap": 48361082880,
+    "freeCashFlow": -230624992,
+    "earningsGrowth": -0.168,
+    "shareholderEquity": 9602000000.0
+  },
+  {
+    "ticker": "HPE",
+    "marketCap": 23396939776,
+    "freeCashFlow": 1750499968,
+    "earningsGrowth": -0.237,
+    "shareholderEquity": 21238000000.0
+  },
+  {
+    "ticker": "HLT",
+    "marketCap": 53379960832,
+    "freeCashFlow": 1447250048,
+    "earningsGrowth": -0.525,
+    "shareholderEquity": -2347000000.0
+  },
+  {
+    "ticker": "HOLX",
+    "marketCap": 18304401408,
+    "freeCashFlow": 677112512,
+    "earningsGrowth": 0.373,
+    "shareholderEquity": 5016900000.0
+  },
+  {
+    "ticker": "HD",
+    "marketCap": 354660253696,
+    "freeCashFlow": 15104249856,
+    "earningsGrowth": -0.148,
+    "shareholderEquity": 1044000000.0
+  },
+  {
+    "ticker": "HON",
+    "marketCap": 128381124608,
+    "freeCashFlow": 3210125056,
+    "earningsGrowth": 0.268,
+    "shareholderEquity": 16441000000.0
+  },
+  {
+    "ticker": "HRL",
+    "marketCap": 19004774400,
+    "freeCashFlow": 745318848,
+    "earningsGrowth": 0.004,
+    "shareholderEquity": 7738985000.0
+  },
+  {
+    "ticker": "HST",
+    "marketCap": 14472457216,
+    "freeCashFlow": 1101124992,
+    "earningsGrowth": -0.063,
+    "shareholderEquity": 6826000000.0
+  },
+  {
+    "ticker": "HWM",
+    "marketCap": 27514984448,
+    "freeCashFlow": 449375008,
+    "earningsGrowth": 1.086,
+    "shareholderEquity": 4037000000.0
+  },
+  {
+    "ticker": "HPQ",
+    "marketCap": 28483584000,
+    "freeCashFlow": 3049250048,
+    "earningsGrowth": 0.319,
+    "shareholderEquity": -1069000000.0
+  },
+  {
+    "ticker": "HUBB",
+    "marketCap": 22390022144,
+    "freeCashFlow": 510200000,
+    "earningsGrowth": 0.633,
+    "shareholderEquity": 2889300000.0
+  },
+  {
+    "ticker": "HUM",
+    "marketCap": 37745094656,
+    "freeCashFlow": 759625024,
+    "earningsGrowth": null,
+    "shareholderEquity": 16318000000.0
+  },
+  {
+    "ticker": "HBAN",
+    "marketCap": 19799017472,
+    "freeCashFlow": null,
+    "earningsGrowth": -0.646,
+    "shareholderEquity": 19398000000.0
+  },
+  {
+    "ticker": "HII",
+    "marketCap": 11331198976,
+    "freeCashFlow": 655124992,
+    "earningsGrowth": 1.249,
+    "shareholderEquity": 4093000000.0
+  },
+  {
+    "ticker": "IBM",
+    "marketCap": 173393149952,
+    "freeCashFlow": 10817999872,
+    "earningsGrowth": 0.2,
+    "shareholderEquity": 22613000000.0
+  },
+  {
+    "ticker": "IEX",
+    "marketCap": 18118432768,
+    "freeCashFlow": 543212480,
+    "earningsGrowth": -0.16,
+    "shareholderEquity": 3541200000.0
+  },
+  {
+    "ticker": "IDXX",
+    "marketCap": 43168264192,
+    "freeCashFlow": 693693888,
+    "earningsGrowth": 0.121,
+    "shareholderEquity": 1484530000.0
+  },
+  {
+    "ticker": "ITW",
+    "marketCap": 78552006656,
+    "freeCashFlow": 2757374976,
+    "earningsGrowth": -0.193,
+    "shareholderEquity": 3013000000.0
+  },
+  {
+    "ticker": "ILMN",
+    "marketCap": 20299474944,
+    "freeCashFlow": 513124992,
+    "earningsGrowth": null,
+    "shareholderEquity": 5745000000.0
+  },
+  {
+    "ticker": "INCY",
+    "marketCap": 12402817024,
+    "freeCashFlow": 610784128,
+    "earningsGrowth": 6.324,
+    "shareholderEquity": 5189837000.0
+  },
+  {
+    "ticker": "IR",
+    "marketCap": 38249766912,
+    "freeCashFlow": 1129299968,
+    "earningsGrowth": 0.046,
+    "shareholderEquity": 9846700000.0
+  },
+  {
+    "ticker": "PODD",
+    "marketCap": 11537739776,
+    "freeCashFlow": -38050000,
+    "earningsGrowth": 5.043,
+    "shareholderEquity": 732700000.0
+  },
+  {
+    "ticker": "INTC",
+    "marketCap": 164783423488,
+    "freeCashFlow": -11803374592,
+    "earningsGrowth": null,
+    "shareholderEquity": 109965000000.0
+  },
+  {
+    "ticker": "ICE",
+    "marketCap": 78946566144,
+    "freeCashFlow": 7553124864,
+    "earningsGrowth": -0.147,
+    "shareholderEquity": 25786000000.0
+  },
+  {
+    "ticker": "IFF",
+    "marketCap": 21278285824,
+    "freeCashFlow": 1951000064,
+    "earningsGrowth": null,
+    "shareholderEquity": 14642000000.0
+  },
+  {
+    "ticker": "IP",
+    "marketCap": 13377789952,
+    "freeCashFlow": 428500000,
+    "earningsGrowth": null,
+    "shareholderEquity": 8355000000.0
+  },
+  {
+    "ticker": "IPG",
+    "marketCap": 11914687488,
+    "freeCashFlow": 230724992,
+    "earningsGrowth": 0.616,
+    "shareholderEquity": 4046100000.0
+  },
+  {
+    "ticker": "INTU",
+    "marketCap": 177993859072,
+    "freeCashFlow": 4076375040,
+    "earningsGrowth": -0.185,
+    "shareholderEquity": 17269000000.0
+  },
+  {
+    "ticker": "ISRG",
+    "marketCap": 137664446464,
+    "freeCashFlow": 779249984,
+    "earningsGrowth": 0.857,
+    "shareholderEquity": 13397300000.0
+  },
+  {
+    "ticker": "IVZ",
+    "marketCap": 7479246336,
+    "freeCashFlow": 705550016,
+    "earningsGrowth": null,
+    "shareholderEquity": 15916000000.0
+  },
+  {
+    "ticker": "INVH",
+    "marketCap": 21277779968,
+    "freeCashFlow": 913245248,
+    "earningsGrowth": 0.279,
+    "shareholderEquity": 10190435000.0
+  },
+  {
+    "ticker": "IQV",
+    "marketCap": 43947278336,
+    "freeCashFlow": 1346375040,
+    "earningsGrowth": 1.125,
+    "shareholderEquity": 6112000000.0
+  },
+  {
+    "ticker": "IRM",
+    "marketCap": 22984585216,
+    "freeCashFlow": -71558000,
+    "earningsGrowth": -0.762,
+    "shareholderEquity": 389720000.0
+  },
+  {
+    "ticker": "JBHT",
+    "marketCap": 20177199104,
+    "freeCashFlow": -390136640,
+    "earningsGrowth": -0.236,
+    "shareholderEquity": 4103758000.0
+  },
+  {
+    "ticker": "JBL",
+    "marketCap": 17916387328,
+    "freeCashFlow": 1243374976,
+    "earningsGrowth": 3.809,
+    "shareholderEquity": 2867000000.0
+  },
+  {
+    "ticker": "JKHY",
+    "marketCap": 12389694464,
+    "freeCashFlow": 212026752,
+    "earningsGrowth": 0.145,
+    "shareholderEquity": 1608510000.0
+  },
+  {
+    "ticker": "J",
+    "marketCap": 18586296320,
+    "freeCashFlow": 1059644864,
+    "earningsGrowth": 0.283,
+    "shareholderEquity": 7233061000.0
+  },
+  {
+    "ticker": "JNJ",
+    "marketCap": 367226355712,
+    "freeCashFlow": 19789500416,
+    "earningsGrowth": 0.106,
+    "shareholderEquity": 68774000000.0
+  },
+  {
+    "ticker": "JCI",
+    "marketCap": 44426792960,
+    "freeCashFlow": 2197125120,
+    "earningsGrowth": 2.232,
+    "shareholderEquity": 17402000000.0
+  },
+  {
+    "ticker": "JPM",
+    "marketCap": 568729010176,
+    "freeCashFlow": null,
+    "earningsGrowth": -0.15,
+    "shareholderEquity": 327878000000.0
+  },
+  {
+    "ticker": "JNPR",
+    "marketCap": 12024803328,
+    "freeCashFlow": 584562496,
+    "earningsGrowth": -0.307,
+    "shareholderEquity": 4492700000.0
+  },
+  {
+    "ticker": "K",
+    "marketCap": 19634055168,
+    "freeCashFlow": 486249984,
+    "earningsGrowth": null,
+    "shareholderEquity": 3369000000.0
+  },
+  {
+    "ticker": "KVUE",
+    "marketCap": 38770245632,
+    "freeCashFlow": 2798625024,
+    "earningsGrowth": -0.187,
+    "shareholderEquity": 11211000000.0
+  },
+  {
+    "ticker": "KDP",
+    "marketCap": 41619193856,
+    "freeCashFlow": 661124992,
+    "earningsGrowth": 0.554,
+    "shareholderEquity": 25676000000.0
+  },
+  {
+    "ticker": "KEY",
+    "marketCap": 13967728640,
+    "freeCashFlow": null,
+    "earningsGrowth": -0.92,
+    "shareholderEquity": 14637000000.0
+  },
+  {
+    "ticker": "KEYS",
+    "marketCap": 27445438464,
+    "freeCashFlow": 903124992,
+    "earningsGrowth": -0.324,
+    "shareholderEquity": 4654000000.0
+  },
+  {
+    "ticker": "KMB",
+    "marketCap": 42555604992,
+    "freeCashFlow": 2326125056,
+    "earningsGrowth": 0.007,
+    "shareholderEquity": 1068000000.0
+  },
+  {
+    "ticker": "KIM",
+    "marketCap": 12478201856,
+    "freeCashFlow": 799064000,
+    "earningsGrowth": null,
+    "shareholderEquity": 9725735000.0
+  },
+  {
+    "ticker": "KMI",
+    "marketCap": 40969568256,
+    "freeCashFlow": -101125000,
+    "earningsGrowth": -0.107,
+    "shareholderEquity": 31729000000.0
+  },
+  {
+    "ticker": "KLAC",
+    "marketCap": 92343189504,
+    "freeCashFlow": 2516385536,
+    "earningsGrowth": -0.379,
+    "shareholderEquity": 2919753000.0
+  },
+  {
+    "ticker": "KHC",
+    "marketCap": 45051621376,
+    "freeCashFlow": 2645125120,
+    "earningsGrowth": -0.152,
+    "shareholderEquity": 49722000000.0
+  },
+  {
+    "ticker": "KR",
+    "marketCap": 41359941632,
+    "freeCashFlow": 3414625024,
+    "earningsGrowth": -0.882,
+    "shareholderEquity": 11601000000.0
+  },
+  {
+    "ticker": "LHX",
+    "marketCap": 39721205760,
+    "freeCashFlow": 1605624960,
+    "earningsGrowth": -0.617,
+    "shareholderEquity": 18829000000.0
+  },
+  {
+    "ticker": "LH",
+    "marketCap": 17766965248,
+    "freeCashFlow": 1351849984,
+    "earningsGrowth": null,
+    "shareholderEquity": 7890500000.0
+  },
+  {
+    "ticker": "LRCX",
+    "marketCap": 126983749632,
+    "freeCashFlow": 4084199424,
+    "earningsGrowth": -0.33,
+    "shareholderEquity": 8210172000.0
+  },
+  {
+    "ticker": "LW",
+    "marketCap": 11517998080,
+    "freeCashFlow": -230287504,
+    "earningsGrowth": 1.085,
+    "shareholderEquity": 1411300000.0
+  },
+  {
+    "ticker": "LVS",
+    "marketCap": 40077565952,
+    "freeCashFlow": 1499250048,
+    "earningsGrowth": null,
+    "shareholderEquity": 4104000000.0
+  },
+  {
+    "ticker": "LDOS",
+    "marketCap": 17372444672,
+    "freeCashFlow": 792249984,
+    "earningsGrowth": 0.296,
+    "shareholderEquity": 4258000000.0
+  },
+  {
+    "ticker": "LEN",
+    "marketCap": 45731942400,
+    "freeCashFlow": 4677739008,
+    "earningsGrowth": 0.249,
+    "shareholderEquity": 26701966000.0
+  },
+  {
+    "ticker": "LIN",
+    "marketCap": 223788367872,
+    "freeCashFlow": 3715249920,
+    "earningsGrowth": 0.184,
+    "shareholderEquity": 41095000000.0
+  },
+  {
+    "ticker": "LYV",
+    "marketCap": 23892207616,
+    "freeCashFlow": 1053349888,
+    "earningsGrowth": null,
+    "shareholderEquity": 1480866000.0
+  },
+  {
+    "ticker": "LKQ",
+    "marketCap": 13722262528,
+    "freeCashFlow": 617875008,
+    "earningsGrowth": -0.09,
+    "shareholderEquity": 6181000000.0
+  },
+  {
+    "ticker": "LMT",
+    "marketCap": 109516619776,
+    "freeCashFlow": 5142750208,
+    "earningsGrowth": 0.024,
+    "shareholderEquity": 6835000000.0
+  },
+  {
+    "ticker": "L",
+    "marketCap": 17024039936,
+    "freeCashFlow": 2827000064,
+    "earningsGrowth": 0.334,
+    "shareholderEquity": 16525000000.0
+  },
+  {
+    "ticker": "LOW",
+    "marketCap": 136935079936,
+    "freeCashFlow": 4797250048,
+    "earningsGrowth": 0.118,
+    "shareholderEquity": -15050000000.0
+  },
+  {
+    "ticker": "LULU",
+    "marketCap": 44968472576,
+    "freeCashFlow": 1486309632,
+    "earningsGrowth": 4.639,
+    "shareholderEquity": 4232081000.0
+  },
+  {
+    "ticker": "LYB",
+    "marketCap": 34003519488,
+    "freeCashFlow": 2071000064,
+    "earningsGrowth": -0.476,
+    "shareholderEquity": 13058000000.0
+  },
+  {
+    "ticker": "MTB",
+    "marketCap": 23111999488,
+    "freeCashFlow": null,
+    "earningsGrowth": -0.361,
+    "shareholderEquity": 26957000000.0
+  },
+  {
+    "ticker": "MRO",
+    "marketCap": 16751008768,
+    "freeCashFlow": 1216625024,
+    "earningsGrowth": -0.175,
+    "shareholderEquity": 11205000000.0
+  },
+  {
+    "ticker": "MPC",
+    "marketCap": 78960427008,
+    "freeCashFlow": 10085874688,
+    "earningsGrowth": -0.459,
+    "shareholderEquity": 31399000000.0
+  },
+  {
+    "ticker": "MKTX",
+    "marketCap": 8535001088,
+    "freeCashFlow": 15089500,
+    "earningsGrowth": 0.164,
+    "shareholderEquity": 1292963000.0
+  },
+  {
+    "ticker": "MAR",
+    "marketCap": 73197608960,
+    "freeCashFlow": 2588375040,
+    "earningsGrowth": 0.354,
+    "shareholderEquity": -682000000.0
+  },
+  {
+    "ticker": "MMC",
+    "marketCap": 101460312064,
+    "freeCashFlow": 3514500096,
+    "earningsGrowth": 0.643,
+    "shareholderEquity": 12370000000.0
+  },
+  {
+    "ticker": "MLM",
+    "marketCap": 38293471232,
+    "freeCashFlow": 703425024,
+    "earningsGrowth": 0.541,
+    "shareholderEquity": 8035600000.0
+  },
+  {
+    "ticker": "MAS",
+    "marketCap": 16899928064,
+    "freeCashFlow": 1000750016,
+    "earningsGrowth": 0.715,
+    "shareholderEquity": 116000000.0
+  },
+  {
+    "ticker": "MA",
+    "marketCap": 445129424896,
+    "freeCashFlow": 11110875136,
+    "earningsGrowth": 0.136,
+    "shareholderEquity": 6997000000.0
+  },
+  {
+    "ticker": "MTCH",
+    "marketCap": 9034684416,
+    "freeCashFlow": 619471616,
+    "earningsGrowth": 1.738,
+    "shareholderEquity": -19073000.0
+  },
+  {
+    "ticker": "MKC",
+    "marketCap": 20271771648,
+    "freeCashFlow": 843112512,
+    "earningsGrowth": 0.193,
+    "shareholderEquity": 5083500000.0
+  },
+  {
+    "ticker": "MCD",
+    "marketCap": 192564035584,
+    "freeCashFlow": 6532812288,
+    "earningsGrowth": 0.083,
+    "shareholderEquity": -4706700000.0
+  },
+  {
+    "ticker": "MCK",
+    "marketCap": 70796058624,
+    "freeCashFlow": 3031624960,
+    "earningsGrowth": -0.423,
+    "shareholderEquity": -1490000000.0
+  },
+  {
+    "ticker": "MDT",
+    "marketCap": 112280461312,
+    "freeCashFlow": 5508250112,
+    "earningsGrowth": 0.078,
+    "shareholderEquity": 51665000000.0
+  },
+  {
+    "ticker": "MRK",
+    "marketCap": 324152590336,
+    "freeCashFlow": 2130875008,
+    "earningsGrowth": null,
+    "shareholderEquity": 37635000000.0
+  },
+  {
+    "ticker": "META",
+    "marketCap": 1344406028288,
+    "freeCashFlow": 32474124288,
+    "earningsGrowth": 2.002,
+    "shareholderEquity": 153168000000.0
+  },
+  {
+    "ticker": "MET",
+    "marketCap": 53214273536,
+    "freeCashFlow": -7448500224,
+    "earningsGrowth": -0.607,
+    "shareholderEquity": 30253000000.0
+  },
+  {
+    "ticker": "MTD",
+    "marketCap": 27822235648,
+    "freeCashFlow": 731635136,
+    "earningsGrowth": -0.282,
+    "shareholderEquity": -149938000.0
+  },
+  {
+    "ticker": "MGM",
+    "marketCap": 14750753792,
+    "freeCashFlow": 884447872,
+    "earningsGrowth": 0.342,
+    "shareholderEquity": 4367501000.0
+  },
+  {
+    "ticker": "MCHP",
+    "marketCap": 47321776128,
+    "freeCashFlow": 2245237504,
+    "earningsGrowth": -0.26,
+    "shareholderEquity": 6513600000.0
+  },
+  {
+    "ticker": "MU",
+    "marketCap": 136848785408,
+    "freeCashFlow": -3049874944,
+    "earningsGrowth": null,
+    "shareholderEquity": 44120000000.0
+  },
+  {
+    "ticker": "MSFT",
+    "marketCap": 3161800835072,
+    "freeCashFlow": 58680999936,
+    "earningsGrowth": 0.332,
+    "shareholderEquity": 206223000000.0
+  },
+  {
+    "ticker": "MAA",
+    "marketCap": 15234205696,
+    "freeCashFlow": 945532480,
+    "earningsGrowth": -0.177,
+    "shareholderEquity": 6299122000.0
+  },
+  {
+    "ticker": "MRNA",
+    "marketCap": 39390691328,
+    "freeCashFlow": -2383124992,
+    "earningsGrowth": -0.851,
+    "shareholderEquity": 13854000000.0
+  },
+  {
+    "ticker": "MHK",
+    "marketCap": 7793891328,
+    "freeCashFlow": 675265472,
+    "earningsGrowth": 3.194,
+    "shareholderEquity": 7629136000.0
+  },
+  {
+    "ticker": "MOH",
+    "marketCap": 22072616960,
+    "freeCashFlow": 864124992,
+    "earningsGrowth": 2.842,
+    "shareholderEquity": 4215000000.0
+  },
+  {
+    "ticker": "TAP",
+    "marketCap": 14289581056,
+    "freeCashFlow": 1173787520,
+    "earningsGrowth": null,
+    "shareholderEquity": 13435100000.0
+  },
+  {
+    "ticker": "MDLZ",
+    "marketCap": 91547172864,
+    "freeCashFlow": 4362375168,
+    "earningsGrowth": 0.669,
+    "shareholderEquity": 28366000000.0
+  },
+  {
+    "ticker": "MPWR",
+    "marketCap": 31839379456,
+    "freeCashFlow": 366574016,
+    "earningsGrowth": -0.191,
+    "shareholderEquity": 2049939000.0
+  },
+  {
+    "ticker": "MNST",
+    "marketCap": 58544070656,
+    "freeCashFlow": 1070976512,
+    "earningsGrowth": 0.211,
+    "shareholderEquity": 8228744000.0
+  },
+  {
+    "ticker": "MCO",
+    "marketCap": 71650107392,
+    "freeCashFlow": 1701874944,
+    "earningsGrowth": 0.382,
+    "shareholderEquity": 2689000000.0
+  },
+  {
+    "ticker": "MS",
+    "marketCap": 151213424640,
+    "freeCashFlow": null,
+    "earningsGrowth": -0.332,
+    "shareholderEquity": 99982000000.0
+  },
+  {
+    "ticker": "MOS",
+    "marketCap": 10599652352,
+    "freeCashFlow": 1156662528,
+    "earningsGrowth": -0.264,
+    "shareholderEquity": 12432800000.0
+  },
+  {
+    "ticker": "MSI",
+    "marketCap": 58695290880,
+    "freeCashFlow": 1467624960,
+    "earningsGrowth": 0.014,
+    "shareholderEquity": 739000000.0
+  },
+  {
+    "ticker": "MSCI",
+    "marketCap": 42970091520,
+    "freeCashFlow": 932609728,
+    "earningsGrowth": 0.902,
+    "shareholderEquity": -739764000.0
+  },
+  {
+    "ticker": "NDAQ",
+    "marketCap": 35720085504,
+    "freeCashFlow": 1273500032,
+    "earningsGrowth": -0.267,
+    "shareholderEquity": 10827000000.0
+  },
+  {
+    "ticker": "NTAP",
+    "marketCap": 21679902720,
+    "freeCashFlow": 1146000000,
+    "earningsGrowth": 3.933,
+    "shareholderEquity": 1159000000.0
+  },
+  {
+    "ticker": "NFLX",
+    "marketCap": 275313262592,
+    "freeCashFlow": 19384344576,
+    "earningsGrowth": 16.252,
+    "shareholderEquity": 20588313000.0
+  },
+  {
+    "ticker": "NEM",
+    "marketCap": 45708124160,
+    "freeCashFlow": -564374976,
+    "earningsGrowth": null,
+    "shareholderEquity": 29205000000.0
+  },
+  {
+    "ticker": "NWSA",
+    "marketCap": 14738309120,
+    "freeCashFlow": 789500032,
+    "earningsGrowth": 1.321,
+    "shareholderEquity": 8945000000.0
+  },
+  {
+    "ticker": "NWS",
+    "marketCap": 14738298880,
+    "freeCashFlow": 789500032,
+    "earningsGrowth": 1.321,
+    "shareholderEquity": 8945000000.0
+  },
+  {
+    "ticker": "NEE",
+    "marketCap": 131724951552,
+    "freeCashFlow": -16212374528,
+    "earningsGrowth": -0.234,
+    "shareholderEquity": 57768000000.0
+  },
+  {
+    "ticker": "NKE",
+    "marketCap": 134603251712,
+    "freeCashFlow": null,
+    "earningsGrowth": -0.025,
+    "shareholderEquity": 14004000000.0
+  },
+  {
+    "ticker": "NI",
+    "marketCap": 12186231808,
+    "freeCashFlow": -1636162560,
+    "earningsGrowth": -0.033,
+    "shareholderEquity": 10136300000.0
+  },
+  {
+    "ticker": "NDSN",
+    "marketCap": 15506521088,
+    "freeCashFlow": 513912000,
+    "earningsGrowth": 0.05,
+    "shareholderEquity": 2598060000.0
+  },
+  {
+    "ticker": "NSC",
+    "marketCap": 56480276480,
+    "freeCashFlow": 1609250048,
+    "earningsGrowth": -0.321,
+    "shareholderEquity": 12781000000.0
+  },
+  {
+    "ticker": "NTRS",
+    "marketCap": 17704769536,
+    "freeCashFlow": null,
+    "earningsGrowth": -0.275,
+    "shareholderEquity": 11897900000.0
+  },
+  {
+    "ticker": "NOC",
+    "marketCap": 67329630208,
+    "freeCashFlow": 1632499968,
+    "earningsGrowth": null,
+    "shareholderEquity": 14795000000.0
+  },
+  {
+    "ticker": "NCLH",
+    "marketCap": 8040660480,
+    "freeCashFlow": -1353984000,
+    "earningsGrowth": null,
+    "shareholderEquity": 300807000.0
+  },
+  {
+    "ticker": "NRG",
+    "marketCap": 15626192896,
+    "freeCashFlow": 2361125120,
+    "earningsGrowth": null,
+    "shareholderEquity": 2906000000.0
+  },
+  {
+    "ticker": "NUE",
+    "marketCap": 48228782080,
+    "freeCashFlow": 3550698496,
+    "earningsGrowth": -0.353,
+    "shareholderEquity": 22123754000.0
+  },
+  {
+    "ticker": "NVDA",
+    "marketCap": 2200200019968,
+    "freeCashFlow": 19866875904,
+    "earningsGrowth": 7.613,
+    "shareholderEquity": 42978000000.0
+  },
+  {
+    "ticker": "NVR",
+    "marketCap": 25289906176,
+    "freeCashFlow": 1194463104,
+    "earningsGrowth": -0.089,
+    "shareholderEquity": 4364725000.0
+  },
+  {
+    "ticker": "NXPI",
+    "marketCap": 61809184768,
+    "freeCashFlow": 1926499968,
+    "earningsGrowth": -0.03,
+    "shareholderEquity": 8960000000.0
+  },
+  {
+    "ticker": "ORLY",
+    "marketCap": 65976946688,
+    "freeCashFlow": 1538406528,
+    "earningsGrowth": 0.107,
+    "shareholderEquity": -1739278000.0
+  },
+  {
+    "ticker": "OXY",
+    "marketCap": 61387702272,
+    "freeCashFlow": 5269125120,
+    "earningsGrowth": -0.379,
+    "shareholderEquity": 30349000000.0
+  },
+  {
+    "ticker": "ODFL",
+    "marketCap": 48866435072,
+    "freeCashFlow": 608454656,
+    "earningsGrowth": 0.008,
+    "shareholderEquity": 4257811000.0
+  },
+  {
+    "ticker": "OMC",
+    "marketCap": 18264664064,
+    "freeCashFlow": 1130587520,
+    "earningsGrowth": 0.019,
+    "shareholderEquity": 4639700000.0
+  },
+  {
+    "ticker": "ON",
+    "marketCap": 29796925440,
+    "freeCashFlow": -409950016,
+    "earningsGrowth": -0.052,
+    "shareholderEquity": 7800600000.0
+  },
+  {
+    "ticker": "OKE",
+    "marketCap": 46448611328,
+    "freeCashFlow": 1230625024,
+    "earningsGrowth": 0.09,
+    "shareholderEquity": 16484000000.0
+  },
+  {
+    "ticker": "ORCL",
+    "marketCap": 343288905728,
+    "freeCashFlow": 12082124800,
+    "earningsGrowth": 0.25,
+    "shareholderEquity": 1556000000.0
+  },
+  {
+    "ticker": "OTIS",
+    "marketCap": 39641333760,
+    "freeCashFlow": 1539750016,
+    "earningsGrowth": 0.112,
+    "shareholderEquity": -4720000000.0
+  },
+  {
+    "ticker": "PCAR",
+    "marketCap": 64039383040,
+    "freeCashFlow": 4739550208,
+    "earningsGrowth": 0.528,
+    "shareholderEquity": 15878800000.0
+  },
+  {
+    "ticker": "PKG",
+    "marketCap": 16844282880,
+    "freeCashFlow": 719162496,
+    "earningsGrowth": -0.092,
+    "shareholderEquity": 3997300000.0
+  },
+  {
+    "ticker": "PANW",
+    "marketCap": 86917136384,
+    "freeCashFlow": 2255124992,
+    "earningsGrowth": 18.56,
+    "shareholderEquity": 1748400000.0
+  },
+  {
+    "ticker": "PARA",
+    "marketCap": 8273017856,
+    "freeCashFlow": 14824375296,
+    "earningsGrowth": 79.876,
+    "shareholderEquity": 23050000000.0
+  },
+  {
+    "ticker": "PH",
+    "marketCap": 72766660608,
+    "freeCashFlow": 3222490880,
+    "earningsGrowth": 0.72,
+    "shareholderEquity": 10338279000.0
+  },
+  {
+    "ticker": "PAYX",
+    "marketCap": 44052271104,
+    "freeCashFlow": 1533949952,
+    "earningsGrowth": 0.07,
+    "shareholderEquity": 3493200000.0
+  },
+  {
+    "ticker": "PAYC",
+    "marketCap": 11214607360,
+    "freeCashFlow": 329916864,
+    "earningsGrowth": 0.034,
+    "shareholderEquity": 1303036000.0
+  },
+  {
+    "ticker": "PYPL",
+    "marketCap": 69823864832,
+    "freeCashFlow": 5118499840,
+    "earningsGrowth": 0.615,
+    "shareholderEquity": 21051000000.0
+  },
+  {
+    "ticker": "PNR",
+    "marketCap": 13873956864,
+    "freeCashFlow": 423337504,
+    "earningsGrowth": 1.161,
+    "shareholderEquity": 3217100000.0
+  },
+  {
+    "ticker": "PEP",
+    "marketCap": 232484618240,
+    "freeCashFlow": 7260000256,
+    "earningsGrowth": 1.521,
+    "shareholderEquity": 18637000000.0
+  },
+  {
+    "ticker": "PFE",
+    "marketCap": 150963306496,
+    "freeCashFlow": 1024249984,
+    "earningsGrowth": null,
+    "shareholderEquity": 89288000000.0
+  },
+  {
+    "ticker": "PCG",
+    "marketCap": 43897126912,
+    "freeCashFlow": -6224999936,
+    "earningsGrowth": 0.792,
+    "shareholderEquity": 25292000000.0
+  },
+  {
+    "ticker": "PM",
+    "marketCap": 138914136064,
+    "freeCashFlow": 7547874816,
+    "earningsGrowth": -0.085,
+    "shareholderEquity": -9446000000.0
+  },
+  {
+    "ticker": "PSX",
+    "marketCap": 73050947584,
+    "freeCashFlow": 2446000128,
+    "earningsGrowth": -0.28,
+    "shareholderEquity": 31650000000.0
+  },
+  {
+    "ticker": "PNW",
+    "marketCap": 8262407680,
+    "freeCashFlow": -269565376,
+    "earningsGrowth": null,
+    "shareholderEquity": 6284862000.0
+  },
+  {
+    "ticker": "PXD",
+    "marketCap": 63727685632,
+    "freeCashFlow": 2514249984,
+    "earningsGrowth": -0.119,
+    "shareholderEquity": 23171000000.0
+  },
+  {
+    "ticker": "PNC",
+    "marketCap": 62608863232,
+    "freeCashFlow": null,
+    "earningsGrowth": -0.464,
+    "shareholderEquity": 51141000000.0
+  },
+  {
+    "ticker": "POOL",
+    "marketCap": 15249918976,
+    "freeCashFlow": 722294720,
+    "earningsGrowth": -0.272,
+    "shareholderEquity": 1312787000.0
+  },
+  {
+    "ticker": "PPG",
+    "marketCap": 32724590592,
+    "freeCashFlow": 1823250048,
+    "earningsGrowth": -0.62,
+    "shareholderEquity": 8023000000.0
+  },
+  {
+    "ticker": "PPL",
+    "marketCap": 20080791552,
+    "freeCashFlow": -570625024,
+    "earningsGrowth": -0.416,
+    "shareholderEquity": 13933000000.0
+  },
+  {
+    "ticker": "PFG",
+    "marketCap": 19933204480,
+    "freeCashFlow": 1101537536,
+    "earningsGrowth": null,
+    "shareholderEquity": 11210600000.0
+  },
+  {
+    "ticker": "PG",
+    "marketCap": 367306407936,
+    "freeCashFlow": 13341500416,
+    "earningsGrowth": -0.114,
+    "shareholderEquity": 47065000000.0
+  },
+  {
+    "ticker": "PGR",
+    "marketCap": 123582275584,
+    "freeCashFlow": 11529112576,
+    "earningsGrowth": 1.424,
+    "shareholderEquity": 20277100000.0
+  },
+  {
+    "ticker": "PLD",
+    "marketCap": 115390488576,
+    "freeCashFlow": 4863782400,
+    "earningsGrowth": 0.071,
+    "shareholderEquity": 57823720000.0
+  },
+  {
+    "ticker": "PRU",
+    "marketCap": 41583857664,
+    "freeCashFlow": 2623375104,
+    "earningsGrowth": null,
+    "shareholderEquity": 29787000000.0
+  },
+  {
+    "ticker": "PEG",
+    "marketCap": 33166006272,
+    "freeCashFlow": 25750000,
+    "earningsGrowth": -0.307,
+    "shareholderEquity": 15477000000.0
+  },
+  {
+    "ticker": "PTC",
+    "marketCap": 22150594560,
+    "freeCashFlow": 579042752,
+    "earningsGrowth": -0.127,
+    "shareholderEquity": 2677290000.0
+  },
+  {
+    "ticker": "PSA",
+    "marketCap": 49786007552,
+    "freeCashFlow": 2189884672,
+    "earningsGrowth": 0.075,
+    "shareholderEquity": 10106946000.0
+  },
+  {
+    "ticker": "PHM",
+    "marketCap": 24548454400,
+    "freeCashFlow": 1527687680,
+    "earningsGrowth": -0.146,
+    "shareholderEquity": 10383257000.0
+  },
+  {
+    "ticker": "QRVO",
+    "marketCap": 11111766016,
+    "freeCashFlow": 548995520,
+    "earningsGrowth": null,
+    "shareholderEquity": 3902794000.0
+  },
+  {
+    "ticker": "PWR",
+    "marketCap": 38361137152,
+    "freeCashFlow": 898210752,
+    "earningsGrowth": 0.281,
+    "shareholderEquity": 6283355000.0
+  },
+  {
+    "ticker": "QCOM",
+    "marketCap": 191427477504,
+    "freeCashFlow": 9318375424,
+    "earningsGrowth": 0.245,
+    "shareholderEquity": 21581000000.0
+  },
+  {
+    "ticker": "DGX",
+    "marketCap": 14461656064,
+    "freeCashFlow": 662875008,
+    "earningsGrowth": 0.868,
+    "shareholderEquity": 6418000000.0
+  },
+  {
+    "ticker": "RL",
+    "marketCap": 10992007168,
+    "freeCashFlow": 723237504,
+    "earningsGrowth": 0.309,
+    "shareholderEquity": 2430500000.0
+  },
+  {
+    "ticker": "RJF",
+    "marketCap": 26816200704,
+    "freeCashFlow": null,
+    "earningsGrowth": 0.009,
+    "shareholderEquity": 10187000000.0
+  },
+  {
+    "ticker": "RTX",
+    "marketCap": 135211089920,
+    "freeCashFlow": 5607875072,
+    "earningsGrowth": 0.091,
+    "shareholderEquity": 61445000000.0
+  },
+  {
+    "ticker": "O",
+    "marketCap": 45648179200,
+    "freeCashFlow": 1847817344,
+    "earningsGrowth": -0.16,
+    "shareholderEquity": 33106969000.0
+  },
+  {
+    "ticker": "REG",
+    "marketCap": 10929802240,
+    "freeCashFlow": 547670848,
+    "earningsGrowth": -0.15,
+    "shareholderEquity": 7191935000.0
+  },
+  {
+    "ticker": "REGN",
+    "marketCap": 103472635904,
+    "freeCashFlow": 2762625024,
+    "earningsGrowth": -0.029,
+    "shareholderEquity": 25973100000.0
+  },
+  {
+    "ticker": "RF",
+    "marketCap": 18521636864,
+    "freeCashFlow": null,
+    "earningsGrowth": null,
+    "shareholderEquity": 17493000000.0
+  },
+  {
+    "ticker": "RSG",
+    "marketCap": 59272712192,
+    "freeCashFlow": 1826625024,
+    "earningsGrowth": 0.28,
+    "shareholderEquity": 10543500000.0
+  },
+  {
+    "ticker": "RMD",
+    "marketCap": 27764516864,
+    "freeCashFlow": 812886272,
+    "earningsGrowth": -0.072,
+    "shareholderEquity": 4129903000.0
+  },
+  {
+    "ticker": "RVTY",
+    "marketCap": 12634136576,
+    "freeCashFlow": 1665365376,
+    "earningsGrowth": -0.373,
+    "shareholderEquity": 7872739000.0
+  },
+  {
+    "ticker": "RHI",
+    "marketCap": 7922237952,
+    "freeCashFlow": 490220736,
+    "earningsGrowth": -0.392,
+    "shareholderEquity": 1588351000.0
+  },
+  {
+    "ticker": "ROK",
+    "marketCap": 31998668800,
+    "freeCashFlow": 934387520,
+    "earningsGrowth": -0.438,
+    "shareholderEquity": 3743400000.0
+  },
+  {
+    "ticker": "ROL",
+    "marketCap": 21983352832,
+    "freeCashFlow": 490887872,
+    "earningsGrowth": 0.323,
+    "shareholderEquity": 1155567000.0
+  },
+  {
+    "ticker": "ROP",
+    "marketCap": 58114015232,
+    "freeCashFlow": 1914412544,
+    "earningsGrowth": -0.8,
+    "shareholderEquity": 17444800000.0
+  },
+  {
+    "ticker": "ROST",
+    "marketCap": 46766829568,
+    "freeCashFlow": 1297432704,
+    "earningsGrowth": 0.401,
+    "shareholderEquity": 4871326000.0
+  },
+  {
+    "ticker": "RCL",
+    "marketCap": 34909532160,
+    "freeCashFlow": -87500000,
+    "earningsGrowth": null,
+    "shareholderEquity": 4899000000.0
+  },
+  {
+    "ticker": "SPGI",
+    "marketCap": 138219716608,
+    "freeCashFlow": 4680875008,
+    "earningsGrowth": 0.367,
+    "shareholderEquity": 38100000000.0
+  },
+  {
+    "ticker": "CRM",
+    "marketCap": 292852695040,
+    "freeCashFlow": 11553250304,
+    "earningsGrowth": null,
+    "shareholderEquity": 59646000000.0
+  },
+  {
+    "ticker": "SBAC",
+    "marketCap": 23070459904,
+    "freeCashFlow": 992101248,
+    "earningsGrowth": 0.063,
+    "shareholderEquity": -5135835000.0
+  },
+  {
+    "ticker": "SLB",
+    "marketCap": 78656577536,
+    "freeCashFlow": 2776624896,
+    "earningsGrowth": 0.042,
+    "shareholderEquity": 21359000000.0
+  },
+  {
+    "ticker": "STX",
+    "marketCap": 18853894144,
+    "freeCashFlow": 908625024,
+    "earningsGrowth": null,
+    "shareholderEquity": -1199000000.0
+  },
+  {
+    "ticker": "SRE",
+    "marketCap": 44610105344,
+    "freeCashFlow": -3012124928,
+    "earningsGrowth": 0.682,
+    "shareholderEquity": 33654000000.0
+  },
+  {
+    "ticker": "NOW",
+    "marketCap": 160617496576,
+    "freeCashFlow": 3233250048,
+    "earningsGrowth": 0.927,
+    "shareholderEquity": 7628000000.0
+  },
+  {
+    "ticker": "SHW",
+    "marketCap": 84322091008,
+    "freeCashFlow": 2630850048,
+    "earningsGrowth": -0.065,
+    "shareholderEquity": 3715800000.0
+  },
+  {
+    "ticker": "SPG",
+    "marketCap": 56248889344,
+    "freeCashFlow": 2129995776,
+    "earningsGrowth": 0.113,
+    "shareholderEquity": 3687598000.0
+  },
+  {
+    "ticker": "SWKS",
+    "marketCap": 16923738112,
+    "freeCashFlow": 1260612480,
+    "earningsGrowth": -0.254,
+    "shareholderEquity": 6082700000.0
+  },
+  {
+    "ticker": "SJM",
+    "marketCap": 12445950976,
+    "freeCashFlow": 913387520,
+    "earningsGrowth": -0.42,
+    "shareholderEquity": 7290800000.0
+  },
+  {
+    "ticker": "SNA",
+    "marketCap": 15468971008,
+    "freeCashFlow": 789137472,
+    "earningsGrowth": 0.076,
+    "shareholderEquity": 5093400000.0
+  },
+  {
+    "ticker": "SOLV",
+    "marketCap": 12099991552,
+    "freeCashFlow": 1624999936,
+    "earningsGrowth": null,
+    "shareholderEquity": 3409000000.0
+  },
+  {
+    "ticker": "SO",
+    "marketCap": 76273213440,
+    "freeCashFlow": -2910625024,
+    "earningsGrowth": null,
+    "shareholderEquity": 35225000000.0
+  },
+  {
+    "ticker": "LUV",
+    "marketCap": 16909487104,
+    "freeCashFlow": 399875008,
+    "earningsGrowth": null,
+    "shareholderEquity": 10515000000.0
+  },
+  {
+    "ticker": "SWK",
+    "marketCap": 14674440192,
+    "freeCashFlow": 1771500032,
+    "earningsGrowth": null,
+    "shareholderEquity": 9056100000.0
+  },
+  {
+    "ticker": "SBUX",
+    "marketCap": 98333310976,
+    "freeCashFlow": 3493349888,
+    "earningsGrowth": 0.216,
+    "shareholderEquity": -7987800000.0
+  },
+  {
+    "ticker": "STT",
+    "marketCap": 22874318848,
+    "freeCashFlow": null,
+    "earningsGrowth": -0.71,
+    "shareholderEquity": 23799000000.0
+  },
+  {
+    "ticker": "STLD",
+    "marketCap": 23291488256,
+    "freeCashFlow": 1374179584,
+    "earningsGrowth": -0.275,
+    "shareholderEquity": 8839527000.0
+  },
+  {
+    "ticker": "STE",
+    "marketCap": 21094811648,
+    "freeCashFlow": 524198016,
+    "earningsGrowth": 0.145,
+    "shareholderEquity": 6087172000.0
+  },
+  {
+    "ticker": "SYK",
+    "marketCap": 133552578560,
+    "freeCashFlow": 2646749952,
+    "earningsGrowth": 1.027,
+    "shareholderEquity": 18593000000.0
+  },
+  {
+    "ticker": "SMCI",
+    "marketCap": 55506952192,
+    "freeCashFlow": -282563488,
+    "earningsGrowth": 0.624,
+    "shareholderEquity": 1972170000.0
+  },
+  {
+    "ticker": "SYF",
+    "marketCap": 16794519552,
+    "freeCashFlow": null,
+    "earningsGrowth": -0.176,
+    "shareholderEquity": 13903000000.0
+  },
+  {
+    "ticker": "SNPS",
+    "marketCap": 87781449728,
+    "freeCashFlow": 1125314560,
+    "earningsGrowth": 0.651,
+    "shareholderEquity": 6184301000.0
+  },
+  {
+    "ticker": "SYY",
+    "marketCap": 38168625152,
+    "freeCashFlow": 1648780160,
+    "earningsGrowth": 1.948,
+    "shareholderEquity": 2041834000.0
+  },
+  {
+    "ticker": "TMUS",
+    "marketCap": 191216631808,
+    "freeCashFlow": 8737999872,
+    "earningsGrowth": 0.41,
+    "shareholderEquity": 64715000000.0
+  },
+  {
+    "ticker": "TROW",
+    "marketCap": 26085836800,
+    "freeCashFlow": 1827250048,
+    "earningsGrowth": 0.65,
+    "shareholderEquity": 10291200000.0
+  },
+  {
+    "ticker": "TTWO",
+    "marketCap": 25789474816,
+    "freeCashFlow": 1680274944,
+    "earningsGrowth": null,
+    "shareholderEquity": 9042500000.0
+  },
+  {
+    "ticker": "TPR",
+    "marketCap": 9846682624,
+    "freeCashFlow": 992774976,
+    "earningsGrowth": 0.022,
+    "shareholderEquity": 2277800000.0
+  },
+  {
+    "ticker": "TRGP",
+    "marketCap": 25807384576,
+    "freeCashFlow": 211200000,
+    "earningsGrowth": -0.109,
+    "shareholderEquity": 4610000000.0
+  },
+  {
+    "ticker": "TGT",
+    "marketCap": 79304491008,
+    "freeCashFlow": 2332750080,
+    "earningsGrowth": 0.574,
+    "shareholderEquity": 13432000000.0
+  },
+  {
+    "ticker": "TEL",
+    "marketCap": 44667772928,
+    "freeCashFlow": 1950749952,
+    "earningsGrowth": 3.617,
+    "shareholderEquity": 11655000000.0
+  },
+  {
+    "ticker": "TDY",
+    "marketCap": 19751368704,
+    "freeCashFlow": 627737472,
+    "earningsGrowth": 0.425,
+    "shareholderEquity": 9225800000.0
+  },
+  {
+    "ticker": "TFX",
+    "marketCap": 10210126848,
+    "freeCashFlow": 373860992,
+    "earningsGrowth": -0.603,
+    "shareholderEquity": 4440988000.0
+  },
+  {
+    "ticker": "TER",
+    "marketCap": 16409520128,
+    "freeCashFlow": 315571008,
+    "earningsGrowth": -0.314,
+    "shareholderEquity": 2525897000.0
+  },
+  {
+    "ticker": "TSLA",
+    "marketCap": 525171851264,
+    "freeCashFlow": 2230374912,
+    "earningsGrowth": 1.115,
+    "shareholderEquity": 63609000000.0
+  },
+  {
+    "ticker": "TXN",
+    "marketCap": 152434376704,
+    "freeCashFlow": -489750016,
+    "earningsGrowth": -0.302,
+    "shareholderEquity": 16897000000.0
+  },
+  {
+    "ticker": "TXT",
+    "marketCap": 18594203648,
+    "freeCashFlow": 999124992,
+    "earningsGrowth": -0.065,
+    "shareholderEquity": 6987000000.0
+  },
+  {
+    "ticker": "TMO",
+    "marketCap": 220955066368,
+    "freeCashFlow": 5140874752,
+    "earningsGrowth": 0.054,
+    "shareholderEquity": 46842000000.0
+  },
+  {
+    "ticker": "TJX",
+    "marketCap": 109682819072,
+    "freeCashFlow": 3526749952,
+    "earningsGrowth": 0.368,
+    "shareholderEquity": 6364000000.0
+  },
+  {
+    "ticker": "TSCO",
+    "marketCap": 27251750912,
+    "freeCashFlow": 457511264,
+    "earningsGrowth": -0.066,
+    "shareholderEquity": 2149762000.0
+  },
+  {
+    "ticker": "TT",
+    "marketCap": 69182029824,
+    "freeCashFlow": 1730674944,
+    "earningsGrowth": 0.161,
+    "shareholderEquity": 7017000000.0
+  },
+  {
+    "ticker": "TDG",
+    "marketCap": 68689350656,
+    "freeCashFlow": 1247250048,
+    "earningsGrowth": 0.464,
+    "shareholderEquity": -1978000000.0
+  },
+  {
+    "ticker": "TRV",
+    "marketCap": 52891820032,
+    "freeCashFlow": 13511874560,
+    "earningsGrowth": 1.032,
+    "shareholderEquity": 24921000000.0
+  },
+  {
+    "ticker": "TRMB",
+    "marketCap": 15097466880,
+    "freeCashFlow": 396362496,
+    "earningsGrowth": -0.279,
+    "shareholderEquity": 4500100000.0
+  },
+  {
+    "ticker": "TFC",
+    "marketCap": 50834530304,
+    "freeCashFlow": null,
+    "earningsGrowth": null,
+    "shareholderEquity": 59253000000.0
+  },
+  {
+    "ticker": "TYL",
+    "marketCap": 17619699712,
+    "freeCashFlow": 391135136,
+    "earningsGrowth": 0.248,
+    "shareholderEquity": 2937995000.0
+  },
+  {
+    "ticker": "TSN",
+    "marketCap": 21081380864,
+    "freeCashFlow": 776625024,
+    "earningsGrowth": -0.659,
+    "shareholderEquity": 18255000000.0
+  },
+  {
+    "ticker": "USB",
+    "marketCap": 67054080000,
+    "freeCashFlow": null,
+    "earningsGrowth": -0.142,
+    "shareholderEquity": 55771000000.0
+  },
+  {
+    "ticker": "UBER",
+    "marketCap": 160611631104,
+    "freeCashFlow": 2478125056,
+    "earningsGrowth": 1.269,
+    "shareholderEquity": 12682000000.0
+  },
+  {
+    "ticker": "UDR",
+    "marketCap": 12982079488,
+    "freeCashFlow": 627734016,
+    "earningsGrowth": -0.275,
+    "shareholderEquity": 4952441000.0
+  },
+  {
+    "ticker": "ULTA",
+    "marketCap": 21467504640,
+    "freeCashFlow": 782978112,
+    "earningsGrowth": 0.209,
+    "shareholderEquity": 2279328000.0
+  },
+  {
+    "ticker": "UNP",
+    "marketCap": 147649331200,
+    "freeCashFlow": 3363249920,
+    "earningsGrowth": 0.012,
+    "shareholderEquity": 14788000000.0
+  },
+  {
+    "ticker": "UAL",
+    "marketCap": 14167441408,
+    "freeCashFlow": -1550875008,
+    "earningsGrowth": -0.29,
+    "shareholderEquity": 9324000000.0
+  },
+  {
+    "ticker": "UPS",
+    "marketCap": 129130823680,
+    "freeCashFlow": 3774374912,
+    "earningsGrowth": -0.527,
+    "shareholderEquity": 17314000000.0
+  },
+  {
+    "ticker": "URI",
+    "marketCap": 47480672256,
+    "freeCashFlow": 2369999872,
+    "earningsGrowth": 0.098,
+    "shareholderEquity": 8130000000.0
+  },
+  {
+    "ticker": "UNH",
+    "marketCap": 420162207744,
+    "freeCashFlow": 19817000960,
+    "earningsGrowth": 0.16,
+    "shareholderEquity": 98919000000.0
+  },
+  {
+    "ticker": "UHS",
+    "marketCap": 11675549696,
+    "freeCashFlow": 310266368,
+    "earningsGrowth": 0.297,
+    "shareholderEquity": 6201906000.0
+  },
+  {
+    "ticker": "VLO",
+    "marketCap": 60418572288,
+    "freeCashFlow": 6469749760,
+    "earningsGrowth": -0.571,
+    "shareholderEquity": 28524000000.0
+  },
+  {
+    "ticker": "VTR",
+    "marketCap": 17410471936,
+    "freeCashFlow": 953279744,
+    "earningsGrowth": null,
+    "shareholderEquity": 9544405000.0
+  },
+  {
+    "ticker": "VLTO",
+    "marketCap": 21501560832,
+    "freeCashFlow": 899875008,
+    "earningsGrowth": -0.08,
+    "shareholderEquity": 1389000000.0
+  },
+  {
+    "ticker": "VRSN",
+    "marketCap": 18951038976,
+    "freeCashFlow": 704712512,
+    "earningsGrowth": 0.531,
+    "shareholderEquity": -1581000000.0
+  },
+  {
+    "ticker": "VRSK",
+    "marketCap": 32642732032,
+    "freeCashFlow": 872987520,
+    "earningsGrowth": 2.149,
+    "shareholderEquity": 322200000.0
+  },
+  {
+    "ticker": "VZ",
+    "marketCap": 177325195264,
+    "freeCashFlow": 9450375168,
+    "earningsGrowth": null,
+    "shareholderEquity": 93799000000.0
+  },
+  {
+    "ticker": "VRTX",
+    "marketCap": 105107529728,
+    "freeCashFlow": 3510125056,
+    "earningsGrowth": 0.181,
+    "shareholderEquity": 17580400000.0
+  },
+  {
+    "ticker": "VTRS",
+    "marketCap": 14013326336,
+    "freeCashFlow": 1104075008,
+    "earningsGrowth": null,
+    "shareholderEquity": 20467400000.0
+  },
+  {
+    "ticker": "VICI",
+    "marketCap": 30584862720,
+    "freeCashFlow": -5688237568,
+    "earningsGrowth": 0.143,
+    "shareholderEquity": 25657774000.0
+  },
+  {
+    "ticker": "V",
+    "marketCap": 569264963584,
+    "freeCashFlow": 15171125248,
+    "earningsGrowth": 0.203,
+    "shareholderEquity": 38733000000.0
+  },
+  {
+    "ticker": "VMC",
+    "marketCap": 35733278720,
+    "freeCashFlow": 642924992,
+    "earningsGrowth": 0.916,
+    "shareholderEquity": 7507900000.0
+  },
+  {
+    "ticker": "WRB",
+    "marketCap": 22386464768,
+    "freeCashFlow": 2765366272,
+    "earningsGrowth": 0.066,
+    "shareholderEquity": 7469237000.0
+  },
+  {
+    "ticker": "WAB",
+    "marketCap": 26611712000,
+    "freeCashFlow": 598875008,
+    "earningsGrowth": 0.379,
+    "shareholderEquity": 10524000000.0
+  },
+  {
+    "ticker": "WBA",
+    "marketCap": 16497252352,
+    "freeCashFlow": 435249984,
+    "earningsGrowth": null,
+    "shareholderEquity": 28490000000.0
+  },
+  {
+    "ticker": "WMT",
+    "marketCap": 482274279424,
+    "freeCashFlow": 8848624640,
+    "earningsGrowth": -0.124,
+    "shareholderEquity": 90571000000.0
+  },
+  {
+    "ticker": "DIS",
+    "marketCap": 217144426496,
+    "freeCashFlow": 7346124800,
+    "earningsGrowth": 0.486,
+    "shareholderEquity": 113012000000.0
+  },
+  {
+    "ticker": "WBD",
+    "marketCap": 20298219520,
+    "freeCashFlow": 20035749888,
+    "earningsGrowth": null,
+    "shareholderEquity": 46472000000.0
+  },
+  {
+    "ticker": "WM",
+    "marketCap": 83040387072,
+    "freeCashFlow": 1109874944,
+    "earningsGrowth": 0.01,
+    "shareholderEquity": 6896000000.0
+  },
+  {
+    "ticker": "WAT",
+    "marketCap": 19888521216,
+    "freeCashFlow": 443635136,
+    "earningsGrowth": -0.042,
+    "shareholderEquity": 1150341000.0
+  },
+  {
+    "ticker": "WEC",
+    "marketCap": 25354108928,
+    "freeCashFlow": -156387504,
+    "earningsGrowth": -0.133,
+    "shareholderEquity": 12071500000.0
+  },
+  {
+    "ticker": "WFC",
+    "marketCap": 203218976768,
+    "freeCashFlow": null,
+    "earningsGrowth": 0.15,
+    "shareholderEquity": 187443000000.0
+  },
+  {
+    "ticker": "WELL",
+    "marketCap": 52200247296,
+    "freeCashFlow": 1448206976,
+    "earningsGrowth": null,
+    "shareholderEquity": 26371727000.0
+  },
+  {
+    "ticker": "WST",
+    "marketCap": 28845123584,
+    "freeCashFlow": 199037504,
+    "earningsGrowth": 0.334,
+    "shareholderEquity": 2881000000.0
+  },
+  {
+    "ticker": "WDC",
+    "marketCap": 23823624192,
+    "freeCashFlow": -390624992,
+    "earningsGrowth": null,
+    "shareholderEquity": 10847000000.0
+  },
+  {
+    "ticker": "WRK",
+    "marketCap": 12565687296,
+    "freeCashFlow": 1399012480,
+    "earningsGrowth": null,
+    "shareholderEquity": 10097700000.0
+  },
+  {
+    "ticker": "WY",
+    "marketCap": 25237452800,
+    "freeCashFlow": 785625024,
+    "earningsGrowth": 22.206,
+    "shareholderEquity": 10236000000.0
+  },
+  {
+    "ticker": "WMB",
+    "marketCap": 47798616064,
+    "freeCashFlow": 1582125056,
+    "earningsGrowth": 0.728,
+    "shareholderEquity": 14891000000.0
+  },
+  {
+    "ticker": "WTW",
+    "marketCap": 27766202368,
+    "freeCashFlow": 1461124992,
+    "earningsGrowth": 0.116,
+    "shareholderEquity": 9593000000.0
+  },
+  {
+    "ticker": "GWW",
+    "marketCap": 49861844992,
+    "freeCashFlow": 1260499968,
+    "earningsGrowth": 0.046,
+    "shareholderEquity": 3441000000.0
+  },
+  {
+    "ticker": "WYNN",
+    "marketCap": 12042719232,
+    "freeCashFlow": 569710016,
+    "earningsGrowth": 21.116,
+    "shareholderEquity": -1100934000.0
+  },
+  {
+    "ticker": "XEL",
+    "marketCap": 29717497856,
+    "freeCashFlow": -1055249984,
+    "earningsGrowth": 0.068,
+    "shareholderEquity": 17616000000.0
+  },
+  {
+    "ticker": "XYL",
+    "marketCap": 31011837952,
+    "freeCashFlow": 491875008,
+    "earningsGrowth": 0.341,
+    "shareholderEquity": 10176000000.0
+  },
+  {
+    "ticker": "YUM",
+    "marketCap": 38289829888,
+    "freeCashFlow": 1179874944,
+    "earningsGrowth": 0.243,
+    "shareholderEquity": -7858000000.0
+  },
+  {
+    "ticker": "ZBRA",
+    "marketCap": 14924806144,
+    "freeCashFlow": -20500000,
+    "earningsGrowth": -0.911,
+    "shareholderEquity": 3036000000.0
+  },
+  {
+    "ticker": "ZBH",
+    "marketCap": 26161348608,
+    "freeCashFlow": 1136999936,
+    "earningsGrowth": null,
+    "shareholderEquity": 12488100000.0
+  },
+  {
+    "ticker": "ZTS",
+    "marketCap": 75941822464,
+    "freeCashFlow": 1277624960,
+    "earningsGrowth": 0.164,
+    "shareholderEquity": 4991000000.0
+  }
+]

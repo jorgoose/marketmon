@@ -1,5 +1,5 @@
 import type {PageServerLoad} from './$types';
-import type {Card, Player, GameState} from './game-types';
+import type {Card, Player, GameState} from '../../lib/game-types';
 
 function generateRandomNumbers(n: number, k: number) {
     if (n > k + 1) {

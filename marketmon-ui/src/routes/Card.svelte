@@ -18,7 +18,7 @@
     'Industrials': '#ffd700',
     'Healthcare': '#ff7f50',
     'Technology': '#71eaad', // Adjust
-    'Financials': '#6495ed', //
+    'Financial Services': '#6495ed', //
     'Consumer Cyclical': '#ee82ee', // Make slightly less bright
     'Communication Services': '#ffa07a',
     'Consumer Defensive': '#dda0dd',
@@ -87,6 +87,7 @@
 
 <style>
   .card-container {
+    display: inline-block; /* Make cards inline-block */
     width: 300px;
     background: linear-gradient(45deg, #c0c0c0, #ffffff, #c0c0c0);
     border-radius: 20px;

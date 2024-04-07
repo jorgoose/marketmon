@@ -9,12 +9,12 @@ export type Card = {
 }
 
 type Player = {
-  hand: string[],
-  inPlay: {
-    ticker: string;
+    hand: string[],
+    inPlay: {
+        ticker: string;
+        health: number;
+    }[];
     health: number;
-  }[];
-  health: number;
 };
 
 type Attack = {
@@ -23,12 +23,13 @@ type Attack = {
 };
 
 type Action = {
-  actionType: 'play' | 'attack' | 'grow',
-  data: string | Attack
+    actionType: 'play' | 'attack' | 'grow',
+    data: string | Attack
 };
 
 type GameState = {
-  you: Player;
-  opponent: Player;
-  whosTurn: 'you' | 'opponent';
+    you: Player;
+    opponent: Player;
+    whosTurn: 'you' | 'opponent';
+    winner?: 'you' | 'opponent'
 };

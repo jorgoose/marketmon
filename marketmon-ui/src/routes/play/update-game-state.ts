@@ -1,8 +1,9 @@
 import type {GameState, Action, Card, Attack} from '$lib/game-types';
 
-function getOpponentValidActions(gameState: GameState, cards: Card[]): Action[] {
-    const { hand, inPlay, health } = gameState.opponent;
-    const opponentInPlay = gameState.you.inPlay;
+function getValidActions(gameState: GameState, cards: Card[], player: 'you' | 'opponent'): Action[] {
+    const { hand, inPlay, health } = gameState[player];
+    const opponentPlayer = player === 'you' ? 'opponent' : 'you';
+    const opponentInPlay = gameState[opponentPlayer].inPlay;
 
     return hand.reduce((validActions, cardTicker) => {
         const cost = cards.find(({ ticker }) => ticker === cardTicker)?.health || 0;
@@ -14,25 +15,25 @@ function getOpponentValidActions(gameState: GameState, cards: Card[]): Action[] 
         }
         return validActions;
     }, [] as Action[]).concat(
-            inPlay.reduce((validActions, card) => {
-                validActions.push({
-                    actionType: 'grow',
-                    data: card.ticker,
-                });
-                return validActions;
-            }, [] as Action[]),
-            inPlay.reduce((validActions, attackerCard) => {
-                return validActions.concat(
-                    opponentInPlay.map((opponentCard) => ({
-                        actionType: 'attack',
-                        data: {
-                            attacker: attackerCard.ticker,
-                            opponent: opponentCard.ticker,
-                        },
-                    }))
-                );
-            }, [] as Action[])
-        );
+        inPlay.reduce((validActions, card) => {
+            validActions.push({
+                actionType: 'grow',
+                data: card.ticker,
+            });
+            return validActions;
+        }, [] as Action[]),
+        inPlay.reduce((validActions, attackerCard) => {
+            return validActions.concat(
+                opponentInPlay.map((opponentCard) => ({
+                    actionType: 'attack',
+                    data: {
+                        attacker: attackerCard.ticker,
+                        opponent: opponentCard.ticker,
+                    },
+                }))
+            );
+        }, [] as Action[])
+    );
 }
 
 const computeNewState = (gameState: GameState, action: Action, cards: Card[]): GameState => {
@@ -83,18 +84,31 @@ const computeNewState = (gameState: GameState, action: Action, cards: Card[]): G
 };
 
 export const updateGameState = (stateOfGame: GameState, action: Action, cards: Card[]): GameState => {
+    if (stateOfGame.winner) {
+        return stateOfGame;
+    }
     console.log(stateOfGame);
     console.log(action);
     const state = computeNewState(stateOfGame, action, cards);
-    const moves = getOpponentValidActions(state, cards);
+    const moves = getValidActions(state, cards, 'opponent');
     if (moves.length <= 0) {
         console.log('No possible moves');
-        return state;
+        return {
+            ...state,
+            winner: 'you'
+        };
     }
     const move = moves[Math.floor(Math.random() * moves.length)];
     console.log(state);
     console.log(move);
     const thing = computeNewState(state, move, cards);
+
+    if (getValidActions(thing, cards, 'you').length <= 0) {
+        return {
+            ...thing,
+            winner: 'opponent'
+        }
+    }
 
     console.log(thing);
 

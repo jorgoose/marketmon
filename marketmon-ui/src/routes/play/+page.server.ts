@@ -28,7 +28,7 @@ export const load: PageServerLoad = async ({fetch}) => {
     const generatePlayer = (ar: number[]): Player => ({
         hand: ar.map(i => cards[i].ticker),
         inPlay: [],
-        health: 100
+        health: 50
     });
 
     const gameState: GameState = {

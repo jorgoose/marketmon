@@ -46,15 +46,10 @@ function getOpponentValidActions(gameState: GameState, cards: CardT[]): Action[]
 }
 
 const updateGameState = (stateOfGame: GameState, action: Action, cards: CardT[]): GameState => {
-    console.log(stateOfGame);
-    console.log(action)
     const state = computeNewState(stateOfGame, action, cards);
     const moves = getOpponentValidActions(state, cards);
     const move = moves[Math.floor(Math.random() * moves.length)];
-    console.log(state);
-    console.log(move)
     const thing = computeNewState(state, move, cards);
-    console.log(thing)
 
     return thing;
 };

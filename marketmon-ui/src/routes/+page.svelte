@@ -37,7 +37,7 @@
                     image={'/terraformer.png'}
                 />
                 <Card
-                    name={'Aquaflame'}
+                    name={'Terraktor'}
                     health={8}
                     growth={12}
                     attack={2}

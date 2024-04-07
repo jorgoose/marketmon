@@ -11,9 +11,10 @@
   /* Prop for the card's main color as hex code */
   /* TODO: Add logic to auto-set color based on sector */
   export let color: string = '#ffd700';
+  export let sizeMultiplier: number = 1.0;
 </script>
 
-<div class="card-container" on:click>
+<div class="card-container" style={`transform: scale(${sizeMultiplier});`} on:click>
   <div class="card" style="background-color: {color}">
     <div class="card-header">
       <h2>{name}</h2>
@@ -67,6 +68,7 @@
     border-radius: 20px;
     padding: 10px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+    transform-origin: top left; /* Ensure scaling originates from top left */
   }
 
   .card {

@@ -5,16 +5,8 @@
 
     export let data: PageServerData;
 
-    // Shuffle the cards array on page load
-    let shuffledCards = shuffleArray(data.cards);
-
-    function shuffleArray(array: any[]) {
-        for (let i = array.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [array[i], array[j]] = [array[j], array[i]];
-        }
-        return array;
-    }
+    // Pick 50 random cards on each load
+    const shuffledCards = data.cards.sort(() => Math.random() - 0.5).slice(0, 50);
 </script>
 
 <div

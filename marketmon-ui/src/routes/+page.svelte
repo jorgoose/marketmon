@@ -20,13 +20,13 @@
         >
       </section>
   
-      <section class="mt-20">
+      <section class="mt-20"><div class="ml-20">
         <h3 class="text-3xl font-bold mb-4">Real-Time Market Dynamics</h3>
         <p class="text-lg mb-8">
           Marketmon cards update dynamically to reflect current market conditions,
           providing a unique and engaging gaming experience.
-        </p>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        </p></div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center">
           <Card
             name="Terraformer"
             health={10}
@@ -40,6 +40,18 @@
           />
           <Card
             name="Terraktor"
+            health={8}
+            growth={12}
+            attack={2}
+            defense={2}
+            sector="Industrials"
+            company="John Deere"
+            ticker="DE"
+            image="/terraktor.png"
+            color="#00c04b"
+          />
+          <Card
+            name="BLKJasfd"
             health={8}
             growth={12}
             attack={2}

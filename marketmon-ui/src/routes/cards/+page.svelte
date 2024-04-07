@@ -8,7 +8,7 @@ export let data: PageServerData;
 </script>
     
 <div
-    class="min-h-screen bg-gradient-to-b from-blue-900 to-blue-500 text-white font-poppins"
+    class="min-h-screen bg-gradient-to-b from-blue-600 to-blue-500 text-white font-poppins"
   >
     <Navbar/>
 

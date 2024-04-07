@@ -133,8 +133,8 @@ function attackCard(attackerName: string, opponentName: string) {
 }
 </script>
 
-<div class="game-container bg-gradient-to-b from-amber-400 to-rose-600 text-white font-retro min-h-screen">
-    <div class="health-bars container mx-auto px-4 py-6 flex justify-between items-center">
+    <div class="min-h-screen bg-gradient-to-b from-blue-700 to-blue-500 text-white font-poppins">
+        <div class="health-bars container mx-auto px-4 py-6 flex justify-between items-center">
         <div class="health-bar text-2xl">Your Health: {gameState.you.health}</div>
         <div class="health-bar text-2xl">Opponent's Health: {gameState.opponent.health}</div>
     </div>

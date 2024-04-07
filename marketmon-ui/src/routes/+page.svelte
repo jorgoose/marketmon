@@ -36,6 +36,18 @@
                     ticker={'CAT'}
                     image={'/terraformer.png'}
                 />
+                <Card
+                    name={'Aquaflame'}
+                    health={8}
+                    growth={12}
+                    attack={2}
+                    defense={2}
+                    sector={'Industrials'}
+                    company={'John Deere'}
+                    ticker={'DE'}
+                    image={'/terraktor.png'}
+                    color={"#00c04b"}
+                />
             </div>
         </section>
     </main>

@@ -8,13 +8,16 @@
   export let company: string;
   export let ticker: string;
   export let sector: string;
+  /* Prop for the card's main color as hex code */
+  /* TODO: Add logic to auto-set color based on sector */
+  export let color: string = '#ffd700';
 </script>
 
-<div class="card-container">
-  <div class="card" on:click>
+<div class="card-container" on:click>
+  <div class="card" style="background-color: {color}">
     <div class="card-header">
       <h2>{name}</h2>
-      <span class="hp">{health} HP</span>
+      <span class="hp"><small>HP</small> {health}</span>
     </div>
 
     <div class="card-image">
@@ -67,7 +70,7 @@
   }
 
   .card {
-    background-color: #ffd700;
+    /* background-color: #ffd700; */
     padding: 8px;
     font-family: 'Lato', 'Gill Sans', 'Calibri', sans-serif;
     border-radius: 10px;
@@ -82,7 +85,15 @@
     color: black;
   }
 
-  .card-header h2,
+  .card-header h2 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 2px 5px;
+    border-radius: 5px;
+  }
+
   .card-header .hp {
     font-size: 20px;
     margin: 0;
@@ -92,11 +103,15 @@
     border-radius: 5px;
   }
 
+  .card-header .hp small {
+    font-size: 14px;
+  }
+
   .card-image {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
-    border: 5px yellow outset;
+    border: 5px silver outset;
     padding: 2px;
     border-radius: 10px;
   }
@@ -126,7 +141,7 @@
     height: 40px;
     border-radius: 50%;
     background-color: #fff;
-    border: 4px outset silver;
+    border: 4px silver outset;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,7 +172,6 @@
     padding: 5px;
     border-radius: 10px;
     color: black;
-
   }
 
   .card-footer {

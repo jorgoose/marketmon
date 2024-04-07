@@ -55,11 +55,19 @@ const computeNewState = (gameState: GameState, action: Action, cards: Card[]): G
         };
     } else if (action.actionType === 'grow') {
         const growth = cards.find(({ ticker }) => ticker === action.data)?.growth || 0;
+        const cardIndex = inPlay.findIndex(({ ticker }) => ticker === action.data);
+        const originalHealth = cards.find(({ ticker }) => ticker === action.data)?.health || 0;
+        const currentHealth = inPlay[cardIndex].health;
+        const newHealth = Math.min(currentHealth + growth, originalHealth);
+        const overflowHealth = Math.max(currentHealth + growth - originalHealth, 0);
         return {
             ...gameState,
             [whosTurn]: {
                 ...gameState[whosTurn],
-                health: health + growth,
+                inPlay: inPlay.map((card, i) =>
+                    i === cardIndex ? { ...card, health: newHealth } : card
+                ),
+                health: health + overflowHealth,
             },
             whosTurn: notWhosTurn,
         };

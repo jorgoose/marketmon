@@ -92,7 +92,7 @@ const updateGameState2 = (gameState: GameState, action: Action, cards: CardT[]):
         const { attack } = cards.find(({ name }) => name === actionAttack.attacker)!;
         const { defense } = cards.find(({ name }) => name === actionAttack.opponent)!;
         const cardIndex = opInPlay.findIndex(({ name }) => name === actionAttack.opponent);
-        const opponentHealth = opInPlay[cardIndex].health - attack - defense;
+        const opponentHealth = opInPlay[cardIndex].health - attack + defense;
         return {
             ...gameState,
             [notWhosTurn]: {

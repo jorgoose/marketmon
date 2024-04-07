@@ -85,7 +85,7 @@
   .carousel {
       white-space: nowrap;
       display: inline-flex;
-      animation: slide 750s linear infinite;
+      animation: slide 900s linear infinite;
       padding: 0 20px; /* Adjust this value to control the spacing between cards */
   }
 

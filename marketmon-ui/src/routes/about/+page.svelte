@@ -1,9 +1,5 @@
 <script lang="ts">
-import type { PageServerData } from "./$types";
-import Card from "../Card.svelte";
   import Navbar from "../Navbar.svelte";
-
-export let data: PageServerData;
 
 </script>
     

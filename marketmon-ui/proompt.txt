@@ -1,0 +1,102 @@
+<instructions>
+Create a function that generates a list of valid actions for opponent, given a gamestate.
+Use types as a reference for creating valid code.
+Use the updateGameState function as reference for how action influence game state.
+</instructions>
+<types>
+export type Card = {
+    name: string
+    health: number;
+    attack: number;
+    growth: number;
+    defense: number;
+}
+
+type Player = {
+  hand: string[],
+  inPlay: {
+    name: string;
+    health: number;
+  }[];
+  health: number;
+};
+
+type Attack = {
+    attacker: string;
+    opponent: string;
+};
+
+type Action = {
+  actionType: 'play' | 'attack' | 'grow',
+  data: string | Attack
+};
+
+type GameState = {
+  you: Player;
+  opponent: Player;
+  whosTurn: 'you' | 'opponent';
+};
+</types>
+<update-game-state>
+const updateGameState = (gameState: GameState, action: Action, cards: CardT[]): GameState => {
+    const {whosTurn} = gameState;
+    const notWhosTurn = whosTurn === 'you' ? 'opponent' : 'you';
+    const {hand, inPlay, health} = gameState[whosTurn];
+
+    if (action.actionType === 'play') {
+        const cardIndex = hand.indexOf(action.data as string);
+
+        const cardHealth = cards.find(({name}) => name === action.data)?.health || 0;
+
+        hand.splice(cardIndex, 1);
+        inPlay.push({
+            name: action.data as string,
+            health: cardHealth
+        });
+
+        return {
+            ...gameState,
+            [whosTurn]: {
+                inPlay,
+                hand,
+                health: health - cardHealth
+            },
+            whosTurn: notWhosTurn
+        }
+    } else if (action.actionType === 'grow') {
+        const growth = cards.find(({name}) => name === action.data)?.growth || 0;
+
+        return {
+            ...gameState,
+            [whosTurn]: {
+                ...gameState[whosTurn],
+                health: health + growth
+            },
+            whosTurn: notWhosTurn
+        }
+    } else {
+        const {inPlay: opInPlay} = gameState[notWhosTurn];
+        const actionAttack = action.data as Attack;
+        const {attack} = cards.find(({name}) => name === actionAttack.attacker)!;
+        const {defense} = cards.find(({name}) => name === actionAttack.opponent)!;
+        const cardIndex = opInPlay.findIndex(({name}) => name === actionAttack.opponent);
+        let {health: opponentHealth} = opInPlay[cardIndex];
+        opponentHealth -= attack + defense; // should this be a scaling factor?
+
+        if (opponentHealth <= 0) {
+            opInPlay.splice(cardIndex, 1);
+        } else {
+            opInPlay[cardIndex].health = opponentHealth;
+        }
+
+        return {
+            ...gameState,
+            [notWhosTurn]: {
+                ...gameState[notWhosTurn],
+                inPlay: opInPlay
+            },
+            whosTurn: notWhosTurn
+        }
+    }
+}
+</update-game-state>

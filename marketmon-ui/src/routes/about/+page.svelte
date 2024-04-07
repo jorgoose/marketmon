@@ -37,23 +37,6 @@ export let data: PageServerData;
       </nav>
     </header>
   
-
-    <div class="your-hand container mx-auto px-4 py-8">
-        <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
-            {#each data.cards as card}
-                    <Card
-                        sizeMultiplier={.9}
-                        name={card.name}
-                        health={card.health || 0}
-                        defense={card.defense || 0}
-                        attack={card.attack || 0}
-                        growth={card.growth || 0}
-                        image={'https://img.pokemondb.net/sprites/scarlet-violet/normal/charizard.png'}
-                        company={'chris is dumb'}
-                        ticker={'chris is dumb'}
-                        sector={'chris is dumb'}
-                    />
-            {/each}
-        </div>
-    </div>
+<div>Story here</div>
+    
 </div>

@@ -23,7 +23,7 @@
     <Navbar />
     <main class="container mx-auto px-4 py-12">
         <section class="text-center">
-            <h2 class="text-5xl font-bold mb-4">Welcome to Marketmon!</h2>
+            <h2 class="text-5xl font-bold pt-12 pb-2">Welcome to Marketmon!</h2>
             <p class="text-xl mb-8">
                 Collect, trade, and battle with cards based on S&P 500 companies.
             </p>

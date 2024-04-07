@@ -22,10 +22,9 @@ export let data: PageServerData;
                         defense={card.defense || 0}
                         attack={card.attack || 0}
                         growth={card.growth || 0}
-                        image={'https://img.pokemondb.net/sprites/scarlet-violet/normal/charizard.png'}
-                        company={'chris is dumb'}
-                        ticker={'chris is dumb'}
-                        sector={'chris is dumb'}
+                        company={card.name}
+                        ticker={card.ticker}
+                        sector={card.sector}
                     />
             {/each}
         </div>

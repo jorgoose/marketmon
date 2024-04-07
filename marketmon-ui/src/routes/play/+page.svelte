@@ -12,7 +12,6 @@ let gameState = data.gameState;
 let selectedCard: string | null = null;
 let showHand = false;
 
-
 function playCard(cardTicker: string) {
     const health = data.cards.find(({ticker}) => ticker === cardTicker)?.health || 0;
     
@@ -27,6 +26,7 @@ function playCard(cardTicker: string) {
     };
 
     gameState = updateGameState(gameState, action, data.cards);
+    selectedCard = null;
 }
 
 function growCard(cardTicker: string) {
@@ -36,6 +36,7 @@ function growCard(cardTicker: string) {
     };
 
     gameState = updateGameState(gameState, action, data.cards);
+    selectedCard = null;
 }
 
 function attackCard(attackerTicker: string, opponentTicker: string) {
@@ -51,6 +52,10 @@ function attackCard(attackerTicker: string, opponentTicker: string) {
     selectedCard = null;
 }
 </script>
+
+{#if gameState.winner}
+    <h2 class="text-3xl font-bold mb-4">{gameState.winner} has won</h2>
+{/if}
 
 <div class="min-h-screen bg-gradient-to-b from-blue-700 to-blue-500 text-white font-poppins">
     <div class="game-container">

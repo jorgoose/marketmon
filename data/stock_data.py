@@ -37,6 +37,7 @@ for symbol in data['Symbol']:
             "companyName": company_summary.get("longName"),
             "ticker": symbol,
             "sector": company_summary.get("sector"),
+            "description": company_summary.get("longBusinessSummary"),
             "marketCap": company_summary.get("marketCap"),
             "freeCashFlow": company_summary.get("freeCashflow"),
             "earningsGrowth": company_summary.get("earningsGrowth"),

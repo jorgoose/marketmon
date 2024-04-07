@@ -48,18 +48,18 @@ function getOpponentValidActions(gameState: GameState, cards: CardT[]): Action[]
 const updateGameState = (stateOfGame: GameState, action: Action, cards: CardT[]): GameState => {
     console.log(stateOfGame);
     console.log(action)
-    const state = updateGameState2(stateOfGame, action, cards);
+    const state = computeNewState(stateOfGame, action, cards);
     const moves = getOpponentValidActions(state, cards);
     const move = moves[Math.floor(Math.random() * moves.length)];
     console.log(state);
     console.log(move)
-    const thing = updateGameState2(state, move, cards);
+    const thing = computeNewState(state, move, cards);
     console.log(thing)
 
     return thing;
 };
 
-const updateGameState2 = (gameState: GameState, action: Action, cards: CardT[]): GameState => {
+const computeNewState = (gameState: GameState, action: Action, cards: CardT[]): GameState => {
     const { whosTurn } = gameState;
     const notWhosTurn = whosTurn === 'you' ? 'opponent' : 'you';
     const { hand, inPlay, health } = gameState[whosTurn];
@@ -92,7 +92,7 @@ const updateGameState2 = (gameState: GameState, action: Action, cards: CardT[]):
         const { attack } = cards.find(({ name }) => name === actionAttack.attacker)!;
         const { defense } = cards.find(({ name }) => name === actionAttack.opponent)!;
         const cardIndex = opInPlay.findIndex(({ name }) => name === actionAttack.opponent);
-        const opponentHealth = opInPlay[cardIndex].health - attack + defense;
+        const opponentHealth = opInPlay[cardIndex].health - Math.max(attack - defense, 0);
         return {
             ...gameState,
             [notWhosTurn]: {

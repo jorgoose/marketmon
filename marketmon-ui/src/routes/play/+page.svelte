@@ -146,7 +146,6 @@ function attackCard(attackerTicker: string, opponentTicker: string) {
                 {@const cardData = data.cards.find(({ticker}) => ticker === card.ticker)}
                 <div class="card-slot" transition:slide|local={{ delay: i * 100, duration: 500, easing: quintOut }}>
                     <Card
-                        sizeMultiplier={0.5}
                         image={'https://img.pokemondb.net/sprites/scarlet-violet/normal/charizard.png'}
                         name={cardData?.name || ''}
                         health={card.health}
@@ -169,7 +168,6 @@ function attackCard(attackerTicker: string, opponentTicker: string) {
                 {@const cardData = data.cards.find(c => c.ticker === card.ticker)}
                 <div class="card-slot" transition:slide|local={{ delay: i * 100, duration: 500, easing: quintOut }}>
                     <Card
-                        sizeMultiplier={0.5}
                         name={cardData?.name || ''}
                         health={card.health}
                         defense={cardData?.defense || 0}
@@ -193,7 +191,7 @@ function attackCard(attackerTicker: string, opponentTicker: string) {
                             <button on:click={() => growCard(card.ticker)}>Grow</button>
                             {#each gameState.opponent.inPlay as opponentCard (opponentCard.ticker)}
                                 <button on:click={() => attackCard(card.ticker, opponentCard.ticker)}>
-                                    Attack {data.cards.find(c => c.ticker === opponentCard.ticker)}
+                                    Attack {data.cards.find(c => c.ticker === opponentCard.ticker)?.name || opponentCard.ticker}
                                 </button>
                             {/each}
                         </div>
@@ -206,24 +204,24 @@ function attackCard(attackerTicker: string, opponentTicker: string) {
     <div class="your-hand container mx-auto px-4 py-8">
         <h2 class="text-3xl font-bold mb-4">Your Hand</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {#each gameState.you.hand as cardName, i (cardName)}
+            {#each gameState.you.hand as cardTicker, i (cardTicker)}
+                {@const cardData = data.cards.find(card => card.ticker === cardTicker)}
                 <div class="card-slot cursor-pointer" transition:slide|local={{ delay: i * 100, duration: 500, easing: quintOut }}>
                     <Card
-                        sizeMultiplier={0.5}
-                        name={cardName}
-                        health={data.cards.find(card => card.name === cardName)?.health || 0}
-                        defense={data.cards.find(card => card.name === cardName)?.defense || 0}
-                        attack={data.cards.find(card => card.name === cardName)?.attack || 0}
-                        growth={data.cards.find(card => card.name === cardName)?.growth || 0}
+                        name={cardData?.name || ''}
+                        health={cardData?.health || 0}
+                        defense={cardData?.defense || 0}
+                        attack={cardData?.attack || 0}
+                        growth={cardData?.growth || 0}
                         image={'https://img.pokemondb.net/sprites/scarlet-violet/normal/charizard.png'}
                         on:click={() => {
                             if (gameState.whosTurn === 'you') {
-                                playCard(cardName);
+                                playCard(cardTicker);
                             }
                         }}
-                        company={cardName}
-                        ticker={cardName}
-                        sector={cardName}
+                        company={cardData?.name || ''}
+                        ticker={cardTicker}
+                        sector={cardData?.sector || ''}
                     />
                 </div>
             {/each}

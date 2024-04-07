@@ -1,4 +1,5 @@
 import yfinance as yf
+from yfinance import Ticker
 import pandas as pd
 import json
 import logging
@@ -33,7 +34,9 @@ for symbol in data['Symbol']:
 
         # Extract the desired metrics
         company_metrics = {
+            "companyName": company_summary.get("longName"),
             "ticker": symbol,
+            "sector": company_summary.get("sector"),
             "marketCap": company_summary.get("marketCap"),
             "freeCashFlow": company_summary.get("freeCashflow"),
             "earningsGrowth": company_summary.get("earningsGrowth"),

@@ -6,6 +6,7 @@ export type Card = {
     defense: number;
     ticker: string;
     sector: string;
+    creatureName: string;
 }
 
 type Player = {

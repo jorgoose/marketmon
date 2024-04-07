@@ -17,7 +17,7 @@ export let data: PageServerData;
             {#each data.cards as card}
                     <Card
                         sizeMultiplier={.9}
-                        name={card.name}
+                        name={card.creatureName}
                         health={card.health || 0}
                         defense={card.defense || 0}
                         attack={card.attack || 0}

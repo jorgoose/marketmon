@@ -14,12 +14,12 @@ function getOpponentValidActions(gameState: GameState, cards: CardT[]): Action[]
     const { hand, inPlay, health } = gameState.opponent;
     const opponentInPlay = gameState.you.inPlay;
 
-    return hand.reduce((validActions, cardName) => {
-        const cost = cards.find(({ name }) => name === cardName)?.health || 0;
+    return hand.reduce((validActions, cardTicker) => {
+        const cost = cards.find(({ ticker }) => ticker === cardTicker)?.health || 0;
         if (cost <= health) {
             validActions.push({
                 actionType: 'play',
-                data: cardName,
+                data: cardTicker,
             });
         }
         return validActions;
@@ -27,7 +27,7 @@ function getOpponentValidActions(gameState: GameState, cards: CardT[]): Action[]
             inPlay.reduce((validActions, card) => {
                 validActions.push({
                     actionType: 'grow',
-                    data: card.name,
+                    data: card.ticker,
                 });
                 return validActions;
             }, [] as Action[]),
@@ -36,8 +36,8 @@ function getOpponentValidActions(gameState: GameState, cards: CardT[]): Action[]
                     opponentInPlay.map((opponentCard) => ({
                         actionType: 'attack',
                         data: {
-                            attacker: attackerCard.name,
-                            opponent: opponentCard.name,
+                            attacker: attackerCard.ticker,
+                            opponent: opponentCard.ticker,
                         },
                     }))
                 );
@@ -61,18 +61,18 @@ const computeNewState = (gameState: GameState, action: Action, cards: CardT[]): 
 
     if (action.actionType === 'play') {
         const cardIndex = hand.indexOf(action.data as string);
-        const cardHealth = cards.find(({ name }) => name === action.data)?.health || 0;
+        const cardHealth = cards.find(({ ticker }) => ticker === action.data)?.health || 0;
         return {
             ...gameState,
             [whosTurn]: {
-                inPlay: [...inPlay, { name: action.data as string, health: cardHealth }],
+                inPlay: [...inPlay, { ticker: action.data as string, health: cardHealth }],
                 hand: hand.filter((_, i) => i !== cardIndex),
                 health: health - cardHealth,
             },
             whosTurn: notWhosTurn,
         };
     } else if (action.actionType === 'grow') {
-        const growth = cards.find(({ name }) => name === action.data)?.growth || 0;
+        const growth = cards.find(({ ticker }) => ticker === action.data)?.growth || 0;
         return {
             ...gameState,
             [whosTurn]: {
@@ -84,9 +84,9 @@ const computeNewState = (gameState: GameState, action: Action, cards: CardT[]): 
     } else {
         const { inPlay: opInPlay } = gameState[notWhosTurn];
         const actionAttack = action.data as Attack;
-        const { attack } = cards.find(({ name }) => name === actionAttack.attacker)!;
-        const { defense } = cards.find(({ name }) => name === actionAttack.opponent)!;
-        const cardIndex = opInPlay.findIndex(({ name }) => name === actionAttack.opponent);
+        const { attack } = cards.find(({ ticker }) => ticker === actionAttack.attacker)!;
+        const { defense } = cards.find(({ ticker }) => ticker === actionAttack.opponent)!;
+        const cardIndex = opInPlay.findIndex(({ ticker }) => ticker === actionAttack.opponent);
         const opponentHealth = opInPlay[cardIndex].health - Math.max(attack - defense, 0);
         return {
             ...gameState,
@@ -101,30 +101,30 @@ const computeNewState = (gameState: GameState, action: Action, cards: CardT[]): 
     }
 };
 
-function playCard(cardName: string) {
+function playCard(cardTicker: string) {
     const action: Action = {
         actionType: 'play',
-        data: cardName
+        data: cardTicker
     };
 
     gameState = updateGameState(gameState, action, data.cards);
 }
 
-function growCard(cardName: string) {
+function growCard(cardTicker: string) {
     const action: Action = {
         actionType: 'grow',
-        data: cardName
+        data: cardTicker
     };
 
     gameState = updateGameState(gameState, action, data.cards);
 }
 
-function attackCard(attackerName: string, opponentName: string) {
+function attackCard(attackerTicker: string, opponentTicker: string) {
     const action: Action = {
         actionType: 'attack',
         data: {
-            attacker: attackerName,
-            opponent: opponentName
+            attacker: attackerTicker,
+            opponent: opponentTicker
         }
     };
 
@@ -142,19 +142,20 @@ function attackCard(attackerName: string, opponentName: string) {
     <div class="opponent-play-area container mx-auto px-4 py-8">
         <h2 class="text-3xl font-bold mb-4">Opponent's Play Area</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {#each gameState.opponent.inPlay as card, i (card.name)}
+            {#each gameState.opponent.inPlay as card, i (card.ticker)}
+                {@const cardData = data.cards.find(({ticker}) => ticker === card.ticker)}
                 <div class="card-slot" transition:slide|local={{ delay: i * 100, duration: 500, easing: quintOut }}>
                     <Card
                         sizeMultiplier={0.5}
                         image={'https://img.pokemondb.net/sprites/scarlet-violet/normal/charizard.png'}
-                        name={card.name}
+                        name={cardData?.name || ''}
                         health={card.health}
-                        defense={data.cards.find(({name}) => card.name === name)?.defense || 0}
-                        attack={data.cards.find(({name}) => card.name === name)?.attack || 0}
-                        growth={data.cards.find(({name}) => card.name === name)?.growth || 0}
-                        company={card.name}
-                        ticker={card.name}
-                        sector={card.name}
+                        defense={cardData?.defense || 0}
+                        attack={cardData?.attack || 0}
+                        growth={cardData?.growth || 0}
+                        company={cardData?.name || ''}
+                        ticker={card.ticker}
+                        sector={cardData?.sector || ''}
                     />
                 </div>
             {/each}
@@ -164,36 +165,35 @@ function attackCard(attackerName: string, opponentName: string) {
     <div class="your-play-area container mx-auto px-4 py-8">
         <h2 class="text-3xl font-bold mb-4">Your Play Area</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {#each gameState.you.inPlay as card, i (card.name)}
+            {#each gameState.you.inPlay as card, i (card.ticker)}
+                {@const cardData = data.cards.find(c => c.ticker === card.ticker)}
                 <div class="card-slot" transition:slide|local={{ delay: i * 100, duration: 500, easing: quintOut }}>
                     <Card
                         sizeMultiplier={0.5}
-                        name={card.name}
+                        name={cardData?.name || ''}
                         health={card.health}
-                        defense={data.cards.find(c => c.name === card.name)?.defense || 0}
-                        attack={data.cards.find(c => c.name === card.name)?.attack || 0}
-                        growth={data.cards.find(c => c.name === card.name)?.growth || 0}
+                        defense={cardData?.defense || 0}
+                        attack={cardData?.attack || 0}
+                        growth={cardData?.growth || 0}
                         image={'https://img.pokemondb.net/sprites/scarlet-violet/normal/charizard.png'}
-                        company={card.name}
-                        ticker={card.name}
-                        sector={card.name}
+                        company={cardData?.name || ''}
+                        ticker={card.ticker}
+                        sector={cardData?.sector || ''}
                         on:click={() => {
-                            if (gameState.whosTurn === 'you') {
-                                if (selectedCard === card.name) {
-                                    selectedCard = null;
-                                } else if (!selectedCard) {
-                                    selectedCard = card.name;
-                                }
+                            if (selectedCard === card.ticker) {
+                                selectedCard = null;
+                            } else if (!selectedCard) {
+                                selectedCard = card.ticker;
                             }
                         }}
-                        color={selectedCard === card.name ? 'lightblue' : ''}
+                        color={selectedCard === card.ticker ? 'lightblue' : ''}
                     />
-                    {#if selectedCard === card.name}
+                    {#if selectedCard === card.ticker}
                         <div class="actions">
-                            <button on:click={() => growCard(card.name)}>Grow</button>
-                            {#each gameState.opponent.inPlay as opponentCard (opponentCard.name)}
-                                <button on:click={() => attackCard(card.name, opponentCard.name)}>
-                                    Attack {opponentCard.name}
+                            <button on:click={() => growCard(card.ticker)}>Grow</button>
+                            {#each gameState.opponent.inPlay as opponentCard (opponentCard.ticker)}
+                                <button on:click={() => attackCard(card.ticker, opponentCard.ticker)}>
+                                    Attack {data.cards.find(c => c.ticker === opponentCard.ticker)}
                                 </button>
                             {/each}
                         </div>

@@ -1,3523 +1,4529 @@
 [
   {
-    "name": "MMM",
+    "ticker": "MMM",
     "health": 7,
     "attack": 10,
     "growth": 0.744,
-    "defense": 4
+    "defense": 4,
+    "name": "3M Company",
+    "sector": "Industrials"
   },
   {
-    "name": "AOS",
+    "ticker": "AOS",
     "health": 2,
     "attack": 3,
     "growth": 1,
-    "defense": 2
+    "defense": 2,
+    "name": "A. O. Smith Corporation",
+    "sector": "Industrials"
   },
   {
-    "name": "ABT",
+    "ticker": "ABT",
     "health": 10,
     "attack": 9,
     "growth": 0.55,
-    "defense": 9
+    "defense": 9,
+    "name": "Abbott Laboratories",
+    "sector": "Healthcare"
   },
   {
-    "name": "ABBV",
+    "ticker": "ABBV",
     "health": 10,
     "attack": 10,
     "growth": -0.669,
-    "defense": 6
+    "defense": 6,
+    "name": "AbbVie Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "ACN",
+    "ticker": "ACN",
     "health": 10,
     "attack": 10,
     "growth": 0.101,
-    "defense": 9
+    "defense": 9,
+    "name": "Accenture plc",
+    "sector": "Technology"
   },
   {
-    "name": "ADBE",
+    "ticker": "ADBE",
     "health": 10,
     "attack": 10,
     "growth": -0.498,
-    "defense": 7
+    "defense": 7,
+    "name": "Adobe Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "AMD",
+    "ticker": "AMD",
     "health": 10,
     "attack": 8,
     "growth": 48.693,
-    "defense": 10
+    "defense": 10,
+    "name": "Advanced Micro Devices, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "AES",
+    "ticker": "AES",
     "health": 2,
     "attack": 1,
     "growth": 1,
-    "defense": 4
+    "defense": 4,
+    "name": "The AES Corporation",
+    "sector": "Utilities"
   },
   {
-    "name": "AFL",
+    "ticker": "AFL",
     "health": 7,
     "attack": 9,
     "growth": 0.435,
-    "defense": 8
+    "defense": 8,
+    "name": "Aflac Incorporated",
+    "sector": "Financial Services"
   },
   {
-    "name": "A",
+    "ticker": "A",
     "health": 6,
     "attack": 5,
     "growth": -0.008,
-    "defense": 4
+    "defense": 4,
+    "name": "Agilent Technologies, Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "APD",
+    "ticker": "APD",
     "health": 7,
     "attack": 1,
     "growth": 0.062,
-    "defense": 7
+    "defense": 7,
+    "name": "Air Products and Chemicals, Inc.",
+    "sector": "Basic Materials"
   },
   {
-    "name": "ABNB",
+    "ticker": "ABNB",
     "health": 9,
     "attack": 8,
     "growth": 1,
-    "defense": 5
+    "defense": 5,
+    "name": "Airbnb, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "AKAM",
+    "ticker": "AKAM",
     "health": 2,
     "attack": 3,
     "growth": 0.257,
-    "defense": 3
+    "defense": 3,
+    "name": "Akamai Technologies, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "ALB",
+    "ticker": "ALB",
     "health": 2,
     "attack": 1,
     "growth": 1,
-    "defense": 6
+    "defense": 6,
+    "name": "Albemarle Corporation",
+    "sector": "Basic Materials"
   },
   {
-    "name": "ARE",
+    "ticker": "ARE",
     "health": 4,
     "attack": 7,
     "growth": 1,
-    "defense": 8
+    "defense": 8,
+    "name": "Alexandria Real Estate Equities, Inc.",
+    "sector": "Real Estate"
   },
   {
-    "name": "ALGN",
+    "ticker": "ALGN",
     "health": 4,
     "attack": 4,
     "growth": 2.06,
-    "defense": 3
+    "defense": 3,
+    "name": "Align Technology, Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "ALLE",
+    "ticker": "ALLE",
     "health": 1,
     "attack": 3,
     "growth": -0.127,
-    "defense": 2
+    "defense": 2,
+    "name": "Allegion plc",
+    "sector": "Industrials"
   },
   {
-    "name": "LNT",
+    "ticker": "LNT",
     "health": 2,
     "attack": 1,
     "growth": 0.125,
-    "defense": 4
+    "defense": 4,
+    "name": "Alliant Energy Corporation",
+    "sector": "Utilities"
   },
   {
-    "name": "ALL",
+    "ticker": "ALL",
     "health": 7,
     "attack": 9,
     "growth": 1,
-    "defense": 8
+    "defense": 8,
+    "name": "The Allstate Corporation",
+    "sector": "Financial Services"
   },
   {
-    "name": "GOOGL",
+    "ticker": "GOOGL",
     "health": 10,
     "attack": 10,
     "growth": 0.56,
-    "defense": 10
+    "defense": 10,
+    "name": "Alphabet Inc.",
+    "sector": "Communication Services"
   },
   {
-    "name": "GOOG",
+    "ticker": "GOOG",
     "health": 10,
     "attack": 10,
     "growth": 0.56,
-    "defense": 10
+    "defense": 10,
+    "name": "Alphabet Inc.",
+    "sector": "Communication Services"
   },
   {
-    "name": "MO",
+    "ticker": "MO",
     "health": 8,
     "attack": 10,
     "growth": -0.225,
-    "defense": 1
+    "defense": 1,
+    "name": "Altria Group, Inc.",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "AMZN",
+    "ticker": "AMZN",
     "health": 10,
     "attack": 10,
     "growth": 50.693,
-    "defense": 10
+    "defense": 10,
+    "name": "Amazon.com, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "AMCR",
+    "ticker": "AMCR",
     "health": 2,
     "attack": 4,
     "growth": -0.7,
-    "defense": 3
+    "defense": 3,
+    "name": "Amcor plc",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "AEE",
+    "ticker": "AEE",
     "health": 3,
     "attack": 1,
     "growth": -0.047,
-    "defense": 6
+    "defense": 6,
+    "name": "Ameren Corporation",
+    "sector": "Utilities"
   },
   {
-    "name": "AAL",
+    "ticker": "AAL",
     "health": 1,
     "attack": 7,
     "growth": -0.974,
-    "defense": 1
+    "defense": 1,
+    "name": "American Airlines Group Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "AEP",
+    "ticker": "AEP",
     "health": 6,
     "attack": 1,
     "growth": -0.155,
-    "defense": 9
+    "defense": 9,
+    "name": "American Electric Power Company, Inc.",
+    "sector": "Utilities"
   },
   {
-    "name": "AXP",
+    "ticker": "AXP",
     "health": 9,
     "attack": 2,
     "growth": 0.263,
-    "defense": 9
+    "defense": 9,
+    "name": "American Express Company",
+    "sector": "Financial Services"
   },
   {
-    "name": "AIG",
+    "ticker": "AIG",
     "health": 7,
     "attack": 1,
     "growth": -0.841,
-    "defense": 10
+    "defense": 10,
+    "name": "American International Group, Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "AMT",
+    "ticker": "AMT",
     "health": 8,
     "attack": 9,
     "growth": 1,
-    "defense": 6
+    "defense": 6,
+    "name": "American Tower Corporation",
+    "sector": "Real Estate"
   },
   {
-    "name": "AWK",
+    "ticker": "AWK",
     "health": 4,
     "attack": 1,
     "growth": 0.086,
-    "defense": 6
+    "defense": 6,
+    "name": "American Water Works Company, Inc.",
+    "sector": "Utilities"
   },
   {
-    "name": "AMP",
+    "ticker": "AMP",
     "health": 6,
     "attack": 9,
     "growth": -0.388,
-    "defense": 4
+    "defense": 4,
+    "name": "Ameriprise Financial, Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "AME",
+    "ticker": "AME",
     "health": 6,
     "attack": 6,
     "growth": 0.113,
-    "defense": 5
+    "defense": 5,
+    "name": "AMETEK, Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "AMGN",
+    "ticker": "AMGN",
     "health": 9,
     "attack": 8,
     "growth": -0.524,
-    "defense": 4
+    "defense": 4,
+    "name": "Amgen Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "APH",
+    "ticker": "APH",
     "health": 8,
     "attack": 7,
     "growth": 0.011,
-    "defense": 5
+    "defense": 5,
+    "name": "Amphenol Corporation",
+    "sector": "Technology"
   },
   {
-    "name": "ADI",
+    "ticker": "ADI",
     "health": 9,
     "attack": 8,
     "growth": -0.505,
-    "defense": 9
+    "defense": 9,
+    "name": "Analog Devices, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "ANSS",
+    "ticker": "ANSS",
     "health": 5,
     "attack": 4,
     "growth": 0.066,
-    "defense": 4
+    "defense": 4,
+    "name": "ANSYS, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "AON",
+    "ticker": "AON",
     "health": 8,
     "attack": 8,
     "growth": -0.215,
-    "defense": 1
+    "defense": 1,
+    "name": "Aon plc",
+    "sector": "Financial Services"
   },
   {
-    "name": "APA",
+    "ticker": "APA",
     "health": 1,
     "attack": 5,
     "growth": 3.272,
-    "defense": 3
+    "defense": 3,
+    "name": "APA Corporation",
+    "sector": "Energy"
   },
   {
-    "name": "AAPL",
+    "ticker": "AAPL",
     "health": 11,
     "attack": 11,
     "growth": 0.16,
-    "defense": 10
+    "defense": 10,
+    "name": "Apple Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "AMAT",
+    "ticker": "AMAT",
     "health": 10,
     "attack": 9,
     "growth": 0.193,
-    "defense": 7
+    "defense": 7,
+    "name": "Applied Materials, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "APTV",
+    "ticker": "APTV",
     "health": 4,
     "attack": 4,
     "growth": 2.744,
-    "defense": 7
+    "defense": 7,
+    "name": "Aptiv PLC",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "ACGL",
+    "ticker": "ACGL",
     "health": 6,
     "attack": 10,
     "growth": 1.708,
-    "defense": 8
+    "defense": 8,
+    "name": "Arch Capital Group Ltd.",
+    "sector": "Financial Services"
   },
   {
-    "name": "ADM",
+    "ticker": "ADM",
     "health": 5,
     "attack": 9,
     "growth": -0.422,
-    "defense": 8
+    "defense": 8,
+    "name": "Archer-Daniels-Midland Company",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "ANET",
+    "ticker": "ANET",
     "health": 9,
     "attack": 7,
     "growth": 0.418,
-    "defense": 5
+    "defense": 5,
+    "name": "Arista Networks, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "AJG",
+    "ticker": "AJG",
     "health": 7,
     "attack": 6,
     "growth": 1,
-    "defense": 6
+    "defense": 6,
+    "name": "Arthur J. Gallagher & Co.",
+    "sector": "Financial Services"
   },
   {
-    "name": "AIZ",
+    "ticker": "AIZ",
     "health": 1,
     "attack": 5,
     "growth": 1.69,
-    "defense": 4
+    "defense": 4,
+    "name": "Assurant, Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "T",
+    "ticker": "T",
     "health": 9,
     "attack": 10,
     "growth": 1,
-    "defense": 10
+    "defense": 10,
+    "name": "AT&T Inc.",
+    "sector": "Communication Services"
   },
   {
-    "name": "ATO",
+    "ticker": "ATO",
     "health": 3,
     "attack": 3,
     "growth": 0.087,
-    "defense": 6
+    "defense": 6,
+    "name": "Atmos Energy Corporation",
+    "sector": "Utilities"
   },
   {
-    "name": "ADSK",
+    "ticker": "ADSK",
     "health": 7,
     "attack": 7,
     "growth": -0.034,
-    "defense": 1
+    "defense": 1,
+    "name": "Autodesk, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "ADP",
+    "ticker": "ADP",
     "health": 9,
     "attack": 8,
     "growth": 0.092,
-    "defense": 3
+    "defense": 3,
+    "name": "Automatic Data Processing, Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "AZO",
+    "ticker": "AZO",
     "health": 7,
     "attack": 6,
     "growth": 0.172,
-    "defense": 1
+    "defense": 1,
+    "name": "AutoZone, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "AVB",
+    "ticker": "AVB",
     "health": 4,
     "attack": 6,
     "growth": -0.012,
-    "defense": 7
+    "defense": 7,
+    "name": "AvalonBay Communities, Inc.",
+    "sector": "Real Estate"
   },
   {
-    "name": "AVY",
+    "ticker": "AVY",
     "health": 3,
     "attack": 3,
     "growth": 0.176,
-    "defense": 2
+    "defense": 2,
+    "name": "Avery Dennison Corporation",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "AXON",
+    "ticker": "AXON",
     "health": 4,
     "attack": 2,
     "growth": 0.866,
-    "defense": 2
+    "defense": 2,
+    "name": "Axon Enterprise, Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "BKR",
+    "ticker": "BKR",
     "health": 5,
     "attack": 8,
     "growth": 1.366,
-    "defense": 7
+    "defense": 7,
+    "name": "Baker Hughes Company",
+    "sector": "Energy"
   },
   {
-    "name": "BALL",
+    "ticker": "BALL",
     "health": 4,
     "attack": 3,
     "growth": 1.803,
-    "defense": 3
+    "defense": 3,
+    "name": "Ball Corporation",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "BAC",
+    "ticker": "BAC",
     "health": 10,
     "attack": 2,
     "growth": -0.607,
-    "defense": 10
+    "defense": 10,
+    "name": "Bank of America Corporation",
+    "sector": "Financial Services"
   },
   {
-    "name": "BK",
+    "ticker": "BK",
     "health": 6,
     "attack": 2,
     "growth": -0.681,
-    "defense": 9
+    "defense": 9,
+    "name": "The Bank of New York Mellon Corporation",
+    "sector": "Financial Services"
   },
   {
-    "name": "BBWI",
+    "ticker": "BBWI",
     "health": 1,
     "attack": 3,
     "growth": 0.352,
-    "defense": 1
+    "defense": 1,
+    "name": "Bath & Body Works, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "BAX",
+    "ticker": "BAX",
     "health": 4,
     "attack": 7,
     "growth": 0.338,
-    "defense": 5
+    "defense": 5,
+    "name": "Baxter International Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "BDX",
+    "ticker": "BDX",
     "health": 8,
     "attack": 9,
     "growth": -0.435,
-    "defense": 9
+    "defense": 9,
+    "name": "Becton, Dickinson and Company",
+    "sector": "Healthcare"
   },
   {
-    "name": "BRK-B",
+    "ticker": "BRK-B",
     "health": 10,
     "attack": 11,
     "growth": 1.108,
-    "defense": 11
+    "defense": 11,
+    "name": "Berkshire Hathaway Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "BBY",
+    "ticker": "BBY",
     "health": 3,
     "attack": 4,
     "growth": -0.054,
-    "defense": 2
+    "defense": 2,
+    "name": "Best Buy Co., Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "BIO",
+    "ticker": "BIO",
     "health": 1,
     "attack": 2,
     "growth": -0.563,
-    "defense": 5
+    "defense": 5,
+    "name": "Bio-Rad Laboratories, Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "TECH",
+    "ticker": "TECH",
     "health": 1,
     "attack": 2,
     "growth": -0.452,
-    "defense": 2
+    "defense": 2,
+    "name": "Bio-Techne Corporation",
+    "sector": "Healthcare"
   },
   {
-    "name": "BIIB",
+    "ticker": "BIIB",
     "health": 5,
     "attack": 5,
     "growth": -0.549,
-    "defense": 7
+    "defense": 7,
+    "name": "Biogen Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "BLK",
+    "ticker": "BLK",
     "health": 9,
     "attack": 9,
     "growth": 0.103,
-    "defense": 9
+    "defense": 9,
+    "name": "BlackRock, Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "BX",
+    "ticker": "BX",
     "health": 9,
     "attack": 2,
     "growth": -0.733,
-    "defense": 8
+    "defense": 8,
+    "name": "Blackstone Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "BA",
+    "ticker": "BA",
     "health": 9,
     "attack": 10,
     "growth": 1,
-    "defense": 1
+    "defense": 1,
+    "name": "The Boeing Company",
+    "sector": "Industrials"
   },
   {
-    "name": "BKNG",
+    "ticker": "BKNG",
     "health": 9,
     "attack": 9,
     "growth": -0.803,
-    "defense": 1
+    "defense": 1,
+    "name": "Booking Holdings Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "BWA",
+    "ticker": "BWA",
     "health": 1,
     "attack": 5,
     "growth": -0.394,
-    "defense": 4
+    "defense": 4,
+    "name": "BorgWarner Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "BXP",
+    "ticker": "BXP",
     "health": 1,
     "attack": 5,
     "growth": -0.023,
-    "defense": 5
+    "defense": 5,
+    "name": "Boston Properties, Inc.",
+    "sector": "Real Estate"
   },
   {
-    "name": "BSX",
+    "ticker": "BSX",
     "health": 9,
     "attack": 7,
     "growth": 2.856,
-    "defense": 8
+    "defense": 8,
+    "name": "Boston Scientific Corporation",
+    "sector": "Healthcare"
   },
   {
-    "name": "BMY",
+    "ticker": "BMY",
     "health": 9,
     "attack": 10,
     "growth": -0.089,
-    "defense": 9
+    "defense": 9,
+    "name": "Bristol-Myers Squibb Company",
+    "sector": "Healthcare"
   },
   {
-    "name": "AVGO",
+    "ticker": "AVGO",
     "health": 10,
     "attack": 10,
     "growth": 1.881,
-    "defense": 8
+    "defense": 8,
+    "name": "Broadcom Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "BR",
+    "ticker": "BR",
     "health": 4,
     "attack": 5,
     "growth": 0.229,
-    "defense": 2
+    "defense": 2,
+    "name": "Broadridge Financial Solutions, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "BRO",
+    "ticker": "BRO",
     "health": 4,
     "attack": 5,
     "growth": 0.832,
-    "defense": 4
+    "defense": 4,
+    "name": "Brown & Brown, Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "BF-B",
+    "ticker": "BF-B",
     "health": 4,
     "attack": 2,
     "growth": 1.875,
-    "defense": 3
+    "defense": 3,
+    "name": "Brown-Forman Corporation",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "BLDR",
+    "ticker": "BLDR",
     "health": 4,
     "attack": 7,
     "growth": 0.077,
-    "defense": 4
+    "defense": 4,
+    "name": "Builders FirstSource, Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "BG",
+    "ticker": "BG",
     "health": 2,
     "attack": 7,
     "growth": 0.898,
-    "defense": 7
+    "defense": 7,
+    "name": "Bunge Global SA",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "CDNS",
+    "ticker": "CDNS",
     "health": 8,
     "attack": 6,
     "growth": 0.351,
-    "defense": 3
+    "defense": 3,
+    "name": "Cadence Design Systems, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "CZR",
+    "ticker": "CZR",
     "health": 1,
     "attack": 3,
     "growth": 1,
-    "defense": 4
+    "defense": 4,
+    "name": "Caesars Entertainment, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "CPT",
+    "ticker": "CPT",
     "health": 1,
     "attack": 4,
     "growth": 3.833,
-    "defense": 4
+    "defense": 4,
+    "name": "Camden Property Trust",
+    "sector": "Real Estate"
   },
   {
-    "name": "CPB",
+    "ticker": "CPB",
     "health": 2,
     "attack": 4,
     "growth": -0.117,
-    "defense": 3
+    "defense": 3,
+    "name": "Campbell Soup Company",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "COF",
+    "ticker": "COF",
     "health": 7,
     "attack": 2,
     "growth": -0.448,
-    "defense": 10
+    "defense": 10,
+    "name": "Capital One Financial Corporation",
+    "sector": "Financial Services"
   },
   {
-    "name": "CAH",
+    "ticker": "CAH",
     "health": 5,
     "attack": 9,
     "growth": 1,
-    "defense": 1
+    "defense": 1,
+    "name": "Cardinal Health, Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "KMX",
+    "ticker": "KMX",
     "health": 2,
     "attack": 2,
     "growth": 1.176,
-    "defense": 4
+    "defense": 4,
+    "name": "CarMax, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "CCL",
+    "ticker": "CCL",
     "health": 3,
     "attack": 2,
     "growth": 1,
-    "defense": 5
+    "defense": 5,
+    "name": "Carnival Corporation & plc",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "CARR",
+    "ticker": "CARR",
     "health": 7,
     "attack": 1,
     "growth": 0.582,
-    "defense": 5
+    "defense": 5,
+    "name": "Carrier Global Corporation",
+    "sector": "Industrials"
   },
   {
-    "name": "CTLT",
+    "ticker": "CTLT",
     "health": 1,
     "attack": 2,
     "growth": 1,
-    "defense": 3
+    "defense": 3,
+    "name": "Catalent, Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "CAT",
+    "ticker": "CAT",
     "health": 10,
     "attack": 10,
     "growth": 0.893,
-    "defense": 8
+    "defense": 8,
+    "name": "Caterpillar Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "CBOE",
+    "ticker": "CBOE",
     "health": 3,
     "attack": 4,
     "growth": 0.326,
-    "defense": 3
+    "defense": 3,
+    "name": "Cboe Global Markets, Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "CBRE",
+    "ticker": "CBRE",
     "health": 5,
     "attack": 3,
     "growth": 5.134,
-    "defense": 6
+    "defense": 6,
+    "name": "CBRE Group, Inc.",
+    "sector": "Real Estate"
   },
   {
-    "name": "CDW",
+    "ticker": "CDW",
     "health": 5,
     "attack": 6,
     "growth": 0.045,
-    "defense": 2
+    "defense": 2,
+    "name": "CDW Corporation",
+    "sector": "Technology"
   },
   {
-    "name": "CE",
+    "ticker": "CE",
     "health": 3,
     "attack": 5,
     "growth": -0.092,
-    "defense": 5
+    "defense": 5,
+    "name": "Celanese Corporation",
+    "sector": "Basic Materials"
   },
   {
-    "name": "COR",
+    "ticker": "COR",
     "health": 7,
     "attack": 9,
     "growth": 0.279,
-    "defense": 1
+    "defense": 1,
+    "name": "Cencora, Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "CNC",
+    "ticker": "CNC",
     "health": 6,
     "attack": 9,
     "growth": 1,
-    "defense": 9
+    "defense": 9,
+    "name": "Centene Corporation",
+    "sector": "Healthcare"
   },
   {
-    "name": "CNP",
+    "ticker": "CNP",
     "health": 3,
     "attack": 1,
     "growth": 0.586,
-    "defense": 6
+    "defense": 6,
+    "name": "CenterPoint Energy, Inc.",
+    "sector": "Utilities"
   },
   {
-    "name": "CF",
+    "ticker": "CF",
     "health": 2,
     "attack": 7,
     "growth": -0.67,
-    "defense": 5
+    "defense": 5,
+    "name": "CF Industries Holdings, Inc.",
+    "sector": "Basic Materials"
   },
   {
-    "name": "CHRW",
+    "ticker": "CHRW",
     "health": 1,
     "attack": 4,
     "growth": -0.679,
-    "defense": 2
+    "defense": 2,
+    "name": "C.H. Robinson Worldwide, Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "CRL",
+    "ticker": "CRL",
     "health": 2,
     "attack": 2,
     "growth": -0.006,
-    "defense": 3
+    "defense": 3,
+    "name": "Charles River Laboratories International, Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "SCHW",
+    "ticker": "SCHW",
     "health": 9,
     "attack": 2,
     "growth": -0.475,
-    "defense": 9
+    "defense": 9,
+    "name": "The Charles Schwab Corporation",
+    "sector": "Financial Services"
   },
   {
-    "name": "CHTR",
+    "ticker": "CHTR",
     "health": 6,
     "attack": 9,
     "growth": -0.079,
-    "defense": 7
+    "defense": 7,
+    "name": "Charter Communications, Inc.",
+    "sector": "Communication Services"
   },
   {
-    "name": "CVX",
+    "ticker": "CVX",
     "health": 10,
     "attack": 10,
     "growth": -0.636,
-    "defense": 10
+    "defense": 10,
+    "name": "Chevron Corporation",
+    "sector": "Energy"
   },
   {
-    "name": "CMG",
+    "ticker": "CMG",
     "health": 8,
     "attack": 5,
     "growth": 0.273,
-    "defense": 2
+    "defense": 2,
+    "name": "Chipotle Mexican Grill, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "CB",
+    "ticker": "CB",
     "health": 9,
     "attack": 10,
     "growth": 1.567,
-    "defense": 10
+    "defense": 10,
+    "name": "Chubb Limited",
+    "sector": "Financial Services"
   },
   {
-    "name": "CHD",
+    "ticker": "CHD",
     "health": 4,
     "attack": 4,
     "growth": 1,
-    "defense": 3
+    "defense": 3,
+    "name": "Church & Dwight Co., Inc.",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "CI",
+    "ticker": "CI",
     "health": 9,
     "attack": 10,
     "growth": -0.105,
-    "defense": 10
+    "defense": 10,
+    "name": "The Cigna Group",
+    "sector": "Healthcare"
   },
   {
-    "name": "CINF",
+    "ticker": "CINF",
     "health": 3,
     "attack": 9,
     "growth": 0.17,
-    "defense": 7
+    "defense": 7,
+    "name": "Cincinnati Financial Corporation",
+    "sector": "Financial Services"
   },
   {
-    "name": "CTAS",
+    "ticker": "CTAS",
     "health": 8,
     "attack": 6,
     "growth": 0.223,
-    "defense": 3
+    "defense": 3,
+    "name": "Cintas Corporation",
+    "sector": "Industrials"
   },
   {
-    "name": "CSCO",
+    "ticker": "CSCO",
     "health": 10,
     "attack": 10,
     "growth": -0.031,
-    "defense": 10
+    "defense": 10,
+    "name": "Cisco Systems, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "C",
+    "ticker": "C",
     "health": 9,
     "attack": 2,
     "growth": 1,
-    "defense": 10
+    "defense": 10,
+    "name": "Citigroup Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "CFG",
+    "ticker": "CFG",
     "health": 2,
     "attack": 2,
     "growth": -0.729,
-    "defense": 8
+    "defense": 8,
+    "name": "Citizens Financial Group, Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "CLX",
+    "ticker": "CLX",
     "health": 3,
     "attack": 4,
     "growth": -0.064,
-    "defense": 1
+    "defense": 1,
+    "name": "The Clorox Company",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "CME",
+    "ticker": "CME",
     "health": 8,
     "attack": 8,
     "growth": 0.276,
-    "defense": 9
+    "defense": 9,
+    "name": "CME Group Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "CMS",
+    "ticker": "CMS",
     "health": 3,
     "attack": 1,
     "growth": 0.805,
-    "defense": 5
+    "defense": 5,
+    "name": "CMS Energy Corporation",
+    "sector": "Utilities"
   },
   {
-    "name": "KO",
+    "ticker": "KO",
     "health": 10,
     "attack": 9,
     "growth": -0.005,
-    "defense": 9
+    "defense": 9,
+    "name": "The Coca-Cola Company",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "CTSH",
+    "ticker": "CTSH",
     "health": 6,
     "attack": 7,
     "growth": 0.107,
-    "defense": 7
+    "defense": 7,
+    "name": "Cognizant Technology Solutions Corporation",
+    "sector": "Technology"
   },
   {
-    "name": "CL",
+    "ticker": "CL",
     "health": 8,
     "attack": 8,
     "growth": 144.537,
-    "defense": 1
+    "defense": 1,
+    "name": "Colgate-Palmolive Company",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "CMCSA",
+    "ticker": "CMCSA",
     "health": 10,
     "attack": 10,
     "growth": 0.144,
-    "defense": 10
+    "defense": 10,
+    "name": "Comcast Corporation",
+    "sector": "Communication Services"
   },
   {
-    "name": "CMA",
+    "ticker": "CMA",
     "health": 1,
     "attack": 2,
     "growth": -0.924,
-    "defense": 4
+    "defense": 4,
+    "name": "Comerica Incorporated",
+    "sector": "Financial Services"
   },
   {
-    "name": "CAG",
+    "ticker": "CAG",
     "health": 2,
     "attack": 5,
     "growth": -0.099,
-    "defense": 5
+    "defense": 5,
+    "name": "Conagra Brands, Inc.",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "COP",
+    "ticker": "COP",
     "health": 9,
     "attack": 9,
     "growth": -0.03,
-    "defense": 10
+    "defense": 10,
+    "name": "ConocoPhillips",
+    "sector": "Energy"
   },
   {
-    "name": "ED",
+    "ticker": "ED",
     "health": 5,
     "attack": 6,
     "growth": 0.821,
-    "defense": 8
+    "defense": 8,
+    "name": "Consolidated Edison, Inc.",
+    "sector": "Utilities"
   },
   {
-    "name": "STZ",
+    "ticker": "STZ",
     "health": 7,
     "attack": 5,
     "growth": 0.23,
-    "defense": 5
+    "defense": 5,
+    "name": "Constellation Brands, Inc.",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "CEG",
+    "ticker": "CEG",
     "health": 7,
     "attack": 1,
     "growth": 1,
-    "defense": 6
+    "defense": 6,
+    "name": "Constellation Energy Corporation",
+    "sector": "Utilities"
   },
   {
-    "name": "COO",
+    "ticker": "COO",
     "health": 3,
     "attack": 2,
     "growth": -0.045,
-    "defense": 5
+    "defense": 5,
+    "name": "The Cooper Companies, Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "CPRT",
+    "ticker": "CPRT",
     "health": 7,
     "attack": 4,
     "growth": 0.1,
-    "defense": 4
+    "defense": 4,
+    "name": "Copart, Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "GLW",
+    "ticker": "GLW",
     "health": 5,
     "attack": 2,
     "growth": 1,
-    "defense": 7
+    "defense": 7,
+    "name": "Corning Incorporated",
+    "sector": "Technology"
   },
   {
-    "name": "CPAY",
+    "ticker": "CPAY",
     "health": 4,
     "attack": 5,
     "growth": 0.143,
-    "defense": 3
+    "defense": 3,
+    "name": "Corpay, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "CTVA",
+    "ticker": "CTVA",
     "health": 6,
     "attack": 6,
     "growth": 1,
-    "defense": 9
+    "defense": 9,
+    "name": "Corteva, Inc.",
+    "sector": "Basic Materials"
   },
   {
-    "name": "CSGP",
+    "ticker": "CSGP",
     "health": 6,
     "attack": 3,
     "growth": -0.228,
-    "defense": 5
+    "defense": 5,
+    "name": "CoStar Group, Inc.",
+    "sector": "Real Estate"
   },
   {
-    "name": "COST",
+    "ticker": "COST",
     "health": 10,
     "attack": 9,
     "growth": 0.188,
-    "defense": 9
+    "defense": 9,
+    "name": "Costco Wholesale Corporation",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "CTRA",
+    "ticker": "CTRA",
     "health": 4,
     "attack": 6,
     "growth": -0.579,
-    "defense": 7
+    "defense": 7,
+    "name": "Coterra Energy Inc.",
+    "sector": "Energy"
   },
   {
-    "name": "CCI",
+    "ticker": "CCI",
     "health": 6,
     "attack": 7,
     "growth": -0.126,
-    "defense": 4
+    "defense": 4,
+    "name": "Crown Castle Inc.",
+    "sector": "Real Estate"
   },
   {
-    "name": "CSX",
+    "ticker": "CSX",
     "health": 8,
     "attack": 8,
     "growth": -0.078,
-    "defense": 7
+    "defense": 7,
+    "name": "CSX Corporation",
+    "sector": "Industrials"
   },
   {
-    "name": "CMI",
+    "ticker": "CMI",
     "health": 6,
     "attack": 9,
     "growth": 1,
-    "defense": 6
+    "defense": 6,
+    "name": "Cummins Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "CVS",
+    "ticker": "CVS",
     "health": 9,
     "attack": 10,
     "growth": -0.105,
-    "defense": 10
+    "defense": 10,
+    "name": "CVS Health Corporation",
+    "sector": "Healthcare"
   },
   {
-    "name": "DHR",
+    "ticker": "DHR",
     "health": 10,
     "attack": 9,
     "growth": -0.513,
-    "defense": 10
+    "defense": 10,
+    "name": "Danaher Corporation",
+    "sector": "Healthcare"
   },
   {
-    "name": "DRI",
+    "ticker": "DRI",
     "health": 3,
     "attack": 4,
     "growth": 0.11,
-    "defense": 2
+    "defense": 2,
+    "name": "Darden Restaurants, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "DVA",
+    "ticker": "DVA",
     "health": 1,
     "attack": 6,
     "growth": 1.2,
-    "defense": 2
+    "defense": 2,
+    "name": "DaVita Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "DAY",
+    "ticker": "DAY",
     "health": 1,
     "attack": 2,
     "growth": 1,
-    "defense": 2
+    "defense": 2,
+    "name": "Dayforce Inc",
+    "sector": "Technology"
   },
   {
-    "name": "DECK",
+    "ticker": "DECK",
     "health": 4,
     "attack": 5,
     "growth": 0.442,
-    "defense": 2
+    "defense": 2,
+    "name": "Deckers Outdoor Corporation",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "DE",
+    "ticker": "DE",
     "health": 9,
     "attack": 8,
     "growth": -0.049,
-    "defense": 8
+    "defense": 8,
+    "name": "Deere & Company",
+    "sector": "Industrials"
   },
   {
-    "name": "DAL",
+    "ticker": "DAL",
     "health": 5,
     "attack": 3,
     "growth": 1.436,
-    "defense": 6
+    "defense": 6,
+    "name": "Delta Air Lines, Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "DVN",
+    "ticker": "DVN",
     "health": 5,
     "attack": 6,
     "growth": -0.005,
-    "defense": 7
+    "defense": 7,
+    "name": "Devon Energy Corporation",
+    "sector": "Energy"
   },
   {
-    "name": "DXCM",
+    "ticker": "DXCM",
     "health": 7,
     "attack": 3,
     "growth": 1.81,
-    "defense": 2
+    "defense": 2,
+    "name": "DexCom, Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "FANG",
+    "ticker": "FANG",
     "health": 6,
     "attack": 3,
     "growth": -0.051,
-    "defense": 8
+    "defense": 8,
+    "name": "Diamondback Energy, Inc.",
+    "sector": "Energy"
   },
   {
-    "name": "DLR",
+    "ticker": "DLR",
     "health": 7,
     "attack": 7,
     "growth": 1,
-    "defense": 8
+    "defense": 8,
+    "name": "Digital Realty Trust, Inc.",
+    "sector": "Real Estate"
   },
   {
-    "name": "DFS",
+    "ticker": "DFS",
     "health": 5,
     "attack": 2,
     "growth": -0.588,
-    "defense": 7
+    "defense": 7,
+    "name": "Discover Financial Services",
+    "sector": "Financial Services"
   },
   {
-    "name": "DG",
+    "ticker": "DG",
     "health": 5,
     "attack": 2,
     "growth": -0.386,
-    "defense": 4
+    "defense": 4,
+    "name": "Dollar General Corporation",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "DLTR",
+    "ticker": "DLTR",
     "health": 5,
     "attack": 4,
     "growth": 1,
-    "defense": 5
+    "defense": 5,
+    "name": "Dollar Tree, Inc.",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "D",
+    "ticker": "D",
     "health": 6,
     "attack": 1,
     "growth": -0.207,
-    "defense": 9
+    "defense": 9,
+    "name": "Dominion Energy, Inc.",
+    "sector": "Utilities"
   },
   {
-    "name": "DPZ",
+    "ticker": "DPZ",
     "health": 3,
     "attack": 3,
     "growth": 0.301,
-    "defense": 1
+    "defense": 1,
+    "name": "Domino's Pizza, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "DOV",
+    "ticker": "DOV",
     "health": 4,
     "attack": 5,
     "growth": 0.128,
-    "defense": 4
+    "defense": 4,
+    "name": "Dover Corporation",
+    "sector": "Industrials"
   },
   {
-    "name": "DOW",
+    "ticker": "DOW",
     "health": 6,
     "attack": 8,
     "growth": 1,
-    "defense": 8
+    "defense": 8,
+    "name": "Dow Inc.",
+    "sector": "Basic Materials"
   },
   {
-    "name": "DHI",
+    "ticker": "DHI",
     "health": 7,
     "attack": 7,
     "growth": 0.022,
-    "defense": 8
+    "defense": 8,
+    "name": "D.R. Horton, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "DTE",
+    "ticker": "DTE",
     "health": 4,
     "attack": 1,
     "growth": 0.539,
-    "defense": 6
+    "defense": 6,
+    "name": "DTE Energy Company",
+    "sector": "Utilities"
   },
   {
-    "name": "DUK",
+    "ticker": "DUK",
     "health": 8,
     "attack": 1,
     "growth": 1,
-    "defense": 10
+    "defense": 10,
+    "name": "Duke Energy Corporation",
+    "sector": "Utilities"
   },
   {
-    "name": "DD",
+    "ticker": "DD",
     "health": 5,
     "attack": 8,
     "growth": 1,
-    "defense": 8
+    "defense": 8,
+    "name": "DuPont de Nemours, Inc.",
+    "sector": "Basic Materials"
   },
   {
-    "name": "EMN",
+    "ticker": "EMN",
     "health": 1,
     "attack": 3,
     "growth": 311.047,
-    "defense": 4
+    "defense": 4,
+    "name": "Eastman Chemical Company",
+    "sector": "Basic Materials"
   },
   {
-    "name": "ETN",
+    "ticker": "ETN",
     "health": 9,
     "attack": 8,
     "growth": 0.304,
-    "defense": 8
+    "defense": 8,
+    "name": "Eaton Corporation plc",
+    "sector": "Industrials"
   },
   {
-    "name": "EBAY",
+    "ticker": "EBAY",
     "health": 5,
     "attack": 8,
     "growth": 0.131,
-    "defense": 4
+    "defense": 4,
+    "name": "eBay Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "ECL",
+    "ticker": "ECL",
     "health": 8,
     "attack": 7,
     "growth": 1,
-    "defense": 5
+    "defense": 5,
+    "name": "Ecolab Inc.",
+    "sector": "Basic Materials"
   },
   {
-    "name": "EIX",
+    "ticker": "EIX",
     "health": 5,
     "attack": 1,
     "growth": -0.085,
-    "defense": 8
+    "defense": 8,
+    "name": "Edison International",
+    "sector": "Utilities"
   },
   {
-    "name": "EW",
+    "ticker": "EW",
     "health": 7,
     "attack": 4,
     "growth": -0.061,
-    "defense": 4
+    "defense": 4,
+    "name": "Edwards Lifesciences Corporation",
+    "sector": "Healthcare"
   },
   {
-    "name": "EA",
+    "ticker": "EA",
     "health": 5,
     "attack": 7,
     "growth": 0.466,
-    "defense": 5
+    "defense": 5,
+    "name": "Electronic Arts Inc.",
+    "sector": "Communication Services"
   },
   {
-    "name": "ELV",
+    "ticker": "ELV",
     "health": 9,
     "attack": 8,
     "growth": 0.012,
-    "defense": 9
+    "defense": 9,
+    "name": "Elevance Health, Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "LLY",
+    "ticker": "LLY",
     "health": 10,
     "attack": 2,
     "growth": 0.13,
-    "defense": 6
+    "defense": 6,
+    "name": "Eli Lilly and Company",
+    "sector": "Healthcare"
   },
   {
-    "name": "EMR",
+    "ticker": "EMR",
     "health": 8,
     "attack": 6,
     "growth": -0.937,
-    "defense": 9
+    "defense": 9,
+    "name": "Emerson Electric Co.",
+    "sector": "Industrials"
   },
   {
-    "name": "ENPH",
+    "ticker": "ENPH",
     "health": 2,
     "attack": 3,
     "growth": -0.874,
-    "defense": 1
+    "defense": 1,
+    "name": "Enphase Energy, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "ETR",
+    "ticker": "ETR",
     "health": 4,
     "attack": 1,
     "growth": 8.115,
-    "defense": 7
+    "defense": 7,
+    "name": "Entergy Corporation",
+    "sector": "Utilities"
   },
   {
-    "name": "EOG",
+    "ticker": "EOG",
     "health": 8,
     "attack": 8,
     "growth": -0.118,
-    "defense": 9
+    "defense": 9,
+    "name": "EOG Resources, Inc.",
+    "sector": "Energy"
   },
   {
-    "name": "EPAM",
+    "ticker": "EPAM",
     "health": 2,
     "attack": 3,
     "growth": -0.366,
-    "defense": 3
+    "defense": 3,
+    "name": "EPAM Systems, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "EQT",
+    "ticker": "EQT",
     "health": 2,
     "attack": 3,
     "growth": -0.737,
-    "defense": 7
+    "defense": 7,
+    "name": "EQT Corporation",
+    "sector": "Energy"
   },
   {
-    "name": "EFX",
+    "ticker": "EFX",
     "health": 5,
     "attack": 3,
     "growth": 0.209,
-    "defense": 4
+    "defense": 4,
+    "name": "Equifax Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "EQIX",
+    "ticker": "EQIX",
     "health": 8,
     "attack": 8,
     "growth": 0.731,
-    "defense": 7
+    "defense": 7,
+    "name": "Equinix, Inc.",
+    "sector": "Real Estate"
   },
   {
-    "name": "EQR",
+    "ticker": "EQR",
     "health": 4,
     "attack": 6,
     "growth": 0.957,
-    "defense": 6
+    "defense": 6,
+    "name": "Equity Residential",
+    "sector": "Real Estate"
   },
   {
-    "name": "ESS",
+    "ticker": "ESS",
     "health": 2,
     "attack": 4,
     "growth": -0.644,
-    "defense": 4
+    "defense": 4,
+    "name": "Essex Property Trust, Inc.",
+    "sector": "Real Estate"
   },
   {
-    "name": "EL",
+    "ticker": "EL",
     "health": 7,
     "attack": 1,
     "growth": -0.202,
-    "defense": 4
+    "defense": 4,
+    "name": "The Est\u00e9e Lauder Companies Inc.",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "ETSY",
+    "ticker": "ETSY",
     "health": 1,
     "attack": 3,
     "growth": -0.18,
-    "defense": 1
+    "defense": 1,
+    "name": "Etsy, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "EG",
+    "ticker": "EG",
     "health": 2,
     "attack": 8,
     "growth": 0.447,
-    "defense": 7
+    "defense": 7,
+    "name": "Everest Group, Ltd.",
+    "sector": "Financial Services"
   },
   {
-    "name": "EVRG",
+    "ticker": "EVRG",
     "health": 1,
     "attack": 1,
     "growth": 6.664,
-    "defense": 6
+    "defense": 6,
+    "name": "Evergy, Inc.",
+    "sector": "Utilities"
   },
   {
-    "name": "ES",
+    "ticker": "ES",
     "health": 4,
     "attack": 1,
     "growth": 1,
-    "defense": 7
+    "defense": 7,
+    "name": "Eversource Energy",
+    "sector": "Utilities"
   },
   {
-    "name": "EXC",
+    "ticker": "EXC",
     "health": 6,
     "attack": 1,
     "growth": 0.442,
-    "defense": 9
+    "defense": 9,
+    "name": "Exelon Corporation",
+    "sector": "Utilities"
   },
   {
-    "name": "EXPE",
+    "ticker": "EXPE",
     "health": 3,
     "attack": 7,
     "growth": -0.165,
-    "defense": 2
+    "defense": 2,
+    "name": "Expedia Group, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "EXPD",
+    "ticker": "EXPD",
     "health": 3,
     "attack": 5,
     "growth": -0.219,
-    "defense": 2
+    "defense": 2,
+    "name": "Expeditors International of Washington, Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "EXR",
+    "ticker": "EXR",
     "health": 5,
     "attack": 6,
     "growth": -0.35,
-    "defense": 7
+    "defense": 7,
+    "name": "Extra Space Storage Inc.",
+    "sector": "Real Estate"
   },
   {
-    "name": "XOM",
+    "ticker": "XOM",
     "health": 10,
     "attack": 10,
     "growth": -0.381,
-    "defense": 10
+    "defense": 10,
+    "name": "Exxon Mobil Corporation",
+    "sector": "Energy"
   },
   {
-    "name": "FFIV",
+    "ticker": "FFIV",
     "health": 1,
     "attack": 4,
     "growth": 0.933,
-    "defense": 2
+    "defense": 2,
+    "name": "F5, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "FDS",
+    "ticker": "FDS",
     "health": 3,
     "attack": 4,
     "growth": 0.08,
-    "defense": 2
+    "defense": 2,
+    "name": "FactSet Research Systems Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "FICO",
+    "ticker": "FICO",
     "health": 5,
     "attack": 3,
     "growth": 0.25,
-    "defense": 1
+    "defense": 1,
+    "name": "Fair Isaac Corporation",
+    "sector": "Technology"
   },
   {
-    "name": "FAST",
+    "ticker": "FAST",
     "health": 6,
     "attack": 5,
     "growth": 0.084,
-    "defense": 3
+    "defense": 3,
+    "name": "Fastenal Company",
+    "sector": "Industrials"
   },
   {
-    "name": "FRT",
+    "ticker": "FRT",
     "health": 1,
     "attack": 3,
     "growth": -0.458,
-    "defense": 3
+    "defense": 3,
+    "name": "Federal Realty Investment Trust",
+    "sector": "Real Estate"
   },
   {
-    "name": "FDX",
+    "ticker": "FDX",
     "health": 8,
     "attack": 9,
     "growth": -0.133,
-    "defense": 9
+    "defense": 9,
+    "name": "FedEx Corporation",
+    "sector": "Industrials"
   },
   {
-    "name": "FIS",
+    "ticker": "FIS",
     "health": 6,
     "attack": 8,
     "growth": 1,
-    "defense": 8
+    "defense": 8,
+    "name": "Fidelity National Information Services, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "FITB",
+    "ticker": "FITB",
     "health": 4,
     "attack": 2,
     "growth": -0.287,
-    "defense": 8
+    "defense": 8,
+    "name": "Fifth Third Bancorp",
+    "sector": "Financial Services"
   },
   {
-    "name": "FSLR",
+    "ticker": "FSLR",
     "health": 3,
     "attack": 1,
     "growth": 1,
-    "defense": 4
+    "defense": 4,
+    "name": "First Solar, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "FE",
+    "ticker": "FE",
     "health": 4,
     "attack": 7,
     "growth": 1,
-    "defense": 6
+    "defense": 6,
+    "name": "FirstEnergy Corp.",
+    "sector": "Utilities"
   },
   {
-    "name": "FI",
+    "ticker": "FI",
     "health": 9,
     "attack": 9,
     "growth": 0.179,
-    "defense": 9
+    "defense": 9,
+    "name": "Fiserv, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "FMC",
+    "ticker": "FMC",
     "health": 1,
     "attack": 1,
     "growth": 3.073,
-    "defense": 3
+    "defense": 3,
+    "name": "FMC Corporation",
+    "sector": "Basic Materials"
   },
   {
-    "name": "F",
+    "ticker": "F",
     "health": 7,
     "attack": 1,
     "growth": 1,
-    "defense": 10
+    "defense": 10,
+    "name": "Ford Motor Company",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "FTNT",
+    "ticker": "FTNT",
     "health": 7,
     "attack": 6,
     "growth": 0.035,
-    "defense": 1
+    "defense": 1,
+    "name": "Fortinet, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "FTV",
+    "ticker": "FTV",
     "health": 5,
     "attack": 6,
     "growth": 0.162,
-    "defense": 6
+    "defense": 6,
+    "name": "Fortive Corporation",
+    "sector": "Technology"
   },
   {
-    "name": "FOXA",
+    "ticker": "FOXA",
     "health": 2,
     "attack": 6,
     "growth": -0.608,
-    "defense": 6
+    "defense": 6,
+    "name": "Fox Corporation",
+    "sector": "Communication Services"
   },
   {
-    "name": "FOX",
+    "ticker": "FOX",
     "health": 2,
     "attack": 6,
     "growth": -0.608,
-    "defense": 6
+    "defense": 6,
+    "name": "Fox Corporation",
+    "sector": "Communication Services"
   },
   {
-    "name": "BEN",
+    "ticker": "BEN",
     "health": 2,
     "attack": 5,
     "growth": 0.55,
-    "defense": 7
+    "defense": 7,
+    "name": "Franklin Resources, Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "FCX",
+    "ticker": "FCX",
     "health": 8,
     "attack": 1,
     "growth": -0.446,
-    "defense": 9
+    "defense": 9,
+    "name": "Freeport-McMoRan Inc.",
+    "sector": "Basic Materials"
   },
   {
-    "name": "GRMN",
+    "ticker": "GRMN",
     "health": 5,
     "attack": 5,
     "growth": 0.846,
-    "defense": 5
+    "defense": 5,
+    "name": "Garmin Ltd.",
+    "sector": "Technology"
   },
   {
-    "name": "IT",
+    "ticker": "IT",
     "health": 6,
     "attack": 5,
     "growth": -0.175,
-    "defense": 1
+    "defense": 1,
+    "name": "Gartner, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "GE",
+    "ticker": "GE",
     "health": 10,
     "attack": 9,
     "growth": -0.232,
-    "defense": 9
+    "defense": 9,
+    "name": "General Electric Company",
+    "sector": "Industrials"
   },
   {
-    "name": "GEHC",
+    "ticker": "GEHC",
     "health": 6,
     "attack": 8,
     "growth": -0.279,
-    "defense": 5
+    "defense": 5,
+    "name": "GE HealthCare Technologies Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "GEV",
+    "ticker": "GEV",
     "health": 5,
     "attack": 5,
     "growth": 1,
-    "defense": 5
+    "defense": 5,
+    "name": "GE Vernova Inc.",
+    "sector": null
   },
   {
-    "name": "GEN",
+    "ticker": "GEN",
     "health": 2,
     "attack": 3,
     "growth": -0.12,
-    "defense": 2
+    "defense": 2,
+    "name": "Gen Digital Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "GNRC",
+    "ticker": "GNRC",
     "health": 1,
     "attack": 3,
     "growth": 0.894,
-    "defense": 2
+    "defense": 2,
+    "name": "Generac Holdings Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "GD",
+    "ticker": "GD",
     "health": 8,
     "attack": 7,
     "growth": 0.014,
-    "defense": 8
+    "defense": 8,
+    "name": "General Dynamics Corporation",
+    "sector": "Industrials"
   },
   {
-    "name": "GIS",
+    "ticker": "GIS",
     "health": 6,
     "attack": 7,
     "growth": 0.272,
-    "defense": 6
+    "defense": 6,
+    "name": "General Mills, Inc.",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "GM",
+    "ticker": "GM",
     "health": 7,
     "attack": 9,
     "growth": 0.135,
-    "defense": 10
+    "defense": 10,
+    "name": "General Motors Company",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "GPC",
+    "ticker": "GPC",
     "health": 4,
     "attack": 4,
     "growth": 0.263,
-    "defense": 3
+    "defense": 3,
+    "name": "Genuine Parts Company",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "GILD",
+    "ticker": "GILD",
     "health": 8,
     "attack": 10,
     "growth": -0.131,
-    "defense": 8
+    "defense": 8,
+    "name": "Gilead Sciences, Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "GPN",
+    "ticker": "GPN",
     "health": 5,
     "attack": 8,
     "growth": 0.494,
-    "defense": 8
+    "defense": 8,
+    "name": "Global Payments Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "GL",
+    "ticker": "GL",
     "health": 1,
     "attack": 6,
     "growth": 0.168,
-    "defense": 3
+    "defense": 3,
+    "name": "Globe Life Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "GS",
+    "ticker": "GS",
     "health": 9,
     "attack": 2,
     "growth": 0.649,
-    "defense": 10
+    "defense": 10,
+    "name": "The Goldman Sachs Group, Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "HAL",
+    "ticker": "HAL",
     "health": 6,
     "attack": 7,
     "growth": 0.013,
-    "defense": 6
+    "defense": 6,
+    "name": "Halliburton Company",
+    "sector": "Energy"
   },
   {
-    "name": "HIG",
+    "ticker": "HIG",
     "health": 5,
     "attack": 9,
     "growth": 0.374,
-    "defense": 7
+    "defense": 7,
+    "name": "The Hartford Financial Services Group, Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "HAS",
+    "ticker": "HAS",
     "health": 1,
     "attack": 5,
     "growth": 1,
-    "defense": 1
+    "defense": 1,
+    "name": "Hasbro, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "HCA",
+    "ticker": "HCA",
     "health": 8,
     "attack": 8,
     "growth": -0.186,
-    "defense": 1
+    "defense": 1,
+    "name": "HCA Healthcare, Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "DOC",
+    "ticker": "DOC",
     "health": 2,
     "attack": 5,
     "growth": 126.349,
-    "defense": 5
+    "defense": 5,
+    "name": "Healthpeak Properties, Inc.",
+    "sector": "Real Estate"
   },
   {
-    "name": "HSIC",
+    "ticker": "HSIC",
     "health": 1,
     "attack": 2,
     "growth": -0.619,
-    "defense": 4
+    "defense": 4,
+    "name": "Henry Schein, Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "HSY",
+    "ticker": "HSY",
     "health": 6,
     "attack": 5,
     "growth": -0.115,
-    "defense": 3
+    "defense": 3,
+    "name": "The Hershey Company",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "HES",
+    "ticker": "HES",
     "health": 7,
     "attack": 1,
     "growth": -0.168,
-    "defense": 6
+    "defense": 6,
+    "name": "Hess Corporation",
+    "sector": "Energy"
   },
   {
-    "name": "HPE",
+    "ticker": "HPE",
     "health": 4,
     "attack": 7,
     "growth": -0.237,
-    "defense": 8
+    "defense": 8,
+    "name": "Hewlett Packard Enterprise Company",
+    "sector": "Technology"
   },
   {
-    "name": "HLT",
+    "ticker": "HLT",
     "health": 7,
     "attack": 6,
     "growth": -0.525,
-    "defense": 1
+    "defense": 1,
+    "name": "Hilton Worldwide Holdings Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "HOLX",
+    "ticker": "HOLX",
     "health": 3,
     "attack": 4,
     "growth": 0.373,
-    "defense": 4
+    "defense": 4,
+    "name": "Hologic, Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "HD",
+    "ticker": "HD",
     "health": 10,
     "attack": 10,
     "growth": -0.148,
-    "defense": 1
+    "defense": 1,
+    "name": "The Home Depot, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "HON",
+    "ticker": "HON",
     "health": 9,
     "attack": 8,
     "growth": 0.268,
-    "defense": 7
+    "defense": 7,
+    "name": "Honeywell International Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "HRL",
+    "ticker": "HRL",
     "health": 3,
     "attack": 4,
     "growth": 0.004,
-    "defense": 5
+    "defense": 5,
+    "name": "Hormel Foods Corporation",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "HST",
+    "ticker": "HST",
     "health": 2,
     "attack": 6,
     "growth": -0.063,
-    "defense": 4
+    "defense": 4,
+    "name": "Host Hotels & Resorts, Inc.",
+    "sector": "Real Estate"
   },
   {
-    "name": "HWM",
+    "ticker": "HWM",
     "health": 5,
     "attack": 3,
     "growth": 1.086,
-    "defense": 3
+    "defense": 3,
+    "name": "Howmet Aerospace Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "HPQ",
+    "ticker": "HPQ",
     "health": 5,
     "attack": 8,
     "growth": 0.319,
-    "defense": 1
+    "defense": 1,
+    "name": "HP Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "HUBB",
+    "ticker": "HUBB",
     "health": 4,
     "attack": 3,
     "growth": 0.633,
-    "defense": 2
+    "defense": 2,
+    "name": "Hubbell Incorporated",
+    "sector": "Industrials"
   },
   {
-    "name": "HUM",
+    "ticker": "HUM",
     "health": 6,
     "attack": 4,
     "growth": 1,
-    "defense": 7
+    "defense": 7,
+    "name": "Humana Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "HBAN",
+    "ticker": "HBAN",
     "health": 3,
     "attack": 2,
     "growth": -0.646,
-    "defense": 8
+    "defense": 8,
+    "name": "Huntington Bancshares Incorporated",
+    "sector": "Financial Services"
   },
   {
-    "name": "HII",
+    "ticker": "HII",
     "health": 1,
     "attack": 4,
     "growth": 1.249,
-    "defense": 3
+    "defense": 3,
+    "name": "Huntington Ingalls Industries, Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "IBM",
+    "ticker": "IBM",
     "health": 10,
     "attack": 10,
     "growth": 0.2,
-    "defense": 8
+    "defense": 8,
+    "name": "International Business Machines Corporation",
+    "sector": "Technology"
   },
   {
-    "name": "IEX",
+    "ticker": "IEX",
     "health": 3,
     "attack": 3,
     "growth": -0.16,
-    "defense": 3
+    "defense": 3,
+    "name": "IDEX Corporation",
+    "sector": "Industrials"
   },
   {
-    "name": "IDXX",
+    "ticker": "IDXX",
     "health": 6,
     "attack": 4,
     "growth": 0.121,
-    "defense": 2
+    "defense": 2,
+    "name": "IDEXX Laboratories, Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "ITW",
+    "ticker": "ITW",
     "health": 8,
     "attack": 8,
     "growth": -0.193,
-    "defense": 2
+    "defense": 2,
+    "name": "Illinois Tool Works Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "ILMN",
+    "ticker": "ILMN",
     "health": 4,
     "attack": 3,
     "growth": 1,
-    "defense": 4
+    "defense": 4,
+    "name": "Illumina, Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "INCY",
+    "ticker": "INCY",
     "health": 2,
     "attack": 4,
     "growth": 6.324,
-    "defense": 4
+    "defense": 4,
+    "name": "Incyte Corporation",
+    "sector": "Healthcare"
   },
   {
-    "name": "IR",
+    "ticker": "IR",
     "health": 6,
     "attack": 6,
     "growth": 0.046,
-    "defense": 6
+    "defense": 6,
+    "name": "Ingersoll Rand Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "PODD",
+    "ticker": "PODD",
     "health": 1,
     "attack": 2,
     "growth": 5.043,
-    "defense": 1
+    "defense": 1,
+    "name": "Insulet Corporation",
+    "sector": "Healthcare"
   },
   {
-    "name": "INTC",
+    "ticker": "INTC",
     "health": 10,
     "attack": 1,
     "growth": 1,
-    "defense": 10
+    "defense": 10,
+    "name": "Intel Corporation",
+    "sector": "Technology"
   },
   {
-    "name": "ICE",
+    "ticker": "ICE",
     "health": 8,
     "attack": 10,
     "growth": -0.147,
-    "defense": 9
+    "defense": 9,
+    "name": "Intercontinental Exchange, Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "IFF",
+    "ticker": "IFF",
     "health": 4,
     "attack": 7,
     "growth": 1,
-    "defense": 7
+    "defense": 7,
+    "name": "International Flavors & Fragrances Inc.",
+    "sector": "Basic Materials"
   },
   {
-    "name": "IP",
+    "ticker": "IP",
     "health": 2,
     "attack": 3,
     "growth": 1,
-    "defense": 5
+    "defense": 5,
+    "name": "International Paper Company",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "IPG",
+    "ticker": "IPG",
     "health": 1,
     "attack": 2,
     "growth": 0.616,
-    "defense": 3
+    "defense": 3,
+    "name": "The Interpublic Group of Companies, Inc.",
+    "sector": "Communication Services"
   },
   {
-    "name": "INTU",
+    "ticker": "INTU",
     "health": 10,
     "attack": 9,
     "growth": -0.185,
-    "defense": 8
+    "defense": 8,
+    "name": "Intuit Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "ISRG",
+    "ticker": "ISRG",
     "health": 9,
     "attack": 4,
     "growth": 0.857,
-    "defense": 7
+    "defense": 7,
+    "name": "Intuitive Surgical, Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "IVZ",
+    "ticker": "IVZ",
     "health": 1,
     "attack": 4,
     "growth": 1,
-    "defense": 7
+    "defense": 7,
+    "name": "Invesco Ltd.",
+    "sector": "Financial Services"
   },
   {
-    "name": "INVH",
+    "ticker": "INVH",
     "health": 4,
     "attack": 5,
     "growth": 0.279,
-    "defense": 6
+    "defense": 6,
+    "name": "Invitation Homes Inc.",
+    "sector": "Real Estate"
   },
   {
-    "name": "IQV",
+    "ticker": "IQV",
     "health": 6,
     "attack": 6,
     "growth": 1.125,
-    "defense": 4
+    "defense": 4,
+    "name": "IQVIA Holdings Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "IRM",
+    "ticker": "IRM",
     "health": 4,
     "attack": 2,
     "growth": -0.762,
-    "defense": 1
+    "defense": 1,
+    "name": "Iron Mountain Incorporated",
+    "sector": "Real Estate"
   },
   {
-    "name": "JBHT",
+    "ticker": "JBHT",
     "health": 3,
     "attack": 1,
     "growth": -0.236,
-    "defense": 3
+    "defense": 3,
+    "name": "J.B. Hunt Transport Services, Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "JBL",
+    "ticker": "JBL",
     "health": 3,
     "attack": 6,
     "growth": 3.809,
-    "defense": 2
+    "defense": 2,
+    "name": "Jabil Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "JKHY",
+    "ticker": "JKHY",
     "health": 1,
     "attack": 2,
     "growth": 0.145,
-    "defense": 2
+    "defense": 2,
+    "name": "Jack Henry & Associates, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "J",
+    "ticker": "J",
     "health": 3,
     "attack": 5,
     "growth": 0.283,
-    "defense": 5
+    "defense": 5,
+    "name": "Jacobs Solutions Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "JNJ",
+    "ticker": "JNJ",
     "health": 10,
     "attack": 10,
     "growth": 0.106,
-    "defense": 10
+    "defense": 10,
+    "name": "Johnson & Johnson",
+    "sector": "Healthcare"
   },
   {
-    "name": "JCI",
+    "ticker": "JCI",
     "health": 6,
     "attack": 8,
     "growth": 2.232,
-    "defense": 8
+    "defense": 8,
+    "name": "Johnson Controls International plc",
+    "sector": "Industrials"
   },
   {
-    "name": "JPM",
+    "ticker": "JPM",
     "health": 10,
     "attack": 2,
     "growth": -0.15,
-    "defense": 11
+    "defense": 11,
+    "name": "JPMorgan Chase & Co.",
+    "sector": "Financial Services"
   },
   {
-    "name": "JNPR",
+    "ticker": "JNPR",
     "health": 1,
     "attack": 4,
     "growth": -0.307,
-    "defense": 3
+    "defense": 3,
+    "name": "Juniper Networks, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "K",
+    "ticker": "K",
     "health": 3,
     "attack": 3,
     "growth": 1,
-    "defense": 3
+    "defense": 3,
+    "name": "Kellanova",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "KVUE",
+    "ticker": "KVUE",
     "health": 6,
     "attack": 8,
     "growth": -0.187,
-    "defense": 6
+    "defense": 6,
+    "name": "Kenvue Inc.",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "KDP",
+    "ticker": "KDP",
     "health": 6,
     "attack": 4,
     "growth": 0.554,
-    "defense": 9
+    "defense": 9,
+    "name": "Keurig Dr Pepper Inc.",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "KEY",
+    "ticker": "KEY",
     "health": 2,
     "attack": 2,
     "growth": -0.92,
-    "defense": 7
+    "defense": 7,
+    "name": "KeyCorp",
+    "sector": "Financial Services"
   },
   {
-    "name": "KEYS",
+    "ticker": "KEYS",
     "health": 5,
     "attack": 5,
     "growth": -0.324,
-    "defense": 4
+    "defense": 4,
+    "name": "Keysight Technologies, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "KMB",
+    "ticker": "KMB",
     "health": 6,
     "attack": 8,
     "growth": 0.007,
-    "defense": 1
+    "defense": 1,
+    "name": "Kimberly-Clark Corporation",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "KIM",
+    "ticker": "KIM",
     "health": 2,
     "attack": 5,
     "growth": 1,
-    "defense": 6
+    "defense": 6,
+    "name": "Kimco Realty Corporation",
+    "sector": "Real Estate"
   },
   {
-    "name": "KMI",
+    "ticker": "KMI",
     "health": 6,
     "attack": 1,
     "growth": -0.107,
-    "defense": 9
+    "defense": 9,
+    "name": "Kinder Morgan, Inc.",
+    "sector": "Energy"
   },
   {
-    "name": "KLAC",
+    "ticker": "KLAC",
     "health": 8,
     "attack": 8,
     "growth": -0.379,
-    "defense": 2
+    "defense": 2,
+    "name": "KLA Corporation",
+    "sector": "Technology"
   },
   {
-    "name": "KHC",
+    "ticker": "KHC",
     "health": 7,
     "attack": 8,
     "growth": -0.152,
-    "defense": 10
+    "defense": 10,
+    "name": "The Kraft Heinz Company",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "KR",
+    "ticker": "KR",
     "health": 6,
     "attack": 9,
     "growth": -0.882,
-    "defense": 6
+    "defense": 6,
+    "name": "The Kroger Co.",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "LHX",
+    "ticker": "LHX",
     "health": 6,
     "attack": 7,
     "growth": -0.617,
-    "defense": 8
+    "defense": 8,
+    "name": "L3Harris Technologies, Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "LH",
+    "ticker": "LH",
     "health": 3,
     "attack": 6,
     "growth": 1,
-    "defense": 5
+    "defense": 5,
+    "name": "Laboratory Corporation of America Holdings",
+    "sector": "Healthcare"
   },
   {
-    "name": "LRCX",
+    "ticker": "LRCX",
     "health": 9,
     "attack": 9,
     "growth": -0.33,
-    "defense": 5
+    "defense": 5,
+    "name": "Lam Research Corporation",
+    "sector": "Technology"
   },
   {
-    "name": "LW",
+    "ticker": "LW",
     "health": 1,
     "attack": 1,
     "growth": 1.085,
-    "defense": 2
+    "defense": 2,
+    "name": "Lamb Weston Holdings, Inc.",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "LVS",
+    "ticker": "LVS",
     "health": 6,
     "attack": 7,
     "growth": 1,
-    "defense": 3
+    "defense": 3,
+    "name": "Las Vegas Sands Corp.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "LDOS",
+    "ticker": "LDOS",
     "health": 3,
     "attack": 5,
     "growth": 0.296,
-    "defense": 3
+    "defense": 3,
+    "name": "Leidos Holdings, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "LEN",
+    "ticker": "LEN",
     "health": 7,
     "attack": 9,
     "growth": 0.249,
-    "defense": 9
+    "defense": 9,
+    "name": "Lennar Corporation",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "LIN",
+    "ticker": "LIN",
     "health": 10,
     "attack": 9,
     "growth": 0.184,
-    "defense": 9
+    "defense": 9,
+    "name": "Linde plc",
+    "sector": "Basic Materials"
   },
   {
-    "name": "LYV",
+    "ticker": "LYV",
     "health": 4,
     "attack": 5,
     "growth": 1,
-    "defense": 2
+    "defense": 2,
+    "name": "Live Nation Entertainment, Inc.",
+    "sector": "Communication Services"
   },
   {
-    "name": "LKQ",
+    "ticker": "LKQ",
     "health": 2,
     "attack": 4,
     "growth": -0.09,
-    "defense": 4
+    "defense": 4,
+    "name": "LKQ Corporation",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "LMT",
+    "ticker": "LMT",
     "health": 9,
     "attack": 9,
     "growth": 0.024,
-    "defense": 5
+    "defense": 5,
+    "name": "Lockheed Martin Corporation",
+    "sector": "Industrials"
   },
   {
-    "name": "L",
+    "ticker": "L",
     "health": 3,
     "attack": 8,
     "growth": 0.334,
-    "defense": 8
+    "defense": 8,
+    "name": "Loews Corporation",
+    "sector": "Financial Services"
   },
   {
-    "name": "LOW",
+    "ticker": "LOW",
     "health": 9,
     "attack": 9,
     "growth": 0.118,
-    "defense": 1
+    "defense": 1,
+    "name": "Lowe's Companies, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "LULU",
+    "ticker": "LULU",
     "health": 7,
     "attack": 7,
     "growth": 4.639,
-    "defense": 3
+    "defense": 3,
+    "name": "Lululemon Athletica Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "LYB",
+    "ticker": "LYB",
     "health": 5,
     "attack": 7,
     "growth": -0.476,
-    "defense": 7
+    "defense": 7,
+    "name": "LyondellBasell Industries N.V.",
+    "sector": "Basic Materials"
   },
   {
-    "name": "MTB",
+    "ticker": "MTB",
     "health": 4,
     "attack": 2,
     "growth": -0.361,
-    "defense": 9
+    "defense": 9,
+    "name": "M&T Bank Corporation",
+    "sector": "Financial Services"
   },
   {
-    "name": "MRO",
+    "ticker": "MRO",
     "health": 3,
     "attack": 6,
     "growth": -0.175,
-    "defense": 6
+    "defense": 6,
+    "name": "Marathon Oil Corporation",
+    "sector": "Energy"
   },
   {
-    "name": "MPC",
+    "ticker": "MPC",
     "health": 8,
     "attack": 10,
     "growth": -0.459,
-    "defense": 9
+    "defense": 9,
+    "name": "Marathon Petroleum Corporation",
+    "sector": "Energy"
   },
   {
-    "name": "MKTX",
+    "ticker": "MKTX",
     "health": 1,
     "attack": 2,
     "growth": 0.164,
-    "defense": 1
+    "defense": 1,
+    "name": "MarketAxess Holdings Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "MAR",
+    "ticker": "MAR",
     "health": 8,
     "attack": 8,
     "growth": 0.354,
-    "defense": 1
+    "defense": 1,
+    "name": "Marriott International, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "MMC",
+    "ticker": "MMC",
     "health": 9,
     "attack": 9,
     "growth": 0.643,
-    "defense": 7
+    "defense": 7,
+    "name": "Marsh & McLennan Companies, Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "MLM",
+    "ticker": "MLM",
     "health": 6,
     "attack": 4,
     "growth": 0.541,
-    "defense": 5
+    "defense": 5,
+    "name": "Martin Marietta Materials, Inc.",
+    "sector": "Basic Materials"
   },
   {
-    "name": "MAS",
+    "ticker": "MAS",
     "health": 3,
     "attack": 5,
     "growth": 0.715,
-    "defense": 1
+    "defense": 1,
+    "name": "Masco Corporation",
+    "sector": "Industrials"
   },
   {
-    "name": "MA",
+    "ticker": "MA",
     "health": 10,
     "attack": 10,
     "growth": 0.136,
-    "defense": 5
+    "defense": 5,
+    "name": "Mastercard Incorporated",
+    "sector": "Financial Services"
   },
   {
-    "name": "MTCH",
+    "ticker": "MTCH",
     "health": 1,
     "attack": 4,
     "growth": 1.738,
-    "defense": 1
+    "defense": 1,
+    "name": "Match Group, Inc.",
+    "sector": "Communication Services"
   },
   {
-    "name": "MKC",
+    "ticker": "MKC",
     "health": 3,
     "attack": 5,
     "growth": 0.193,
-    "defense": 4
+    "defense": 4,
+    "name": "McCormick & Company, Incorporated",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "MCD",
+    "ticker": "MCD",
     "health": 10,
     "attack": 10,
     "growth": 0.083,
-    "defense": 1
+    "defense": 1,
+    "name": "McDonald's Corporation",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "MCK",
+    "ticker": "MCK",
     "health": 8,
     "attack": 8,
     "growth": -0.423,
-    "defense": 1
+    "defense": 1,
+    "name": "McKesson Corporation",
+    "sector": "Healthcare"
   },
   {
-    "name": "MDT",
+    "ticker": "MDT",
     "health": 9,
     "attack": 9,
     "growth": 0.078,
-    "defense": 10
+    "defense": 10,
+    "name": "Medtronic plc",
+    "sector": "Healthcare"
   },
   {
-    "name": "MRK",
+    "ticker": "MRK",
     "health": 10,
     "attack": 7,
     "growth": 1,
-    "defense": 9
+    "defense": 9,
+    "name": "Merck & Co., Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "META",
+    "ticker": "META",
     "health": 10,
     "attack": 10,
     "growth": 2.002,
-    "defense": 10
+    "defense": 10,
+    "name": "Meta Platforms, Inc.",
+    "sector": "Communication Services"
   },
   {
-    "name": "MET",
+    "ticker": "MET",
     "health": 7,
     "attack": 1,
     "growth": -0.607,
-    "defense": 9
+    "defense": 9,
+    "name": "MetLife, Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "MTD",
+    "ticker": "MTD",
     "health": 5,
     "attack": 4,
     "growth": -0.282,
-    "defense": 1
+    "defense": 1,
+    "name": "Mettler-Toledo International Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "MGM",
+    "ticker": "MGM",
     "health": 2,
     "attack": 5,
     "growth": 0.342,
-    "defense": 3
+    "defense": 3,
+    "name": "MGM Resorts International",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "MCHP",
+    "ticker": "MCHP",
     "health": 7,
     "attack": 8,
     "growth": -0.26,
-    "defense": 4
+    "defense": 4,
+    "name": "Microchip Technology Incorporated",
+    "sector": "Technology"
   },
   {
-    "name": "MU",
+    "ticker": "MU",
     "health": 9,
     "attack": 1,
     "growth": 1,
-    "defense": 10
+    "defense": 10,
+    "name": "Micron Technology, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "MSFT",
+    "ticker": "MSFT",
     "health": 11,
     "attack": 10,
     "growth": 0.332,
-    "defense": 10
+    "defense": 10,
+    "name": "Microsoft Corporation",
+    "sector": "Technology"
   },
   {
-    "name": "MAA",
+    "ticker": "MAA",
     "health": 2,
     "attack": 5,
     "growth": -0.177,
-    "defense": 4
+    "defense": 4,
+    "name": "Mid-America Apartment Communities, Inc.",
+    "sector": "Real Estate"
   },
   {
-    "name": "MRNA",
+    "ticker": "MRNA",
     "health": 6,
     "attack": 1,
     "growth": -0.851,
-    "defense": 7
+    "defense": 7,
+    "name": "Moderna, Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "MHK",
+    "ticker": "MHK",
     "health": 1,
     "attack": 4,
     "growth": 3.194,
-    "defense": 5
+    "defense": 5,
+    "name": "Mohawk Industries, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "MOH",
+    "ticker": "MOH",
     "health": 4,
     "attack": 5,
     "growth": 2.842,
-    "defense": 3
+    "defense": 3,
+    "name": "Molina Healthcare, Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "TAP",
+    "ticker": "TAP",
     "health": 2,
     "attack": 6,
     "growth": 1,
-    "defense": 7
+    "defense": 7,
+    "name": "Molson Coors Beverage Company",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "MDLZ",
+    "ticker": "MDLZ",
     "health": 8,
     "attack": 9,
     "growth": 0.669,
-    "defense": 9
+    "defense": 9,
+    "name": "Mondelez International, Inc.",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "MPWR",
+    "ticker": "MPWR",
     "health": 5,
     "attack": 3,
     "growth": -0.191,
-    "defense": 2
+    "defense": 2,
+    "name": "Monolithic Power Systems, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "MNST",
+    "ticker": "MNST",
     "health": 7,
     "attack": 5,
     "growth": 0.211,
-    "defense": 5
+    "defense": 5,
+    "name": "Monster Beverage Corporation",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "MCO",
+    "ticker": "MCO",
     "health": 8,
     "attack": 7,
     "growth": 0.382,
-    "defense": 2
+    "defense": 2,
+    "name": "Moody's Corporation",
+    "sector": "Financial Services"
   },
   {
-    "name": "MS",
+    "ticker": "MS",
     "health": 9,
     "attack": 2,
     "growth": -0.332,
-    "defense": 10
+    "defense": 10,
+    "name": "Morgan Stanley",
+    "sector": "Financial Services"
   },
   {
-    "name": "MOS",
+    "ticker": "MOS",
     "health": 1,
     "attack": 6,
     "growth": -0.264,
-    "defense": 7
+    "defense": 7,
+    "name": "The Mosaic Company",
+    "sector": "Basic Materials"
   },
   {
-    "name": "MSI",
+    "ticker": "MSI",
     "health": 7,
     "attack": 6,
     "growth": 0.014,
-    "defense": 1
+    "defense": 1,
+    "name": "Motorola Solutions, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "MSCI",
+    "ticker": "MSCI",
     "health": 6,
     "attack": 5,
     "growth": 0.902,
-    "defense": 1
+    "defense": 1,
+    "name": "MSCI Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "NDAQ",
+    "ticker": "NDAQ",
     "health": 6,
     "attack": 6,
     "growth": -0.267,
-    "defense": 6
+    "defense": 6,
+    "name": "Nasdaq, Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "NTAP",
+    "ticker": "NTAP",
     "health": 4,
     "attack": 6,
     "growth": 3.933,
-    "defense": 1
+    "defense": 1,
+    "name": "NetApp, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "NFLX",
+    "ticker": "NFLX",
     "health": 10,
     "attack": 10,
     "growth": 16.252,
-    "defense": 8
+    "defense": 8,
+    "name": "Netflix, Inc.",
+    "sector": "Communication Services"
   },
   {
-    "name": "NEM",
+    "ticker": "NEM",
     "health": 7,
     "attack": 1,
     "growth": 1,
-    "defense": 9
+    "defense": 9,
+    "name": "Newmont Corporation",
+    "sector": "Basic Materials"
   },
   {
-    "name": "NWSA",
+    "ticker": "NWSA",
     "health": 2,
     "attack": 4,
     "growth": 1.321,
-    "defense": 5
+    "defense": 5,
+    "name": "News Corporation",
+    "sector": "Communication Services"
   },
   {
-    "name": "NWS",
+    "ticker": "NWS",
     "health": 2,
     "attack": 4,
     "growth": 1.321,
-    "defense": 5
+    "defense": 5,
+    "name": "News Corporation",
+    "sector": "Communication Services"
   },
   {
-    "name": "NEE",
+    "ticker": "NEE",
     "health": 9,
     "attack": 1,
     "growth": -0.234,
-    "defense": 10
+    "defense": 10,
+    "name": "NextEra Energy, Inc.",
+    "sector": "Utilities"
   },
   {
-    "name": "NKE",
+    "ticker": "NKE",
     "health": 9,
     "attack": 2,
     "growth": -0.025,
-    "defense": 7
+    "defense": 7,
+    "name": "NIKE, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "NI",
+    "ticker": "NI",
     "health": 1,
     "attack": 1,
     "growth": -0.033,
-    "defense": 6
+    "defense": 6,
+    "name": "NiSource Inc.",
+    "sector": "Utilities"
   },
   {
-    "name": "NDSN",
+    "ticker": "NDSN",
     "health": 2,
     "attack": 3,
     "growth": 0.05,
-    "defense": 2
+    "defense": 2,
+    "name": "Nordson Corporation",
+    "sector": "Industrials"
   },
   {
-    "name": "NSC",
+    "ticker": "NSC",
     "health": 7,
     "attack": 7,
     "growth": -0.321,
-    "defense": 7
+    "defense": 7,
+    "name": "Norfolk Southern Corporation",
+    "sector": "Industrials"
   },
   {
-    "name": "NTRS",
+    "ticker": "NTRS",
     "health": 3,
     "attack": 2,
     "growth": -0.275,
-    "defense": 7
+    "defense": 7,
+    "name": "Northern Trust Corporation",
+    "sector": "Financial Services"
   },
   {
-    "name": "NOC",
+    "ticker": "NOC",
     "health": 8,
     "attack": 7,
     "growth": 1,
-    "defense": 7
+    "defense": 7,
+    "name": "Northrop Grumman Corporation",
+    "sector": "Industrials"
   },
   {
-    "name": "NCLH",
+    "ticker": "NCLH",
     "health": 1,
     "attack": 1,
     "growth": 1,
-    "defense": 1
+    "defense": 1,
+    "name": "Norwegian Cruise Line Holdings Ltd.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "NRG",
+    "ticker": "NRG",
     "health": 2,
     "attack": 8,
     "growth": 1,
-    "defense": 2
+    "defense": 2,
+    "name": "NRG Energy, Inc.",
+    "sector": "Utilities"
   },
   {
-    "name": "NUE",
+    "ticker": "NUE",
     "health": 7,
     "attack": 9,
     "growth": -0.353,
-    "defense": 8
+    "defense": 8,
+    "name": "Nucor Corporation",
+    "sector": "Basic Materials"
   },
   {
-    "name": "NVDA",
+    "ticker": "NVDA",
     "health": 10,
     "attack": 10,
     "growth": 7.613,
-    "defense": 10
+    "defense": 10,
+    "name": "NVIDIA Corporation",
+    "sector": "Technology"
   },
   {
-    "name": "NVR",
+    "ticker": "NVR",
     "health": 4,
     "attack": 6,
     "growth": -0.089,
-    "defense": 3
+    "defense": 3,
+    "name": "NVR, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "NXPI",
+    "ticker": "NXPI",
     "health": 8,
     "attack": 7,
     "growth": -0.03,
-    "defense": 5
+    "defense": 5,
+    "name": "NXP Semiconductors N.V.",
+    "sector": "Technology"
   },
   {
-    "name": "ORLY",
+    "ticker": "ORLY",
     "health": 8,
     "attack": 7,
     "growth": 0.107,
-    "defense": 1
+    "defense": 1,
+    "name": "O'Reilly Automotive, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "OXY",
+    "ticker": "OXY",
     "health": 8,
     "attack": 9,
     "growth": -0.379,
-    "defense": 9
+    "defense": 9,
+    "name": "Occidental Petroleum Corporation",
+    "sector": "Energy"
   },
   {
-    "name": "ODFL",
+    "ticker": "ODFL",
     "health": 7,
     "attack": 4,
     "growth": 0.008,
-    "defense": 3
+    "defense": 3,
+    "name": "Old Dominion Freight Line, Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "OMC",
+    "ticker": "OMC",
     "health": 3,
     "attack": 6,
     "growth": 0.019,
-    "defense": 3
+    "defense": 3,
+    "name": "Omnicom Group Inc.",
+    "sector": "Communication Services"
   },
   {
-    "name": "ON",
+    "ticker": "ON",
     "health": 5,
     "attack": 1,
     "growth": -0.052,
-    "defense": 5
+    "defense": 5,
+    "name": "ON Semiconductor Corporation",
+    "sector": "Technology"
   },
   {
-    "name": "OKE",
+    "ticker": "OKE",
     "health": 7,
     "attack": 6,
     "growth": 0.09,
-    "defense": 7
+    "defense": 7,
+    "name": "ONEOK, Inc.",
+    "sector": "Energy"
   },
   {
-    "name": "ORCL",
+    "ticker": "ORCL",
     "health": 10,
     "attack": 10,
     "growth": 0.25,
-    "defense": 2
+    "defense": 2,
+    "name": "Oracle Corporation",
+    "sector": "Technology"
   },
   {
-    "name": "OTIS",
+    "ticker": "OTIS",
     "health": 6,
     "attack": 7,
     "growth": 0.112,
-    "defense": 1
+    "defense": 1,
+    "name": "Otis Worldwide Corporation",
+    "sector": "Industrials"
   },
   {
-    "name": "PCAR",
+    "ticker": "PCAR",
     "health": 8,
     "attack": 9,
     "growth": 0.528,
-    "defense": 7
+    "defense": 7,
+    "name": "PACCAR Inc",
+    "sector": "Industrials"
   },
   {
-    "name": "PKG",
+    "ticker": "PKG",
     "health": 3,
     "attack": 4,
     "growth": -0.092,
-    "defense": 3
+    "defense": 3,
+    "name": "Packaging Corporation of America",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "PANW",
+    "ticker": "PANW",
     "health": 8,
     "attack": 8,
     "growth": 18.56,
-    "defense": 2
+    "defense": 2,
+    "name": "Palo Alto Networks, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "PARA",
+    "ticker": "PARA",
     "health": 1,
     "attack": 10,
     "growth": 79.876,
-    "defense": 8
+    "defense": 8,
+    "name": "Paramount Global",
+    "sector": "Communication Services"
   },
   {
-    "name": "PH",
+    "ticker": "PH",
     "health": 8,
     "attack": 9,
     "growth": 0.72,
-    "defense": 6
+    "defense": 6,
+    "name": "Parker-Hannifin Corporation",
+    "sector": "Industrials"
   },
   {
-    "name": "PAYX",
+    "ticker": "PAYX",
     "health": 6,
     "attack": 7,
     "growth": 0.07,
-    "defense": 3
+    "defense": 3,
+    "name": "Paychex, Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "PAYC",
+    "ticker": "PAYC",
     "health": 1,
     "attack": 3,
     "growth": 0.034,
-    "defense": 2
+    "defense": 2,
+    "name": "Paycom Software, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "PYPL",
+    "ticker": "PYPL",
     "health": 8,
     "attack": 9,
     "growth": 0.615,
-    "defense": 8
+    "defense": 8,
+    "name": "PayPal Holdings, Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "PNR",
+    "ticker": "PNR",
     "health": 2,
     "attack": 3,
     "growth": 1.161,
-    "defense": 3
+    "defense": 3,
+    "name": "Pentair plc",
+    "sector": "Industrials"
   },
   {
-    "name": "PEP",
+    "ticker": "PEP",
     "health": 10,
     "attack": 10,
     "growth": 1.521,
-    "defense": 8
+    "defense": 8,
+    "name": "PepsiCo, Inc.",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "PFE",
+    "ticker": "PFE",
     "health": 9,
     "attack": 5,
     "growth": 1,
-    "defense": 10
+    "defense": 10,
+    "name": "Pfizer Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "PCG",
+    "ticker": "PCG",
     "health": 6,
     "attack": 1,
     "growth": 0.792,
-    "defense": 9
+    "defense": 9,
+    "name": "PG&E Corporation",
+    "sector": "Utilities"
   },
   {
-    "name": "PM",
+    "ticker": "PM",
     "health": 9,
     "attack": 10,
     "growth": -0.085,
-    "defense": 1
+    "defense": 1,
+    "name": "Philip Morris International Inc.",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "PSX",
+    "ticker": "PSX",
     "health": 8,
     "attack": 8,
     "growth": -0.28,
-    "defense": 9
+    "defense": 9,
+    "name": "Phillips 66",
+    "sector": "Energy"
   },
   {
-    "name": "PNW",
+    "ticker": "PNW",
     "health": 1,
     "attack": 1,
     "growth": 1,
-    "defense": 4
+    "defense": 4,
+    "name": "Pinnacle West Capital Corporation",
+    "sector": "Utilities"
   },
   {
-    "name": "PXD",
+    "ticker": "PXD",
     "health": 8,
     "attack": 8,
     "growth": -0.119,
-    "defense": 8
+    "defense": 8,
+    "name": "Pioneer Natural Resources Company",
+    "sector": "Energy"
   },
   {
-    "name": "PNC",
+    "ticker": "PNC",
     "health": 8,
     "attack": 2,
     "growth": -0.464,
-    "defense": 10
+    "defense": 10,
+    "name": "The PNC Financial Services Group, Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "POOL",
+    "ticker": "POOL",
     "health": 2,
     "attack": 4,
     "growth": -0.272,
-    "defense": 2
+    "defense": 2,
+    "name": "Pool Corporation",
+    "sector": "Industrials"
   },
   {
-    "name": "PPG",
+    "ticker": "PPG",
     "health": 5,
     "attack": 7,
     "growth": -0.62,
-    "defense": 5
+    "defense": 5,
+    "name": "PPG Industries, Inc.",
+    "sector": "Basic Materials"
   },
   {
-    "name": "PPL",
+    "ticker": "PPL",
     "health": 3,
     "attack": 1,
     "growth": -0.416,
-    "defense": 7
+    "defense": 7,
+    "name": "PPL Corporation",
+    "sector": "Utilities"
   },
   {
-    "name": "PFG",
+    "ticker": "PFG",
     "health": 3,
     "attack": 6,
     "growth": 1,
-    "defense": 6
+    "defense": 6,
+    "name": "Principal Financial Group, Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "PG",
+    "ticker": "PG",
     "health": 10,
     "attack": 10,
     "growth": -0.114,
-    "defense": 10
+    "defense": 10,
+    "name": "The Procter & Gamble Company",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "PGR",
+    "ticker": "PGR",
     "health": 9,
     "attack": 10,
     "growth": 1.424,
-    "defense": 8
+    "defense": 8,
+    "name": "The Progressive Corporation",
+    "sector": "Financial Services"
   },
   {
-    "name": "PLD",
+    "ticker": "PLD",
     "health": 9,
     "attack": 9,
     "growth": 0.071,
-    "defense": 10
+    "defense": 10,
+    "name": "Prologis, Inc.",
+    "sector": "Real Estate"
   },
   {
-    "name": "PRU",
+    "ticker": "PRU",
     "health": 6,
     "attack": 8,
     "growth": 1,
-    "defense": 9
+    "defense": 9,
+    "name": "Prudential Financial, Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "PEG",
+    "ticker": "PEG",
     "health": 5,
     "attack": 2,
     "growth": -0.307,
-    "defense": 7
+    "defense": 7,
+    "name": "Public Service Enterprise Group Incorporated",
+    "sector": "Utilities"
   },
   {
-    "name": "PTC",
+    "ticker": "PTC",
     "health": 4,
     "attack": 4,
     "growth": -0.127,
-    "defense": 2
+    "defense": 2,
+    "name": "PTC Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "PSA",
+    "ticker": "PSA",
     "health": 7,
     "attack": 8,
     "growth": 0.075,
-    "defense": 6
+    "defense": 6,
+    "name": "Public Storage",
+    "sector": "Real Estate"
   },
   {
-    "name": "PHM",
+    "ticker": "PHM",
     "health": 4,
     "attack": 7,
     "growth": -0.146,
-    "defense": 6
+    "defense": 6,
+    "name": "PulteGroup, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "QRVO",
+    "ticker": "QRVO",
     "health": 1,
     "attack": 3,
     "growth": 1,
-    "defense": 3
+    "defense": 3,
+    "name": "Qorvo, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "PWR",
+    "ticker": "PWR",
     "health": 6,
     "attack": 5,
     "growth": 0.281,
-    "defense": 4
+    "defense": 4,
+    "name": "Quanta Services, Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "QCOM",
+    "ticker": "QCOM",
     "health": 10,
     "attack": 10,
     "growth": 0.245,
-    "defense": 8
+    "defense": 8,
+    "name": "QUALCOMM Incorporated",
+    "sector": "Technology"
   },
   {
-    "name": "DGX",
+    "ticker": "DGX",
     "health": 2,
     "attack": 4,
     "growth": 0.868,
-    "defense": 4
+    "defense": 4,
+    "name": "Quest Diagnostics Incorporated",
+    "sector": "Healthcare"
   },
   {
-    "name": "RL",
+    "ticker": "RL",
     "health": 1,
     "attack": 4,
     "growth": 0.309,
-    "defense": 2
+    "defense": 2,
+    "name": "Ralph Lauren Corporation",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "RJF",
+    "ticker": "RJF",
     "health": 5,
     "attack": 2,
     "growth": 0.009,
-    "defense": 6
+    "defense": 6,
+    "name": "Raymond James Financial, Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "RTX",
+    "ticker": "RTX",
     "health": 9,
     "attack": 9,
     "growth": 0.091,
-    "defense": 10
+    "defense": 10,
+    "name": "RTX Corporation",
+    "sector": "Industrials"
   },
   {
-    "name": "O",
+    "ticker": "O",
     "health": 7,
     "attack": 7,
     "growth": -0.16,
-    "defense": 9
+    "defense": 9,
+    "name": "Realty Income Corporation",
+    "sector": "Real Estate"
   },
   {
-    "name": "REG",
+    "ticker": "REG",
     "health": 1,
     "attack": 3,
     "growth": -0.15,
-    "defense": 5
+    "defense": 5,
+    "name": "Regency Centers Corporation",
+    "sector": "Real Estate"
   },
   {
-    "name": "REGN",
+    "ticker": "REGN",
     "health": 9,
     "attack": 8,
     "growth": -0.029,
-    "defense": 9
+    "defense": 9,
+    "name": "Regeneron Pharmaceuticals, Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "RF",
+    "ticker": "RF",
     "health": 3,
     "attack": 2,
     "growth": 1,
-    "defense": 8
+    "defense": 8,
+    "name": "Regions Financial Corporation",
+    "sector": "Financial Services"
   },
   {
-    "name": "RSG",
+    "ticker": "RSG",
     "health": 7,
     "attack": 7,
     "growth": 0.28,
-    "defense": 6
+    "defense": 6,
+    "name": "Republic Services, Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "RMD",
+    "ticker": "RMD",
     "health": 5,
     "attack": 5,
     "growth": -0.072,
-    "defense": 3
+    "defense": 3,
+    "name": "ResMed Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "RVTY",
+    "ticker": "RVTY",
     "health": 2,
     "attack": 7,
     "growth": -0.373,
-    "defense": 5
+    "defense": 5,
+    "name": "Revvity, Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "RHI",
+    "ticker": "RHI",
     "health": 1,
     "attack": 3,
     "growth": -0.392,
-    "defense": 2
+    "defense": 2,
+    "name": "Robert Half Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "ROK",
+    "ticker": "ROK",
     "health": 5,
     "attack": 5,
     "growth": -0.438,
-    "defense": 3
+    "defense": 3,
+    "name": "Rockwell Automation, Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "ROL",
+    "ticker": "ROL",
     "health": 4,
     "attack": 3,
     "growth": 0.323,
-    "defense": 1
+    "defense": 1,
+    "name": "Rollins, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "ROP",
+    "ticker": "ROP",
     "health": 7,
     "attack": 7,
     "growth": -0.8,
-    "defense": 8
+    "defense": 8,
+    "name": "Roper Technologies, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "ROST",
+    "ticker": "ROST",
     "health": 7,
     "attack": 6,
     "growth": 0.401,
-    "defense": 4
+    "defense": 4,
+    "name": "Ross Stores, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "RCL",
+    "ticker": "RCL",
     "health": 5,
     "attack": 1,
     "growth": 1,
-    "defense": 4
+    "defense": 4,
+    "name": "Royal Caribbean Cruises Ltd.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "SPGI",
+    "ticker": "SPGI",
     "health": 9,
     "attack": 9,
     "growth": 0.367,
-    "defense": 9
+    "defense": 9,
+    "name": "S&P Global Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "CRM",
+    "ticker": "CRM",
     "health": 10,
     "attack": 10,
     "growth": 1,
-    "defense": 10
+    "defense": 10,
+    "name": "Salesforce, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "SBAC",
+    "ticker": "SBAC",
     "health": 4,
     "attack": 5,
     "growth": 0.063,
-    "defense": 1
+    "defense": 1,
+    "name": "SBA Communications Corporation",
+    "sector": "Real Estate"
   },
   {
-    "name": "SLB",
+    "ticker": "SLB",
     "health": 8,
     "attack": 8,
     "growth": 0.042,
-    "defense": 8
+    "defense": 8,
+    "name": "Schlumberger Limited",
+    "sector": "Energy"
   },
   {
-    "name": "STX",
+    "ticker": "STX",
     "health": 3,
     "attack": 5,
     "growth": 1,
-    "defense": 1
+    "defense": 1,
+    "name": "Seagate Technology Holdings plc",
+    "sector": "Technology"
   },
   {
-    "name": "SRE",
+    "ticker": "SRE",
     "health": 6,
     "attack": 1,
     "growth": 0.682,
-    "defense": 9
+    "defense": 9,
+    "name": "Sempra",
+    "sector": "Utilities"
   },
   {
-    "name": "NOW",
+    "ticker": "NOW",
     "health": 10,
     "attack": 9,
     "growth": 0.927,
-    "defense": 5
+    "defense": 5,
+    "name": "ServiceNow, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "SHW",
+    "ticker": "SHW",
     "health": 8,
     "attack": 8,
     "growth": -0.065,
-    "defense": 3
+    "defense": 3,
+    "name": "The Sherwin-Williams Company",
+    "sector": "Basic Materials"
   },
   {
-    "name": "SPG",
+    "ticker": "SPG",
     "health": 7,
     "attack": 7,
     "growth": 0.113,
-    "defense": 3
+    "defense": 3,
+    "name": "Simon Property Group, Inc.",
+    "sector": "Real Estate"
   },
   {
-    "name": "SWKS",
+    "ticker": "SWKS",
     "health": 3,
     "attack": 6,
     "growth": -0.254,
-    "defense": 4
+    "defense": 4,
+    "name": "Skyworks Solutions, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "SJM",
+    "ticker": "SJM",
     "health": 2,
     "attack": 5,
     "growth": -0.42,
-    "defense": 5
+    "defense": 5,
+    "name": "The J. M. Smucker Company",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "SNA",
+    "ticker": "SNA",
     "health": 2,
     "attack": 4,
     "growth": 0.076,
-    "defense": 4
+    "defense": 4,
+    "name": "Snap-on Incorporated",
+    "sector": "Industrials"
   },
   {
-    "name": "SOLV",
+    "ticker": "SOLV",
     "health": 1,
     "attack": 7,
     "growth": 1,
-    "defense": 3
+    "defense": 3,
+    "name": "Solventum Corporation",
+    "sector": "Healthcare"
   },
   {
-    "name": "SO",
+    "ticker": "SO",
     "health": 8,
     "attack": 1,
     "growth": 1,
-    "defense": 9
+    "defense": 9,
+    "name": "The Southern Company",
+    "sector": "Utilities"
   },
   {
-    "name": "LUV",
+    "ticker": "LUV",
     "health": 3,
     "attack": 3,
     "growth": 1,
-    "defense": 6
+    "defense": 6,
+    "name": "Southwest Airlines Co.",
+    "sector": "Industrials"
   },
   {
-    "name": "SWK",
+    "ticker": "SWK",
     "health": 2,
     "attack": 7,
     "growth": 1,
-    "defense": 6
+    "defense": 6,
+    "name": "Stanley Black & Decker, Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "SBUX",
+    "ticker": "SBUX",
     "health": 9,
     "attack": 9,
     "growth": 0.216,
-    "defense": 1
+    "defense": 1,
+    "name": "Starbucks Corporation",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "STT",
+    "ticker": "STT",
     "health": 4,
     "attack": 2,
     "growth": -0.71,
-    "defense": 8
+    "defense": 8,
+    "name": "State Street Corporation",
+    "sector": "Financial Services"
   },
   {
-    "name": "STLD",
+    "ticker": "STLD",
     "health": 4,
     "attack": 6,
     "growth": -0.275,
-    "defense": 5
+    "defense": 5,
+    "name": "Steel Dynamics, Inc.",
+    "sector": "Basic Materials"
   },
   {
-    "name": "STE",
+    "ticker": "STE",
     "health": 4,
     "attack": 3,
     "growth": 0.145,
-    "defense": 4
+    "defense": 4,
+    "name": "STERIS plc",
+    "sector": "Healthcare"
   },
   {
-    "name": "SYK",
+    "ticker": "SYK",
     "health": 9,
     "attack": 8,
     "growth": 1.027,
-    "defense": 8
+    "defense": 8,
+    "name": "Stryker Corporation",
+    "sector": "Healthcare"
   },
   {
-    "name": "SMCI",
+    "ticker": "SMCI",
     "health": 7,
     "attack": 1,
     "growth": 0.624,
-    "defense": 2
+    "defense": 2,
+    "name": "Super Micro Computer, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "SYF",
+    "ticker": "SYF",
     "health": 3,
     "attack": 2,
     "growth": -0.176,
-    "defense": 7
+    "defense": 7,
+    "name": "Synchrony Financial",
+    "sector": "Financial Services"
   },
   {
-    "name": "SNPS",
+    "ticker": "SNPS",
     "health": 8,
     "attack": 6,
     "growth": 0.651,
-    "defense": 4
+    "defense": 4,
+    "name": "Synopsys, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "SYY",
+    "ticker": "SYY",
     "health": 6,
     "attack": 7,
     "growth": 1.948,
-    "defense": 2
+    "defense": 2,
+    "name": "Sysco Corporation",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "TMUS",
+    "ticker": "TMUS",
     "health": 10,
     "attack": 10,
     "growth": 0.41,
-    "defense": 10
+    "defense": 10,
+    "name": "T-Mobile US, Inc.",
+    "sector": "Communication Services"
   },
   {
-    "name": "TROW",
+    "ticker": "TROW",
     "health": 5,
     "attack": 7,
     "growth": 0.65,
-    "defense": 6
+    "defense": 6,
+    "name": "T. Rowe Price Group, Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "TTWO",
+    "ticker": "TTWO",
     "health": 4,
     "attack": 7,
     "growth": 1,
-    "defense": 5
+    "defense": 5,
+    "name": "Take-Two Interactive Software, Inc.",
+    "sector": "Communication Services"
   },
   {
-    "name": "TPR",
+    "ticker": "TPR",
     "health": 1,
     "attack": 5,
     "growth": 0.022,
-    "defense": 2
+    "defense": 2,
+    "name": "Tapestry, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "TRGP",
+    "ticker": "TRGP",
     "health": 5,
     "attack": 2,
     "growth": -0.109,
-    "defense": 3
+    "defense": 3,
+    "name": "Targa Resources Corp.",
+    "sector": "Energy"
   },
   {
-    "name": "TGT",
+    "ticker": "TGT",
     "health": 8,
     "attack": 8,
     "growth": 0.574,
-    "defense": 7
+    "defense": 7,
+    "name": "Target Corporation",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "TEL",
+    "ticker": "TEL",
     "health": 6,
     "attack": 7,
     "growth": 3.617,
-    "defense": 6
+    "defense": 6,
+    "name": "TE Connectivity Ltd.",
+    "sector": "Technology"
   },
   {
-    "name": "TDY",
+    "ticker": "TDY",
     "health": 3,
     "attack": 4,
     "growth": 0.425,
-    "defense": 6
+    "defense": 6,
+    "name": "Teledyne Technologies Incorporated",
+    "sector": "Technology"
   },
   {
-    "name": "TFX",
+    "ticker": "TFX",
     "health": 1,
     "attack": 3,
     "growth": -0.603,
-    "defense": 3
+    "defense": 3,
+    "name": "Teleflex Incorporated",
+    "sector": "Healthcare"
   },
   {
-    "name": "TER",
+    "ticker": "TER",
     "health": 2,
     "attack": 3,
     "growth": -0.314,
-    "defense": 2
+    "defense": 2,
+    "name": "Teradyne, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "TSLA",
+    "ticker": "TSLA",
     "health": 10,
     "attack": 8,
     "growth": 1.115,
-    "defense": 10
+    "defense": 10,
+    "name": "Tesla, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "TXN",
+    "ticker": "TXN",
     "health": 9,
     "attack": 1,
     "growth": -0.302,
-    "defense": 8
+    "defense": 8,
+    "name": "Texas Instruments Incorporated",
+    "sector": "Technology"
   },
   {
-    "name": "TXT",
+    "ticker": "TXT",
     "health": 3,
     "attack": 5,
     "growth": -0.065,
-    "defense": 5
+    "defense": 5,
+    "name": "Textron Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "TMO",
+    "ticker": "TMO",
     "health": 10,
     "attack": 9,
     "growth": 0.054,
-    "defense": 10
+    "defense": 10,
+    "name": "Thermo Fisher Scientific Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "TJX",
+    "ticker": "TJX",
     "health": 9,
     "attack": 9,
     "growth": 0.368,
-    "defense": 4
+    "defense": 4,
+    "name": "The TJX Companies, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "TSCO",
+    "ticker": "TSCO",
     "health": 5,
     "attack": 3,
     "growth": -0.066,
-    "defense": 2
+    "defense": 2,
+    "name": "Tractor Supply Company",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "TT",
+    "ticker": "TT",
     "health": 8,
     "attack": 7,
     "growth": 0.161,
-    "defense": 5
+    "defense": 5,
+    "name": "Trane Technologies plc",
+    "sector": "Industrials"
   },
   {
-    "name": "TDG",
+    "ticker": "TDG",
     "health": 8,
     "attack": 6,
     "growth": 0.464,
-    "defense": 1
+    "defense": 1,
+    "name": "TransDigm Group Incorporated",
+    "sector": "Industrials"
   },
   {
-    "name": "TRV",
+    "ticker": "TRV",
     "health": 7,
     "attack": 10,
     "growth": 1.032,
-    "defense": 9
+    "defense": 9,
+    "name": "The Travelers Companies, Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "TRMB",
+    "ticker": "TRMB",
     "health": 2,
     "attack": 3,
     "growth": -0.279,
-    "defense": 3
+    "defense": 3,
+    "name": "Trimble Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "TFC",
+    "ticker": "TFC",
     "health": 7,
     "attack": 2,
     "growth": 1,
-    "defense": 10
+    "defense": 10,
+    "name": "Truist Financial Corporation",
+    "sector": "Financial Services"
   },
   {
-    "name": "TYL",
+    "ticker": "TYL",
     "health": 3,
     "attack": 3,
     "growth": 0.248,
-    "defense": 2
+    "defense": 2,
+    "name": "Tyler Technologies, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "TSN",
+    "ticker": "TSN",
     "health": 4,
     "attack": 4,
     "growth": -0.659,
-    "defense": 8
+    "defense": 8,
+    "name": "Tyson Foods, Inc.",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "USB",
+    "ticker": "USB",
     "health": 8,
     "attack": 2,
     "growth": -0.142,
-    "defense": 10
+    "defense": 10,
+    "name": "U.S. Bancorp",
+    "sector": "Financial Services"
   },
   {
-    "name": "UBER",
+    "ticker": "UBER",
     "health": 9,
     "attack": 8,
     "growth": 1.269,
-    "defense": 7
+    "defense": 7,
+    "name": "Uber Technologies, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "UDR",
+    "ticker": "UDR",
     "health": 2,
     "attack": 4,
     "growth": -0.275,
-    "defense": 4
+    "defense": 4,
+    "name": "UDR, Inc.",
+    "sector": "Real Estate"
   },
   {
-    "name": "ULTA",
+    "ticker": "ULTA",
     "health": 4,
     "attack": 4,
     "growth": 0.209,
-    "defense": 2
+    "defense": 2,
+    "name": "Ulta Beauty, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "UNP",
+    "ticker": "UNP",
     "health": 9,
     "attack": 9,
     "growth": 0.012,
-    "defense": 7
+    "defense": 7,
+    "name": "Union Pacific Corporation",
+    "sector": "Industrials"
   },
   {
-    "name": "UAL",
+    "ticker": "UAL",
     "health": 2,
     "attack": 1,
     "growth": -0.29,
-    "defense": 6
+    "defense": 6,
+    "name": "United Airlines Holdings, Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "UPS",
+    "ticker": "UPS",
     "health": 9,
     "attack": 9,
     "growth": -0.527,
-    "defense": 8
+    "defense": 8,
+    "name": "United Parcel Service, Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "URI",
+    "ticker": "URI",
     "health": 7,
     "attack": 8,
     "growth": 0.098,
-    "defense": 5
+    "defense": 5,
+    "name": "United Rentals, Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "UNH",
+    "ticker": "UNH",
     "health": 10,
     "attack": 10,
     "growth": 0.16,
-    "defense": 10
+    "defense": 10,
+    "name": "UnitedHealth Group Incorporated",
+    "sector": "Healthcare"
   },
   {
-    "name": "UHS",
+    "ticker": "UHS",
     "health": 1,
     "attack": 3,
     "growth": 0.297,
-    "defense": 4
+    "defense": 4,
+    "name": "Universal Health Services, Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "VLO",
+    "ticker": "VLO",
     "health": 7,
     "attack": 10,
     "growth": -0.571,
-    "defense": 9
+    "defense": 9,
+    "name": "Valero Energy Corporation",
+    "sector": "Energy"
   },
   {
-    "name": "VTR",
+    "ticker": "VTR",
     "health": 3,
     "attack": 5,
     "growth": 1,
-    "defense": 6
+    "defense": 6,
+    "name": "Ventas, Inc.",
+    "sector": "Real Estate"
   },
   {
-    "name": "VLTO",
+    "ticker": "VLTO",
     "health": 4,
     "attack": 5,
     "growth": -0.08,
-    "defense": 2
+    "defense": 2,
+    "name": "Veralto Corporation",
+    "sector": "Industrials"
   },
   {
-    "name": "VRSN",
+    "ticker": "VRSN",
     "health": 3,
     "attack": 4,
     "growth": 0.531,
-    "defense": 1
+    "defense": 1,
+    "name": "VeriSign, Inc.",
+    "sector": "Technology"
   },
   {
-    "name": "VRSK",
+    "ticker": "VRSK",
     "health": 5,
     "attack": 5,
     "growth": 2.149,
-    "defense": 1
+    "defense": 1,
+    "name": "Verisk Analytics, Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "VZ",
+    "ticker": "VZ",
     "health": 10,
     "attack": 10,
     "growth": 1,
-    "defense": 10
+    "defense": 10,
+    "name": "Verizon Communications Inc.",
+    "sector": "Communication Services"
   },
   {
-    "name": "VRTX",
+    "ticker": "VRTX",
     "health": 9,
     "attack": 9,
     "growth": 0.181,
-    "defense": 8
+    "defense": 8,
+    "name": "Vertex Pharmaceuticals Incorporated",
+    "sector": "Healthcare"
   },
   {
-    "name": "VTRS",
+    "ticker": "VTRS",
     "health": 2,
     "attack": 6,
     "growth": 1,
-    "defense": 8
+    "defense": 8,
+    "name": "Viatris Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "VICI",
+    "ticker": "VICI",
     "health": 5,
     "attack": 1,
     "growth": 0.143,
-    "defense": 9
+    "defense": 9,
+    "name": "VICI Properties Inc.",
+    "sector": "Real Estate"
   },
   {
-    "name": "V",
+    "ticker": "V",
     "health": 10,
     "attack": 10,
     "growth": 0.203,
-    "defense": 9
+    "defense": 9,
+    "name": "Visa Inc.",
+    "sector": "Financial Services"
   },
   {
-    "name": "VMC",
+    "ticker": "VMC",
     "health": 6,
     "attack": 4,
     "growth": 0.916,
-    "defense": 5
+    "defense": 5,
+    "name": "Vulcan Materials Company",
+    "sector": "Basic Materials"
   },
   {
-    "name": "WRB",
+    "ticker": "WRB",
     "health": 4,
     "attack": 8,
     "growth": 0.066,
-    "defense": 5
+    "defense": 5,
+    "name": "W. R. Berkley Corporation",
+    "sector": "Financial Services"
   },
   {
-    "name": "WAB",
+    "ticker": "WAB",
     "health": 5,
     "attack": 4,
     "growth": 0.379,
-    "defense": 6
+    "defense": 6,
+    "name": "Westinghouse Air Brake Technologies Corporation",
+    "sector": "Industrials"
   },
   {
-    "name": "WBA",
+    "ticker": "WBA",
     "health": 3,
     "attack": 3,
     "growth": 1,
-    "defense": 9
+    "defense": 9,
+    "name": "Walgreens Boots Alliance, Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "WMT",
+    "ticker": "WMT",
     "health": 10,
     "attack": 10,
     "growth": -0.124,
-    "defense": 10
+    "defense": 10,
+    "name": "Walmart Inc.",
+    "sector": "Consumer Defensive"
   },
   {
-    "name": "DIS",
+    "ticker": "DIS",
     "health": 10,
     "attack": 10,
     "growth": 0.486,
-    "defense": 10
+    "defense": 10,
+    "name": "The Walt Disney Company",
+    "sector": "Communication Services"
   },
   {
-    "name": "WBD",
+    "ticker": "WBD",
     "health": 3,
     "attack": 10,
     "growth": 1,
-    "defense": 10
+    "defense": 10,
+    "name": "Warner Bros. Discovery, Inc.",
+    "sector": "Communication Services"
   },
   {
-    "name": "WM",
+    "ticker": "WM",
     "health": 8,
     "attack": 6,
     "growth": 0.01,
-    "defense": 5
+    "defense": 5,
+    "name": "Waste Management, Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "WAT",
+    "ticker": "WAT",
     "health": 3,
     "attack": 3,
     "growth": -0.042,
-    "defense": 1
+    "defense": 1,
+    "name": "Waters Corporation",
+    "sector": "Healthcare"
   },
   {
-    "name": "WEC",
+    "ticker": "WEC",
     "health": 4,
     "attack": 1,
     "growth": -0.133,
-    "defense": 7
+    "defense": 7,
+    "name": "WEC Energy Group, Inc.",
+    "sector": "Utilities"
   },
   {
-    "name": "WFC",
+    "ticker": "WFC",
     "health": 10,
     "attack": 2,
     "growth": 0.15,
-    "defense": 10
+    "defense": 10,
+    "name": "Wells Fargo & Company",
+    "sector": "Financial Services"
   },
   {
-    "name": "WELL",
+    "ticker": "WELL",
     "health": 7,
     "attack": 6,
     "growth": 1,
-    "defense": 9
+    "defense": 9,
+    "name": "Welltower Inc.",
+    "sector": "Real Estate"
   },
   {
-    "name": "WST",
+    "ticker": "WST",
     "health": 5,
     "attack": 2,
     "growth": 0.334,
-    "defense": 2
+    "defense": 2,
+    "name": "West Pharmaceutical Services, Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "WDC",
+    "ticker": "WDC",
     "health": 4,
     "attack": 1,
     "growth": 1,
-    "defense": 6
+    "defense": 6,
+    "name": "Western Digital Corporation",
+    "sector": "Technology"
   },
   {
-    "name": "WRK",
+    "ticker": "WRK",
     "health": 2,
     "attack": 6,
     "growth": 1,
-    "defense": 6
+    "defense": 6,
+    "name": "WestRock Company",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "WY",
+    "ticker": "WY",
     "health": 4,
     "attack": 4,
     "growth": 22.206,
-    "defense": 6
+    "defense": 6,
+    "name": "Weyerhaeuser Company",
+    "sector": "Real Estate"
   },
   {
-    "name": "WMB",
+    "ticker": "WMB",
     "health": 7,
     "attack": 7,
     "growth": 0.728,
-    "defense": 7
+    "defense": 7,
+    "name": "The Williams Companies, Inc.",
+    "sector": "Energy"
   },
   {
-    "name": "WTW",
+    "ticker": "WTW",
     "health": 5,
     "attack": 6,
     "growth": 0.116,
-    "defense": 6
+    "defense": 6,
+    "name": "Willis Towers Watson Public Limited Company",
+    "sector": "Financial Services"
   },
   {
-    "name": "GWW",
+    "ticker": "GWW",
     "health": 7,
     "attack": 6,
     "growth": 0.046,
-    "defense": 3
+    "defense": 3,
+    "name": "W.W. Grainger, Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "WYNN",
+    "ticker": "WYNN",
     "health": 1,
     "attack": 3,
     "growth": 21.116,
-    "defense": 1
+    "defense": 1,
+    "name": "Wynn Resorts, Limited",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "XEL",
+    "ticker": "XEL",
     "health": 5,
     "attack": 1,
     "growth": 0.068,
-    "defense": 8
+    "defense": 8,
+    "name": "Xcel Energy Inc.",
+    "sector": "Utilities"
   },
   {
-    "name": "XYL",
+    "ticker": "XYL",
     "health": 5,
     "attack": 3,
     "growth": 0.341,
-    "defense": 6
+    "defense": 6,
+    "name": "Xylem Inc.",
+    "sector": "Industrials"
   },
   {
-    "name": "YUM",
+    "ticker": "YUM",
     "health": 6,
     "attack": 6,
     "growth": 0.243,
-    "defense": 1
+    "defense": 1,
+    "name": "Yum! Brands, Inc.",
+    "sector": "Consumer Cyclical"
   },
   {
-    "name": "ZBRA",
+    "ticker": "ZBRA",
     "health": 2,
     "attack": 2,
     "growth": -0.911,
-    "defense": 2
+    "defense": 2,
+    "name": "Zebra Technologies Corporation",
+    "sector": "Technology"
   },
   {
-    "name": "ZBH",
+    "ticker": "ZBH",
     "health": 5,
     "attack": 6,
     "growth": 1,
-    "defense": 7
+    "defense": 7,
+    "name": "Zimmer Biomet Holdings, Inc.",
+    "sector": "Healthcare"
   },
   {
-    "name": "ZTS",
+    "ticker": "ZTS",
     "health": 8,
     "attack": 6,
     "growth": 0.164,
-    "defense": 4
+    "defense": 4,
+    "name": "Zoetis Inc.",
+    "sector": "Healthcare"
   }
 ]

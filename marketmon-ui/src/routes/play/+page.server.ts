@@ -26,7 +26,7 @@ export const load: PageServerLoad = async ({fetch}) => {
     const opponentIndexes = generateRandomNumbers(8, cards.length);
 
     const generatePlayer = (ar: number[]): Player => ({
-        hand: ar.map(i => cards[i].name),
+        hand: ar.map(i => cards[i].ticker),
         inPlay: [],
         health: 100
     });

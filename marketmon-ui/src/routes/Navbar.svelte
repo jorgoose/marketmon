@@ -1,5 +1,5 @@
 <header
-      class="px-24 py-6 flex justify-between items-center shadow-md"
+      class="px-24 py-6 flex justify-between items-center shadow-md from-blue-900 to-blue-800 bg-gradient-to-r"
     >
       <h1 class="text-4xl font-bold tracking-wide">Marketmon</h1>
       <nav class="hidden md:block">

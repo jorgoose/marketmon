@@ -18,7 +18,7 @@
 </script>
 
 <div
-    class="min-h-screen bg-gradient-to-b from-blue-900 to-blue-500 text-white font-poppins bounding-carousel"
+    class="min-h-screen bg-gradient-to-b from-blue-700 to-blue-500 text-white font-poppins bounding-carousel"
 >
     <Navbar />
     <main class="container mx-auto px-4 py-12">

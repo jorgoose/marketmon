@@ -26,12 +26,15 @@
             <p class="text-lg mb-8">Marketmon cards update dynamically to reflect current market conditions, providing a unique and engaging gaming experience.</p>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <Card
+                    name={'Terraformer'}
                     health={10}
-                    growth={2}
+                    growth={11}
                     attack={3}
                     defense={1}
-                    name={'Chris'}
-                    image={'https://img.pokemondb.net/sprites/scarlet-violet/normal/charizard.png'}
+                    sector={'Industrials'}
+                    company={'Caterpillar Inc.'}
+                    ticker={'CAT'}
+                    image={'/terraformer.png'}
                 />
             </div>
         </section>

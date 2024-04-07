@@ -3,7 +3,7 @@ import type { PageServerData } from "./$types";
 import Card from "../Card.svelte";
 import { slide } from 'svelte/transition';
 import { quintOut } from 'svelte/easing';
-import type {GameState, Action, Attack, Card as CardT} from './game-types';
+import type {GameState, Action, Attack, Card as CardT} from '../../lib/game-types';
 
 export let data: PageServerData;
 
@@ -232,11 +232,7 @@ function attackCard(attackerName: string, opponentName: string) {
 </div>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-:global(body) {
-    font-family: 'Press Start 2P', cursive;
-}
 
 .card-slot {
     transition: transform 0.3s ease;

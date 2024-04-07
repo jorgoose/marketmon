@@ -63,7 +63,6 @@ function attackCard(attackerTicker: string, opponentTicker: string) {
                         {@const cardData = data.cards.find(({ticker}) => ticker === card.ticker)}
                         <div class="card-slot" transition:slide|local={{ delay: i * 100, duration: 500, easing: quintOut }}>
                             <Card
-                                image={'https://img.pokemondb.net/sprites/scarlet-violet/normal/charizard.png'}
                                 name={cardData?.name || ''}
                                 health={card.health}
                                 defense={cardData?.defense || 0}
@@ -93,7 +92,6 @@ function attackCard(attackerTicker: string, opponentTicker: string) {
                                 defense={cardData?.defense || 0}
                                 attack={cardData?.attack || 0}
                                 growth={cardData?.growth || 0}
-                                image={'https://img.pokemondb.net/sprites/scarlet-violet/normal/charizard.png'}
                                 company={cardData?.name || ''}
                                 ticker={card.ticker}
                                 sector={cardData?.sector || ''}
@@ -127,7 +125,6 @@ function attackCard(attackerTicker: string, opponentTicker: string) {
                                     defense={cardData?.defense || 0}
                                     attack={cardData?.attack || 0}
                                     growth={cardData?.growth || 0}
-                                    image={'https://img.pokemondb.net/sprites/scarlet-violet/normal/charizard.png'}
                                     on:click={() => {
                                         if (gameState.whosTurn === 'you') {
                                             playCard(cardTicker);

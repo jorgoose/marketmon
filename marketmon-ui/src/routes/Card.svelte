@@ -1,5 +1,4 @@
 <script lang='ts'>
-  
   export let name: string;
   export let growth: number;
   export let attack: number;
@@ -31,6 +30,7 @@
 
   /* Set the card's color based on sector */
   $: color = sectorColors[sector] || '#ffd700';
+  $: companyFontSize = company.length > 38 ? '10px' : '14px';  // Adjust font size based on company name length
 
 </script>
 
@@ -74,8 +74,12 @@
       </div>
 
       <div class="card-footer">
-        <div class="weakness">Weakness: Utilities</div>
-        <div class="company-info">{company} ({ticker})</div>
+        <div class="footer-right">
+          <div class="weakness italic">Weakness: {sector}</div>
+          <div class="company-info" style={`font-size: ${companyFontSize};`}>
+            <div>{company} ({ticker})</div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -198,9 +202,14 @@
 
   .card-footer {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-end;
     margin-top: 5px;
+  }
+
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
 
   .weakness,
@@ -208,5 +217,12 @@
     color: black;
     font-weight: bold;
     font-size: 12px;
+  }
+
+  .company-info {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
 </style>

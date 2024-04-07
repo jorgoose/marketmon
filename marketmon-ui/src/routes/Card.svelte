@@ -13,6 +13,25 @@
   /* TODO: Add logic to auto-set color based on sector */
   export let color: string = '#ffd700';
   export let sizeMultiplier: number = 1.0;
+
+  /* Map color to sector */
+  const sectorColors: { [key: string]: string } = {
+    'Industrials': '#ffd700',
+    'Healthcare': '#ff7f50',
+    'Technology': '#71eaad', // Adjust
+    'Financials': '#6495ed', //
+    'Consumer Cyclical': '#ee82ee', // Make slightly less bright
+    'Communication Services': '#ffa07a',
+    'Consumer Defensive': '#dda0dd',
+    'Energy': '#E26310', // Muted orange
+    'Utilities': '#b0c4de',
+    'Materials': '#add8e6',
+    'Real Estate': '#ffd8b1'
+  };
+
+  /* Set the card's color based on sector */
+  $: color = sectorColors[sector] || '#ffd700';
+
 </script>
 
 <div class="card-container" style={`transform: scale(${sizeMultiplier});`} on:click>

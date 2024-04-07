@@ -4,12 +4,14 @@ export type Card = {
     attack: number;
     growth: number;
     defense: number;
+    ticker: string;
+    sector: string;
 }
 
 type Player = {
   hand: string[],
   inPlay: {
-    name: string;
+    ticker: string;
     health: number;
   }[];
   health: number;

@@ -34,11 +34,13 @@ shareholder_equity_grouper = get_percentile_finder(shareholder_equities, 10)
 converted_data = []
 for item in data:
     converted_data.append({
-        'name': item['ticker'],
+        'ticker': item['ticker'],
         'health': market_cap_grouper(item['marketCap'] if item['marketCap'] is not None else 1),
         'attack': free_cash_flow_grouper(item['freeCashFlow'] if item['freeCashFlow'] is not None else 0),
         'growth': item['earningsGrowth'] if item['earningsGrowth'] is not None else 1,
-        'defense': shareholder_equity_grouper(item['shareholderEquity'] if item['shareholderEquity'] is not None else 1)
+        'defense': shareholder_equity_grouper(item['shareholderEquity'] if item['shareholderEquity'] is not None else 1),
+        'name': item['companyName'],
+        'sector': item['sector']
     })
 
 with open('card_data.json', 'w') as file:

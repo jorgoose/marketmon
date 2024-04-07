@@ -1,5 +1,5 @@
 import type {PageServerLoad} from './$types';
-import type {Card} from '../../lib/game-types';
+import type {Card} from '$lib/game-types';
 
 
 export const load: PageServerLoad = async ({fetch}) => {

@@ -1,5 +1,5 @@
 import type {PageServerLoad} from './$types';
-import type {Card, Player, GameState} from '../../lib/game-types';
+import type {Card, Player, GameState} from '$lib/game-types';
 
 function generateRandomNumbers(n: number, k: number) {
     if (n > k + 1) {
@@ -26,7 +26,7 @@ export const load: PageServerLoad = async ({fetch}) => {
     const opponentIndexes = generateRandomNumbers(8, cards.length);
 
     const generatePlayer = (ar: number[]): Player => ({
-        hand: ar.map(i => cards[i].name),
+        hand: ar.map(i => cards[i].ticker),
         inPlay: [],
         health: 100
     });

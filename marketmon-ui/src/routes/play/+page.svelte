@@ -3,7 +3,7 @@ import type { PageServerData } from "./$types";
 import Card from "../Card.svelte";
 import { slide } from 'svelte/transition';
 import { quintOut } from 'svelte/easing';
-import type {GameState, Action, Attack, Card as CardT} from '../../lib/game-types';
+import type {GameState, Action, Attack, Card as CardT} from '$lib/game-types';
 
 export let data: PageServerData;
 

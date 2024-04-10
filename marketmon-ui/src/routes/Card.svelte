@@ -7,7 +7,7 @@
   export let company: string;
   export let ticker: string;
   export let sector: string;
-  export let image: string = "/creature_images/" + ticker + ".png";
+  export let image: string = "/creature_images_webp/" + ticker + ".webp";
   /* Prop for the card's main color as hex code */
   /* TODO: Add logic to auto-set color based on sector */
   export let color: string = '#ffd700';

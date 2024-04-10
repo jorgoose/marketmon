@@ -6,7 +6,7 @@
     export let data: PageServerData;
 
     // Pick 50 random cards on each load
-    const shuffledCards = data.cards.sort(() => Math.random() - 0.5).slice(0, 50);
+    const cards = data.cards;
 </script>
 
 <div
@@ -36,7 +36,7 @@
           </div>
           <div class="carousel-wrapper">
               <div class="carousel">
-                  {#each [...shuffledCards, ...shuffledCards] as card}
+                  {#each cards as card}
                       <Card
                           sizeMultiplier={0.9}
                           name={card.creatureName}

@@ -1,2 +1,5 @@
 # Ignore .env
 .env
+
+# Ignore creature images folder
+creature_images/

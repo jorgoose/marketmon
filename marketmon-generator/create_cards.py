@@ -20,7 +20,9 @@ import pandas as pd
 from dotenv import load_dotenv
 
 # Setup logging configuration
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s"
+)
 
 
 class CompanyDataFetcher:
@@ -53,7 +55,11 @@ class AlphaVantageClient:
         try:
             response = requests.get(self.BASE_URL, params=params)
             if response.status_code != 200:
-                logging.error("Error fetching data: %s (Status Code: %s)", params, response.status_code)
+                logging.error(
+                    "Error fetching data: %s (Status Code: %s)",
+                    params,
+                    response.status_code,
+                )
                 return None
             return response.json()
         except Exception as e:
@@ -94,7 +100,11 @@ class AlphaVantageClient:
                 "apikey": self.api_key,
             }
             balance_data = self._get_json(balance_params)
-            if not balance_data or "annualReports" not in balance_data or not balance_data["annualReports"]:
+            if (
+                not balance_data
+                or "annualReports" not in balance_data
+                or not balance_data["annualReports"]
+            ):
                 logging.warning("No balance sheet data for %s. Skipping.", symbol)
                 time.sleep(self.sleep_seconds)
                 continue
@@ -107,7 +117,9 @@ class AlphaVantageClient:
             try:
                 shareholder_equity = int(shareholder_equity)
             except Exception as e:
-                logging.error("Error converting shareholder equity for %s: %s", symbol, e)
+                logging.error(
+                    "Error converting shareholder equity for %s: %s", symbol, e
+                )
                 time.sleep(self.sleep_seconds)
                 continue
 
@@ -118,7 +130,11 @@ class AlphaVantageClient:
                 "apikey": self.api_key,
             }
             cash_data = self._get_json(cash_params)
-            if not cash_data or "annualReports" not in cash_data or not cash_data["annualReports"]:
+            if (
+                not cash_data
+                or "annualReports" not in cash_data
+                or not cash_data["annualReports"]
+            ):
                 logging.warning("No cash flow data for %s. Skipping.", symbol)
                 time.sleep(self.sleep_seconds)
                 continue
@@ -194,18 +210,24 @@ class CardDataCreator:
 
         return get_percentile
 
-    def create_card_data(self, company_data: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    def create_card_data(
+        self, company_data: List[Dict[str, Any]]
+    ) -> List[Dict[str, Any]]:
         """
         Create card data from company metrics.
         """
         # Extract stats, ensuring non-null values
         market_caps = [item.get("marketCap", 1) or 1 for item in company_data]
         free_cash_flows = [item.get("freeCashFlow", 0) or 0 for item in company_data]
-        shareholder_equities = [item.get("shareholderEquity", 1) or 1 for item in company_data]
+        shareholder_equities = [
+            item.get("shareholderEquity", 1) or 1 for item in company_data
+        ]
 
         market_cap_grouper = self._get_percentile_finder(market_caps, 10)
         free_cash_flow_grouper = self._get_percentile_finder(free_cash_flows, 10)
-        shareholder_equity_grouper = self._get_percentile_finder(shareholder_equities, 10)
+        shareholder_equity_grouper = self._get_percentile_finder(
+            shareholder_equities, 10
+        )
 
         card_data = []
         # Mapping stat values
@@ -269,10 +291,10 @@ class CreatureGenerator:
             f"the creature name. Creature descriptions MUST contain descriptions of anthropomorphic features, and specifically "
             f"must include eyes. Below is an example for the company Intel Corporation:\n\n"
             f'Example response:\n{{\n    "name": "Intellichip",\n    "description": "A Pokemon creature with a sleek, angular body in blue '
-            f'and silver, with circuit patterns across its form. Its sharp eyes glow soft blue, symbolizing data processing '
-            f'intelligence. With thin, wiry limbs and connector-like digits, it interfaces with computer hardware. It manipulates '
-            f'data streams, controlling information flow, and processes vast data, enhancing its and nearby devices\' cognitive '
-            f'capabilities. It\'s in high-tech environments, aiding in computations and data analysis, communicating in binary pulses."\n}}\n\n'
+            f"and silver, with circuit patterns across its form. Its sharp eyes glow soft blue, symbolizing data processing "
+            f"intelligence. With thin, wiry limbs and connector-like digits, it interfaces with computer hardware. It manipulates "
+            f"data streams, controlling information flow, and processes vast data, enhancing its and nearby devices' cognitive "
+            f"capabilities. It's in high-tech environments, aiding in computations and data analysis, communicating in binary pulses.\"\n}}\n\n"
             f"Now, generate a creature for the following company. Ensure your response is valid JSON format.\n"
             f"Company name: {company.get('name')}.\n"
             f"Description: {company.get('description')}.\n"
@@ -303,9 +325,15 @@ class CreatureGenerator:
                 creature_data["ticker"] = company.get("ticker")
                 return creature_data
             else:
-                logging.error("Claude API returned status code %s: %s", response.status_code, response.text)
+                logging.error(
+                    "Claude API returned status code %s: %s",
+                    response.status_code,
+                    response.text,
+                )
         except Exception as e:
-            logging.error("Error generating creature data for %s: %s", company.get("ticker"), e)
+            logging.error(
+                "Error generating creature data for %s: %s", company.get("ticker"), e
+            )
         return None
 
 
@@ -315,7 +343,9 @@ class ImageGenerator:
     """
 
     ENGINE_ID = "stable-diffusion-xl-1024-v1-0"
-    BASE_URL_TEMPLATE = "https://api.stability.ai/v1/generation/{engine_id}/text-to-image"
+    BASE_URL_TEMPLATE = (
+        "https://api.stability.ai/v1/generation/{engine_id}/text-to-image"
+    )
 
     def __init__(self, api_key: str) -> None:
         self.api_key = api_key
@@ -349,7 +379,9 @@ class ImageGenerator:
                 image_artifact = data["artifacts"][0]
                 return base64.b64decode(image_artifact["base64"])
             else:
-                logging.error("Stability API error: %s %s", response.status_code, response.text)
+                logging.error(
+                    "Stability API error: %s %s", response.status_code, response.text
+                )
         except Exception as e:
             logging.error("Error generating image: %s", e)
         return None
@@ -406,11 +438,18 @@ class CreatureCardApp:
         request_count = 0
         start_time = time.time()
         for i, card in enumerate(card_data):
-            logging.info("Generating creature data for %s (%d/%d)", card.get("ticker"), i + 1, len(card_data))
+            logging.info(
+                "Generating creature data for %s (%d/%d)",
+                card.get("ticker"),
+                i + 1,
+                len(card_data),
+            )
             creature = self.creature_generator.generate(card)
             if creature:
                 card["creatureName"] = creature.get("name", "")
-                image_path = os.path.join(self.IMAGE_FOLDER, f"{card.get('ticker')}.png")
+                image_path = os.path.join(
+                    self.IMAGE_FOLDER, f"{card.get('ticker')}.png"
+                )
                 if os.path.exists(image_path):
                     logging.info("Image for %s already exists.", card.get("ticker"))
                     card["creatureImage"] = image_path
@@ -419,12 +458,18 @@ class CreatureCardApp:
                     if image_bytes:
                         with open(image_path, "wb") as img_file:
                             img_file.write(image_bytes)
-                        logging.info("Saved image for %s at %s", card.get("ticker"), image_path)
+                        logging.info(
+                            "Saved image for %s at %s", card.get("ticker"), image_path
+                        )
                         card["creatureImage"] = image_path
                     else:
-                        logging.error("Failed to generate image for %s", card.get("ticker"))
+                        logging.error(
+                            "Failed to generate image for %s", card.get("ticker")
+                        )
             else:
-                logging.error("Failed to generate creature data for %s", card.get("ticker"))
+                logging.error(
+                    "Failed to generate creature data for %s", card.get("ticker")
+                )
 
             request_count += 1
             # Rate limiting: after 5 API calls, ensure at least 60 seconds have passed.

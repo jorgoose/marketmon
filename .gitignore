@@ -3,3 +3,6 @@
 
 # Ignore creature images folder
 creature_images/
+
+# Ignore final data
+final_data.json

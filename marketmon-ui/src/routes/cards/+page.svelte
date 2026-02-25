@@ -250,4 +250,30 @@
 		font-size: 0.9rem;
 		color: var(--text-muted);
 	}
+
+	@media (max-width: 768px) {
+		.index-page { padding: 1.5rem 1rem 3rem; }
+		.sector-row {
+			flex-wrap: nowrap;
+			overflow-x: auto;
+			justify-content: flex-start;
+			padding-bottom: 0.5rem;
+			-webkit-overflow-scrolling: touch;
+		}
+		.chip { flex-shrink: 0; }
+	}
+
+	@media (max-width: 600px) {
+		.card-grid {
+			grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+			gap: 1rem;
+		}
+	}
+
+	@media (max-width: 480px) {
+		.page-title { font-size: 1.75rem; }
+		.card-grid {
+			grid-template-columns: 1fr;
+		}
+	}
 </style>

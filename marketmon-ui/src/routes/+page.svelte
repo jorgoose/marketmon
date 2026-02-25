@@ -278,6 +278,20 @@
 		.hero { padding: 3.5rem 1.5rem 2.5rem; }
 		.stat-strip { flex-direction: column; gap: 0.75rem; }
 		.stat-sep { display: none; }
+		.carousel-fade { width: 60px; }
+		.carousel-section { padding: 1.5rem 0 3rem; }
+	}
+
+	@media (max-width: 480px) {
+		.hero { padding: 2.5rem 1rem 2rem; }
+		.hero-sub { font-size: 0.92rem; }
+		.hero-actions { flex-direction: column; align-items: center; }
+		.btn-gold, .btn-ghost { width: 100%; max-width: 260px; text-align: center; }
+		.features { padding: 1rem 1rem 3rem; }
+		.feat { padding: 1.25rem; }
+		.stat-strip { padding: 0.75rem 1rem; margin-top: 2.5rem; }
+		.carousel-fade { width: 30px; }
+		.carousel-title { font-size: 1.25rem; }
 	}
 
 	/* ---- Carousel ---- */

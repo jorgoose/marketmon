@@ -670,4 +670,32 @@
 		border-color: var(--border-hover);
 		color: var(--text-primary);
 	}
+
+	/* ---- Mobile ---- */
+	@media (max-width: 768px) {
+		.battlefield { padding: 0.75rem 1rem; }
+		.field-empty { padding: 1.25rem 1.5rem; font-size: 0.8rem; }
+		.bar-track { max-width: none; }
+		.hud-label { min-width: auto; }
+		.go-card { padding: 2rem 1.5rem; }
+		.go-title { font-size: 2rem; }
+		.go-btns { flex-direction: column; align-items: center; }
+		.go-btn { width: 100%; max-width: 220px; text-align: center; }
+		.toast { max-width: 90vw; text-align: center; font-size: 0.7rem; }
+	}
+
+	@media (max-width: 480px) {
+		.arena-header { padding: 0.5rem 1rem; }
+		.battlefield { padding: 0.5rem 0.5rem; gap: 0.35rem; }
+		.zone-hud { padding: 0.4rem 0.6rem; gap: 0.5rem; }
+		.hud-label { font-size: 0.6rem; letter-spacing: 0.1em; }
+		.field-row { gap: 0.5rem; }
+		.action-bar { bottom: 50px; padding: 0.4rem 0.75rem; gap: 0.5rem; }
+		.act { padding: 0.35rem 0.7rem; font-size: 0.7rem; }
+		.hand-btn { bottom: 10px; right: 1rem; padding: 0.4rem 0.75rem; font-size: 0.65rem; }
+		.hand-scroll { padding: 0.5rem 0.75rem; gap: 0.5rem; }
+		.go-card { padding: 1.75rem 1.25rem; margin: 0 1rem; }
+		.go-title { font-size: 1.75rem; }
+		.go-sub { font-size: 0.85rem; margin-bottom: 1.5rem; }
+	}
 </style>

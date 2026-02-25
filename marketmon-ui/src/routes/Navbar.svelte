@@ -118,11 +118,15 @@
 	.mobile-toggle {
 		display: none;
 		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 		gap: 5px;
 		background: none;
 		border: none;
 		cursor: pointer;
-		padding: 4px;
+		padding: 10px;
+		min-width: 44px;
+		min-height: 44px;
 	}
 
 	.bar {
@@ -147,15 +151,18 @@
 	}
 
 	.mobile-link {
-		padding: 0.7rem 1rem;
+		padding: 0.75rem 1rem;
 		text-decoration: none;
 		color: var(--text-secondary);
 		font-weight: 600;
-		font-size: 0.85rem;
+		font-size: 0.9rem;
 		letter-spacing: 0.03em;
 		text-transform: uppercase;
 		border-radius: 0.375rem;
 		transition: all 0.2s ease;
+		min-height: 44px;
+		display: flex;
+		align-items: center;
 	}
 
 	.mobile-link:hover,
@@ -168,5 +175,6 @@
 		.nav-links { display: none; }
 		.mobile-toggle { display: flex; }
 		.mobile-nav { display: flex; }
+		.brand { font-size: 1.2rem; }
 	}
 </style>

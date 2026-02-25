@@ -1,3 +1,73 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+	--blue-deep: #1a3a6b;
+	--blue-mid: #2563eb;
+	--blue-bright: #3b82f6;
+	--blue-sky: #60a5fa;
+	--blue-light: #93bbfd;
+	--yellow: #fbbf24;
+	--yellow-bright: #fde047;
+	--yellow-dark: #f59e0b;
+	--green: #22c55e;
+	--red: #ef4444;
+	--red-light: #fca5a5;
+	--surface: rgba(255, 255, 255, 0.92);
+	--surface-dim: rgba(255, 255, 255, 0.12);
+	--surface-hover: rgba(255, 255, 255, 0.18);
+	--text-dark: #1e293b;
+	--text-medium: #475569;
+	--text-light: #ffffff;
+	--shadow-soft: 0 4px 16px rgba(0, 0, 0, 0.12);
+	--shadow-strong: 0 8px 32px rgba(0, 0, 0, 0.18);
+}
+
+* {
+	scrollbar-width: thin;
+	scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+}
+
+*::-webkit-scrollbar { width: 6px; height: 6px; }
+*::-webkit-scrollbar-track { background: transparent; }
+*::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.3); border-radius: 3px; }
+
+body {
+	font-family: 'Nunito', sans-serif;
+	background: linear-gradient(135deg, #1e40af 0%, #2563eb 40%, #3b82f6 100%);
+	color: var(--text-light);
+	-webkit-font-smoothing: antialiased;
+	min-height: 100vh;
+}
+
+.font-display {
+	font-family: 'Fredoka', sans-serif;
+}
+
+@keyframes fadeUp {
+	from { opacity: 0; transform: translateY(20px); }
+	to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@keyframes pop {
+	0% { opacity: 0; transform: scale(0.85); }
+	70% { transform: scale(1.04); }
+	100% { opacity: 1; transform: scale(1); }
+}
+
+@keyframes bounceIn {
+	0% { opacity: 0; transform: translateY(16px); }
+	60% { transform: translateY(-4px); }
+	100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+	0%, 100% { transform: translateY(0); }
+	50% { transform: translateY(-8px); }
+}

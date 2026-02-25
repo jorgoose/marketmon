@@ -455,11 +455,23 @@
 		text-align: right;
 	}
 
+	@media (max-width: 768px) {
+		.guide-page { padding: 2rem 1.25rem 4rem; }
+		.guide-hero { margin-bottom: 2rem; }
+		.weakness-cycle { padding: 1rem; }
+	}
+
 	@media (max-width: 500px) {
 		.data-grid { grid-template-columns: 1fr; }
 		.step { flex-direction: column; gap: 0.75rem; }
+		.step { padding: 1.25rem; }
 		.wk-reason { display: none; }
 		.wk-row { gap: 0.3rem; }
 		.wk-type { font-size: 0.6rem; padding: 0.25rem 0.4rem; }
+		.guide-title { font-size: 1.75rem; }
+		.section-title { font-size: 1.25rem; }
+		.guide-page { padding: 1.5rem 1rem 3rem; }
+		.weakness-cycle { padding: 0.75rem; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+		.wk-item { font-size: 0.65rem; padding: 0.4rem 0.5rem; gap: 0.35rem; }
 	}
 </style>

@@ -1,0 +1,4 @@
+anthropic
+requests
+pandas
+python-dotenv

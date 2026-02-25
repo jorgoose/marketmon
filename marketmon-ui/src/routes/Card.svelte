@@ -12,79 +12,79 @@
   export let sizeMultiplier: number = 1.0;
 
   const sectorColors: { [key: string]: string } = {
-    'Industrials': '#ffd700',
-    'Healthcare': '#ff7f50',
-    'Technology': '#71eaad',
-    'Financial Services': '#6495ed',
-    'Consumer Cyclical': '#ee82ee',
-    'Communication Services': '#ffa07a',
-    'Consumer Defensive': '#dda0dd',
-    'Energy': '#E26310',
-    'Utilities': '#b0c4de',
-    'Materials': '#add8e6',
-    'Real Estate': '#ffd8b1'
+    'Industrials': '#d4a017',
+    'Healthcare': '#e5457b',
+    'Technology': '#00c2ff',
+    'Financial Services': '#2a6dd4',
+    'Consumer Cyclical': '#a855f7',
+    'Communication Services': '#f97316',
+    'Consumer Defensive': '#68b77b',
+    'Energy': '#ff6b1a',
+    'Utilities': '#64748b',
+    'Materials': '#a8876a',
+    'Real Estate': '#c2873a'
   };
 
   const sectorBackgrounds: { [key: string]: string } = {
     'Industrials': `
       radial-gradient(ellipse at 30% 18%, rgba(255,255,255,0.22) 0%, transparent 55%),
       repeating-linear-gradient(135deg, transparent, transparent 18px, rgba(255,255,255,0.05) 18px, rgba(255,255,255,0.05) 19px),
-      linear-gradient(155deg, #9a7b1c 0%, #c9a84c 22%, #ffd700 48%, #daa520 72%, #9a7b1c 100%)
+      linear-gradient(155deg, #9a7412 0%, #b88c14 22%, #d4a017 48%, #e0b830 72%, #9a7412 100%)
     `,
     'Healthcare': `
       radial-gradient(ellipse at 28% 22%, rgba(255,255,255,0.22) 0%, transparent 50%),
-      radial-gradient(circle at 55% 55%, rgba(255,200,180,0.12) 0%, transparent 30%, rgba(255,200,180,0.07) 50%, transparent 65%),
-      linear-gradient(155deg, #cc5530 0%, #e86a42 25%, #ff7f50 48%, #ff9068 62%, #cc5530 100%)
+      radial-gradient(circle at 55% 55%, rgba(255,180,200,0.12) 0%, transparent 30%, rgba(255,180,200,0.07) 50%, transparent 65%),
+      linear-gradient(155deg, #b8365f 0%, #cc3d6a 25%, #e5457b 48%, #ea6a95 62%, #b8365f 100%)
     `,
     'Technology': `
       radial-gradient(ellipse at 25% 18%, rgba(255,255,255,0.2) 0%, transparent 50%),
       repeating-linear-gradient(0deg, transparent, transparent 22px, rgba(255,255,255,0.04) 22px, rgba(255,255,255,0.04) 23px),
       repeating-linear-gradient(90deg, transparent, transparent 22px, rgba(255,255,255,0.04) 22px, rgba(255,255,255,0.04) 23px),
-      linear-gradient(155deg, #3a9a74 0%, #55c092 25%, #71eaad 50%, #55c092 75%, #3a9a74 100%)
+      linear-gradient(155deg, #0088b3 0%, #009acc 25%, #00c2ff 50%, #33d1ff 75%, #0088b3 100%)
     `,
     'Financial Services': `
       radial-gradient(ellipse at 28% 18%, rgba(255,255,255,0.22) 0%, transparent 50%),
       repeating-linear-gradient(150deg, transparent, transparent 12px, rgba(255,255,255,0.04) 12px, rgba(255,255,255,0.04) 13px),
-      linear-gradient(155deg, #3a6cc7 0%, #5080da 25%, #6495ed 50%, #5080da 75%, #3a6cc7 100%)
+      linear-gradient(155deg, #1e4e99 0%, #245dba 25%, #2a6dd4 50%, #4a85e0 75%, #1e4e99 100%)
     `,
     'Consumer Cyclical': `
       radial-gradient(ellipse at 25% 18%, rgba(255,255,255,0.2) 0%, transparent 50%),
-      radial-gradient(circle at 72% 78%, rgba(200,100,220,0.15) 0%, transparent 40%),
+      radial-gradient(circle at 72% 78%, rgba(168,85,247,0.15) 0%, transparent 40%),
       conic-gradient(from 45deg at 50% 50%, transparent 0deg, rgba(255,255,255,0.03) 5deg, transparent 10deg, transparent 80deg, rgba(255,255,255,0.03) 85deg, transparent 90deg, transparent 170deg, rgba(255,255,255,0.03) 175deg, transparent 180deg, transparent 260deg, rgba(255,255,255,0.03) 265deg, transparent 270deg, transparent 350deg, rgba(255,255,255,0.03) 355deg, transparent 360deg),
-      linear-gradient(155deg, #c050c0 0%, #dd6add 25%, #ee82ee 50%, #dd6add 75%, #c050c0 100%)
+      linear-gradient(155deg, #7c3ab8 0%, #9045d8 25%, #a855f7 50%, #bb77fa 75%, #7c3ab8 100%)
     `,
     'Communication Services': `
       radial-gradient(ellipse at 28% 20%, rgba(255,255,255,0.2) 0%, transparent 50%),
-      radial-gradient(circle at 50% 55%, rgba(255,220,200,0.1) 10%, transparent 25%, rgba(255,220,200,0.06) 40%, transparent 55%, rgba(255,220,200,0.03) 65%, transparent 80%),
-      linear-gradient(155deg, #d07048 0%, #e88a62 25%, #ffa07a 50%, #e88a62 75%, #d07048 100%)
+      radial-gradient(circle at 50% 55%, rgba(255,200,150,0.1) 10%, transparent 25%, rgba(255,200,150,0.06) 40%, transparent 55%, rgba(255,200,150,0.03) 65%, transparent 80%),
+      linear-gradient(155deg, #c45c12 0%, #dd6814 25%, #f97316 50%, #fa8c40 75%, #c45c12 100%)
     `,
     'Consumer Defensive': `
       radial-gradient(ellipse at 25% 18%, rgba(255,255,255,0.18) 0%, transparent 50%),
       repeating-linear-gradient(90deg, transparent, transparent 20px, rgba(255,255,255,0.03) 20px, rgba(255,255,255,0.03) 21px),
-      linear-gradient(155deg, #b878b8 0%, #ca90ca 25%, #dda0dd 50%, #ca90ca 75%, #b878b8 100%)
+      linear-gradient(155deg, #4e8a5d 0%, #5a9e6a 25%, #68b77b 50%, #80c890 75%, #4e8a5d 100%)
     `,
     'Energy': `
-      radial-gradient(ellipse at 50% 38%, rgba(255,200,100,0.2) 0%, transparent 45%),
+      radial-gradient(ellipse at 50% 38%, rgba(255,180,80,0.2) 0%, transparent 45%),
       radial-gradient(ellipse at 28% 18%, rgba(255,255,255,0.18) 0%, transparent 40%),
-      radial-gradient(circle at 50% 100%, rgba(160,50,0,0.25) 0%, transparent 55%),
-      linear-gradient(155deg, #a04808 0%, #c25810 25%, #e26310 50%, #c25810 75%, #a04808 100%)
+      radial-gradient(circle at 50% 100%, rgba(180,60,0,0.25) 0%, transparent 55%),
+      linear-gradient(155deg, #cc5514 0%, #e06018 25%, #ff6b1a 50%, #ff8844 75%, #cc5514 100%)
     `,
     'Utilities': `
       radial-gradient(ellipse at 25% 18%, rgba(255,255,255,0.18) 0%, transparent 50%),
       repeating-linear-gradient(170deg, transparent, transparent 14px, rgba(255,255,255,0.04) 14px, rgba(255,255,255,0.04) 15px),
-      linear-gradient(155deg, #8a9eb8 0%, #9cb0ca 25%, #b0c4de 50%, #9cb0ca 75%, #8a9eb8 100%)
+      linear-gradient(155deg, #4a5568 0%, #576478 25%, #64748b 50%, #7e8ea0 75%, #4a5568 100%)
     `,
     'Materials': `
       radial-gradient(ellipse at 28% 18%, rgba(255,255,255,0.2) 0%, transparent 50%),
       repeating-linear-gradient(60deg, transparent, transparent 20px, rgba(255,255,255,0.04) 20px, rgba(255,255,255,0.04) 21px),
       repeating-linear-gradient(-60deg, transparent, transparent 20px, rgba(255,255,255,0.03) 20px, rgba(255,255,255,0.03) 21px),
-      linear-gradient(155deg, #82b8cc 0%, #98c8da 25%, #add8e6 50%, #98c8da 75%, #82b8cc 100%)
+      linear-gradient(155deg, #806550 0%, #946e58 25%, #a8876a 50%, #bca080 75%, #806550 100%)
     `,
     'Real Estate': `
       radial-gradient(ellipse at 25% 18%, rgba(255,255,255,0.18) 0%, transparent 50%),
-      repeating-linear-gradient(0deg, transparent, transparent 16px, rgba(180,130,80,0.06) 16px, rgba(180,130,80,0.06) 17px),
-      repeating-linear-gradient(90deg, transparent, transparent 26px, rgba(180,130,80,0.04) 26px, rgba(180,130,80,0.04) 27px),
-      linear-gradient(155deg, #d0a878 0%, #e0bc96 25%, #ffd8b1 50%, #e0bc96 75%, #d0a878 100%)
+      repeating-linear-gradient(0deg, transparent, transparent 16px, rgba(160,110,50,0.06) 16px, rgba(160,110,50,0.06) 17px),
+      repeating-linear-gradient(90deg, transparent, transparent 26px, rgba(160,110,50,0.04) 26px, rgba(160,110,50,0.04) 27px),
+      linear-gradient(155deg, #96682c 0%, #ac7832 25%, #c2873a 50%, #d09a50 75%, #96682c 100%)
     `
   };
 

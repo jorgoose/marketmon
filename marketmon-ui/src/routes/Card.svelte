@@ -8,11 +8,9 @@
   export let ticker: string;
   export let sector: string;
   export let image: string = "/creature_images_webp/" + ticker + ".webp";
-  /* Prop for the card's main color as hex code */
   export let color: string = '#ffd700';
   export let sizeMultiplier: number = 1.0;
 
-  /* Map color to sector */
   const sectorColors: { [key: string]: string } = {
     'Industrials': '#ffd700',
     'Healthcare': '#ff7f50',
@@ -27,7 +25,6 @@
     'Real Estate': '#ffd8b1'
   };
 
-  /* Rich multi-layer backgrounds per sector (Pokemon-style energy patterns) */
   const sectorBackgrounds: { [key: string]: string } = {
     'Industrials': `
       radial-gradient(ellipse at 30% 18%, rgba(255,255,255,0.22) 0%, transparent 55%),
@@ -93,60 +90,57 @@
 
   $: color = sectorColors[sector] || '#ffd700';
   $: cardBg = sectorBackgrounds[sector] || `linear-gradient(155deg, ${color}, ${color})`;
-  $: companyFontSize = company.length > 38 ? '10px' : '14px';
+  $: nameFontSize = name.length > 14 ? '15px' : '18px';
+  $: companyFontSize = company.length > 36 ? '9px' : '11px';
 
 </script>
 
 <div class="card-container" style={`transform: scale(${sizeMultiplier});`} on:click>
   <div class="card" style="background: {cardBg}">
-    <div class="card-header">
-      <h2>{name}</h2>
-      <span class="hp"><small>HP</small> {health}</span>
+
+    <!-- Nameplate -->
+    <div class="nameplate">
+      <span class="creature-name" style="font-size: {nameFontSize}">{name}</span>
+      <span class="creature-hp">{health} <small>HP</small></span>
     </div>
 
-    <div class="card-image">
+    <!-- Portrait -->
+    <div class="portrait">
       <img src={image} alt={name} />
     </div>
 
-    <div class="card-body">
-      <div class="abilities">
-        <div class="ability">
-          <div class="ability-circle">
-            <h3>{growth}</h3>
-          </div>
-          <p>Growth</p>
+    <!-- Info panel -->
+    <div class="info-panel">
+      <!-- Stats row -->
+      <div class="stat-row">
+        <div class="stat">
+          <span class="stat-val">{growth}</span>
+          <span class="stat-lbl">GRW</span>
         </div>
-
-        <div class="ability">
-          <div class="ability-circle">
-            <h3>{attack}</h3>
-          </div>
-          <p>Attack</p>
+        <div class="stat-sep"></div>
+        <div class="stat">
+          <span class="stat-val">{attack}</span>
+          <span class="stat-lbl">ATK</span>
         </div>
-
-        <div class="ability">
-          <div class="ability-circle">
-            <h3>{defense}</h3>
-          </div>
-          <p>Defense</p>
+        <div class="stat-sep"></div>
+        <div class="stat">
+          <span class="stat-val">{defense}</span>
+          <span class="stat-lbl">DEF</span>
         </div>
       </div>
 
-      <div class="sector-box">
-        {sector}
+      <!-- Type badge -->
+      <div class="type-row">
+        <span class="type-badge">{sector}</span>
       </div>
 
-      <div class="card-footer">
-        <div class="footer-right">
-          <div class="weakness italic">Weakness: {sector}</div>
-          <div class="company-info" style={`font-size: ${companyFontSize};`}>
-            <div>{company} ({ticker})</div>
-          </div>
-        </div>
+      <!-- Card meta -->
+      <div class="card-meta">
+        <span class="meta-weak">Wk: {sector}</span>
+        <span class="meta-company" style="font-size: {companyFontSize}">{company} ({ticker})</span>
       </div>
     </div>
 
-    <!-- Holographic shimmer overlay -->
     <div class="shimmer"></div>
   </div>
 </div>
@@ -166,12 +160,12 @@
       #b8b8c8 88%,
       #7a7a8a 100%
     );
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 16px;
+    padding: 8px;
     box-shadow:
-      3px 3px 12px rgba(0, 0, 0, 0.5),
-      inset 0 1px 0 rgba(255, 255, 255, 0.4),
-      inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+      2px 3px 12px rgba(0, 0, 0, 0.5),
+      inset 0 1px 0 rgba(255, 255, 255, 0.45),
+      inset 0 -1px 0 rgba(0, 0, 0, 0.12);
     transform-origin: top left;
   }
 
@@ -179,11 +173,14 @@
     position: relative;
     overflow: hidden;
     padding: 8px;
-    font-family: 'Lato', 'Gill Sans', 'Calibri', sans-serif;
-    border-radius: 10px;
+    font-family: 'DM Sans', 'Gill Sans', 'Calibri', sans-serif;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
   }
 
-  /* Holographic shimmer sweep on hover */
+  /* ---- Shimmer ---- */
   .shimmer {
     position: absolute;
     inset: 0;
@@ -198,140 +195,162 @@
     transform: translateX(-150%);
     transition: transform 0.65s ease;
     pointer-events: none;
-    border-radius: 10px;
-    z-index: 1;
+    border-radius: 8px;
+    z-index: 3;
   }
 
   .card-container:hover .shimmer {
     transform: translateX(150%);
   }
 
-  .card-header {
+  /* ---- Nameplate ---- */
+  .nameplate {
     position: relative;
     z-index: 2;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
-    background-color: transparent;
-    color: black;
+    padding: 5px 10px;
+    background: rgba(0, 0, 0, 0.22);
+    border-radius: 6px;
+    gap: 6px;
   }
 
-  .card-header h2 {
-    font-size: 20px;
-    margin: 0;
-    font-weight: bold;
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 2px 5px;
-    border-radius: 5px;
+  .creature-name {
+    font-weight: 800;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    line-height: 1.2;
+    flex: 1;
+    min-width: 0;
   }
 
-  .card-header .hp {
-    font-size: 20px;
-    margin: 0;
-    font-weight: bold;
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 2px 5px;
-    border-radius: 5px;
+  .creature-hp {
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    white-space: nowrap;
+    flex-shrink: 0;
   }
 
-  .card-header .hp small {
-    font-size: 14px;
+  .creature-hp small {
+    font-size: 11px;
+    font-weight: 700;
+    opacity: 0.7;
+    letter-spacing: 0.04em;
   }
 
-  .card-image {
+  /* ---- Portrait ---- */
+  .portrait {
     position: relative;
     z-index: 2;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-    border: 5px silver outset;
-    padding: 2px;
-    border-radius: 10px;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    box-shadow:
+      inset 0 2px 6px rgba(0, 0, 0, 0.35),
+      inset 0 -1px 3px rgba(0, 0, 0, 0.15),
+      0 1px 0 rgba(255, 255, 255, 0.08);
   }
 
-  .card-image img {
-    height: 200px;
+  .portrait img {
+    display: block;
+    width: 100%;
+    height: 190px;
     object-fit: cover;
   }
 
-  .card-body {
+  /* ---- Info panel ---- */
+  .info-panel {
     position: relative;
     z-index: 2;
+    background: rgba(0, 0, 0, 0.22);
+    border-radius: 6px;
+    padding: 8px 10px 6px;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 7px;
   }
 
-  .abilities {
+  /* ---- Stat row ---- */
+  .stat-row {
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
   }
 
-  .ability {
+  .stat {
     text-align: center;
+    flex: 1;
   }
 
-  .ability-circle {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #fff;
-    border: 4px silver outset;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-  }
-
-  .ability h3 {
+  .stat-val {
+    display: block;
     font-size: 20px;
-    margin: 0;
-    font-weight: bold;
-    color: black;
+    font-weight: 800;
+    color: #fff;
+    line-height: 1.1;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   }
 
-  .ability p {
-    font-size: 14px;
-    margin: 5px 0;
-    font-weight: bold;
-    color: black;
+  .stat-lbl {
+    display: block;
+    font-size: 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 1px;
   }
 
-  .sector-box {
+  .stat-sep {
+    width: 1px;
+    height: 24px;
+    background: rgba(255, 255, 255, 0.12);
+    flex-shrink: 0;
+  }
+
+  /* ---- Type badge ---- */
+  .type-row {
     text-align: center;
-    font-weight: bold;
-    margin-top: 10px;
-    font-size: 18px;
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 5px;
-    border-radius: 10px;
-    color: black;
   }
 
-  .card-footer {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 5px;
+  .type-badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 2px 12px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.08);
   }
 
-  .footer-right {
+  /* ---- Card meta ---- */
+  .card-meta {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: flex-end;
+    gap: 8px;
+    padding-top: 2px;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
   }
 
-  .weakness,
-  .company-info {
-    color: black;
-    font-weight: bold;
-    font-size: 12px;
+  .meta-weak {
+    font-size: 9px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.3);
+    font-style: italic;
+    white-space: nowrap;
   }
 
-  .company-info {
-    font-size: 14px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+  .meta-company {
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.45);
+    text-align: right;
+    line-height: 1.3;
   }
 </style>

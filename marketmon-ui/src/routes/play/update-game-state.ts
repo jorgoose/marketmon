@@ -1,5 +1,25 @@
 import type {GameState, Action, Card, Attack} from '$lib/game-types';
 
+const WEAKNESS_MAP: Record<string, string> = {
+    'Technology': 'Communication Services',
+    'Communication Services': 'Consumer Defensive',
+    'Consumer Defensive': 'Healthcare',
+    'Healthcare': 'Industrials',
+    'Industrials': 'Energy',
+    'Energy': 'Utilities',
+    'Utilities': 'Real Estate',
+    'Real Estate': 'Financial Services',
+    'Financial Services': 'Consumer Cyclical',
+    'Consumer Cyclical': 'Materials',
+    'Materials': 'Technology',
+};
+
+const WEAKNESS_MULTIPLIER = 1.5;
+
+function isSuperEffective(attackerSector: string, defenderSector: string): boolean {
+    return WEAKNESS_MAP[attackerSector] === defenderSector;
+}
+
 function getValidActions(gameState: GameState, cards: Card[], player: 'you' | 'opponent'): Action[] {
     const { hand, inPlay, health } = gameState[player];
     const opponentPlayer = player === 'you' ? 'opponent' : 'you';
@@ -74,10 +94,13 @@ const computeNewState = (gameState: GameState, action: Action, cards: Card[]): G
     } else {
         const { inPlay: opInPlay } = gameState[notWhosTurn];
         const actionAttack = action.data as Attack;
-        const { attack } = cards.find(({ ticker }) => ticker === actionAttack.attacker)!;
-        const { defense } = cards.find(({ ticker }) => ticker === actionAttack.opponent)!;
+        const attackerCard = cards.find(({ ticker }) => ticker === actionAttack.attacker)!;
+        const defenderCard = cards.find(({ ticker }) => ticker === actionAttack.opponent)!;
+        const baseDamage = Math.max(attackerCard.attack - defenderCard.defense, 0);
+        const multiplier = isSuperEffective(attackerCard.sector, defenderCard.sector) ? WEAKNESS_MULTIPLIER : 1;
+        const damage = Math.floor(baseDamage * multiplier);
         const cardIndex = opInPlay.findIndex(({ ticker }) => ticker === actionAttack.opponent);
-        const opponentHealth = opInPlay[cardIndex].health - Math.max(attack - defense, 0);
+        const opponentHealth = opInPlay[cardIndex].health - damage;
         return {
             ...gameState,
             [notWhosTurn]: {
@@ -90,6 +113,8 @@ const computeNewState = (gameState: GameState, action: Action, cards: Card[]): G
         };
     }
 };
+
+export { isSuperEffective };
 
 export const updateGameState = (stateOfGame: GameState, action: Action, cards: Card[]): GameState => {
     if (stateOfGame.winner) {

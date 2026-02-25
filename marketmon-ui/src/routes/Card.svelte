@@ -88,8 +88,23 @@
     `
   };
 
+  const sectorWeaknesses: { [key: string]: string } = {
+    'Technology': 'Materials',
+    'Communication Services': 'Technology',
+    'Consumer Defensive': 'Communication Services',
+    'Healthcare': 'Consumer Defensive',
+    'Industrials': 'Healthcare',
+    'Energy': 'Industrials',
+    'Utilities': 'Energy',
+    'Real Estate': 'Utilities',
+    'Financial Services': 'Real Estate',
+    'Consumer Cyclical': 'Financial Services',
+    'Materials': 'Consumer Cyclical'
+  };
+
   $: color = sectorColors[sector] || '#ffd700';
   $: cardBg = sectorBackgrounds[sector] || `linear-gradient(155deg, ${color}, ${color})`;
+  $: weakness = sectorWeaknesses[sector] || '???';
   $: nameFontSize = name.length > 14 ? '15px' : '18px';
   $: companyFontSize = company.length > 36 ? '9px' : '11px';
 
@@ -136,7 +151,7 @@
 
       <!-- Card meta -->
       <div class="card-meta">
-        <span class="meta-weak">Wk: {sector}</span>
+        <span class="meta-weak">Wk: {weakness}</span>
         <span class="meta-company" style="font-size: {companyFontSize}">{company} ({ticker})</span>
       </div>
     </div>

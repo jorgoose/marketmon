@@ -4,7 +4,7 @@
 	import { slide, fade } from 'svelte/transition';
 	import { quintOut } from 'svelte/easing';
 	import type { Action } from '$lib/game-types';
-	import { updateGameState } from './update-game-state';
+	import { updateGameState, isSuperEffective } from './update-game-state';
 
 	export let data: PageServerData;
 
@@ -12,12 +12,14 @@
 	let selectedCard: string | null = null;
 	let showHand = false;
 	let notification = '';
+	let notificationType: 'error' | 'success' = 'error';
 	let notificationTimeout: ReturnType<typeof setTimeout>;
 
 	const MAX_HEALTH = 50;
 
-	function showNotification(msg: string) {
+	function showNotification(msg: string, type: 'error' | 'success' = 'error') {
 		notification = msg;
+		notificationType = type;
 		clearTimeout(notificationTimeout);
 		notificationTimeout = setTimeout(() => (notification = ''), 3000);
 	}
@@ -46,6 +48,11 @@
 	}
 
 	function attackCard(attackerTicker: string, opponentTicker: string) {
+		const attacker = data.cards.find(c => c.ticker === attackerTicker);
+		const defender = data.cards.find(c => c.ticker === opponentTicker);
+		if (attacker && defender && isSuperEffective(attacker.sector, defender.sector)) {
+			showNotification(`Super effective! ${attacker.sector} → ${defender.sector} (1.5× damage)`, 'success');
+		}
 		const action: Action = {
 			actionType: 'attack',
 			data: { attacker: attackerTicker, opponent: opponentTicker }
@@ -209,7 +216,7 @@
 
 	<!-- Toast -->
 	{#if notification}
-		<div class="toast font-mono" transition:fade|local={{ duration: 200 }}>
+		<div class="toast font-mono" class:toast-success={notificationType === 'success'} transition:fade|local={{ duration: 200 }}>
 			{notification}
 		</div>
 	{/if}
@@ -559,6 +566,12 @@
 		letter-spacing: 0.05em;
 		z-index: 40;
 		pointer-events: none;
+	}
+
+	.toast.toast-success {
+		background: rgba(0, 212, 123, 0.12);
+		border-color: rgba(0, 212, 123, 0.3);
+		color: var(--green);
 	}
 
 	/* ---- Game Over ---- */

@@ -61,6 +61,119 @@
 
 		<div class="divider"></div>
 
+		<!-- Weakness Chart -->
+		<div class="weakness-section">
+			<h2 class="section-title font-display text-gold">Sector Weaknesses</h2>
+			<p class="about-body">
+				Each sector type is strong against one other and weak to one other.
+				Attacks against a weak type deal <span class="font-mono hl-green">1.5x</span> damage.
+			</p>
+
+			<div class="weakness-cycle">
+				<div class="wk-row">
+					<span class="wk-type font-mono" style="color: #00c2ff">Technology</span>
+					<span class="wk-arrow">&rarr;</span>
+					<span class="wk-type font-mono" style="color: #f97316">Comm. Services</span>
+					<span class="wk-arrow">&rarr;</span>
+					<span class="wk-type font-mono" style="color: #68b77b">Consumer Def.</span>
+				</div>
+				<div class="wk-connector">&darr;</div>
+				<div class="wk-row">
+					<span class="wk-type font-mono" style="color: #a8876a">Materials</span>
+					<span class="wk-arrow">&larr;</span>
+					<span class="wk-type font-mono" style="color: #a855f7">Consumer Cyc.</span>
+					<span class="wk-arrow">&larr;</span>
+					<span class="wk-type font-mono" style="color: #2a6dd4">Financial Svcs.</span>
+				</div>
+				<div class="wk-connector">&uarr;</div>
+				<div class="wk-row">
+					<span class="wk-type font-mono" style="color: #c2873a">Real Estate</span>
+					<span class="wk-arrow">&larr;</span>
+					<span class="wk-type font-mono" style="color: #64748b">Utilities</span>
+					<span class="wk-arrow">&larr;</span>
+					<span class="wk-type font-mono" style="color: #ff6b1a">Energy</span>
+				</div>
+				<div class="wk-connector">&uarr;</div>
+				<div class="wk-row wk-row-center">
+					<span class="wk-type font-mono" style="color: #e5457b">Healthcare</span>
+					<span class="wk-arrow">&rarr;</span>
+					<span class="wk-type font-mono" style="color: #d4a017">Industrials</span>
+					<span class="wk-arrow wk-arrow-up">&uarr;</span>
+				</div>
+			</div>
+
+			<div class="weakness-list">
+				<div class="wk-item">
+					<span class="wk-from font-mono" style="color: #00c2ff">TECH</span>
+					<span class="wk-beats">&rarr;</span>
+					<span class="wk-to font-mono" style="color: #f97316">COMM</span>
+					<span class="wk-reason">Tech platforms disrupt telecom &amp; media</span>
+				</div>
+				<div class="wk-item">
+					<span class="wk-from font-mono" style="color: #f97316">COMM</span>
+					<span class="wk-beats">&rarr;</span>
+					<span class="wk-to font-mono" style="color: #68b77b">C.DEF</span>
+					<span class="wk-reason">Advertising undermines generic staple brands</span>
+				</div>
+				<div class="wk-item">
+					<span class="wk-from font-mono" style="color: #68b77b">C.DEF</span>
+					<span class="wk-beats">&rarr;</span>
+					<span class="wk-to font-mono" style="color: #e5457b">HLTH</span>
+					<span class="wk-reason">Preventive wellness reduces healthcare need</span>
+				</div>
+				<div class="wk-item">
+					<span class="wk-from font-mono" style="color: #e5457b">HLTH</span>
+					<span class="wk-beats">&rarr;</span>
+					<span class="wk-to font-mono" style="color: #d4a017">IND</span>
+					<span class="wk-reason">Health regulations constrain industry</span>
+				</div>
+				<div class="wk-item">
+					<span class="wk-from font-mono" style="color: #d4a017">IND</span>
+					<span class="wk-beats">&rarr;</span>
+					<span class="wk-to font-mono" style="color: #ff6b1a">NRG</span>
+					<span class="wk-reason">Renewables manufacturing displaces fossil fuels</span>
+				</div>
+				<div class="wk-item">
+					<span class="wk-from font-mono" style="color: #ff6b1a">NRG</span>
+					<span class="wk-beats">&rarr;</span>
+					<span class="wk-to font-mono" style="color: #64748b">UTIL</span>
+					<span class="wk-reason">Energy price spikes crush utility margins</span>
+				</div>
+				<div class="wk-item">
+					<span class="wk-from font-mono" style="color: #64748b">UTIL</span>
+					<span class="wk-beats">&rarr;</span>
+					<span class="wk-to font-mono" style="color: #c2873a">RE</span>
+					<span class="wk-reason">Rising utility costs burden property operations</span>
+				</div>
+				<div class="wk-item">
+					<span class="wk-from font-mono" style="color: #c2873a">RE</span>
+					<span class="wk-beats">&rarr;</span>
+					<span class="wk-to font-mono" style="color: #2a6dd4">FIN</span>
+					<span class="wk-reason">Real estate crashes devastate banks</span>
+				</div>
+				<div class="wk-item">
+					<span class="wk-from font-mono" style="color: #2a6dd4">FIN</span>
+					<span class="wk-beats">&rarr;</span>
+					<span class="wk-to font-mono" style="color: #a855f7">C.CYC</span>
+					<span class="wk-reason">Credit tightening chokes discretionary spending</span>
+				</div>
+				<div class="wk-item">
+					<span class="wk-from font-mono" style="color: #a855f7">C.CYC</span>
+					<span class="wk-beats">&rarr;</span>
+					<span class="wk-to font-mono" style="color: #a8876a">MAT</span>
+					<span class="wk-reason">Demand volatility destabilizes material suppliers</span>
+				</div>
+				<div class="wk-item">
+					<span class="wk-from font-mono" style="color: #a8876a">MAT</span>
+					<span class="wk-beats">&rarr;</span>
+					<span class="wk-to font-mono" style="color: #00c2ff">TECH</span>
+					<span class="wk-reason">Rare earth scarcity constrains tech production</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="divider"></div>
+
 		<!-- About -->
 		<div class="about-section">
 			<h2 class="section-title font-display text-gold">The Data</h2>
@@ -253,8 +366,100 @@
 		font-weight: 700;
 	}
 
+	/* ---- Weakness Section ---- */
+	.weakness-section {
+		animation: fadeUp 0.5s ease-out 0.45s both;
+		margin-bottom: 3rem;
+	}
+
+	.weakness-cycle {
+		padding: 1.5rem;
+		border-radius: 0.75rem;
+		background: rgba(10, 10, 18, 0.5);
+		border: 1px solid var(--border);
+		margin-bottom: 1.5rem;
+	}
+
+	.wk-row {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0.5rem;
+	}
+
+	.wk-row-center {
+		justify-content: center;
+	}
+
+	.wk-type {
+		font-size: 0.7rem;
+		font-weight: 700;
+		letter-spacing: 0.04em;
+		padding: 0.3rem 0.6rem;
+		border-radius: 0.25rem;
+		background: rgba(255, 255, 255, 0.05);
+		border: 1px solid rgba(255, 255, 255, 0.08);
+		white-space: nowrap;
+	}
+
+	.wk-arrow {
+		color: var(--gold-dim);
+		font-size: 0.8rem;
+		flex-shrink: 0;
+	}
+
+	.wk-arrow-up {
+		color: var(--gold-dim);
+	}
+
+	.wk-connector {
+		text-align: center;
+		color: var(--gold-dim);
+		font-size: 0.8rem;
+		padding: 0.15rem 0;
+		line-height: 1;
+	}
+
+	.weakness-list {
+		display: flex;
+		flex-direction: column;
+		gap: 0.4rem;
+	}
+
+	.wk-item {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		padding: 0.5rem 0.75rem;
+		border-radius: 0.375rem;
+		background: rgba(10, 10, 18, 0.3);
+		border: 1px solid rgba(255, 255, 255, 0.04);
+		font-size: 0.72rem;
+	}
+
+	.wk-from, .wk-to {
+		font-weight: 700;
+		letter-spacing: 0.06em;
+		min-width: 3rem;
+	}
+
+	.wk-beats {
+		color: var(--gold-dim);
+		flex-shrink: 0;
+	}
+
+	.wk-reason {
+		color: var(--text-muted);
+		font-size: 0.7rem;
+		margin-left: auto;
+		text-align: right;
+	}
+
 	@media (max-width: 500px) {
 		.data-grid { grid-template-columns: 1fr; }
 		.step { flex-direction: column; gap: 0.75rem; }
+		.wk-reason { display: none; }
+		.wk-row { gap: 0.3rem; }
+		.wk-type { font-size: 0.6rem; padding: 0.25rem 0.4rem; }
 	}
 </style>

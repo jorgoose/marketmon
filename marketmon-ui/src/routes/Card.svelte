@@ -149,6 +149,7 @@
   .card-container {
     display: inline-block;
     width: 300px;
+    aspect-ratio: 63 / 88;
     background: linear-gradient(
       145deg,
       #7a7a8a 0%,
@@ -161,12 +162,13 @@
       #7a7a8a 100%
     );
     border-radius: 16px;
-    padding: 8px;
+    padding: 10px;
     box-shadow:
       2px 3px 12px rgba(0, 0, 0, 0.5),
       inset 0 1px 0 rgba(255, 255, 255, 0.45),
       inset 0 -1px 0 rgba(0, 0, 0, 0.12);
     transform-origin: top left;
+    box-sizing: border-box;
   }
 
   .card {
@@ -178,6 +180,8 @@
     display: flex;
     flex-direction: column;
     gap: 6px;
+    height: 100%;
+    box-sizing: border-box;
   }
 
   /* ---- Shimmer ---- */
@@ -252,12 +256,14 @@
       inset 0 2px 6px rgba(0, 0, 0, 0.35),
       inset 0 -1px 3px rgba(0, 0, 0, 0.15),
       0 1px 0 rgba(255, 255, 255, 0.08);
+    flex: 1;
+    min-height: 0;
   }
 
   .portrait img {
     display: block;
     width: 100%;
-    height: 190px;
+    height: 100%;
     object-fit: cover;
   }
 

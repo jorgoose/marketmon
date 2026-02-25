@@ -5,17 +5,15 @@
 
 	const links = [
 		{ href: '/', label: 'Home' },
-		{ href: '/cards', label: 'Cards' },
-		{ href: '/play', label: 'Play' },
-		{ href: '/about', label: 'About' },
+		{ href: '/cards', label: 'Index' },
+		{ href: '/play', label: 'Arena' },
+		{ href: '/about', label: 'Guide' },
 	];
 </script>
 
 <header class="navbar">
 	<div class="nav-inner">
-		<a href="/" class="brand font-display">
-			Marketmon
-		</a>
+		<a href="/" class="brand font-display">Marketmon</a>
 
 		<nav class="nav-links">
 			{#each links as link}
@@ -61,55 +59,60 @@
 		position: sticky;
 		top: 0;
 		z-index: 100;
-		background: rgba(30, 64, 175, 0.7);
-		backdrop-filter: blur(16px);
-		-webkit-backdrop-filter: blur(16px);
-		border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+		background: rgba(6, 6, 10, 0.85);
+		backdrop-filter: blur(20px);
+		-webkit-backdrop-filter: blur(20px);
+		border-bottom: 1px solid var(--border);
 	}
 
 	.nav-inner {
 		max-width: 1200px;
 		margin: 0 auto;
 		padding: 0 1.5rem;
-		height: 4rem;
+		height: 3.75rem;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
 	}
 
 	.brand {
-		font-size: 1.6rem;
+		font-size: 1.35rem;
 		font-weight: 700;
-		color: var(--yellow);
+		letter-spacing: 0.08em;
 		text-decoration: none;
-		text-shadow: 0 2px 8px rgba(251, 191, 36, 0.3);
-		letter-spacing: 0.02em;
+		background: linear-gradient(135deg, #e2c56d, #c9a84c);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
 	}
 
 	.nav-links {
 		display: flex;
-		gap: 0.25rem;
+		gap: 0.125rem;
 	}
 
 	.nav-link {
-		padding: 0.5rem 1rem;
-		border-radius: 9999px;
+		padding: 0.4rem 0.9rem;
+		border-radius: 0.375rem;
 		text-decoration: none;
-		color: rgba(255, 255, 255, 0.8);
-		font-weight: 700;
-		font-size: 0.9rem;
+		color: var(--text-secondary);
+		font-weight: 600;
+		font-size: 0.825rem;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
 		transition: all 0.2s ease;
+		border: 1px solid transparent;
 	}
 
 	.nav-link:hover {
-		color: #fff;
-		background: rgba(255, 255, 255, 0.12);
+		color: var(--text-primary);
+		background: rgba(201, 168, 76, 0.06);
 	}
 
 	.nav-link.active {
-		color: var(--blue-deep);
-		background: var(--yellow);
-		box-shadow: 0 2px 8px rgba(251, 191, 36, 0.3);
+		color: var(--gold);
+		background: rgba(201, 168, 76, 0.08);
+		border-color: rgba(201, 168, 76, 0.2);
 	}
 
 	.mobile-toggle {
@@ -123,38 +126,42 @@
 	}
 
 	.bar {
-		width: 24px;
-		height: 3px;
-		background: white;
-		border-radius: 2px;
+		width: 22px;
+		height: 2px;
+		background: var(--gold);
+		border-radius: 1px;
 		transition: all 0.3s ease;
 		transform-origin: center;
 	}
 
-	.bar.open:nth-child(1) { transform: rotate(45deg) translate(5px, 6px); }
+	.bar.open:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
 	.bar.open:nth-child(2) { opacity: 0; }
-	.bar.open:nth-child(3) { transform: rotate(-45deg) translate(5px, -6px); }
+	.bar.open:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
 
 	.mobile-nav {
 		display: none;
 		flex-direction: column;
 		padding: 0.5rem 1.5rem 1rem;
-		gap: 0.25rem;
+		gap: 0.125rem;
+		border-top: 1px solid var(--border);
 	}
 
 	.mobile-link {
-		padding: 0.75rem 1rem;
+		padding: 0.7rem 1rem;
 		text-decoration: none;
-		color: rgba(255, 255, 255, 0.85);
-		font-weight: 700;
-		border-radius: 0.75rem;
+		color: var(--text-secondary);
+		font-weight: 600;
+		font-size: 0.85rem;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+		border-radius: 0.375rem;
 		transition: all 0.2s ease;
 	}
 
 	.mobile-link:hover,
 	.mobile-link.active {
-		color: var(--blue-deep);
-		background: var(--yellow);
+		color: var(--gold);
+		background: rgba(201, 168, 76, 0.08);
 	}
 
 	@media (max-width: 768px) {

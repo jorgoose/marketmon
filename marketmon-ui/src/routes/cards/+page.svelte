@@ -25,32 +25,30 @@
 <div class="page">
 	<Navbar />
 
-	<div class="collection-page">
+	<div class="index-page">
 		<div class="page-header">
-			<h1 class="page-title font-display">All Cards</h1>
-			<p class="page-subtitle">
-				{data.cards.length} creatures to discover
-			</p>
+			<h1 class="page-title font-display text-gold">The Index</h1>
+			<p class="page-sub font-mono">{data.cards.length} CREATURES INDEXED</p>
 		</div>
 
-		<!-- Search & Filters -->
+		<!-- Filters -->
 		<div class="filters">
-			<div class="search-wrapper">
-				<svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+			<div class="search-box">
+				<svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
 					<circle cx="11" cy="11" r="8" />
 					<path d="m21 21-4.35-4.35" />
 				</svg>
 				<input
 					type="text"
-					placeholder="Search name, ticker, or creature..."
+					placeholder="Search ticker, name, or creature..."
 					bind:value={searchQuery}
-					class="search-input"
+					class="search-input font-mono"
 				/>
 			</div>
 
-			<div class="sector-filters">
+			<div class="sector-row">
 				<button
-					class="sector-chip"
+					class="chip"
 					class:active={selectedSector === ''}
 					on:click={() => (selectedSector = '')}
 				>
@@ -58,7 +56,7 @@
 				</button>
 				{#each sectors as sector}
 					<button
-						class="sector-chip"
+						class="chip"
 						class:active={selectedSector === sector}
 						on:click={() => (selectedSector = selectedSector === sector ? '' : sector)}
 					>
@@ -68,13 +66,13 @@
 			</div>
 
 			{#if searchQuery || selectedSector}
-				<div class="results-count">
-					Showing {filteredCards.length} of {data.cards.length}
-				</div>
+				<p class="filter-count font-mono">
+					{filteredCards.length} / {data.cards.length} results
+				</p>
 			{/if}
 		</div>
 
-		<!-- Card Grid -->
+		<!-- Grid -->
 		{#if filteredCards.length > 0}
 			<div class="card-grid">
 				{#each filteredCards as card (card.ticker)}
@@ -94,9 +92,9 @@
 				{/each}
 			</div>
 		{:else}
-			<div class="empty-state">
-				<p class="empty-title font-display">No creatures found!</p>
-				<p class="empty-desc">Try a different search or filter.</p>
+			<div class="empty">
+				<p class="empty-title font-display">No Results</p>
+				<p class="empty-sub">Try adjusting your query or filters.</p>
 			</div>
 		{/if}
 	</div>
@@ -109,7 +107,7 @@
 		min-height: 100vh;
 	}
 
-	.collection-page {
+	.index-page {
 		max-width: 1400px;
 		margin: 0 auto;
 		padding: 2rem 1.5rem 4rem;
@@ -122,16 +120,16 @@
 	}
 
 	.page-title {
-		font-size: 2.5rem;
-		font-weight: 700;
-		color: var(--yellow);
-		text-shadow: 0 2px 8px rgba(251, 191, 36, 0.3);
+		font-size: 2.25rem;
+		font-weight: 900;
+		letter-spacing: 0.05em;
 	}
 
-	.page-subtitle {
-		color: rgba(255, 255, 255, 0.7);
-		font-weight: 700;
-		font-size: 1rem;
+	.page-sub {
+		font-size: 0.7rem;
+		letter-spacing: 0.15em;
+		color: var(--text-muted);
+		margin-top: 0.35rem;
 	}
 
 	/* ---- Filters ---- */
@@ -140,87 +138,85 @@
 		animation: fadeUp 0.5s ease-out 0.1s both;
 	}
 
-	.search-wrapper {
+	.search-box {
 		position: relative;
-		max-width: 460px;
+		max-width: 440px;
 		margin: 0 auto 1rem;
 	}
 
 	.search-icon {
 		position: absolute;
-		left: 1rem;
+		left: 0.9rem;
 		top: 50%;
 		transform: translateY(-50%);
-		width: 18px;
-		height: 18px;
-		color: rgba(255, 255, 255, 0.4);
+		width: 16px;
+		height: 16px;
+		color: var(--text-muted);
 		pointer-events: none;
 	}
 
 	.search-input {
 		width: 100%;
-		padding: 0.8rem 1rem 0.8rem 2.75rem;
-		border-radius: 9999px;
-		border: 2px solid rgba(255, 255, 255, 0.15);
-		background: rgba(255, 255, 255, 0.08);
-		color: #fff;
-		font-family: 'Nunito', sans-serif;
-		font-size: 0.9rem;
-		font-weight: 600;
+		padding: 0.7rem 1rem 0.7rem 2.5rem;
+		border-radius: 0.5rem;
+		border: 1px solid var(--border);
+		background: rgba(10, 10, 18, 0.6);
+		color: var(--text-primary);
+		font-size: 0.8rem;
 		outline: none;
 		transition: all 0.2s ease;
 	}
 
 	.search-input::placeholder {
-		color: rgba(255, 255, 255, 0.4);
+		color: var(--text-muted);
 	}
 
 	.search-input:focus {
-		border-color: var(--yellow);
-		background: rgba(255, 255, 255, 0.12);
-		box-shadow: 0 0 0 4px rgba(251, 191, 36, 0.15);
+		border-color: var(--border-hover);
+		box-shadow: 0 0 0 3px rgba(201, 168, 76, 0.08);
 	}
 
-	.sector-filters {
+	.sector-row {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 0.5rem;
+		gap: 0.4rem;
 		justify-content: center;
 	}
 
-	.sector-chip {
-		padding: 0.4rem 0.9rem;
-		border-radius: 9999px;
-		border: 2px solid rgba(255, 255, 255, 0.12);
-		background: rgba(255, 255, 255, 0.06);
-		color: rgba(255, 255, 255, 0.75);
-		font-size: 0.8rem;
-		font-weight: 700;
+	.chip {
+		padding: 0.35rem 0.8rem;
+		border-radius: 0.375rem;
+		border: 1px solid var(--border);
+		background: transparent;
+		color: var(--text-secondary);
+		font-size: 0.75rem;
+		font-weight: 600;
 		cursor: pointer;
 		transition: all 0.2s ease;
-		font-family: 'Nunito', sans-serif;
+		font-family: 'DM Sans', sans-serif;
 	}
 
-	.sector-chip:hover {
-		background: rgba(255, 255, 255, 0.12);
-		color: #fff;
+	.chip:hover {
+		color: var(--text-primary);
+		border-color: rgba(201, 168, 76, 0.2);
+		background: rgba(201, 168, 76, 0.04);
 	}
 
-	.sector-chip.active {
-		background: var(--yellow);
-		border-color: var(--yellow);
-		color: var(--blue-deep);
+	.chip.active {
+		color: var(--gold);
+		border-color: rgba(201, 168, 76, 0.35);
+		background: rgba(201, 168, 76, 0.08);
 	}
 
-	.results-count {
+	.filter-count {
 		text-align: center;
 		margin-top: 0.75rem;
-		font-size: 0.85rem;
-		font-weight: 700;
-		color: rgba(255, 255, 255, 0.5);
+		font-size: 0.7rem;
+		letter-spacing: 0.1em;
+		color: var(--text-muted);
 	}
 
-	/* ---- Card Grid ---- */
+	/* ---- Grid ---- */
 	.card-grid {
 		display: grid;
 		grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
@@ -237,21 +233,21 @@
 		transform: translateY(-6px);
 	}
 
-	/* ---- Empty state ---- */
-	.empty-state {
+	/* ---- Empty ---- */
+	.empty {
 		text-align: center;
 		padding: 4rem 1rem;
 	}
 
 	.empty-title {
-		font-size: 1.5rem;
-		margin-bottom: 0.5rem;
-		color: var(--yellow);
+		font-size: 1.25rem;
+		color: var(--gold);
+		letter-spacing: 0.04em;
+		margin-bottom: 0.4rem;
 	}
 
-	.empty-desc {
-		font-size: 0.95rem;
-		color: rgba(255, 255, 255, 0.6);
-		font-weight: 600;
+	.empty-sub {
+		font-size: 0.9rem;
+		color: var(--text-muted);
 	}
 </style>

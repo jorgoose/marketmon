@@ -5,97 +5,96 @@
 <div class="page">
 	<Navbar />
 
-	<div class="about-page">
-		<div class="about-hero">
-			<h1 class="about-title font-display">How to Play</h1>
-			<p class="about-subtitle">Master the Marketmon arena in four moves</p>
+	<div class="guide-page">
+		<div class="guide-hero">
+			<h1 class="guide-title font-display text-gold">Guide</h1>
+			<p class="guide-sub font-mono">HOW TO PLAY MARKETMON</p>
 		</div>
 
 		<!-- Steps -->
 		<div class="steps">
-			<div class="step step-blue">
-				<div class="step-num font-display">1</div>
+			<div class="step">
+				<div class="step-num font-mono">01</div>
 				<div class="step-body">
 					<h3 class="step-title font-display">Draw Your Hand</h3>
 					<p class="step-desc">
-						Start with 50 health and 8 random creature cards drawn from the S&P 500.
-						Each creature has unique stats based on real market data.
+						Start with <span class="font-mono hl-green">50 HP</span> and 8 random creature cards
+						drawn from the S&P 500. Each creature's stats reflect real financial data.
 					</p>
 				</div>
 			</div>
 
-			<div class="step step-green">
-				<div class="step-num font-display">2</div>
+			<div class="step">
+				<div class="step-num font-mono">02</div>
 				<div class="step-body">
 					<h3 class="step-title font-display">Deploy Creatures</h3>
 					<p class="step-desc">
-						Play cards from your hand to the battlefield. Playing a card costs health
-						equal to the creature's HP &mdash; so choose wisely!
+						Play cards from your hand to the battlefield. Deploying costs HP equal to
+						the creature's health stat. Overextend and you'll leave yourself vulnerable.
 					</p>
 				</div>
 			</div>
 
-			<div class="step step-red">
-				<div class="step-num font-display">3</div>
+			<div class="step">
+				<div class="step-num font-mono">03</div>
 				<div class="step-body">
 					<h3 class="step-title font-display">Grow & Attack</h3>
 					<p class="step-desc">
-						Grow your creatures to restore health (overflow heals you!). Attack
-						opponent creatures &mdash; your attack minus their defense equals damage.
+						<span class="hl-green">Grow</span> restores a creature's HP (overflow heals you).
+						<span class="hl-red">Attack</span> deals your ATK minus their DEF as damage.
+						Destroyed creatures leave the field.
 					</p>
 				</div>
 			</div>
 
-			<div class="step step-yellow">
-				<div class="step-num font-display">4</div>
+			<div class="step">
+				<div class="step-num font-mono">04</div>
 				<div class="step-body">
-					<h3 class="step-title font-display">Claim Victory!</h3>
+					<h3 class="step-title font-display">Win the Duel</h3>
 					<p class="step-desc">
-						Win by leaving your opponent with no valid moves. Manage your health
-						pool carefully &mdash; it fuels both your creatures and your survival.
+						Victory is achieved when your opponent has no valid moves remaining.
+						Manage your health pool carefully &mdash; it fuels both deployment and survival.
 					</p>
 				</div>
 			</div>
 		</div>
 
-		<!-- Divider -->
 		<div class="divider"></div>
 
-		<!-- About Section -->
+		<!-- About -->
 		<div class="about-section">
-			<h2 class="section-title font-display">About Marketmon</h2>
-			<p class="about-text">
-				Marketmon transforms every company in the S&P 500 into a unique collectible
-				creature card. Each card's stats come from real financial data:
+			<h2 class="section-title font-display text-gold">The Data</h2>
+			<p class="about-body">
+				Every Marketmon creature is derived from a real S&P 500 company.
+				Card stats map directly to financial fundamentals:
 			</p>
 
-			<div class="stat-grid">
-				<div class="stat-row">
-					<span class="stat-from">Market Cap</span>
-					<span class="stat-arrow">&rarr;</span>
-					<span class="stat-to stat-hp">Health</span>
+			<div class="data-grid">
+				<div class="data-row">
+					<span class="data-metric font-mono">MARKET_CAP</span>
+					<span class="data-arrow">&rarr;</span>
+					<span class="data-stat font-mono hl-red">HP</span>
 				</div>
-				<div class="stat-row">
-					<span class="stat-from">Free Cash Flow</span>
-					<span class="stat-arrow">&rarr;</span>
-					<span class="stat-to stat-atk">Attack</span>
+				<div class="data-row">
+					<span class="data-metric font-mono">FREE_CASH_FLOW</span>
+					<span class="data-arrow">&rarr;</span>
+					<span class="data-stat font-mono hl-gold">ATK</span>
 				</div>
-				<div class="stat-row">
-					<span class="stat-from">Shareholder Equity</span>
-					<span class="stat-arrow">&rarr;</span>
-					<span class="stat-to stat-def">Defense</span>
+				<div class="data-row">
+					<span class="data-metric font-mono">SHAREHOLDER_EQ</span>
+					<span class="data-arrow">&rarr;</span>
+					<span class="data-stat font-mono hl-cyan">DEF</span>
 				</div>
-				<div class="stat-row">
-					<span class="stat-from">Earnings Growth</span>
-					<span class="stat-arrow">&rarr;</span>
-					<span class="stat-to stat-grow">Growth</span>
+				<div class="data-row">
+					<span class="data-metric font-mono">EARNINGS_GROWTH</span>
+					<span class="data-arrow">&rarr;</span>
+					<span class="data-stat font-mono hl-green">GRW</span>
 				</div>
 			</div>
 
-			<p class="about-text">
-				Creature names and images are generated by AI, giving each company a unique
-				identity in the Marketmon universe. The result? A game where real financial
-				fundamentals power every battle.
+			<p class="about-body">
+				Creature names and images are AI-generated, giving each company a
+				unique identity in the Marketmon universe. Real data, unreal battles.
 			</p>
 		</div>
 	</div>
@@ -108,38 +107,37 @@
 		min-height: 100vh;
 	}
 
-	.about-page {
-		max-width: 680px;
+	.guide-page {
+		max-width: 660px;
 		margin: 0 auto;
 		padding: 3rem 1.5rem 5rem;
 	}
 
 	/* ---- Hero ---- */
-	.about-hero {
+	.guide-hero {
 		text-align: center;
 		margin-bottom: 3rem;
 		animation: fadeUp 0.5s ease-out both;
 	}
 
-	.about-title {
-		font-size: 2.5rem;
-		font-weight: 700;
-		color: var(--yellow);
-		text-shadow: 0 2px 8px rgba(251, 191, 36, 0.3);
+	.guide-title {
+		font-size: 2.25rem;
+		font-weight: 900;
+		letter-spacing: 0.06em;
 	}
 
-	.about-subtitle {
-		color: rgba(255, 255, 255, 0.75);
-		font-weight: 700;
-		font-size: 1.05rem;
-		margin-top: 0.25rem;
+	.guide-sub {
+		font-size: 0.65rem;
+		letter-spacing: 0.2em;
+		color: var(--text-muted);
+		margin-top: 0.4rem;
 	}
 
 	/* ---- Steps ---- */
 	.steps {
 		display: flex;
 		flex-direction: column;
-		gap: 1.25rem;
+		gap: 1rem;
 		margin-bottom: 3rem;
 	}
 
@@ -148,11 +146,11 @@
 		gap: 1.25rem;
 		align-items: flex-start;
 		padding: 1.5rem;
-		border-radius: 1.25rem;
-		background: rgba(255, 255, 255, 0.07);
-		border: 2px solid rgba(255, 255, 255, 0.08);
+		border-radius: 0.75rem;
+		background: rgba(18, 18, 30, 0.4);
+		border: 1px solid var(--border);
 		transition: all 0.25s ease;
-		animation: bounceIn 0.5s ease-out both;
+		animation: fadeUp 0.5s ease-out both;
 	}
 
 	.step:nth-child(1) { animation-delay: 0.1s; }
@@ -161,104 +159,102 @@
 	.step:nth-child(4) { animation-delay: 0.4s; }
 
 	.step:hover {
-		transform: translateY(-4px);
-		background: rgba(255, 255, 255, 0.1);
-		box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+		border-color: var(--border-hover);
+		background: rgba(18, 18, 30, 0.6);
+		box-shadow: 0 0 20px rgba(201, 168, 76, 0.04);
+		transform: translateY(-3px);
 	}
 
 	.step-num {
-		width: 44px;
-		height: 44px;
-		border-radius: 50%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		font-size: 1.2rem;
+		font-size: 0.7rem;
 		font-weight: 700;
-		flex-shrink: 0;
+		letter-spacing: 0.1em;
+		color: var(--gold-dim);
+		min-width: 2rem;
+		padding-top: 0.2rem;
 	}
 
-	.step-blue .step-num { background: #3b82f6; color: #fff; }
-	.step-green .step-num { background: #22c55e; color: #052e16; }
-	.step-red .step-num { background: #ef4444; color: #fff; }
-	.step-yellow .step-num { background: #fbbf24; color: #78350f; }
-
 	.step-title {
-		font-size: 1.15rem;
+		font-size: 1.05rem;
 		font-weight: 700;
-		margin-bottom: 0.3rem;
+		letter-spacing: 0.04em;
+		color: var(--gold-bright);
+		margin-bottom: 0.4rem;
 	}
 
 	.step-desc {
-		color: rgba(255, 255, 255, 0.75);
-		font-size: 0.95rem;
-		line-height: 1.6;
-		font-weight: 600;
+		color: var(--text-secondary);
+		font-size: 0.9rem;
+		line-height: 1.65;
 	}
+
+	.hl-green { color: var(--green); }
+	.hl-red { color: var(--red); }
+	.hl-gold { color: var(--gold); }
+	.hl-cyan { color: var(--cyan); }
 
 	/* ---- Divider ---- */
 	.divider {
-		height: 2px;
-		background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.12), transparent);
+		height: 1px;
+		background: linear-gradient(to right, transparent, var(--border), transparent);
 		margin-bottom: 3rem;
 	}
 
-	/* ---- About Section ---- */
+	/* ---- About ---- */
 	.about-section {
 		animation: fadeUp 0.5s ease-out 0.5s both;
 	}
 
 	.section-title {
-		font-size: 1.75rem;
-		font-weight: 700;
+		font-size: 1.5rem;
+		font-weight: 900;
+		letter-spacing: 0.06em;
 		text-align: center;
 		margin-bottom: 1rem;
-		color: var(--yellow);
 	}
 
-	.about-text {
-		color: rgba(255, 255, 255, 0.8);
-		font-size: 0.95rem;
+	.about-body {
+		color: var(--text-secondary);
+		font-size: 0.9rem;
 		line-height: 1.7;
-		font-weight: 600;
 		margin-bottom: 1.25rem;
 	}
 
-	/* ---- Stat Grid ---- */
-	.stat-grid {
+	/* ---- Data Grid ---- */
+	.data-grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		gap: 0.75rem;
+		gap: 0.6rem;
 		margin: 1.5rem 0 1.75rem;
 	}
 
-	.stat-row {
+	.data-row {
 		display: flex;
 		align-items: center;
 		gap: 0.5rem;
-		padding: 0.65rem 1rem;
-		border-radius: 0.75rem;
-		background: rgba(255, 255, 255, 0.06);
-		border: 2px solid rgba(255, 255, 255, 0.06);
-		font-size: 0.85rem;
+		padding: 0.6rem 0.9rem;
+		border-radius: 0.375rem;
+		background: rgba(10, 10, 18, 0.5);
+		border: 1px solid var(--border);
+		font-size: 0.72rem;
+	}
+
+	.data-metric {
+		color: var(--text-muted);
+		letter-spacing: 0.03em;
+	}
+
+	.data-arrow {
+		color: var(--text-muted);
+		opacity: 0.3;
+	}
+
+	.data-stat {
 		font-weight: 700;
 	}
 
-	.stat-from {
-		color: rgba(255, 255, 255, 0.55);
-	}
-
-	.stat-arrow {
-		color: rgba(255, 255, 255, 0.3);
-	}
-
-	.stat-hp { color: #ef4444; }
-	.stat-atk { color: #f97316; }
-	.stat-def { color: #3b82f6; }
-	.stat-grow { color: #22c55e; }
-
 	@media (max-width: 500px) {
-		.stat-grid { grid-template-columns: 1fr; }
+		.data-grid { grid-template-columns: 1fr; }
 		.step { flex-direction: column; gap: 0.75rem; }
 	}
 </style>

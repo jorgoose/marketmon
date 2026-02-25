@@ -3,10 +3,9 @@
 </script>
 
 <div class="app-shell">
-	<div class="bg-decor" aria-hidden="true">
-		<div class="orb orb-1"></div>
-		<div class="orb orb-2"></div>
-		<div class="orb orb-3"></div>
+	<div class="bg-layers" aria-hidden="true">
+		<div class="bg-gradient"></div>
+		<div class="bg-grid"></div>
 	</div>
 	<slot />
 </div>
@@ -17,45 +16,28 @@
 		min-height: 100vh;
 	}
 
-	.bg-decor {
+	.bg-layers {
 		position: fixed;
 		inset: 0;
 		pointer-events: none;
 		z-index: 0;
-		overflow: hidden;
 	}
 
-	.orb {
+	.bg-gradient {
 		position: absolute;
-		border-radius: 50%;
-		filter: blur(80px);
-		opacity: 0.25;
+		inset: 0;
+		background:
+			radial-gradient(ellipse at 20% 0%, rgba(124, 58, 237, 0.08) 0%, transparent 55%),
+			radial-gradient(ellipse at 80% 100%, rgba(124, 58, 237, 0.05) 0%, transparent 50%),
+			radial-gradient(ellipse at 50% 30%, rgba(201, 168, 76, 0.03) 0%, transparent 50%);
 	}
 
-	.orb-1 {
-		width: 500px;
-		height: 500px;
-		background: #60a5fa;
-		top: -10%;
-		right: -5%;
-		animation: float 12s ease-in-out infinite;
-	}
-
-	.orb-2 {
-		width: 400px;
-		height: 400px;
-		background: #fbbf24;
-		bottom: 10%;
-		left: -8%;
-		animation: float 15s ease-in-out infinite 3s;
-	}
-
-	.orb-3 {
-		width: 350px;
-		height: 350px;
-		background: #22c55e;
-		top: 50%;
-		right: 20%;
-		animation: float 18s ease-in-out infinite 6s;
+	/* Faint terminal grid */
+	.bg-grid {
+		position: absolute;
+		inset: 0;
+		background-image:
+			repeating-linear-gradient(0deg, rgba(201, 168, 76, 0.02) 0px, transparent 1px, transparent 48px),
+			repeating-linear-gradient(90deg, rgba(201, 168, 76, 0.02) 0px, transparent 1px, transparent 48px);
 	}
 </style>

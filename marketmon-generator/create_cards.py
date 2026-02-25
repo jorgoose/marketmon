@@ -12,6 +12,7 @@ import json
 import base64
 import logging
 
+import anthropic
 import requests
 import pandas as pd
 from dotenv import load_dotenv
@@ -20,7 +21,6 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 
 SP500_CSV = "https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/data/constituents.csv"
 ALPHA_VANTAGE_URL = "https://www.alphavantage.co/query"
-CLAUDE_URL = "https://api.anthropic.com/v1/messages"
 STABILITY_URL = "https://api.stability.ai/v1/generation/stable-diffusion-xl-1024-v1-0/text-to-image"
 
 OUTPUT_JSON = "final_data.json"
@@ -160,27 +160,17 @@ CREATURE_PROMPT = (
 )
 
 
-def generate_creature(api_key, card):
+def generate_creature(client, card):
     prompt = CREATURE_PROMPT.format(name=card.get("name"), description=card.get("description"))
     try:
-        r = requests.post(CLAUDE_URL, headers={
-            "x-api-key": api_key,
-            "Content-Type": "application/json",
-            "anthropic-version": "2023-06-01",
-        }, json={
-            "model": "claude-haiku-4-5-20251001",
-            "max_tokens": 1024,
-            "messages": [
-                {"role": "user", "content": prompt},
-                {"role": "assistant", "content": "{"},
-            ],
-        })
-        if r.status_code == 200:
-            text = r.json()["content"][0]["text"].replace("\n", "")
-            data = json.loads("{" + text)
-            data["ticker"] = card.get("ticker")
-            return data
-        logging.error("Claude API %s: %s", r.status_code, r.text)
+        msg = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=1024,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        data = json.loads(msg.content[0].text)
+        data["ticker"] = card.get("ticker")
+        return data
     except Exception as e:
         logging.error("Creature generation failed for %s: %s", card.get("ticker"), e)
     return None
@@ -216,8 +206,9 @@ def generate_image(api_key, creature):
 
 # --- Main pipeline ---
 
-def run(alpha_key, claude_key, stability_key):
+def run(alpha_key, anthropic_key, stability_key):
     os.makedirs(IMAGE_FOLDER, exist_ok=True)
+    claude = anthropic.Anthropic(api_key=anthropic_key)
 
     # 1. Fetch S&P 500 list
     df = pd.read_csv(SP500_CSV)
@@ -240,7 +231,7 @@ def run(alpha_key, claude_key, stability_key):
         ticker = card.get("ticker")
         logging.info("Generating creature for %s (%d/%d)", ticker, i + 1, len(cards))
 
-        creature = generate_creature(claude_key, card)
+        creature = generate_creature(claude, card)
         if not creature:
             logging.error("Failed creature generation for %s", ticker)
             continue
@@ -280,11 +271,11 @@ if __name__ == "__main__":
 
     keys = {
         "ALPHA_VANTAGE_API_KEY": os.getenv("ALPHA_VANTAGE_API_KEY"),
-        "CLAUDE_API_KEY": os.getenv("CLAUDE_API_KEY"),
+        "ANTHROPIC_API_KEY": os.getenv("ANTHROPIC_API_KEY"),
         "STABILITY_API_KEY": os.getenv("STABILITY_API_KEY"),
     }
     missing = [k for k, v in keys.items() if not v]
     if missing:
         logging.error("Missing env vars: %s", ", ".join(missing))
     else:
-        run(keys["ALPHA_VANTAGE_API_KEY"], keys["CLAUDE_API_KEY"], keys["STABILITY_API_KEY"])
+        run(keys["ALPHA_VANTAGE_API_KEY"], keys["ANTHROPIC_API_KEY"], keys["STABILITY_API_KEY"])

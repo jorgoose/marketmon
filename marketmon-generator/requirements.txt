@@ -1,4 +1,5 @@
 anthropic
+google-genai
 requests
 pandas
 python-dotenv

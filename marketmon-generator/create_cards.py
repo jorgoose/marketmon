@@ -3,25 +3,25 @@
 Marketmon Card Generator
 
 Fetches S&P 500 financial data, transforms it into game card stats,
-generates creature descriptions via Claude, and creature images via Stability AI.
+generates creature descriptions via Claude, and creature images via Gemini Imagen.
 """
 
 import os
 import time
 import json
-import base64
 import logging
 
 import anthropic
 import requests
 import pandas as pd
 from dotenv import load_dotenv
+from google import genai
+from google.genai import types
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
 SP500_CSV = "https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/data/constituents.csv"
 ALPHA_VANTAGE_URL = "https://www.alphavantage.co/query"
-STABILITY_URL = "https://api.stability.ai/v1/generation/stable-diffusion-xl-1024-v1-0/text-to-image"
 
 OUTPUT_JSON = "final_data.json"
 IMAGE_FOLDER = "creature_images"
@@ -70,6 +70,12 @@ def fetch_company_metrics(api_key, symbols, sleep=15):
             continue
 
         try:
+            raw_growth = overview.get("QuarterlyEarningsGrowthYOY")
+            try:
+                earnings_growth = float(raw_growth)
+            except (ValueError, TypeError):
+                earnings_growth = 0.0
+
             entry = {
                 "companyName": overview.get("Name"),
                 "ticker": symbol,
@@ -78,6 +84,7 @@ def fetch_company_metrics(api_key, symbols, sleep=15):
                 "marketCap": int(overview.get("MarketCapitalization", 0)),
                 "freeCashFlow": int(cash_annual[0].get("freeCashFlow", 0)),
                 "shareholderEquity": int(annual[0].get("totalShareholderEquity", 0)),
+                "earningsGrowth": earnings_growth,
             }
         except (ValueError, TypeError) as e:
             logging.error("Bad numeric data for %s: %s", symbol, e)
@@ -176,29 +183,25 @@ def generate_creature(client, card):
     return None
 
 
-# --- Stability AI image generation ---
+# --- Gemini Imagen image generation ---
 
-def generate_image(api_key, creature):
+def generate_image(gemini_client, creature):
     prompt = (
         f"An anime-style drawing of a Pokemon artstation creature that is {creature.get('description')}. "
         "The art style is 2D, semi-watercolor in a Pokemon-style theme, detailed and energetic on a plain white background."
     )
     try:
-        r = requests.post(STABILITY_URL, headers={
-            "Content-Type": "application/json",
-            "Accept": "application/json",
-            "Authorization": f"Bearer {api_key}",
-        }, json={
-            "text_prompts": [{"text": prompt}],
-            "cfg_scale": 7,
-            "height": 832,
-            "width": 1216,
-            "samples": 1,
-            "steps": 40,
-        })
-        if r.status_code == 200:
-            return base64.b64decode(r.json()["artifacts"][0]["base64"])
-        logging.error("Stability API %s: %s", r.status_code, r.text)
+        response = gemini_client.models.generate_images(
+            model="imagen-4.0-generate-001",
+            prompt=prompt,
+            config=types.GenerateImagesConfig(
+                number_of_images=1,
+                aspect_ratio="4:3",
+            ),
+        )
+        if response.generated_images:
+            return response.generated_images[0].image
+        logging.error("No images returned from Gemini")
     except Exception as e:
         logging.error("Image generation failed: %s", e)
     return None
@@ -206,9 +209,10 @@ def generate_image(api_key, creature):
 
 # --- Main pipeline ---
 
-def run(alpha_key, anthropic_key, stability_key):
+def run(alpha_key, anthropic_key, gemini_key):
     os.makedirs(IMAGE_FOLDER, exist_ok=True)
     claude = anthropic.Anthropic(api_key=anthropic_key)
+    gemini = genai.Client(api_key=gemini_key)
 
     # 1. Fetch S&P 500 list
     df = pd.read_csv(SP500_CSV)
@@ -226,7 +230,6 @@ def run(alpha_key, anthropic_key, stability_key):
     cards = create_card_data(company_metrics)
 
     # 4. Generate creatures + images
-    req_count, start = 0, time.time()
     for i, card in enumerate(cards):
         ticker = card.get("ticker")
         logging.info("Generating creature for %s (%d/%d)", ticker, i + 1, len(cards))
@@ -237,30 +240,22 @@ def run(alpha_key, anthropic_key, stability_key):
             continue
 
         card["creatureName"] = creature.get("name", "")
-        image_path = os.path.join(IMAGE_FOLDER, f"{ticker}.png")
+        image_path = os.path.join(IMAGE_FOLDER, f"{ticker}.webp")
 
         if os.path.exists(image_path):
             logging.info("Image already exists for %s", ticker)
         else:
-            img = generate_image(stability_key, creature)
+            img = generate_image(gemini, creature)
             if img:
-                with open(image_path, "wb") as f:
-                    f.write(img)
+                img.save(image_path, format="webp")
                 logging.info("Saved image for %s", ticker)
             else:
                 logging.error("Failed image generation for %s", ticker)
 
-        card["creatureImage"] = image_path
 
-        # Rate limit: 5 requests per 60s
-        req_count += 1
-        if req_count >= 5:
-            elapsed = time.time() - start
-            if elapsed < 60:
-                time.sleep(60 - elapsed)
-            start, req_count = time.time(), 0
-
-    # 5. Write output
+    # 5. Write output (strip fields not needed by frontend)
+    for card in cards:
+        card.pop("description", None)
     with open(OUTPUT_JSON, "w") as f:
         json.dump(cards, f, indent=2)
     logging.info("Written %d cards to %s", len(cards), OUTPUT_JSON)
@@ -272,10 +267,10 @@ if __name__ == "__main__":
     keys = {
         "ALPHA_VANTAGE_API_KEY": os.getenv("ALPHA_VANTAGE_API_KEY"),
         "ANTHROPIC_API_KEY": os.getenv("ANTHROPIC_API_KEY"),
-        "STABILITY_API_KEY": os.getenv("STABILITY_API_KEY"),
+        "GEMINI_API_KEY": os.getenv("GEMINI_API_KEY"),
     }
     missing = [k for k, v in keys.items() if not v]
     if missing:
         logging.error("Missing env vars: %s", ", ".join(missing))
     else:
-        run(keys["ALPHA_VANTAGE_API_KEY"], keys["ANTHROPIC_API_KEY"], keys["STABILITY_API_KEY"])
+        run(keys["ALPHA_VANTAGE_API_KEY"], keys["ANTHROPIC_API_KEY"], keys["GEMINI_API_KEY"])

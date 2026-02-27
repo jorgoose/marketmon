@@ -7,13 +7,12 @@ generates creature descriptions via Claude, and creature images via Gemini Image
 """
 
 import os
-import time
 import json
 import logging
 
 import anthropic
-import requests
 import pandas as pd
+import yfinance as yf
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
@@ -21,7 +20,6 @@ from google.genai import types
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
 SP500_CSV = "https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/data/constituents.csv"
-ALPHA_VANTAGE_URL = "https://www.alphavantage.co/query"
 
 OUTPUT_JSON = "final_data.json"
 IMAGE_FOLDER = "creature_images"
@@ -31,68 +29,53 @@ ATTACK_VALUES = [5, 7, 9, 11, 13, 15, 16, 17, 20, 24, 24]
 DEFENSE_VALUES = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 11]
 
 
-# --- Alpha Vantage ---
+# --- Yahoo Finance ---
 
-def av_get(api_key, **params):
-    params["apikey"] = api_key
-    try:
-        r = requests.get(ALPHA_VANTAGE_URL, params=params)
-        return r.json() if r.status_code == 200 else None
-    except Exception as e:
-        logging.error("Alpha Vantage request failed: %s", e)
-        return None
-
-
-def fetch_company_metrics(api_key, symbols, sleep=15):
+def fetch_company_metrics(symbols):
     metrics = []
     for i, symbol in enumerate(symbols):
         symbol = symbol.replace(".", "-")
         logging.info("Fetching %s (%d/%d)", symbol, i + 1, len(symbols))
 
-        overview = av_get(api_key, function="OVERVIEW", symbol=symbol)
-        if not overview or "Name" not in overview:
-            logging.warning("No overview for %s, skipping", symbol)
-            time.sleep(sleep)
-            continue
-
-        balance = av_get(api_key, function="BALANCE_SHEET", symbol=symbol)
-        annual = (balance or {}).get("annualReports", [])
-        if not annual:
-            logging.warning("No balance sheet for %s, skipping", symbol)
-            time.sleep(sleep)
-            continue
-
-        cash = av_get(api_key, function="CASH_FLOW", symbol=symbol)
-        cash_annual = (cash or {}).get("annualReports", [])
-        if not cash_annual:
-            logging.warning("No cash flow for %s, skipping", symbol)
-            time.sleep(sleep)
-            continue
-
         try:
-            raw_growth = overview.get("QuarterlyEarningsGrowthYOY")
+            tk = yf.Ticker(symbol)
+            info = tk.info
+
+            if not info or not info.get("shortName"):
+                logging.warning("No data for %s, skipping", symbol)
+                continue
+
+            raw_growth = info.get("earningsQuarterlyGrowth")
             try:
                 earnings_growth = float(raw_growth)
             except (ValueError, TypeError):
                 earnings_growth = 0.0
 
+            shareholder_equity = 0
+            bs = tk.balance_sheet
+            if bs is not None and not bs.empty:
+                for label in ["Stockholders Equity", "Common Stock Equity",
+                              "Total Equity Gross Minority Interest"]:
+                    if label in bs.index:
+                        val = bs.loc[label].iloc[0]
+                        if pd.notna(val):
+                            shareholder_equity = int(val)
+                            break
+
             entry = {
-                "companyName": overview.get("Name"),
+                "companyName": info.get("shortName") or info.get("longName"),
                 "ticker": symbol,
-                "sector": overview.get("Sector"),
-                "description": overview.get("Description"),
-                "marketCap": int(overview.get("MarketCapitalization", 0)),
-                "freeCashFlow": int(cash_annual[0].get("freeCashFlow", 0)),
-                "shareholderEquity": int(annual[0].get("totalShareholderEquity", 0)),
+                "sector": info.get("sector"),
+                "description": info.get("longBusinessSummary"),
+                "marketCap": int(info.get("marketCap") or 0),
+                "freeCashFlow": int(info.get("freeCashflow") or 0),
+                "shareholderEquity": shareholder_equity,
                 "earningsGrowth": earnings_growth,
             }
-        except (ValueError, TypeError) as e:
-            logging.error("Bad numeric data for %s: %s", symbol, e)
-            time.sleep(sleep)
-            continue
+            metrics.append(entry)
 
-        metrics.append(entry)
-        time.sleep(sleep)
+        except Exception as e:
+            logging.error("Failed to fetch %s: %s", symbol, e)
 
     logging.info("Collected metrics for %d companies", len(metrics))
     return metrics
@@ -209,7 +192,7 @@ def generate_image(gemini_client, creature):
 
 # --- Main pipeline ---
 
-def run(alpha_key, anthropic_key, gemini_key):
+def run(anthropic_key, gemini_key):
     os.makedirs(IMAGE_FOLDER, exist_ok=True)
     claude = anthropic.Anthropic(api_key=anthropic_key)
     gemini = genai.Client(api_key=gemini_key)
@@ -221,7 +204,7 @@ def run(alpha_key, anthropic_key, gemini_key):
     # 2. Get financial metrics (hardcoded test symbols for now)
     symbols = ["NVDA", "AMD", "COST", "MCD", "CAT"]
     # symbols = df["Symbol"].tolist()  # uncomment for full run
-    company_metrics = fetch_company_metrics(alpha_key, symbols)
+    company_metrics = fetch_company_metrics(symbols)
     if not company_metrics:
         logging.error("No metrics fetched, exiting")
         return
@@ -265,7 +248,6 @@ if __name__ == "__main__":
     load_dotenv()
 
     keys = {
-        "ALPHA_VANTAGE_API_KEY": os.getenv("ALPHA_VANTAGE_API_KEY"),
         "ANTHROPIC_API_KEY": os.getenv("ANTHROPIC_API_KEY"),
         "GEMINI_API_KEY": os.getenv("GEMINI_API_KEY"),
     }
@@ -273,4 +255,4 @@ if __name__ == "__main__":
     if missing:
         logging.error("Missing env vars: %s", ", ".join(missing))
     else:
-        run(keys["ALPHA_VANTAGE_API_KEY"], keys["ANTHROPIC_API_KEY"], keys["GEMINI_API_KEY"])
+        run(keys["ANTHROPIC_API_KEY"], keys["GEMINI_API_KEY"])

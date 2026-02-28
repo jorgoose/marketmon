@@ -1,380 +1,360 @@
 [
   {
     "ticker": "MMM",
-    "health": 50,
-    "attack": 24,
-    "growth": 12,
-    "defense": 4,
+    "health": 55,
+    "attack": 15,
+    "defense": 3,
+    "growth": 3,
     "name": "3M Company",
     "sector": "Industrials",
-    "creatureName": "Adheshift"
+    "creatureName": "Adhesivon"
   },
   {
     "ticker": "AOS",
-    "health": 28,
+    "health": 24,
     "attack": 9,
-    "growth": 5,
     "defense": 2,
-    "name": "A. O. Smith Corporation",
+    "growth": 6,
+    "name": "A.O. Smith Corporation",
     "sector": "Industrials",
-    "creatureName": "Aquasaur"
+    "creatureName": "Hydrothermic"
   },
   {
     "ticker": "ABT",
     "health": 80,
     "attack": 20,
-    "growth": 11,
-    "defense": 9,
+    "defense": 11,
+    "growth": 2,
     "name": "Abbott Laboratories",
     "sector": "Healthcare",
-    "creatureName": "Nourish-ray"
+    "creatureName": "Medihealth"
   },
   {
     "ticker": "ABBV",
     "health": 80,
     "attack": 24,
-    "growth": 2,
-    "defense": 6,
+    "defense": 1,
+    "growth": 5,
     "name": "AbbVie Inc.",
     "sector": "Healthcare",
-    "creatureName": "Pharmolus"
+    "creatureName": "Pharmamorph"
   },
   {
     "ticker": "ACN",
-    "health": 80,
+    "health": 60,
     "attack": 24,
-    "growth": 6,
     "defense": 9,
+    "growth": 5,
     "name": "Accenture plc",
     "sector": "Technology",
-    "creatureName": "Accentryx"
+    "creatureName": "Consultryx"
   },
   {
     "ticker": "ADBE",
-    "health": 80,
+    "health": 55,
     "attack": 24,
-    "growth": 2,
-    "defense": 7,
+    "defense": 6,
+    "growth": 6,
     "name": "Adobe Inc.",
     "sector": "Technology",
-    "creatureName": "Creaticore"
+    "creatureName": "Creativix"
   },
   {
     "ticker": "AMD",
     "health": 80,
-    "attack": 17,
-    "growth": 15,
+    "attack": 20,
     "defense": 11,
+    "growth": 15,
     "name": "Advanced Micro Devices, Inc.",
     "sector": "Technology",
-    "creatureName": "Radionyx"
+    "creatureName": "Processaur"
   },
   {
     "ticker": "AES",
-    "health": 28,
+    "health": 24,
     "attack": 5,
-    "growth": 5,
-    "defense": 4,
+    "defense": 3,
+    "growth": 8,
     "name": "The AES Corporation",
     "sector": "Utilities",
-    "creatureName": "Energeon"
+    "creatureName": "Voltstream"
   },
   {
     "ticker": "AFL",
     "health": 50,
     "attack": 20,
-    "growth": 9,
-    "defense": 8,
-    "name": "Aflac Incorporated",
+    "defense": 9,
+    "growth": 2,
+    "name": "AFLAC Incorporated",
     "sector": "Financial Services",
-    "creatureName": "Quackabee"
+    "creatureName": "Aflaquack"
   },
   {
     "ticker": "A",
-    "health": 45,
+    "health": 40,
     "attack": 13,
-    "growth": 5,
     "defense": 4,
+    "growth": 5,
     "name": "Agilent Technologies, Inc.",
     "sector": "Healthcare",
-    "creatureName": "Analytica"
+    "creatureName": "Chromatix"
   },
   {
     "ticker": "APD",
     "health": 50,
     "attack": 5,
-    "growth": 6,
     "defense": 7,
-    "name": "Air Products and Chemicals, Inc.",
+    "growth": 6,
+    "name": "Air Products and Chemicals, Inc",
     "sector": "Basic Materials",
-    "creatureName": "Gasophere"
+    "creatureName": "Gasmorphs"
   },
   {
     "ticker": "ABNB",
-    "health": 60,
-    "attack": 17,
-    "growth": 5,
+    "health": 55,
+    "attack": 20,
     "defense": 5,
+    "growth": 2,
     "name": "Airbnb, Inc.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Homehaven"
+    "creatureName": "Homefloat"
   },
   {
     "ticker": "AKAM",
     "health": 28,
-    "attack": 9,
-    "growth": 8,
-    "defense": 3,
+    "attack": 11,
+    "defense": 4,
+    "growth": 2,
     "name": "Akamai Technologies, Inc.",
     "sector": "Technology",
-    "creatureName": "Akamight"
+    "creatureName": "Guardstream"
   },
   {
     "ticker": "ALB",
-    "health": 28,
-    "attack": 5,
+    "health": 30,
+    "attack": 9,
+    "defense": 5,
     "growth": 5,
-    "defense": 6,
     "name": "Albemarle Corporation",
     "sector": "Basic Materials",
-    "creatureName": "Lithiomancer"
+    "creatureName": "Lithicharge"
   },
   {
     "ticker": "ARE",
-    "health": 35,
-    "attack": 16,
+    "health": 24,
+    "attack": 15,
+    "defense": 7,
     "growth": 5,
-    "defense": 8,
-    "name": "Alexandria Real Estate Equities, Inc.",
+    "name": "Alexandria Real Estate Equities",
     "sector": "Real Estate",
-    "creatureName": "Megacampus Megavore"
+    "creatureName": "Megastructos"
   },
   {
     "ticker": "ALGN",
-    "health": 35,
-    "attack": 11,
-    "growth": 15,
+    "health": 28,
+    "attack": 9,
     "defense": 3,
+    "growth": 8,
     "name": "Align Technology, Inc.",
     "sector": "Healthcare",
-    "creatureName": "Alignomite"
+    "creatureName": "Aligndont"
   },
   {
     "ticker": "ALLE",
-    "health": 24,
+    "health": 28,
     "attack": 9,
-    "growth": 4,
     "defense": 2,
+    "growth": 5,
     "name": "Allegion plc",
     "sector": "Industrials",
-    "creatureName": "Securelock"
+    "creatureName": "Lockguard"
   },
   {
     "ticker": "LNT",
-    "health": 28,
+    "health": 30,
     "attack": 5,
-    "growth": 6,
-    "defense": 4,
+    "defense": 5,
+    "growth": 4,
     "name": "Alliant Energy Corporation",
     "sector": "Utilities",
-    "creatureName": "Voltvolt"
+    "creatureName": "Voltstream"
   },
   {
     "ticker": "ALL",
     "health": 50,
-    "attack": 20,
-    "growth": 5,
+    "attack": 24,
     "defense": 8,
-    "name": "The Allstate Corporation",
+    "growth": 15,
+    "name": "Allstate Corporation (The)",
     "sector": "Financial Services",
-    "creatureName": "Insuraur"
+    "creatureName": "Protecteon"
   },
   {
     "ticker": "GOOGL",
     "health": 80,
     "attack": 24,
-    "growth": 11,
     "defense": 11,
+    "growth": 8,
     "name": "Alphabet Inc.",
     "sector": "Communication Services",
-    "creatureName": "Alphamorph"
+    "creatureName": "Alphabetaur"
   },
   {
     "ticker": "GOOG",
     "health": 80,
     "attack": 24,
-    "growth": 11,
     "defense": 11,
+    "growth": 8,
     "name": "Alphabet Inc.",
     "sector": "Communication Services",
-    "creatureName": "Omnisphere"
+    "creatureName": "Alphabetix"
   },
   {
     "ticker": "MO",
-    "health": 55,
+    "health": 60,
     "attack": 24,
-    "growth": 3,
     "defense": 1,
+    "growth": 2,
     "name": "Altria Group, Inc.",
     "sector": "Consumer Defensive",
-    "creatureName": "Smokebloom"
+    "creatureName": "Nicotoxin"
   },
   {
     "ticker": "AMZN",
     "health": 80,
     "attack": 24,
-    "growth": 15,
     "defense": 11,
+    "growth": 6,
     "name": "Amazon.com, Inc.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Logistica"
+    "creatureName": "Boxazon"
   },
   {
     "ticker": "AMCR",
-    "health": 28,
-    "attack": 11,
-    "growth": 2,
-    "defense": 3,
+    "health": 30,
+    "attack": 9,
+    "defense": 6,
+    "growth": 6,
     "name": "Amcor plc",
     "sector": "Consumer Cyclical",
-    "creatureName": "Amborb"
+    "creatureName": "Packwrap"
   },
   {
     "ticker": "AEE",
-    "health": 30,
+    "health": 40,
     "attack": 5,
-    "growth": 5,
     "defense": 6,
+    "growth": 7,
     "name": "Ameren Corporation",
     "sector": "Utilities",
-    "creatureName": "Amoligeo"
-  },
-  {
-    "ticker": "AAL",
-    "health": 24,
-    "attack": 16,
-    "growth": 2,
-    "defense": 1,
-    "name": "American Airlines Group Inc.",
-    "sector": "Industrials",
-    "creatureName": "Aerojet"
+    "creatureName": "Ampowern"
   },
   {
     "ticker": "AEP",
-    "health": 45,
+    "health": 50,
     "attack": 5,
-    "growth": 3,
     "defense": 9,
-    "name": "American Electric Power Company, Inc.",
+    "growth": 4,
+    "name": "American Electric Power Company",
     "sector": "Utilities",
-    "creatureName": "Voltcharge"
+    "creatureName": "Voltaustrum"
   },
   {
     "ticker": "AXP",
-    "health": 60,
+    "health": 80,
     "attack": 7,
-    "growth": 8,
     "defense": 9,
+    "growth": 6,
     "name": "American Express Company",
     "sector": "Financial Services",
-    "creatureName": "Cryptodrome"
+    "creatureName": "Cardian"
   },
   {
     "ticker": "AIG",
-    "health": 50,
-    "attack": 5,
-    "growth": 2,
+    "health": 45,
+    "attack": 24,
     "defense": 11,
-    "name": "American International Group, Inc.",
+    "growth": 3,
+    "name": "American International Group, I",
     "sector": "Financial Services",
-    "creatureName": "Insurabeast"
+    "creatureName": "Aegisguard"
   },
   {
     "ticker": "AMT",
     "health": 55,
     "attack": 20,
-    "growth": 5,
-    "defense": 6,
-    "name": "American Tower Corporation",
+    "defense": 3,
+    "growth": 2,
+    "name": "American Tower Corporation (REI",
     "sector": "Real Estate",
-    "creatureName": "TowerpodeTM"
+    "creatureName": "Towerlink"
   },
   {
     "ticker": "AWK",
     "health": 35,
     "attack": 5,
-    "growth": 6,
     "defense": 6,
-    "name": "American Water Works Company, Inc.",
+    "growth": 5,
+    "name": "American Water Works Company, I",
     "sector": "Utilities",
-    "creatureName": "Aquabuff"
+    "creatureName": "Aquaflow"
   },
   {
     "ticker": "AMP",
     "health": 45,
     "attack": 20,
-    "growth": 2,
     "defense": 4,
+    "growth": 4,
     "name": "Ameriprise Financial, Inc.",
     "sector": "Financial Services",
-    "creatureName": "Financialite"
+    "creatureName": "Wealthveil"
   },
   {
     "ticker": "AME",
-    "health": 45,
+    "health": 50,
     "attack": 15,
-    "growth": 6,
-    "defense": 5,
+    "defense": 6,
+    "growth": 5,
     "name": "AMETEK, Inc.",
     "sector": "Industrials",
-    "creatureName": "Powercore"
+    "creatureName": "Metronic"
   },
   {
     "ticker": "AMGN",
-    "health": 60,
-    "attack": 17,
-    "growth": 2,
-    "defense": 4,
+    "health": 80,
+    "attack": 24,
+    "defense": 5,
+    "growth": 15,
     "name": "Amgen Inc.",
     "sector": "Healthcare",
-    "creatureName": "Cellitrix"
+    "creatureName": "Therapeutix"
   },
   {
     "ticker": "APH",
-    "health": 55,
-    "attack": 16,
-    "growth": 5,
-    "defense": 5,
+    "health": 60,
+    "attack": 17,
+    "defense": 7,
+    "growth": 11,
     "name": "Amphenol Corporation",
     "sector": "Technology",
-    "creatureName": "Amphenolian"
+    "creatureName": "Connextron"
   },
   {
     "ticker": "ADI",
     "health": 60,
-    "attack": 17,
-    "growth": 2,
+    "attack": 20,
     "defense": 9,
+    "growth": 15,
     "name": "Analog Devices, Inc.",
     "sector": "Technology",
-    "creatureName": "Amplimer"
-  },
-  {
-    "ticker": "ANSS",
-    "health": 40,
-    "attack": 11,
-    "growth": 6,
-    "defense": 4,
-    "name": "ANSYS, Inc.",
-    "sector": "Technology",
-    "creatureName": "Simuluxe"
+    "creatureName": "Analoguon"
   },
   {
     "ticker": "AON",
-    "health": 55,
+    "health": 50,
     "attack": 17,
-    "growth": 3,
-    "defense": 1,
+    "defense": 5,
+    "growth": 15,
     "name": "Aon plc",
     "sector": "Financial Services",
     "creatureName": "Riskguard"
@@ -382,3889 +362,3839 @@
   {
     "ticker": "APA",
     "health": 24,
-    "attack": 13,
-    "growth": 15,
-    "defense": 3,
+    "attack": 7,
+    "defense": 4,
+    "growth": 3,
     "name": "APA Corporation",
     "sector": "Energy",
-    "creatureName": "Gaspod"
+    "creatureName": "Petrohound"
+  },
+  {
+    "ticker": "APO",
+    "health": 50,
+    "attack": 7,
+    "defense": 7,
+    "growth": 2,
+    "name": "Apollo Global Management, Inc. ",
+    "sector": "Financial Services",
+    "creatureName": "Apollinvest"
   },
   {
     "ticker": "AAPL",
     "health": 80,
     "attack": 24,
-    "growth": 7,
     "defense": 11,
+    "growth": 7,
     "name": "Apple Inc.",
     "sector": "Technology",
-    "creatureName": "Applix"
+    "creatureName": "Applelligence"
   },
   {
     "ticker": "AMAT",
     "health": 80,
     "attack": 20,
-    "growth": 7,
-    "defense": 7,
+    "defense": 8,
+    "growth": 12,
     "name": "Applied Materials, Inc.",
     "sector": "Technology",
-    "creatureName": "Materiux"
+    "creatureName": "Fabricore"
   },
   {
     "ticker": "APTV",
-    "health": 35,
-    "attack": 11,
-    "growth": 15,
-    "defense": 7,
+    "health": 28,
+    "attack": 15,
+    "defense": 5,
+    "growth": 2,
     "name": "Aptiv PLC",
     "sector": "Consumer Cyclical",
-    "creatureName": "Aptivolt"
+    "creatureName": "Circuitrax"
   },
   {
     "ticker": "ACGL",
-    "health": 45,
+    "health": 40,
     "attack": 24,
-    "growth": 15,
     "defense": 8,
+    "growth": 8,
     "name": "Arch Capital Group Ltd.",
     "sector": "Financial Services",
-    "creatureName": "Insurerus"
+    "creatureName": "Archguard"
   },
   {
     "ticker": "ADM",
     "health": 40,
-    "attack": 20,
-    "growth": 2,
+    "attack": 17,
     "defense": 8,
+    "growth": 3,
     "name": "Archer-Daniels-Midland Company",
     "sector": "Consumer Defensive",
-    "creatureName": "Feedmaw"
+    "creatureName": "Grainsynthia"
   },
   {
     "ticker": "ANET",
     "health": 60,
-    "attack": 16,
-    "growth": 9,
-    "defense": 5,
+    "attack": 20,
+    "defense": 6,
+    "growth": 7,
     "name": "Arista Networks, Inc.",
     "sector": "Technology",
-    "creatureName": "Datawave"
+    "creatureName": "Cloudwhisper"
   },
   {
     "ticker": "AJG",
     "health": 50,
-    "attack": 15,
-    "growth": 5,
-    "defense": 6,
+    "attack": 13,
+    "defense": 8,
+    "growth": 2,
     "name": "Arthur J. Gallagher & Co.",
     "sector": "Financial Services",
-    "creatureName": "Insurabound"
+    "creatureName": "Gallaguard"
   },
   {
     "ticker": "AIZ",
     "health": 24,
-    "attack": 13,
-    "growth": 15,
+    "attack": 17,
     "defense": 4,
+    "growth": 6,
     "name": "Assurant, Inc.",
     "sector": "Financial Services",
-    "creatureName": "Assurark"
+    "creatureName": "Shieldguard"
   },
   {
     "ticker": "T",
-    "health": 60,
+    "health": 80,
     "attack": 24,
-    "growth": 5,
     "defense": 11,
+    "growth": 4,
     "name": "AT&T Inc.",
     "sector": "Communication Services",
-    "creatureName": "Broadband Bolter"
+    "creatureName": "Globin"
   },
   {
     "ticker": "ATO",
-    "health": 30,
-    "attack": 9,
+    "health": 40,
+    "attack": 5,
+    "defense": 7,
     "growth": 6,
-    "defense": 6,
     "name": "Atmos Energy Corporation",
     "sector": "Utilities",
-    "creatureName": "Atmospher"
+    "creatureName": "Gasflow"
   },
   {
     "ticker": "ADSK",
-    "health": 50,
+    "health": 45,
     "attack": 16,
+    "defense": 2,
     "growth": 5,
-    "defense": 1,
     "name": "Autodesk, Inc.",
     "sector": "Technology",
-    "creatureName": "Autodizen"
+    "creatureName": "Designosaur"
   },
   {
     "ticker": "ADP",
-    "health": 60,
-    "attack": 17,
+    "health": 55,
+    "attack": 20,
+    "defense": 4,
     "growth": 6,
-    "defense": 3,
     "name": "Automatic Data Processing, Inc.",
-    "sector": "Industrials",
-    "creatureName": "Datadragon"
+    "sector": "Technology",
+    "creatureName": "Payrolix"
   },
   {
     "ticker": "AZO",
     "health": 50,
     "attack": 15,
-    "growth": 7,
     "defense": 1,
+    "growth": 4,
     "name": "AutoZone, Inc.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Geargrip"
+    "creatureName": "Mechanicore"
   },
   {
     "ticker": "AVB",
     "health": 35,
-    "attack": 15,
-    "growth": 5,
-    "defense": 7,
+    "attack": 7,
+    "defense": 6,
+    "growth": 2,
     "name": "AvalonBay Communities, Inc.",
     "sector": "Real Estate",
-    "creatureName": "Avalanche"
+    "creatureName": "Avalonterra"
   },
   {
     "ticker": "AVY",
-    "health": 30,
-    "attack": 9,
-    "growth": 7,
+    "health": 28,
+    "attack": 11,
     "defense": 2,
+    "growth": 5,
     "name": "Avery Dennison Corporation",
     "sector": "Consumer Cyclical",
-    "creatureName": "Labelyte"
+    "creatureName": "Adhesivon"
   },
   {
     "ticker": "AXON",
-    "health": 35,
-    "attack": 7,
-    "growth": 14,
-    "defense": 2,
+    "health": 45,
+    "attack": 9,
+    "defense": 3,
+    "growth": 2,
     "name": "Axon Enterprise, Inc.",
     "sector": "Industrials",
-    "creatureName": "Taserix"
+    "creatureName": "Axonite"
   },
   {
     "ticker": "BKR",
-    "health": 40,
-    "attack": 17,
-    "growth": 15,
-    "defense": 7,
+    "health": 50,
+    "attack": 15,
+    "defense": 8,
+    "growth": 2,
     "name": "Baker Hughes Company",
     "sector": "Energy",
-    "creatureName": "Petrolpod"
+    "creatureName": "Drillvern"
   },
   {
     "ticker": "BALL",
-    "health": 35,
-    "attack": 9,
-    "growth": 15,
-    "defense": 3,
+    "health": 28,
+    "attack": 13,
+    "defense": 4,
+    "growth": 5,
     "name": "Ball Corporation",
     "sector": "Consumer Cyclical",
-    "creatureName": "Ballistic Bomber"
+    "creatureName": "Aluminball"
   },
   {
     "ticker": "BAC",
     "health": 80,
     "attack": 7,
-    "growth": 2,
     "defense": 11,
+    "growth": 6,
     "name": "Bank of America Corporation",
     "sector": "Financial Services",
-    "creatureName": "Bankamur"
-  },
-  {
-    "ticker": "BK",
-    "health": 45,
-    "attack": 7,
-    "growth": 2,
-    "defense": 9,
-    "name": "The Bank of New York Mellon Corporation",
-    "sector": "Financial Services",
-    "creatureName": "Vaultguard"
-  },
-  {
-    "ticker": "BBWI",
-    "health": 24,
-    "attack": 9,
-    "growth": 9,
-    "defense": 1,
-    "name": "Bath & Body Works, Inc.",
-    "sector": "Consumer Cyclical",
-    "creatureName": "Fragrancia"
+    "creatureName": "Vaulteon"
   },
   {
     "ticker": "BAX",
-    "health": 35,
-    "attack": 16,
-    "growth": 8,
-    "defense": 5,
+    "health": 24,
+    "attack": 17,
+    "defense": 4,
+    "growth": 5,
     "name": "Baxter International Inc.",
     "sector": "Healthcare",
-    "creatureName": "Serumshell"
+    "creatureName": "Medicross"
   },
   {
     "ticker": "BDX",
-    "health": 55,
-    "attack": 20,
-    "growth": 2,
+    "health": 50,
+    "attack": 17,
     "defense": 9,
+    "growth": 8,
     "name": "Becton, Dickinson and Company",
     "sector": "Healthcare",
-    "creatureName": "Lancetrix"
+    "creatureName": "Mediprick"
   },
   {
     "ticker": "BRK-B",
     "health": 80,
     "attack": 24,
-    "growth": 15,
     "defense": 11,
-    "name": "Berkshire Hathaway Inc.",
+    "growth": 7,
+    "name": "Berkshire Hathaway Inc. New",
     "sector": "Financial Services",
-    "creatureName": "Ingworm"
+    "creatureName": "Omahemoth"
   },
   {
     "ticker": "BBY",
-    "health": 30,
-    "attack": 11,
-    "growth": 4,
+    "health": 24,
+    "attack": 15,
     "defense": 2,
+    "growth": 2,
     "name": "Best Buy Co., Inc.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Techno-Taurus"
-  },
-  {
-    "ticker": "BIO",
-    "health": 24,
-    "attack": 7,
-    "growth": 2,
-    "defense": 5,
-    "name": "Bio-Rad Laboratories, Inc.",
-    "sector": "Healthcare",
-    "creatureName": "Biolix"
+    "creatureName": "Techvore"
   },
   {
     "ticker": "TECH",
     "health": 24,
-    "attack": 7,
-    "growth": 2,
+    "attack": 9,
     "defense": 2,
-    "name": "Bio-Techne Corporation",
+    "growth": 6,
+    "name": "Bio-Techne Corp",
     "sector": "Healthcare",
-    "creatureName": "BioMorph"
+    "creatureName": "Proteigen"
   },
   {
     "ticker": "BIIB",
-    "health": 40,
-    "attack": 13,
-    "growth": 2,
-    "defense": 7,
+    "health": 35,
+    "attack": 16,
+    "defense": 8,
+    "growth": 5,
     "name": "Biogen Inc.",
     "sector": "Healthcare",
-    "creatureName": "Neuromancer"
+    "creatureName": "Genethix"
   },
   {
     "ticker": "BLK",
     "health": 60,
-    "attack": 20,
-    "growth": 6,
-    "defense": 9,
+    "attack": 7,
+    "defense": 11,
+    "growth": 2,
     "name": "BlackRock, Inc.",
     "sector": "Financial Services",
-    "creatureName": "Bulliworth"
+    "creatureName": "Rockvault"
   },
   {
     "ticker": "BX",
     "health": 60,
     "attack": 7,
-    "growth": 2,
-    "defense": 8,
+    "defense": 5,
+    "growth": 9,
     "name": "Blackstone Inc.",
     "sector": "Financial Services",
-    "creatureName": "Stonehawk"
+    "creatureName": "Obsidianvest"
+  },
+  {
+    "ticker": "XYZ",
+    "health": 40,
+    "attack": 5,
+    "defense": 8,
+    "growth": 2,
+    "name": "Block, Inc.",
+    "sector": "Technology",
+    "creatureName": "Blockex"
+  },
+  {
+    "ticker": "BK",
+    "health": 55,
+    "attack": 7,
+    "defense": 11,
+    "growth": 8,
+    "name": "The Bank of New York Mellon Cor",
+    "sector": "Financial Services",
+    "creatureName": "Vaultmeleon"
   },
   {
     "ticker": "BA",
     "health": 60,
-    "attack": 24,
+    "attack": 16,
+    "defense": 4,
     "growth": 5,
-    "defense": 1,
-    "name": "The Boeing Company",
+    "name": "Boeing Company (The)",
     "sector": "Industrials",
-    "creatureName": "Stratospherin"
+    "creatureName": "Stratosjet"
   },
   {
     "ticker": "BKNG",
     "health": 60,
-    "attack": 20,
-    "growth": 2,
+    "attack": 24,
     "defense": 1,
-    "name": "Booking Holdings Inc.",
+    "growth": 8,
+    "name": "Booking Holdings Inc. Common St",
     "sector": "Consumer Cyclical",
-    "creatureName": "Travelgear"
-  },
-  {
-    "ticker": "BWA",
-    "health": 24,
-    "attack": 13,
-    "growth": 2,
-    "defense": 4,
-    "name": "BorgWarner Inc.",
-    "sector": "Consumer Cyclical",
-    "creatureName": "Turbotera"
-  },
-  {
-    "ticker": "BXP",
-    "health": 24,
-    "attack": 13,
-    "growth": 5,
-    "defense": 5,
-    "name": "Boston Properties, Inc.",
-    "sector": "Real Estate",
-    "creatureName": "Skyrise"
+    "creatureName": "Reservix"
   },
   {
     "ticker": "BSX",
     "health": 60,
-    "attack": 16,
-    "growth": 15,
+    "attack": 17,
     "defense": 8,
+    "growth": 7,
     "name": "Boston Scientific Corporation",
     "sector": "Healthcare",
-    "creatureName": "Scalpel Shard"
+    "creatureName": "Cardiostent"
   },
   {
     "ticker": "BMY",
     "health": 60,
     "attack": 24,
-    "growth": 4,
-    "defense": 9,
+    "defense": 8,
+    "growth": 15,
     "name": "Bristol-Myers Squibb Company",
     "sector": "Healthcare",
-    "creatureName": "Pharmabeast"
+    "creatureName": "Pharmamorph"
   },
   {
     "ticker": "AVGO",
     "health": 80,
     "attack": 24,
+    "defense": 11,
     "growth": 15,
-    "defense": 8,
     "name": "Broadcom Inc.",
     "sector": "Technology",
-    "creatureName": "Circuitry Cypher"
+    "creatureName": "Spectrumon"
   },
   {
     "ticker": "BR",
-    "health": 35,
-    "attack": 13,
-    "growth": 7,
+    "health": 30,
+    "attack": 15,
     "defense": 2,
-    "name": "Broadridge Financial Solutions, Inc.",
+    "growth": 15,
+    "name": "Broadridge Financial Solutions,",
     "sector": "Technology",
-    "creatureName": "Portfoliopod"
+    "creatureName": "Broadledger"
   },
   {
     "ticker": "BRO",
     "health": 35,
-    "attack": 13,
-    "growth": 13,
-    "defense": 4,
+    "attack": 15,
+    "defense": 7,
+    "growth": 8,
     "name": "Brown & Brown, Inc.",
     "sector": "Financial Services",
-    "creatureName": "Insurisaur"
+    "creatureName": "Brokerbound"
   },
   {
     "ticker": "BF-B",
-    "health": 35,
-    "attack": 7,
-    "growth": 15,
+    "health": 28,
+    "attack": 9,
     "defense": 3,
-    "name": "Brown-Forman Corporation",
+    "growth": 4,
+    "name": "Brown Forman Inc",
     "sector": "Consumer Defensive",
-    "creatureName": "Barrelmaster"
+    "creatureName": "Spiritox"
   },
   {
     "ticker": "BLDR",
-    "health": 35,
-    "attack": 16,
-    "growth": 6,
-    "defense": 4,
+    "health": 24,
+    "attack": 11,
+    "defense": 3,
+    "growth": 2,
     "name": "Builders FirstSource, Inc.",
     "sector": "Industrials",
-    "creatureName": "Timbertrek"
+    "creatureName": "Framewraith"
   },
   {
     "ticker": "BG",
-    "health": 28,
-    "attack": 16,
-    "growth": 14,
-    "defense": 7,
-    "name": "Bunge Global SA",
+    "health": 30,
+    "attack": 5,
+    "defense": 6,
+    "growth": 2,
+    "name": "Bunge Limited",
     "sector": "Consumer Defensive",
-    "creatureName": "Granagro"
+    "creatureName": "Grainfusian"
+  },
+  {
+    "ticker": "BXP",
+    "health": 24,
+    "attack": 7,
+    "defense": 4,
+    "growth": 5,
+    "name": "BXP, Inc.",
+    "sector": "Real Estate",
+    "creatureName": "Structuron"
+  },
+  {
+    "ticker": "CHRW",
+    "health": 30,
+    "attack": 11,
+    "defense": 2,
+    "growth": 4,
+    "name": "C.H. Robinson Worldwide, Inc.",
+    "sector": "Industrials",
+    "creatureName": "Logistuck"
   },
   {
     "ticker": "CDNS",
     "health": 55,
     "attack": 15,
-    "growth": 9,
-    "defense": 3,
+    "defense": 4,
+    "growth": 6,
     "name": "Cadence Design Systems, Inc.",
     "sector": "Technology",
-    "creatureName": "Circuitron"
+    "creatureName": "Cadencyx"
   },
   {
     "ticker": "CZR",
     "health": 24,
-    "attack": 9,
+    "attack": 11,
+    "defense": 3,
     "growth": 5,
-    "defense": 4,
     "name": "Caesars Entertainment, Inc.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Caesarius"
+    "creatureName": "Caesarion"
   },
   {
     "ticker": "CPT",
     "health": 24,
     "attack": 11,
+    "defense": 3,
     "growth": 15,
-    "defense": 4,
     "name": "Camden Property Trust",
     "sector": "Real Estate",
-    "creatureName": "Apartment Archen"
+    "creatureName": "Apartmire"
   },
   {
     "ticker": "CPB",
-    "health": 28,
+    "health": 24,
     "attack": 11,
-    "growth": 4,
     "defense": 3,
-    "name": "Campbell Soup Company",
+    "growth": 4,
+    "name": "The Campbell's Company",
     "sector": "Consumer Defensive",
-    "creatureName": "Campbelly"
+    "creatureName": "Soupourite"
   },
   {
     "ticker": "COF",
-    "health": 50,
+    "health": 60,
     "attack": 7,
-    "growth": 2,
     "defense": 11,
-    "name": "Capital One Financial Corporation",
+    "growth": 14,
+    "name": "Capital One Financial Corporati",
     "sector": "Financial Services",
-    "creatureName": "Capitalblade"
+    "creatureName": "Capit\u5e01"
   },
   {
     "ticker": "CAH",
-    "health": 40,
+    "health": 50,
     "attack": 20,
-    "growth": 5,
     "defense": 1,
+    "growth": 7,
     "name": "Cardinal Health, Inc.",
     "sector": "Healthcare",
-    "creatureName": "Cardinalis"
+    "creatureName": "Medcardin"
   },
   {
     "ticker": "KMX",
-    "health": 28,
-    "attack": 7,
-    "growth": 15,
+    "health": 24,
+    "attack": 11,
     "defense": 4,
-    "name": "CarMax, Inc.",
+    "growth": 2,
+    "name": "CarMax Inc",
     "sector": "Consumer Cyclical",
-    "creatureName": "Carrolier"
+    "creatureName": "Carveyor"
   },
   {
     "ticker": "CCL",
-    "health": 30,
-    "attack": 7,
-    "growth": 5,
-    "defense": 5,
-    "name": "Carnival Corporation & plc",
+    "health": 45,
+    "attack": 16,
+    "defense": 6,
+    "growth": 9,
+    "name": "Carnival Corporation",
     "sector": "Consumer Cyclical",
-    "creatureName": "Cruisewave"
+    "creatureName": "Cruisaline"
   },
   {
     "ticker": "CARR",
-    "health": 50,
-    "attack": 5,
-    "growth": 11,
-    "defense": 5,
+    "health": 45,
+    "attack": 13,
+    "defense": 7,
+    "growth": 2,
     "name": "Carrier Global Corporation",
     "sector": "Industrials",
-    "creatureName": "Climaleon"
-  },
-  {
-    "ticker": "CTLT",
-    "health": 24,
-    "attack": 7,
-    "growth": 5,
-    "defense": 3,
-    "name": "Catalent, Inc.",
-    "sector": "Healthcare",
-    "creatureName": "Catalixer"
+    "creatureName": "Climateguard"
   },
   {
     "ticker": "CAT",
     "health": 80,
-    "attack": 24,
-    "growth": 14,
+    "attack": 20,
     "defense": 8,
-    "name": "Caterpillar Inc.",
+    "growth": 4,
+    "name": "Caterpillar, Inc.",
     "sector": "Industrials",
-    "creatureName": "Bulldozer-Crusher"
+    "creatureName": "Constructorpillar"
   },
   {
     "ticker": "CBOE",
-    "health": 30,
-    "attack": 11,
-    "growth": 8,
+    "health": 40,
+    "attack": 15,
     "defense": 3,
+    "growth": 11,
     "name": "Cboe Global Markets, Inc.",
     "sector": "Financial Services",
-    "creatureName": "Exchangetrader"
+    "creatureName": "Exchangor"
   },
   {
     "ticker": "CBRE",
-    "health": 40,
-    "attack": 9,
-    "growth": 15,
-    "defense": 6,
-    "name": "CBRE Group, Inc.",
+    "health": 45,
+    "attack": 7,
+    "defense": 5,
+    "growth": 4,
+    "name": "CBRE Group Inc",
     "sector": "Real Estate",
-    "creatureName": "Propertys"
+    "creatureName": "Buildviser"
   },
   {
     "ticker": "CDW",
-    "health": 40,
-    "attack": 15,
-    "growth": 5,
+    "health": 28,
+    "attack": 13,
     "defense": 2,
+    "growth": 6,
     "name": "CDW Corporation",
     "sector": "Technology",
-    "creatureName": "Technosaurus"
-  },
-  {
-    "ticker": "CE",
-    "health": 30,
-    "attack": 13,
-    "growth": 4,
-    "defense": 5,
-    "name": "Celanese Corporation",
-    "sector": "Basic Materials",
-    "creatureName": "Polymerize"
+    "creatureName": "Techveil"
   },
   {
     "ticker": "COR",
     "health": 50,
     "attack": 20,
-    "growth": 8,
-    "defense": 1,
+    "defense": 2,
+    "growth": 6,
     "name": "Cencora, Inc.",
     "sector": "Healthcare",
-    "creatureName": "Pharmamite"
+    "creatureName": "Pharmaflow"
   },
   {
     "ticker": "CNC",
-    "health": 45,
+    "health": 30,
     "attack": 20,
+    "defense": 8,
     "growth": 5,
-    "defense": 9,
     "name": "Centene Corporation",
     "sector": "Healthcare",
-    "creatureName": "Centacor"
+    "creatureName": "Centeguard"
   },
   {
     "ticker": "CNP",
-    "health": 30,
+    "health": 35,
     "attack": 5,
-    "growth": 11,
     "defense": 6,
-    "name": "CenterPoint Energy, Inc.",
+    "growth": 6,
+    "name": "CenterPoint Energy, Inc (Holdin",
     "sector": "Utilities",
-    "creatureName": "CenterpointPower"
+    "creatureName": "Energiflow"
   },
   {
     "ticker": "CF",
     "health": 28,
-    "attack": 16,
-    "growth": 2,
-    "defense": 5,
+    "attack": 15,
+    "defense": 4,
+    "growth": 7,
     "name": "CF Industries Holdings, Inc.",
     "sector": "Basic Materials",
-    "creatureName": "Fertillion"
-  },
-  {
-    "ticker": "CHRW",
-    "health": 24,
-    "attack": 11,
-    "growth": 2,
-    "defense": 2,
-    "name": "C.H. Robinson Worldwide, Inc.",
-    "sector": "Industrials",
-    "creatureName": "Cargoroar"
+    "creatureName": "Nitrogeist"
   },
   {
     "ticker": "CRL",
-    "health": 28,
-    "attack": 7,
-    "growth": 5,
+    "health": 24,
+    "attack": 11,
     "defense": 3,
-    "name": "Charles River Laboratories International, Inc.",
+    "growth": 5,
+    "name": "Charles River Laboratories Inte",
     "sector": "Healthcare",
-    "creatureName": "Rodentrio"
+    "creatureName": "Labmouse"
   },
   {
     "ticker": "SCHW",
     "health": 60,
     "attack": 7,
-    "growth": 2,
-    "defense": 9,
-    "name": "The Charles Schwab Corporation",
+    "defense": 11,
+    "growth": 8,
+    "name": "Charles Schwab Corporation (The",
     "sector": "Financial Services",
-    "creatureName": "Financier"
+    "creatureName": "Schwabulus"
   },
   {
     "ticker": "CHTR",
-    "health": 45,
-    "attack": 20,
-    "growth": 4,
+    "health": 40,
+    "attack": 17,
     "defense": 7,
+    "growth": 4,
     "name": "Charter Communications, Inc.",
     "sector": "Communication Services",
-    "creatureName": "Cablamon"
+    "creatureName": "Spectrumwave"
   },
   {
     "ticker": "CVX",
     "health": 80,
     "attack": 24,
-    "growth": 2,
     "defense": 11,
+    "growth": 4,
     "name": "Chevron Corporation",
     "sector": "Energy",
-    "creatureName": "Petrodragon"
+    "creatureName": "Petrolith"
   },
   {
     "ticker": "CMG",
-    "health": 55,
+    "health": 45,
     "attack": 13,
-    "growth": 8,
     "defense": 2,
+    "growth": 5,
     "name": "Chipotle Mexican Grill, Inc.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Burritodon"
+    "creatureName": "Burritomole"
   },
   {
     "ticker": "CB",
     "health": 60,
-    "attack": 24,
-    "growth": 15,
+    "attack": 7,
     "defense": 11,
+    "growth": 7,
     "name": "Chubb Limited",
     "sector": "Financial Services",
-    "creatureName": "Rubblezord"
+    "creatureName": "Shieldchubb"
   },
   {
     "ticker": "CHD",
     "health": 35,
-    "attack": 11,
-    "growth": 5,
+    "attack": 15,
     "defense": 3,
-    "name": "Church & Dwight Co., Inc.",
+    "growth": 3,
+    "name": "Church & Dwight Company, Inc.",
     "sector": "Consumer Defensive",
-    "creatureName": "Sanitichip"
+    "creatureName": "Sodaclean"
   },
   {
     "ticker": "CI",
-    "health": 60,
+    "health": 50,
     "attack": 24,
+    "defense": 9,
     "growth": 4,
-    "defense": 11,
     "name": "The Cigna Group",
     "sector": "Healthcare",
-    "creatureName": "Pharmera"
+    "creatureName": "Mediguard"
   },
   {
     "ticker": "CINF",
-    "health": 30,
+    "health": 35,
     "attack": 20,
-    "growth": 7,
     "defense": 7,
-    "name": "Cincinnati Financial Corporation",
+    "growth": 12,
+    "name": "Cincinnati Financial Corporatio",
     "sector": "Financial Services",
-    "creatureName": "Insuragile"
+    "creatureName": "Shieldvault"
   },
   {
     "ticker": "CTAS",
     "health": 55,
-    "attack": 15,
-    "growth": 7,
+    "attack": 16,
     "defense": 3,
+    "growth": 6,
     "name": "Cintas Corporation",
     "sector": "Industrials",
-    "creatureName": "Fabricloak"
+    "creatureName": "Uniformox"
   },
   {
     "ticker": "CSCO",
     "health": 80,
     "attack": 24,
-    "growth": 5,
     "defense": 11,
+    "growth": 8,
     "name": "Cisco Systems, Inc.",
     "sector": "Technology",
-    "creatureName": "Routerblade"
+    "creatureName": "Netflux"
   },
   {
     "ticker": "C",
-    "health": 60,
+    "health": 80,
     "attack": 7,
-    "growth": 5,
     "defense": 11,
-    "name": "Citigroup Inc.",
+    "growth": 4,
+    "name": "Citigroup, Inc.",
     "sector": "Financial Services",
-    "creatureName": "Finnetail"
+    "creatureName": "Citizeal"
   },
   {
     "ticker": "CFG",
-    "health": 28,
+    "health": 35,
     "attack": 7,
-    "growth": 2,
-    "defense": 8,
+    "defense": 9,
+    "growth": 8,
     "name": "Citizens Financial Group, Inc.",
     "sector": "Financial Services",
-    "creatureName": "Bankerbeast"
+    "creatureName": "Bankwarden"
   },
   {
     "ticker": "CLX",
-    "health": 30,
-    "attack": 11,
-    "growth": 4,
+    "health": 28,
+    "attack": 13,
     "defense": 1,
-    "name": "The Clorox Company",
+    "growth": 3,
+    "name": "Clorox Company (The)",
     "sector": "Consumer Defensive",
-    "creatureName": "Clorox Cleanser"
+    "creatureName": "Purifikat"
   },
   {
     "ticker": "CME",
-    "health": 55,
-    "attack": 17,
-    "growth": 8,
+    "health": 60,
+    "attack": 7,
     "defense": 9,
+    "growth": 9,
     "name": "CME Group Inc.",
     "sector": "Financial Services",
-    "creatureName": "Mercurion"
+    "creatureName": "Mercantilisk"
   },
   {
     "ticker": "CMS",
     "health": 30,
     "attack": 5,
-    "growth": 13,
     "defense": 5,
+    "growth": 6,
     "name": "CMS Energy Corporation",
     "sector": "Utilities",
-    "creatureName": "Energor"
+    "creatureName": "Energrid"
   },
   {
     "ticker": "KO",
     "health": 80,
-    "attack": 20,
-    "growth": 5,
+    "attack": 5,
     "defense": 9,
-    "name": "The Coca-Cola Company",
+    "growth": 5,
+    "name": "Coca-Cola Company (The)",
     "sector": "Consumer Defensive",
-    "creatureName": "Bubblyzard"
+    "creatureName": "Carbonara"
   },
   {
     "ticker": "CTSH",
-    "health": 45,
+    "health": 40,
     "attack": 16,
-    "growth": 6,
     "defense": 7,
-    "name": "Cognizant Technology Solutions Corporation",
+    "growth": 7,
+    "name": "Cognizant Technology Solutions ",
     "sector": "Technology",
-    "creatureName": "Cognizix"
+    "creatureName": "Synergon"
+  },
+  {
+    "ticker": "COIN",
+    "health": 45,
+    "attack": 15,
+    "defense": 7,
+    "growth": 5,
+    "name": "Coinbase Global, Inc. - 3",
+    "sector": "Financial Services",
+    "creatureName": "Cryptalisk"
   },
   {
     "ticker": "CL",
     "health": 55,
     "attack": 17,
-    "growth": 15,
     "defense": 1,
+    "growth": 5,
     "name": "Colgate-Palmolive Company",
     "sector": "Consumer Defensive",
-    "creatureName": "Sudsquatch"
+    "creatureName": "Brushmolive"
   },
   {
     "ticker": "CMCSA",
-    "health": 80,
-    "attack": 24,
-    "growth": 6,
+    "health": 60,
+    "attack": 20,
     "defense": 11,
+    "growth": 2,
     "name": "Comcast Corporation",
     "sector": "Communication Services",
-    "creatureName": "Cablecast"
-  },
-  {
-    "ticker": "CMA",
-    "health": 24,
-    "attack": 7,
-    "growth": 2,
-    "defense": 4,
-    "name": "Comerica Incorporated",
-    "sector": "Financial Services",
-    "creatureName": "Financi\u00e8re"
+    "creatureName": "Comcasteel"
   },
   {
     "ticker": "CAG",
-    "health": 28,
-    "attack": 13,
-    "growth": 4,
+    "health": 24,
+    "attack": 11,
     "defense": 5,
-    "name": "Conagra Brands, Inc.",
+    "growth": 5,
+    "name": "ConAgra Brands, Inc.",
     "sector": "Consumer Defensive",
-    "creatureName": "Conaguard"
+    "creatureName": "Harvestor"
   },
   {
     "ticker": "COP",
     "health": 60,
-    "attack": 20,
-    "growth": 5,
+    "attack": 24,
     "defense": 11,
+    "growth": 2,
     "name": "ConocoPhillips",
     "sector": "Energy",
-    "creatureName": "Oiltrident"
+    "creatureName": "Petrolithe"
   },
   {
     "ticker": "ED",
-    "health": 40,
-    "attack": 15,
-    "growth": 13,
+    "health": 45,
+    "attack": 5,
     "defense": 8,
+    "growth": 5,
     "name": "Consolidated Edison, Inc.",
     "sector": "Utilities",
-    "creatureName": "Electricord"
+    "creatureName": "Conduitron"
   },
   {
     "ticker": "STZ",
-    "health": 50,
-    "attack": 13,
-    "growth": 7,
-    "defense": 5,
+    "health": 35,
+    "attack": 16,
+    "defense": 4,
+    "growth": 3,
     "name": "Constellation Brands, Inc.",
     "sector": "Consumer Defensive",
-    "creatureName": "Vinterra"
+    "creatureName": "Stellabrew"
   },
   {
     "ticker": "CEG",
-    "health": 50,
-    "attack": 5,
-    "growth": 5,
-    "defense": 6,
-    "name": "Constellation Energy Corporation",
+    "health": 60,
+    "attack": 15,
+    "defense": 7,
+    "growth": 2,
+    "name": "Constellation Energy Corporatio",
     "sector": "Utilities",
-    "creatureName": "Luminous Conduit"
+    "creatureName": "Stellajoule"
   },
   {
     "ticker": "COO",
-    "health": 30,
-    "attack": 7,
-    "growth": 5,
+    "health": 28,
+    "attack": 9,
     "defense": 5,
+    "growth": 2,
     "name": "The Cooper Companies, Inc.",
     "sector": "Healthcare",
-    "creatureName": "Visolens"
+    "creatureName": "Visicare"
   },
   {
     "ticker": "CPRT",
-    "health": 50,
-    "attack": 11,
-    "growth": 6,
-    "defense": 4,
+    "health": 40,
+    "attack": 13,
+    "defense": 5,
+    "growth": 4,
     "name": "Copart, Inc.",
     "sector": "Industrials",
-    "creatureName": "Scrapbot"
+    "creatureName": "Auctioneer"
   },
   {
     "ticker": "GLW",
-    "health": 40,
-    "attack": 7,
-    "growth": 5,
-    "defense": 7,
+    "health": 60,
+    "attack": 11,
+    "defense": 6,
+    "growth": 12,
     "name": "Corning Incorporated",
     "sector": "Technology",
-    "creatureName": "Glassweaver"
+    "creatureName": "Crystalux"
   },
   {
     "ticker": "CPAY",
-    "health": 35,
-    "attack": 13,
+    "health": 30,
+    "attack": 16,
+    "defense": 2,
     "growth": 6,
-    "defense": 3,
     "name": "Corpay, Inc.",
     "sector": "Technology",
-    "creatureName": "Payget"
+    "creatureName": "Paymount"
   },
   {
     "ticker": "CTVA",
-    "health": 45,
-    "attack": 15,
+    "health": 50,
+    "attack": 17,
+    "defense": 8,
     "growth": 5,
-    "defense": 9,
     "name": "Corteva, Inc.",
     "sector": "Basic Materials",
-    "creatureName": "Cornteva"
+    "creatureName": "Cropguardian"
   },
   {
     "ticker": "CSGP",
-    "health": 45,
+    "health": 30,
     "attack": 9,
-    "growth": 3,
     "defense": 5,
+    "growth": 3,
     "name": "CoStar Group, Inc.",
     "sector": "Real Estate",
-    "creatureName": "CoStargazer"
+    "creatureName": "Properteon"
   },
   {
     "ticker": "COST",
     "health": 80,
-    "attack": 20,
-    "growth": 7,
+    "attack": 24,
     "defense": 9,
+    "growth": 6,
     "name": "Costco Wholesale Corporation",
     "sector": "Consumer Defensive",
-    "creatureName": "Bargainsquatch"
+    "creatureName": "Warehousaur"
   },
   {
     "ticker": "CTRA",
-    "health": 35,
+    "health": 30,
     "attack": 15,
-    "growth": 2,
     "defense": 7,
+    "growth": 7,
     "name": "Coterra Energy Inc.",
     "sector": "Energy",
-    "creatureName": "Petrochip"
+    "creatureName": "Terravein"
+  },
+  {
+    "ticker": "CRWD",
+    "health": 55,
+    "attack": 15,
+    "defense": 3,
+    "growth": 5,
+    "name": "CrowdStrike Holdings, Inc.",
+    "sector": "Technology",
+    "creatureName": "Falconshield"
   },
   {
     "ticker": "CCI",
-    "health": 45,
-    "attack": 16,
-    "growth": 4,
-    "defense": 4,
+    "health": 40,
+    "attack": 15,
+    "defense": 1,
+    "growth": 5,
     "name": "Crown Castle Inc.",
     "sector": "Real Estate",
-    "creatureName": "Commtower"
+    "creatureName": "Towerarch"
   },
   {
     "ticker": "CSX",
     "health": 55,
-    "attack": 17,
-    "growth": 4,
+    "attack": 13,
     "defense": 7,
+    "growth": 5,
     "name": "CSX Corporation",
     "sector": "Industrials",
-    "creatureName": "Cargo-Claw"
+    "creatureName": "Railcargo"
   },
   {
     "ticker": "CMI",
-    "health": 45,
-    "attack": 20,
-    "growth": 5,
+    "health": 55,
+    "attack": 15,
     "defense": 6,
+    "growth": 9,
     "name": "Cummins Inc.",
     "sector": "Industrials",
-    "creatureName": "Powergen"
+    "creatureName": "Powerturbo"
   },
   {
     "ticker": "CVS",
-    "health": 60,
-    "attack": 24,
-    "growth": 4,
+    "health": 55,
+    "attack": 20,
     "defense": 11,
+    "growth": 13,
     "name": "CVS Health Corporation",
     "sector": "Healthcare",
-    "creatureName": "Pharmalix"
+    "creatureName": "Pharmadex"
   },
   {
     "ticker": "DHR",
-    "health": 80,
+    "health": 60,
     "attack": 20,
-    "growth": 2,
     "defense": 11,
+    "growth": 6,
     "name": "Danaher Corporation",
     "sector": "Healthcare",
-    "creatureName": "Cellulare"
+    "creatureName": "Analytech"
   },
   {
     "ticker": "DRI",
-    "health": 30,
+    "health": 35,
     "attack": 11,
-    "growth": 6,
     "defense": 2,
+    "growth": 6,
     "name": "Darden Restaurants, Inc.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Carnivorous Colossal"
+    "creatureName": "Cuisinaurum"
+  },
+  {
+    "ticker": "DDOG",
+    "health": 40,
+    "attack": 13,
+    "defense": 3,
+    "growth": 5,
+    "name": "Datadog, Inc.",
+    "sector": "Technology",
+    "creatureName": "Datahound"
   },
   {
     "ticker": "DVA",
     "health": 24,
-    "attack": 15,
-    "growth": 15,
-    "defense": 2,
+    "attack": 13,
+    "defense": 1,
+    "growth": 4,
     "name": "DaVita Inc.",
     "sector": "Healthcare",
-    "creatureName": "Dialythyst"
+    "creatureName": "Nephroflow"
   },
   {
     "ticker": "DAY",
     "health": 24,
-    "attack": 7,
-    "growth": 5,
+    "attack": 9,
     "defense": 2,
-    "name": "Dayforce Inc",
+    "growth": 5,
+    "name": "Dayforce, Inc.",
     "sector": "Technology",
-    "creatureName": "Timekeep"
+    "creatureName": "Chronowarden"
   },
   {
     "ticker": "DECK",
-    "health": 35,
-    "attack": 13,
-    "growth": 9,
+    "health": 28,
+    "attack": 11,
     "defense": 2,
+    "growth": 6,
     "name": "Deckers Outdoor Corporation",
     "sector": "Consumer Cyclical",
-    "creatureName": "Treadclaw"
+    "creatureName": "Trekkpaw"
   },
   {
     "ticker": "DE",
     "health": 60,
-    "attack": 17,
-    "growth": 5,
-    "defense": 8,
+    "attack": 20,
+    "defense": 9,
+    "growth": 3,
     "name": "Deere & Company",
     "sector": "Industrials",
-    "creatureName": "Agrimorph"
+    "creatureName": "Tractorosaur"
+  },
+  {
+    "ticker": "DELL",
+    "health": 55,
+    "attack": 5,
+    "defense": 1,
+    "growth": 9,
+    "name": "Dell Technologies Inc.",
+    "sector": "Technology",
+    "creatureName": "Servitron"
   },
   {
     "ticker": "DAL",
-    "health": 40,
-    "attack": 9,
-    "growth": 15,
-    "defense": 6,
+    "health": 45,
+    "attack": 17,
+    "defense": 8,
+    "growth": 9,
     "name": "Delta Air Lines, Inc.",
     "sector": "Industrials",
-    "creatureName": "Wingspire"
+    "creatureName": "Skyfleet"
   },
   {
     "ticker": "DVN",
-    "health": 40,
-    "attack": 15,
-    "growth": 5,
+    "health": 35,
+    "attack": 17,
     "defense": 7,
+    "growth": 4,
     "name": "Devon Energy Corporation",
     "sector": "Energy",
-    "creatureName": "Geysergorge"
+    "creatureName": "Petroleo"
   },
   {
     "ticker": "DXCM",
-    "health": 50,
-    "attack": 9,
-    "growth": 15,
+    "health": 35,
+    "attack": 11,
     "defense": 2,
+    "growth": 13,
     "name": "DexCom, Inc.",
     "sector": "Healthcare",
-    "creatureName": "Glucosight"
+    "creatureName": "Glucosensor"
   },
   {
     "ticker": "FANG",
     "health": 45,
-    "attack": 9,
-    "growth": 4,
-    "defense": 8,
+    "attack": 11,
+    "defense": 9,
+    "growth": 5,
     "name": "Diamondback Energy, Inc.",
     "sector": "Energy",
-    "creatureName": "Petrochip"
+    "creatureName": "Gemstrike"
   },
   {
     "ticker": "DLR",
     "health": 50,
     "attack": 16,
-    "growth": 5,
     "defense": 8,
+    "growth": 2,
     "name": "Digital Realty Trust, Inc.",
     "sector": "Real Estate",
-    "creatureName": "Datacenter Dynamo"
-  },
-  {
-    "ticker": "DFS",
-    "health": 40,
-    "attack": 7,
-    "growth": 2,
-    "defense": 7,
-    "name": "Discover Financial Services",
-    "sector": "Financial Services",
-    "creatureName": "Credite"
+    "creatureName": "Datafortress"
   },
   {
     "ticker": "DG",
     "health": 40,
-    "attack": 7,
-    "growth": 2,
-    "defense": 4,
+    "attack": 16,
+    "defense": 5,
+    "growth": 9,
     "name": "Dollar General Corporation",
     "sector": "Consumer Defensive",
-    "creatureName": "Bargainite"
+    "creatureName": "Bargainbeast"
   },
   {
     "ticker": "DLTR",
-    "health": 40,
-    "attack": 11,
+    "health": 35,
+    "attack": 16,
+    "defense": 3,
     "growth": 5,
-    "defense": 5,
     "name": "Dollar Tree, Inc.",
     "sector": "Consumer Defensive",
-    "creatureName": "Dollardile"
+    "creatureName": "Dollarling"
   },
   {
     "ticker": "D",
-    "health": 45,
+    "health": 50,
     "attack": 5,
-    "growth": 3,
     "defense": 9,
+    "growth": 15,
     "name": "Dominion Energy, Inc.",
     "sector": "Utilities",
-    "creatureName": "Megawatt"
+    "creatureName": "Dominewatt"
   },
   {
     "ticker": "DPZ",
-    "health": 30,
+    "health": 28,
     "attack": 9,
-    "growth": 8,
     "defense": 1,
-    "name": "Domino's Pizza, Inc.",
+    "growth": 7,
+    "name": "Domino's Pizza Inc",
     "sector": "Consumer Cyclical",
-    "creatureName": "Pepperpoly"
+    "creatureName": "Dominowl"
+  },
+  {
+    "ticker": "DASH",
+    "health": 50,
+    "attack": 17,
+    "defense": 6,
+    "growth": 10,
+    "name": "DoorDash, Inc.",
+    "sector": "Consumer Cyclical",
+    "creatureName": "Dashient"
   },
   {
     "ticker": "DOV",
-    "health": 35,
+    "health": 40,
     "attack": 13,
-    "growth": 6,
-    "defense": 4,
+    "defense": 5,
+    "growth": 2,
     "name": "Dover Corporation",
     "sector": "Industrials",
-    "creatureName": "Geargrip"
+    "creatureName": "Dovecog"
   },
   {
     "ticker": "DOW",
-    "health": 45,
-    "attack": 17,
+    "health": 30,
+    "attack": 5,
+    "defense": 7,
     "growth": 5,
-    "defense": 8,
     "name": "Dow Inc.",
     "sector": "Basic Materials",
-    "creatureName": "Polyform"
+    "creatureName": "Polymorph"
   },
   {
     "ticker": "DHI",
-    "health": 50,
-    "attack": 16,
-    "growth": 5,
+    "health": 45,
+    "attack": 5,
     "defense": 8,
+    "growth": 2,
     "name": "D.R. Horton, Inc.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Terrabuild"
+    "creatureName": "Constructrix"
   },
   {
     "ticker": "DTE",
-    "health": 35,
+    "health": 40,
     "attack": 5,
-    "growth": 10,
     "defense": 6,
+    "growth": 8,
     "name": "DTE Energy Company",
     "sector": "Utilities",
-    "creatureName": "Voltaire"
+    "creatureName": "Voltstream"
   },
   {
     "ticker": "DUK",
     "health": 55,
-    "attack": 5,
-    "growth": 5,
+    "attack": 24,
     "defense": 11,
-    "name": "Duke Energy Corporation",
+    "growth": 5,
+    "name": "Duke Energy Corporation (Holdin",
     "sector": "Utilities",
-    "creatureName": "Energizor"
+    "creatureName": "Dukeflux"
   },
   {
     "ticker": "DD",
-    "health": 40,
-    "attack": 17,
+    "health": 30,
+    "attack": 24,
+    "defense": 7,
     "growth": 5,
-    "defense": 8,
     "name": "DuPont de Nemours, Inc.",
     "sector": "Basic Materials",
-    "creatureName": "Duponic"
+    "creatureName": "Synthexel"
   },
   {
     "ticker": "EMN",
     "health": 24,
     "attack": 9,
-    "growth": 15,
     "defense": 4,
+    "growth": 2,
     "name": "Eastman Chemical Company",
     "sector": "Basic Materials",
-    "creatureName": "Polymergel"
+    "creatureName": "Polymolecul"
   },
   {
     "ticker": "ETN",
     "health": 60,
-    "attack": 17,
-    "growth": 8,
+    "attack": 7,
     "defense": 8,
-    "name": "Eaton Corporation plc",
+    "growth": 7,
+    "name": "Eaton Corporation, PLC",
     "sector": "Industrials",
-    "creatureName": "Electricon"
+    "creatureName": "Powerflux"
   },
   {
     "ticker": "EBAY",
-    "health": 40,
-    "attack": 17,
-    "growth": 6,
-    "defense": 4,
+    "health": 45,
+    "attack": 11,
+    "defense": 3,
+    "growth": 3,
     "name": "eBay Inc.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Biddyburst"
+    "creatureName": "Auctionex"
   },
   {
     "ticker": "ECL",
     "health": 55,
     "attack": 16,
-    "growth": 5,
     "defense": 5,
+    "growth": 5,
     "name": "Ecolab Inc.",
     "sector": "Basic Materials",
-    "creatureName": "Aquahex"
+    "creatureName": "Purifiant"
   },
   {
     "ticker": "EIX",
-    "health": 40,
+    "health": 35,
     "attack": 5,
-    "growth": 4,
-    "defense": 8,
+    "defense": 7,
+    "growth": 15,
     "name": "Edison International",
     "sector": "Utilities",
-    "creatureName": "Volt-Arc"
+    "creatureName": "Voltwatt"
   },
   {
     "ticker": "EW",
-    "health": 50,
-    "attack": 11,
-    "growth": 4,
-    "defense": 4,
-    "name": "Edwards Lifesciences Corporation",
+    "health": 45,
+    "attack": 15,
+    "defense": 6,
+    "growth": 2,
+    "name": "Edwards Lifesciences Corporatio",
     "sector": "Healthcare",
-    "creatureName": "Valvewall"
+    "creatureName": "Cardiotech"
   },
   {
     "ticker": "EA",
-    "health": 40,
-    "attack": 16,
-    "growth": 10,
-    "defense": 5,
+    "health": 45,
+    "attack": 17,
+    "defense": 4,
+    "growth": 2,
     "name": "Electronic Arts Inc.",
     "sector": "Communication Services",
-    "creatureName": "Gamecore"
+    "creatureName": "Pixelion"
   },
   {
     "ticker": "ELV",
-    "health": 60,
-    "attack": 17,
-    "growth": 5,
-    "defense": 9,
+    "health": 50,
+    "attack": 20,
+    "defense": 11,
+    "growth": 8,
     "name": "Elevance Health, Inc.",
     "sector": "Healthcare",
-    "creatureName": "Healivore"
-  },
-  {
-    "ticker": "LLY",
-    "health": 80,
-    "attack": 7,
-    "growth": 6,
-    "defense": 6,
-    "name": "Eli Lilly and Company",
-    "sector": "Healthcare",
-    "creatureName": "Dianaphor"
+    "creatureName": "Elevantis"
   },
   {
     "ticker": "EMR",
     "health": 55,
-    "attack": 15,
-    "growth": 2,
-    "defense": 9,
-    "name": "Emerson Electric Co.",
+    "attack": 17,
+    "defense": 8,
+    "growth": 5,
+    "name": "Emerson Electric Company",
     "sector": "Industrials",
-    "creatureName": "Emersphere"
+    "creatureName": "Valvulectron"
   },
   {
     "ticker": "ENPH",
-    "health": 28,
+    "health": 24,
     "attack": 9,
-    "growth": 2,
     "defense": 1,
+    "growth": 2,
     "name": "Enphase Energy, Inc.",
     "sector": "Technology",
-    "creatureName": "Sunblade"
+    "creatureName": "Solverter"
   },
   {
     "ticker": "ETR",
-    "health": 35,
+    "health": 45,
     "attack": 5,
-    "growth": 15,
     "defense": 7,
+    "growth": 3,
     "name": "Entergy Corporation",
     "sector": "Utilities",
-    "creatureName": "Energean"
+    "creatureName": "Energon"
   },
   {
     "ticker": "EOG",
-    "health": 55,
+    "health": 50,
     "attack": 17,
-    "growth": 4,
     "defense": 9,
+    "growth": 2,
     "name": "EOG Resources, Inc.",
     "sector": "Energy",
-    "creatureName": "Geo-Wyrm"
+    "creatureName": "Petrohound"
   },
   {
     "ticker": "EPAM",
-    "health": 28,
-    "attack": 9,
-    "growth": 2,
+    "health": 24,
+    "attack": 7,
     "defense": 3,
+    "growth": 6,
     "name": "EPAM Systems, Inc.",
     "sector": "Technology",
-    "creatureName": "Operatron"
+    "creatureName": "Architexus"
   },
   {
     "ticker": "EQT",
-    "health": 28,
-    "attack": 9,
-    "growth": 2,
-    "defense": 7,
+    "health": 40,
+    "attack": 16,
+    "defense": 8,
+    "growth": 11,
     "name": "EQT Corporation",
     "sector": "Energy",
-    "creatureName": "Terragrasp"
+    "creatureName": "Gasstream"
   },
   {
     "ticker": "EFX",
-    "health": 40,
-    "attack": 9,
-    "growth": 7,
-    "defense": 4,
-    "name": "Equifax Inc.",
+    "health": 35,
+    "attack": 13,
+    "defense": 3,
+    "growth": 5,
+    "name": "Equifax, Inc.",
     "sector": "Industrials",
-    "creatureName": "Creditope"
+    "creatureName": "Crediscope"
   },
   {
     "ticker": "EQIX",
     "health": 55,
     "attack": 17,
-    "growth": 12,
     "defense": 7,
+    "growth": 5,
     "name": "Equinix, Inc.",
     "sector": "Real Estate",
-    "creatureName": "Nexusnix"
+    "creatureName": "Nodexus"
   },
   {
     "ticker": "EQR",
     "health": 35,
     "attack": 15,
-    "growth": 15,
     "defense": 6,
+    "growth": 4,
     "name": "Equity Residential",
     "sector": "Real Estate",
-    "creatureName": "Homelytile"
+    "creatureName": "Communitaur"
+  },
+  {
+    "ticker": "ERIE",
+    "health": 28,
+    "attack": 9,
+    "defense": 2,
+    "growth": 2,
+    "name": "Erie Indemnity Company",
+    "sector": "Financial Services",
+    "creatureName": "Indemnix"
   },
   {
     "ticker": "ESS",
     "health": 28,
-    "attack": 11,
-    "growth": 2,
+    "attack": 13,
     "defense": 4,
+    "growth": 2,
     "name": "Essex Property Trust, Inc.",
     "sector": "Real Estate",
-    "creatureName": "Timberhome"
+    "creatureName": "Residentia"
   },
   {
     "ticker": "EL",
-    "health": 50,
-    "attack": 5,
-    "growth": 3,
-    "defense": 4,
-    "name": "The Est\u00e9e Lauder Companies Inc.",
+    "health": 40,
+    "attack": 16,
+    "defense": 3,
+    "growth": 5,
+    "name": "Estee Lauder Companies, Inc. (T",
     "sector": "Consumer Defensive",
-    "creatureName": "Cosmetica"
-  },
-  {
-    "ticker": "ETSY",
-    "health": 24,
-    "attack": 9,
-    "growth": 3,
-    "defense": 1,
-    "name": "Etsy, Inc.",
-    "sector": "Consumer Cyclical",
-    "creatureName": "Craftstitch"
+    "creatureName": "Glamouryx"
   },
   {
     "ticker": "EG",
     "health": 28,
-    "attack": 17,
-    "growth": 9,
+    "attack": 24,
     "defense": 7,
+    "growth": 5,
     "name": "Everest Group, Ltd.",
     "sector": "Financial Services",
-    "creatureName": "Everclimber"
+    "creatureName": "Peakguard"
   },
   {
     "ticker": "EVRG",
-    "health": 24,
+    "health": 30,
     "attack": 5,
-    "growth": 15,
     "defense": 6,
+    "growth": 6,
     "name": "Evergy, Inc.",
     "sector": "Utilities",
-    "creatureName": "Energize"
+    "creatureName": "Energyx"
   },
   {
     "ticker": "ES",
     "health": 35,
-    "attack": 5,
-    "growth": 5,
+    "attack": 11,
     "defense": 7,
-    "name": "Eversource Energy",
+    "growth": 15,
+    "name": "Eversource Energy (D/B/A)",
     "sector": "Utilities",
-    "creatureName": "Solareon"
+    "creatureName": "Voltstream"
   },
   {
     "ticker": "EXC",
     "health": 45,
     "attack": 5,
-    "growth": 9,
     "defense": 9,
+    "growth": 4,
     "name": "Exelon Corporation",
     "sector": "Utilities",
-    "creatureName": "Powerium"
+    "creatureName": "Powerflow"
+  },
+  {
+    "ticker": "EXE",
+    "health": 35,
+    "attack": 15,
+    "defense": 8,
+    "growth": 5,
+    "name": "Expand Energy Corporation",
+    "sector": "Energy",
+    "creatureName": "Shaledrake"
   },
   {
     "ticker": "EXPE",
-    "health": 30,
-    "attack": 16,
-    "growth": 3,
-    "defense": 2,
+    "health": 35,
+    "attack": 17,
+    "defense": 1,
+    "growth": 2,
     "name": "Expedia Group, Inc.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Travelgeist"
+    "creatureName": "Wanderlux"
   },
   {
     "ticker": "EXPD",
     "health": 30,
-    "attack": 13,
-    "growth": 3,
+    "attack": 11,
     "defense": 2,
-    "name": "Expeditors International of Washington, Inc.",
+    "growth": 4,
+    "name": "Expeditors International of Was",
     "sector": "Industrials",
-    "creatureName": "Expedimax"
+    "creatureName": "Logistyx"
   },
   {
     "ticker": "EXR",
     "health": 40,
     "attack": 15,
-    "growth": 2,
     "defense": 7,
-    "name": "Extra Space Storage Inc.",
+    "growth": 6,
+    "name": "Extra Space Storage Inc",
     "sector": "Real Estate",
-    "creatureName": "Storekeeper"
+    "creatureName": "Storagaunt"
   },
   {
     "ticker": "XOM",
     "health": 80,
     "attack": 24,
-    "growth": 2,
     "defense": 11,
+    "growth": 4,
     "name": "Exxon Mobil Corporation",
     "sector": "Energy",
-    "creatureName": "Petrotops"
+    "creatureName": "Petrolix"
   },
   {
     "ticker": "FFIV",
-    "health": 24,
+    "health": 28,
     "attack": 11,
-    "growth": 14,
-    "defense": 2,
+    "defense": 3,
+    "growth": 6,
     "name": "F5, Inc.",
     "sector": "Technology",
-    "creatureName": "Cloudgateway"
+    "creatureName": "Cloudbarrier"
   },
   {
     "ticker": "FDS",
-    "health": 30,
-    "attack": 11,
-    "growth": 6,
+    "health": 24,
+    "attack": 9,
     "defense": 2,
+    "growth": 5,
     "name": "FactSet Research Systems Inc.",
     "sector": "Financial Services",
-    "creatureName": "Finaljector"
+    "creatureName": "Datalyph"
   },
   {
     "ticker": "FICO",
     "health": 40,
-    "attack": 9,
-    "growth": 7,
+    "attack": 11,
     "defense": 1,
+    "growth": 5,
     "name": "Fair Isaac Corporation",
     "sector": "Technology",
-    "creatureName": "Decisiovore"
+    "creatureName": "Scoranalyx"
   },
   {
     "ticker": "FAST",
     "health": 45,
-    "attack": 13,
-    "growth": 6,
+    "attack": 11,
     "defense": 3,
+    "growth": 6,
     "name": "Fastenal Company",
     "sector": "Industrials",
-    "creatureName": "Fastenhawk"
+    "creatureName": "Boltbound"
   },
   {
     "ticker": "FRT",
     "health": 24,
     "attack": 9,
-    "growth": 2,
     "defense": 3,
+    "growth": 15,
     "name": "Federal Realty Investment Trust",
     "sector": "Real Estate",
-    "creatureName": "Landshaper"
+    "creatureName": "Retailthon"
   },
   {
     "ticker": "FDX",
     "health": 55,
     "attack": 20,
-    "growth": 4,
     "defense": 9,
+    "growth": 4,
     "name": "FedEx Corporation",
     "sector": "Industrials",
-    "creatureName": "Speedshuttle"
+    "creatureName": "Deliveryx"
   },
   {
     "ticker": "FIS",
-    "health": 45,
-    "attack": 17,
-    "growth": 5,
-    "defense": 8,
-    "name": "Fidelity National Information Services, Inc.",
+    "health": 35,
+    "attack": 16,
+    "defense": 7,
+    "growth": 13,
+    "name": "Fidelity National Information S",
     "sector": "Technology",
-    "creatureName": "FINSlide"
+    "creatureName": "Fidelsafe"
   },
   {
     "ticker": "FITB",
-    "health": 35,
+    "health": 45,
     "attack": 7,
-    "growth": 2,
     "defense": 8,
+    "growth": 7,
     "name": "Fifth Third Bancorp",
     "sector": "Financial Services",
-    "creatureName": "Finchip"
+    "creatureName": "Bancrypta"
   },
   {
     "ticker": "FSLR",
     "health": 30,
-    "attack": 5,
-    "growth": 5,
-    "defense": 4,
+    "attack": 13,
+    "defense": 5,
+    "growth": 8,
     "name": "First Solar, Inc.",
     "sector": "Technology",
-    "creatureName": "Solatron"
+    "creatureName": "Solarteel"
   },
   {
     "ticker": "FE",
     "health": 35,
-    "attack": 16,
-    "growth": 5,
+    "attack": 5,
     "defense": 6,
+    "growth": 5,
     "name": "FirstEnergy Corp.",
     "sector": "Utilities",
-    "creatureName": "Voltgrid"
-  },
-  {
-    "ticker": "FI",
-    "health": 60,
-    "attack": 20,
-    "growth": 7,
-    "defense": 9,
-    "name": "Fiserv, Inc.",
-    "sector": "Technology",
-    "creatureName": "Finchip"
-  },
-  {
-    "ticker": "FMC",
-    "health": 24,
-    "attack": 5,
-    "growth": 15,
-    "defense": 3,
-    "name": "FMC Corporation",
-    "sector": "Basic Materials",
-    "creatureName": "Agropod"
+    "creatureName": "Voltaire"
   },
   {
     "ticker": "F",
     "health": 50,
-    "attack": 5,
+    "attack": 16,
+    "defense": 9,
     "growth": 5,
-    "defense": 11,
     "name": "Ford Motor Company",
     "sector": "Consumer Cyclical",
-    "creatureName": "Motorstrider"
+    "creatureName": "Fordvolt"
   },
   {
     "ticker": "FTNT",
     "health": 50,
-    "attack": 15,
-    "growth": 5,
+    "attack": 16,
     "defense": 1,
+    "growth": 5,
     "name": "Fortinet, Inc.",
     "sector": "Technology",
-    "creatureName": "Fortireaver"
+    "creatureName": "Fortiwall"
   },
   {
     "ticker": "FTV",
-    "health": 40,
-    "attack": 15,
-    "growth": 7,
+    "health": 30,
+    "attack": 13,
     "defense": 6,
+    "growth": 4,
     "name": "Fortive Corporation",
     "sector": "Technology",
-    "creatureName": "Fortician"
+    "creatureName": "Fortimon"
   },
   {
     "ticker": "FOXA",
-    "health": 28,
-    "attack": 15,
-    "growth": 2,
+    "health": 30,
+    "attack": 16,
     "defense": 6,
+    "growth": 2,
     "name": "Fox Corporation",
     "sector": "Communication Services",
-    "creatureName": "Vulpinex"
+    "creatureName": "Vulpixmedia"
   },
   {
     "ticker": "FOX",
-    "health": 28,
-    "attack": 15,
-    "growth": 2,
+    "health": 35,
+    "attack": 16,
     "defense": 6,
+    "growth": 2,
     "name": "Fox Corporation",
     "sector": "Communication Services",
-    "creatureName": "Vulpix Visionary"
+    "creatureName": "Vulpix-Cast"
   },
   {
     "ticker": "BEN",
     "health": 28,
-    "attack": 13,
+    "attack": 9,
+    "defense": 6,
     "growth": 11,
-    "defense": 7,
     "name": "Franklin Resources, Inc.",
     "sector": "Financial Services",
-    "creatureName": "Financialeon"
+    "creatureName": "Capitaleon"
   },
   {
     "ticker": "FCX",
     "health": 55,
-    "attack": 5,
-    "growth": 2,
-    "defense": 9,
-    "name": "Freeport-McMoRan Inc.",
+    "attack": 16,
+    "defense": 8,
+    "growth": 10,
+    "name": "Freeport-McMoRan, Inc.",
     "sector": "Basic Materials",
-    "creatureName": "Quartzite"
+    "creatureName": "Oreaxe"
   },
   {
     "ticker": "GRMN",
-    "health": 40,
-    "attack": 13,
-    "growth": 13,
+    "health": 45,
+    "attack": 11,
     "defense": 5,
+    "growth": 7,
     "name": "Garmin Ltd.",
     "sector": "Technology",
-    "creatureName": "Navichip"
+    "creatureName": "Naviguide"
   },
   {
     "ticker": "IT",
-    "health": 45,
+    "health": 24,
     "attack": 13,
-    "growth": 3,
     "defense": 1,
+    "growth": 2,
     "name": "Gartner, Inc.",
     "sector": "Technology",
-    "creatureName": "Datadragon"
+    "creatureName": "Insightyx"
   },
   {
     "ticker": "GE",
     "health": 80,
     "attack": 20,
-    "growth": 3,
-    "defense": 9,
-    "name": "General Electric Company",
+    "defense": 8,
+    "growth": 8,
+    "name": "GE Aerospace",
     "sector": "Industrials",
-    "creatureName": "Dynamo Coil"
+    "creatureName": "Turbinox"
   },
   {
     "ticker": "GEHC",
-    "health": 45,
-    "attack": 17,
-    "growth": 2,
-    "defense": 5,
+    "health": 40,
+    "attack": 16,
+    "defense": 6,
+    "growth": 3,
     "name": "GE HealthCare Technologies Inc.",
     "sector": "Healthcare",
-    "creatureName": "Mediscan"
+    "creatureName": "Scanvital"
   },
   {
     "ticker": "GEV",
-    "health": 40,
-    "attack": 13,
-    "growth": 5,
-    "defense": 5,
+    "health": 80,
+    "attack": 20,
+    "defense": 6,
+    "growth": 15,
     "name": "GE Vernova Inc.",
-    "sector": null,
-    "creatureName": "Electricore"
+    "sector": "Industrials",
+    "creatureName": "Vernowatt"
   },
   {
     "ticker": "GEN",
     "health": 28,
-    "attack": 9,
-    "growth": 4,
+    "attack": 15,
     "defense": 2,
+    "growth": 7,
     "name": "Gen Digital Inc.",
     "sector": "Technology",
-    "creatureName": "Virushield"
+    "creatureName": "Shieldeon"
   },
   {
     "ticker": "GNRC",
-    "health": 24,
+    "health": 28,
     "attack": 9,
-    "growth": 14,
     "defense": 2,
-    "name": "Generac Holdings Inc.",
+    "growth": 5,
+    "name": "Generac Holdlings Inc.",
     "sector": "Industrials",
-    "creatureName": "Genecharger"
+    "creatureName": "Powergen"
   },
   {
     "ticker": "GD",
     "health": 55,
-    "attack": 16,
+    "attack": 20,
+    "defense": 9,
     "growth": 5,
-    "defense": 8,
     "name": "General Dynamics Corporation",
     "sector": "Industrials",
-    "creatureName": "Dynaclaw"
+    "creatureName": "Fortidon"
   },
   {
     "ticker": "GIS",
-    "health": 45,
-    "attack": 16,
-    "growth": 8,
-    "defense": 6,
+    "health": 35,
+    "attack": 17,
+    "defense": 5,
+    "growth": 2,
     "name": "General Mills, Inc.",
     "sector": "Consumer Defensive",
-    "creatureName": "Millstrider"
+    "creatureName": "Cerealeon"
   },
   {
     "ticker": "GM",
     "health": 50,
-    "attack": 20,
-    "growth": 6,
+    "attack": 24,
     "defense": 11,
+    "growth": 5,
     "name": "General Motors Company",
     "sector": "Consumer Cyclical",
-    "creatureName": "Autochassi"
+    "creatureName": "Motorvolt"
   },
   {
     "ticker": "GPC",
-    "health": 35,
+    "health": 28,
     "attack": 11,
-    "growth": 8,
     "defense": 3,
+    "growth": 5,
     "name": "Genuine Parts Company",
     "sector": "Consumer Cyclical",
-    "creatureName": "Gearhead"
+    "creatureName": "Partassemble"
   },
   {
     "ticker": "GILD",
-    "health": 55,
+    "health": 60,
     "attack": 24,
-    "growth": 4,
     "defense": 8,
+    "growth": 7,
     "name": "Gilead Sciences, Inc.",
     "sector": "Healthcare",
-    "creatureName": "Viridon"
+    "creatureName": "Cellveil"
   },
   {
     "ticker": "GPN",
-    "health": 40,
-    "attack": 17,
-    "growth": 10,
+    "health": 30,
+    "attack": 16,
     "defense": 8,
+    "growth": 2,
     "name": "Global Payments Inc.",
     "sector": "Industrials",
-    "creatureName": "FinancePaw"
+    "creatureName": "Transactix"
   },
   {
     "ticker": "GL",
     "health": 24,
-    "attack": 15,
-    "growth": 7,
-    "defense": 3,
+    "attack": 7,
+    "defense": 4,
+    "growth": 5,
     "name": "Globe Life Inc.",
     "sector": "Financial Services",
-    "creatureName": "Globulus"
+    "creatureName": "Globeshield"
+  },
+  {
+    "ticker": "GDDY",
+    "health": 24,
+    "attack": 15,
+    "defense": 1,
+    "growth": 7,
+    "name": "GoDaddy Inc.",
+    "sector": "Technology",
+    "creatureName": "Domainyx"
   },
   {
     "ticker": "GS",
-    "health": 60,
+    "health": 80,
     "attack": 7,
-    "growth": 11,
     "defense": 11,
-    "name": "The Goldman Sachs Group, Inc.",
+    "growth": 6,
+    "name": "Goldman Sachs Group, Inc. (The)",
     "sector": "Financial Services",
-    "creatureName": "Goldscale"
+    "creatureName": "Aurumtrade"
   },
   {
     "ticker": "HAL",
-    "health": 45,
-    "attack": 16,
-    "growth": 5,
+    "health": 40,
+    "attack": 17,
     "defense": 6,
+    "growth": 5,
     "name": "Halliburton Company",
     "sector": "Energy",
-    "creatureName": "Geoscaler"
+    "creatureName": "Drillurk"
   },
   {
     "ticker": "HIG",
     "health": 40,
     "attack": 20,
-    "growth": 9,
     "defense": 7,
-    "name": "The Hartford Financial Services Group, Inc.",
+    "growth": 8,
+    "name": "The Hartford Insurance Group, I",
     "sector": "Financial Services",
-    "creatureName": "Insurechamp"
+    "creatureName": "Shieldveil"
   },
   {
     "ticker": "HAS",
-    "health": 24,
-    "attack": 13,
-    "growth": 5,
+    "health": 28,
+    "attack": 9,
     "defense": 1,
+    "growth": 5,
     "name": "Hasbro, Inc.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Plushus"
+    "creatureName": "Toybrand"
   },
   {
     "ticker": "HCA",
-    "health": 55,
-    "attack": 17,
-    "growth": 3,
+    "health": 60,
+    "attack": 20,
     "defense": 1,
+    "growth": 8,
     "name": "HCA Healthcare, Inc.",
     "sector": "Healthcare",
-    "creatureName": "HealthyCore"
+    "creatureName": "Mediguard"
   },
   {
     "ticker": "DOC",
-    "health": 28,
-    "attack": 13,
-    "growth": 15,
+    "health": 24,
+    "attack": 15,
     "defense": 5,
+    "growth": 15,
     "name": "Healthpeak Properties, Inc.",
     "sector": "Real Estate",
-    "creatureName": "Vitascale"
+    "creatureName": "Mediplex"
   },
   {
     "ticker": "HSIC",
     "health": 24,
-    "attack": 7,
-    "growth": 2,
-    "defense": 4,
+    "attack": 9,
+    "defense": 3,
+    "growth": 6,
     "name": "Henry Schein, Inc.",
     "sector": "Healthcare",
-    "creatureName": "Medix"
+    "creatureName": "Mediwheel"
   },
   {
     "ticker": "HSY",
     "health": 45,
-    "attack": 13,
-    "growth": 4,
+    "attack": 15,
     "defense": 3,
+    "growth": 2,
     "name": "The Hershey Company",
     "sector": "Consumer Defensive",
-    "creatureName": "Cocoa Connoisseur"
-  },
-  {
-    "ticker": "HES",
-    "health": 50,
-    "attack": 5,
-    "growth": 3,
-    "defense": 6,
-    "name": "Hess Corporation",
-    "sector": "Energy",
-    "creatureName": "Crudeclaws"
+    "creatureName": "Chocosweet"
   },
   {
     "ticker": "HPE",
     "health": 35,
-    "attack": 16,
-    "growth": 3,
-    "defense": 8,
-    "name": "Hewlett Packard Enterprise Company",
+    "attack": 5,
+    "defense": 9,
+    "growth": 2,
+    "name": "Hewlett Packard Enterprise Comp",
     "sector": "Technology",
-    "creatureName": "Datashell"
+    "creatureName": "Serveryx"
   },
   {
     "ticker": "HLT",
     "health": 50,
-    "attack": 15,
-    "growth": 2,
+    "attack": 16,
     "defense": 1,
+    "growth": 2,
     "name": "Hilton Worldwide Holdings Inc.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Innkeeper"
+    "creatureName": "Hiltonite"
   },
   {
     "ticker": "HOLX",
-    "health": 30,
-    "attack": 11,
-    "growth": 9,
+    "health": 28,
+    "attack": 13,
     "defense": 4,
+    "growth": 4,
     "name": "Hologic, Inc.",
     "sector": "Healthcare",
-    "creatureName": "Holistica"
+    "creatureName": "Diagnoswarm"
   },
   {
     "ticker": "HD",
     "health": 80,
     "attack": 24,
+    "defense": 4,
     "growth": 4,
-    "defense": 1,
-    "name": "The Home Depot, Inc.",
+    "name": "Home Depot, Inc. (The)",
     "sector": "Consumer Cyclical",
-    "creatureName": "Hardycarpenter"
+    "creatureName": "Constructonk"
   },
   {
     "ticker": "HON",
     "health": 60,
-    "attack": 17,
-    "growth": 8,
-    "defense": 7,
+    "attack": 20,
+    "defense": 8,
+    "growth": 2,
     "name": "Honeywell International Inc.",
     "sector": "Industrials",
-    "creatureName": "Honeycoil"
+    "creatureName": "Automaton"
   },
   {
     "ticker": "HRL",
-    "health": 30,
-    "attack": 11,
-    "growth": 5,
+    "health": 28,
+    "attack": 9,
     "defense": 5,
+    "growth": 6,
     "name": "Hormel Foods Corporation",
     "sector": "Consumer Defensive",
-    "creatureName": "Hamtaro"
+    "creatureName": "Pormelon"
   },
   {
     "ticker": "HST",
     "health": 28,
     "attack": 15,
-    "growth": 4,
     "defense": 4,
+    "growth": 7,
     "name": "Host Hotels & Resorts, Inc.",
     "sector": "Real Estate",
-    "creatureName": "Hospitech"
+    "creatureName": "Hospitel"
   },
   {
     "ticker": "HWM",
-    "health": 40,
-    "attack": 9,
-    "growth": 15,
-    "defense": 3,
+    "health": 55,
+    "attack": 13,
+    "defense": 4,
+    "growth": 7,
     "name": "Howmet Aerospace Inc.",
     "sector": "Industrials",
-    "creatureName": "Aerolithe"
+    "creatureName": "Aerforge"
   },
   {
     "ticker": "HPQ",
-    "health": 40,
+    "health": 28,
     "attack": 17,
-    "growth": 8,
     "defense": 1,
+    "growth": 5,
     "name": "HP Inc.",
     "sector": "Technology",
-    "creatureName": "Printacus"
+    "creatureName": "Printaur"
   },
   {
     "ticker": "HUBB",
     "health": 35,
-    "attack": 9,
-    "growth": 11,
-    "defense": 2,
-    "name": "Hubbell Incorporated",
+    "attack": 11,
+    "defense": 3,
+    "growth": 6,
+    "name": "Hubbell Inc",
     "sector": "Industrials",
-    "creatureName": "Hubblitar"
+    "creatureName": "Gridlux"
   },
   {
     "ticker": "HUM",
-    "health": 45,
-    "attack": 11,
-    "growth": 5,
+    "health": 30,
+    "attack": 15,
     "defense": 7,
+    "growth": 5,
     "name": "Humana Inc.",
     "sector": "Healthcare",
-    "creatureName": "Carevier"
+    "creatureName": "Caregon"
   },
   {
     "ticker": "HBAN",
-    "health": 30,
+    "health": 40,
     "attack": 7,
-    "growth": 2,
     "defense": 8,
-    "name": "Huntington Bancshares Incorporated",
+    "growth": 5,
+    "name": "Huntington Bancshares Incorpora",
     "sector": "Financial Services",
-    "creatureName": "Bankclaw"
+    "creatureName": "Huntington"
   },
   {
     "ticker": "HII",
-    "health": 24,
+    "health": 28,
     "attack": 11,
-    "growth": 15,
-    "defense": 3,
-    "name": "Huntington Ingalls Industries, Inc.",
+    "defense": 4,
+    "growth": 8,
+    "name": "Huntington Ingalls Industries, ",
     "sector": "Industrials",
-    "creatureName": "Ironhull"
+    "creatureName": "Ironvoyager"
   },
   {
     "ticker": "IBM",
     "health": 80,
     "attack": 24,
-    "growth": 7,
-    "defense": 8,
-    "name": "International Business Machines Corporation",
+    "defense": 9,
+    "growth": 14,
+    "name": "International Business Machines",
     "sector": "Technology",
-    "creatureName": "Technoform"
+    "creatureName": "Cybermind"
   },
   {
     "ticker": "IEX",
-    "health": 30,
+    "health": 28,
     "attack": 9,
-    "growth": 3,
     "defense": 3,
+    "growth": 5,
     "name": "IDEX Corporation",
     "sector": "Industrials",
-    "creatureName": "Fluidex"
+    "creatureName": "Fluxvalve"
   },
   {
     "ticker": "IDXX",
     "health": 45,
     "attack": 11,
-    "growth": 6,
     "defense": 2,
+    "growth": 6,
     "name": "IDEXX Laboratories, Inc.",
     "sector": "Healthcare",
-    "creatureName": "Labehemoth"
+    "creatureName": "Diagnovet"
   },
   {
     "ticker": "ITW",
     "health": 55,
     "attack": 17,
-    "growth": 3,
     "defense": 2,
+    "growth": 6,
     "name": "Illinois Tool Works Inc.",
     "sector": "Industrials",
-    "creatureName": "Fastengear"
-  },
-  {
-    "ticker": "ILMN",
-    "health": 35,
-    "attack": 9,
-    "growth": 5,
-    "defense": 4,
-    "name": "Illumina, Inc.",
-    "sector": "Healthcare",
-    "creatureName": "Genomix"
+    "creatureName": "Forgeweld"
   },
   {
     "ticker": "INCY",
-    "health": 28,
+    "health": 30,
     "attack": 11,
-    "growth": 15,
     "defense": 4,
+    "growth": 10,
     "name": "Incyte Corporation",
     "sector": "Healthcare",
-    "creatureName": "Genovian"
+    "creatureName": "Kinasaur"
   },
   {
     "ticker": "IR",
-    "health": 45,
-    "attack": 15,
-    "growth": 5,
+    "health": 40,
+    "attack": 13,
     "defense": 6,
+    "growth": 7,
     "name": "Ingersoll Rand Inc.",
     "sector": "Industrials",
-    "creatureName": "Randblade"
+    "creatureName": "Pressureon"
   },
   {
     "ticker": "PODD",
-    "health": 24,
-    "attack": 7,
-    "growth": 15,
-    "defense": 1,
+    "health": 28,
+    "attack": 9,
+    "defense": 2,
+    "growth": 5,
     "name": "Insulet Corporation",
     "sector": "Healthcare",
-    "creatureName": "Insuloid"
+    "creatureName": "Podsulin"
   },
   {
     "ticker": "INTC",
     "health": 80,
     "attack": 5,
-    "growth": 5,
     "defense": 11,
+    "growth": 5,
     "name": "Intel Corporation",
     "sector": "Technology",
-    "creatureName": "Circuitwire"
+    "creatureName": "Intellichip"
   },
   {
     "ticker": "ICE",
     "health": 55,
-    "attack": 24,
-    "growth": 4,
+    "attack": 20,
     "defense": 9,
-    "name": "Intercontinental Exchange, Inc.",
+    "growth": 7,
+    "name": "Intercontinental Exchange Inc.",
     "sector": "Financial Services",
-    "creatureName": "Intercontinentalis"
+    "creatureName": "Exchangalus"
   },
   {
     "ticker": "IFF",
-    "health": 35,
-    "attack": 16,
-    "growth": 5,
+    "health": 30,
+    "attack": 20,
     "defense": 7,
-    "name": "International Flavors & Fragrances Inc.",
+    "growth": 5,
+    "name": "International Flavors & Fragran",
     "sector": "Basic Materials",
-    "creatureName": "Flavorweaver"
+    "creatureName": "Aromaflora"
   },
   {
     "ticker": "IP",
-    "health": 28,
-    "attack": 9,
-    "growth": 5,
+    "health": 30,
+    "attack": 5,
     "defense": 5,
+    "growth": 5,
     "name": "International Paper Company",
     "sector": "Consumer Cyclical",
-    "creatureName": "Paperpulp"
-  },
-  {
-    "ticker": "IPG",
-    "health": 24,
-    "attack": 7,
-    "growth": 11,
-    "defense": 3,
-    "name": "The Interpublic Group of Companies, Inc.",
-    "sector": "Communication Services",
-    "creatureName": "Interdigital"
+    "creatureName": "Pulpion"
   },
   {
     "ticker": "INTU",
-    "health": 80,
+    "health": 60,
     "attack": 20,
-    "growth": 3,
     "defense": 8,
+    "growth": 4,
     "name": "Intuit Inc.",
     "sector": "Technology",
-    "creatureName": "Numercruncher"
+    "creatureName": "Fintalon"
   },
   {
     "ticker": "ISRG",
     "health": 60,
-    "attack": 11,
-    "growth": 14,
+    "attack": 17,
     "defense": 7,
+    "growth": 7,
     "name": "Intuitive Surgical, Inc.",
     "sector": "Healthcare",
-    "creatureName": "SurgiSharp"
+    "creatureName": "Surgicrawl"
   },
   {
     "ticker": "IVZ",
     "health": 24,
     "attack": 11,
+    "defense": 6,
     "growth": 5,
-    "defense": 7,
-    "name": "Invesco Ltd.",
+    "name": "Invesco Ltd",
     "sector": "Financial Services",
-    "creatureName": "Investax"
+    "creatureName": "Portfoliowl"
   },
   {
     "ticker": "INVH",
-    "health": 35,
+    "health": 28,
     "attack": 13,
-    "growth": 8,
-    "defense": 6,
+    "defense": 5,
+    "growth": 5,
     "name": "Invitation Homes Inc.",
     "sector": "Real Estate",
-    "creatureName": "HomeBound"
+    "creatureName": "Homeguard"
   },
   {
     "ticker": "IQV",
-    "health": 45,
-    "attack": 15,
-    "growth": 15,
+    "health": 40,
+    "attack": 17,
     "defense": 4,
-    "name": "IQVIA Holdings Inc.",
+    "growth": 7,
+    "name": "IQVIA Holdings, Inc.",
     "sector": "Healthcare",
-    "creatureName": "Analytical Investigator"
+    "creatureName": "Datasynthix"
   },
   {
     "ticker": "IRM",
-    "health": 35,
-    "attack": 7,
-    "growth": 2,
+    "health": 40,
+    "attack": 5,
     "defense": 1,
-    "name": "Iron Mountain Incorporated",
+    "growth": 4,
+    "name": "Iron Mountain Incorporated (Del",
     "sector": "Real Estate",
-    "creatureName": "Ironmaul"
+    "creatureName": "Ironvault"
   },
   {
     "ticker": "JBHT",
     "health": 30,
-    "attack": 5,
-    "growth": 3,
+    "attack": 11,
     "defense": 3,
-    "name": "J.B. Hunt Transport Services, Inc.",
+    "growth": 7,
+    "name": "J.B. Hunt Transport Services, I",
     "sector": "Industrials",
-    "creatureName": "Hauler Hydra"
+    "creatureName": "Truckodile"
   },
   {
     "ticker": "JBL",
-    "health": 30,
+    "health": 35,
     "attack": 15,
-    "growth": 15,
     "defense": 2,
+    "growth": 10,
     "name": "Jabil Inc.",
     "sector": "Technology",
-    "creatureName": "Jab-Chip"
+    "creatureName": "Assemblix"
   },
   {
     "ticker": "JKHY",
     "health": 24,
-    "attack": 7,
-    "growth": 6,
+    "attack": 9,
     "defense": 2,
+    "growth": 8,
     "name": "Jack Henry & Associates, Inc.",
     "sector": "Technology",
-    "creatureName": "Ledgerclaw"
+    "creatureName": "Transactizard"
   },
   {
     "ticker": "J",
-    "health": 30,
+    "health": 28,
     "attack": 13,
-    "growth": 8,
-    "defense": 5,
+    "defense": 3,
+    "growth": 5,
     "name": "Jacobs Solutions Inc.",
     "sector": "Industrials",
-    "creatureName": "Jacobian"
+    "creatureName": "Infrastructor"
   },
   {
     "ticker": "JNJ",
     "health": 80,
     "attack": 24,
-    "growth": 6,
     "defense": 11,
+    "growth": 10,
     "name": "Johnson & Johnson",
     "sector": "Healthcare",
-    "creatureName": "Mediphor"
+    "creatureName": "Medica"
   },
   {
     "ticker": "JCI",
-    "health": 45,
+    "health": 55,
     "attack": 17,
-    "growth": 15,
-    "defense": 8,
-    "name": "Johnson Controls International plc",
+    "defense": 7,
+    "growth": 8,
+    "name": "Johnson Controls International ",
     "sector": "Industrials",
-    "creatureName": "Climatecore"
+    "creatureName": "Climatrol"
   },
   {
     "ticker": "JPM",
     "health": 80,
     "attack": 7,
-    "growth": 3,
     "defense": 11,
-    "name": "JPMorgan Chase & Co.",
+    "growth": 4,
+    "name": "JP Morgan Chase & Co.",
     "sector": "Financial Services",
-    "creatureName": "MoneyMorph"
-  },
-  {
-    "ticker": "JNPR",
-    "health": 24,
-    "attack": 11,
-    "growth": 2,
-    "defense": 3,
-    "name": "Juniper Networks, Inc.",
-    "sector": "Technology",
-    "creatureName": "Junipera"
-  },
-  {
-    "ticker": "K",
-    "health": 30,
-    "attack": 9,
-    "growth": 5,
-    "defense": 3,
-    "name": "Kellanova",
-    "sector": "Consumer Defensive",
-    "creatureName": "Crunchiper"
+    "creatureName": "Vaultyx"
   },
   {
     "ticker": "KVUE",
-    "health": 45,
-    "attack": 17,
-    "growth": 3,
-    "defense": 6,
+    "health": 40,
+    "attack": 16,
+    "defense": 5,
+    "growth": 6,
     "name": "Kenvue Inc.",
     "sector": "Consumer Defensive",
-    "creatureName": "Dermavine"
+    "creatureName": "Medcare"
   },
   {
     "ticker": "KDP",
     "health": 45,
-    "attack": 11,
-    "growth": 11,
-    "defense": 9,
+    "attack": 15,
+    "defense": 8,
+    "growth": 5,
     "name": "Keurig Dr Pepper Inc.",
     "sector": "Consumer Defensive",
-    "creatureName": "Cupricorn"
+    "creatureName": "Brewvort"
   },
   {
     "ticker": "KEY",
-    "health": 28,
+    "health": 30,
     "attack": 7,
-    "growth": 2,
-    "defense": 7,
+    "defense": 8,
+    "growth": 5,
     "name": "KeyCorp",
     "sector": "Financial Services",
-    "creatureName": "Keycron"
+    "creatureName": "Vaulteon"
   },
   {
     "ticker": "KEYS",
-    "health": 40,
+    "health": 45,
     "attack": 13,
-    "growth": 2,
     "defense": 4,
-    "name": "Keysight Technologies, Inc.",
+    "growth": 12,
+    "name": "Keysight Technologies Inc.",
     "sector": "Technology",
-    "creatureName": "Circuitron"
+    "creatureName": "Oscillavolt"
   },
   {
     "ticker": "KMB",
-    "health": 45,
-    "attack": 17,
-    "growth": 5,
-    "defense": 1,
+    "health": 40,
+    "attack": 13,
+    "defense": 2,
+    "growth": 6,
     "name": "Kimberly-Clark Corporation",
     "sector": "Consumer Defensive",
-    "creatureName": "Cottony Claft"
+    "creatureName": "Softwraith"
   },
   {
     "ticker": "KIM",
     "health": 28,
     "attack": 13,
-    "growth": 5,
     "defense": 6,
-    "name": "Kimco Realty Corporation",
+    "growth": 4,
+    "name": "Kimco Realty Corporation (HC)",
     "sector": "Real Estate",
-    "creatureName": "Retailodon"
+    "creatureName": "Centroplex"
   },
   {
     "ticker": "KMI",
-    "health": 45,
-    "attack": 5,
-    "growth": 4,
+    "health": 50,
+    "attack": 9,
     "defense": 9,
+    "growth": 10,
     "name": "Kinder Morgan, Inc.",
     "sector": "Energy",
-    "creatureName": "Pipefern"
+    "creatureName": "Pipeflux"
+  },
+  {
+    "ticker": "KKR",
+    "health": 55,
+    "attack": 7,
+    "defense": 8,
+    "growth": 5,
+    "name": "KKR & Co. Inc.",
+    "sector": "Financial Services",
+    "creatureName": "Capitaleon"
   },
   {
     "ticker": "KLAC",
-    "health": 55,
+    "health": 80,
     "attack": 17,
-    "growth": 2,
-    "defense": 2,
+    "defense": 3,
+    "growth": 9,
     "name": "KLA Corporation",
     "sector": "Technology",
-    "creatureName": "Metrimorph"
+    "creatureName": "Inspectron"
   },
   {
     "ticker": "KHC",
-    "health": 50,
+    "health": 35,
     "attack": 17,
-    "growth": 3,
     "defense": 11,
+    "growth": 2,
     "name": "The Kraft Heinz Company",
     "sector": "Consumer Defensive",
-    "creatureName": "Condimental"
+    "creatureName": "Condimunch"
   },
   {
     "ticker": "KR",
     "health": 45,
-    "attack": 20,
-    "growth": 2,
-    "defense": 6,
-    "name": "The Kroger Co.",
+    "attack": 17,
+    "defense": 5,
+    "growth": 5,
+    "name": "Kroger Company (The)",
     "sector": "Consumer Defensive",
-    "creatureName": "Krogern"
+    "creatureName": "Groceroth"
   },
   {
     "ticker": "LHX",
-    "health": 45,
-    "attack": 16,
-    "growth": 2,
+    "health": 50,
+    "attack": 17,
     "defense": 8,
+    "growth": 2,
     "name": "L3Harris Technologies, Inc.",
     "sector": "Industrials",
-    "creatureName": "Resoncore"
+    "creatureName": "Stratuscom"
   },
   {
     "ticker": "LH",
     "health": 30,
-    "attack": 15,
-    "growth": 5,
+    "attack": 13,
     "defense": 5,
-    "name": "Laboratory Corporation of America Holdings",
+    "growth": 6,
+    "name": "Labcorp Holdings Inc.",
     "sector": "Healthcare",
-    "creatureName": "Pathoscope"
+    "creatureName": "Labvial"
   },
   {
     "ticker": "LRCX",
-    "health": 60,
+    "health": 80,
     "attack": 20,
-    "growth": 2,
     "defense": 5,
+    "growth": 8,
     "name": "Lam Research Corporation",
     "sector": "Technology",
-    "creatureName": "Etchraptor"
+    "creatureName": "Laminarc"
   },
   {
     "ticker": "LW",
     "health": 24,
-    "attack": 5,
-    "growth": 15,
+    "attack": 11,
     "defense": 2,
+    "growth": 5,
     "name": "Lamb Weston Holdings, Inc.",
     "sector": "Consumer Defensive",
-    "creatureName": "Spudstorm"
+    "creatureName": "Potatuber"
   },
   {
     "ticker": "LVS",
-    "health": 45,
+    "health": 40,
     "attack": 16,
-    "growth": 5,
-    "defense": 3,
+    "defense": 2,
+    "growth": 7,
     "name": "Las Vegas Sands Corp.",
     "sector": "Consumer Cyclical",
-    "creatureName": "GamblingGiant"
+    "creatureName": "Sandysaur"
   },
   {
     "ticker": "LDOS",
     "health": 30,
     "attack": 13,
-    "growth": 8,
-    "defense": 3,
+    "defense": 4,
+    "growth": 7,
     "name": "Leidos Holdings, Inc.",
     "sector": "Technology",
-    "creatureName": "Cogitatrus"
+    "creatureName": "Defenselink"
   },
   {
     "ticker": "LEN",
-    "health": 50,
-    "attack": 20,
-    "growth": 7,
-    "defense": 9,
+    "health": 35,
+    "attack": 24,
+    "defense": 8,
+    "growth": 2,
     "name": "Lennar Corporation",
     "sector": "Consumer Cyclical",
-    "creatureName": "Homepinner"
+    "creatureName": "Homebuild"
+  },
+  {
+    "ticker": "LII",
+    "health": 30,
+    "attack": 9,
+    "defense": 1,
+    "growth": 3,
+    "name": "Lennox International, Inc.",
+    "sector": "Industrials",
+    "creatureName": "Climatryx"
+  },
+  {
+    "ticker": "LLY",
+    "health": 80,
+    "attack": 16,
+    "defense": 9,
+    "growth": 10,
+    "name": "Eli Lilly and Company",
+    "sector": "Healthcare",
+    "creatureName": "Pharmaveil"
   },
   {
     "ticker": "LIN",
     "health": 80,
     "attack": 20,
-    "growth": 7,
     "defense": 9,
+    "growth": 4,
     "name": "Linde plc",
     "sector": "Basic Materials",
-    "creatureName": "Cryolion"
+    "creatureName": "Gasaur"
   },
   {
     "ticker": "LYV",
-    "health": 35,
+    "health": 40,
     "attack": 13,
+    "defense": 1,
     "growth": 5,
-    "defense": 2,
     "name": "Live Nation Entertainment, Inc.",
     "sector": "Communication Services",
-    "creatureName": "Soundwave"
+    "creatureName": "Rhythmage"
   },
   {
     "ticker": "LKQ",
-    "health": 28,
+    "health": 24,
     "attack": 11,
-    "growth": 4,
     "defense": 4,
+    "growth": 2,
     "name": "LKQ Corporation",
     "sector": "Consumer Cyclical",
-    "creatureName": "Salvageclaw"
+    "creatureName": "Partmech"
   },
   {
     "ticker": "LMT",
     "health": 60,
     "attack": 20,
-    "growth": 5,
-    "defense": 5,
+    "defense": 4,
+    "growth": 15,
     "name": "Lockheed Martin Corporation",
     "sector": "Industrials",
-    "creatureName": "Lockmissile"
+    "creatureName": "Stratawing"
   },
   {
     "ticker": "L",
     "health": 30,
-    "attack": 17,
-    "growth": 8,
+    "attack": 16,
     "defense": 8,
+    "growth": 15,
     "name": "Loews Corporation",
     "sector": "Financial Services",
-    "creatureName": "Insurasaur"
+    "creatureName": "Shieldveil"
   },
   {
     "ticker": "LOW",
     "health": 60,
     "attack": 20,
-    "growth": 6,
     "defense": 1,
+    "growth": 4,
     "name": "Lowe's Companies, Inc.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Hardwarehog"
+    "creatureName": "Buildwrench"
   },
   {
     "ticker": "LULU",
-    "health": 50,
-    "attack": 16,
-    "growth": 15,
+    "health": 30,
+    "attack": 13,
     "defense": 3,
-    "name": "Lululemon Athletica Inc.",
+    "growth": 4,
+    "name": "lululemon athletica inc.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Yogapelta"
+    "creatureName": "Yogaform"
   },
   {
     "ticker": "LYB",
-    "health": 40,
-    "attack": 16,
-    "growth": 2,
-    "defense": 7,
-    "name": "LyondellBasell Industries N.V.",
+    "health": 30,
+    "attack": 9,
+    "defense": 6,
+    "growth": 5,
+    "name": "LyondellBasell Industries NV",
     "sector": "Basic Materials",
-    "creatureName": "Polymerax"
+    "creatureName": "Polymolten"
   },
   {
     "ticker": "MTB",
-    "health": 35,
+    "health": 40,
     "attack": 7,
-    "growth": 2,
     "defense": 9,
+    "growth": 6,
     "name": "M&T Bank Corporation",
     "sector": "Financial Services",
-    "creatureName": "Depositvault"
-  },
-  {
-    "ticker": "MRO",
-    "health": 30,
-    "attack": 15,
-    "growth": 3,
-    "defense": 6,
-    "name": "Marathon Oil Corporation",
-    "sector": "Energy",
-    "creatureName": "Marathoil"
+    "creatureName": "Trustvault"
   },
   {
     "ticker": "MPC",
-    "health": 55,
-    "attack": 24,
-    "growth": 2,
-    "defense": 9,
+    "health": 50,
+    "attack": 7,
+    "defense": 7,
+    "growth": 15,
     "name": "Marathon Petroleum Corporation",
     "sector": "Energy",
-    "creatureName": "Refinechip"
+    "creatureName": "Refinflux"
   },
   {
     "ticker": "MKTX",
     "health": 24,
-    "attack": 7,
-    "growth": 7,
+    "attack": 9,
     "defense": 1,
-    "name": "MarketAxess Holdings Inc.",
+    "growth": 9,
+    "name": "MarketAxess Holdings, Inc.",
     "sector": "Financial Services",
-    "creatureName": "Marketrader"
+    "creatureName": "Bondaxe"
   },
   {
     "ticker": "MAR",
     "health": 55,
-    "attack": 17,
-    "growth": 9,
+    "attack": 16,
     "defense": 1,
-    "name": "Marriott International, Inc.",
+    "growth": 5,
+    "name": "Marriott International",
     "sector": "Consumer Cyclical",
-    "creatureName": "Luxurihost"
+    "creatureName": "Luxotel"
   },
   {
     "ticker": "MMC",
-    "health": 60,
+    "health": 55,
     "attack": 20,
-    "growth": 11,
     "defense": 7,
-    "name": "Marsh & McLennan Companies, Inc.",
+    "growth": 5,
+    "name": "Marsh & McLennan Companies, Inc",
     "sector": "Financial Services",
-    "creatureName": "Marshmarble"
+    "creatureName": "Shieldwise"
   },
   {
     "ticker": "MLM",
     "health": 45,
-    "attack": 11,
-    "growth": 10,
-    "defense": 5,
+    "attack": 5,
+    "defense": 6,
+    "growth": 4,
     "name": "Martin Marietta Materials, Inc.",
     "sector": "Basic Materials",
-    "creatureName": "Quarryx"
+    "creatureName": "Stonecrete"
   },
   {
     "ticker": "MAS",
-    "health": 30,
-    "attack": 13,
-    "growth": 12,
+    "health": 28,
+    "attack": 11,
     "defense": 1,
+    "growth": 4,
     "name": "Masco Corporation",
     "sector": "Industrials",
-    "creatureName": "Faucetail"
+    "creatureName": "Aquaforge"
   },
   {
     "ticker": "MA",
     "health": 80,
     "attack": 24,
-    "growth": 6,
     "defense": 5,
+    "growth": 7,
     "name": "Mastercard Incorporated",
     "sector": "Financial Services",
-    "creatureName": "Creditlion"
+    "creatureName": "Cardmantis"
   },
   {
     "ticker": "MTCH",
     "health": 24,
-    "attack": 11,
-    "growth": 15,
+    "attack": 13,
     "defense": 1,
+    "growth": 8,
     "name": "Match Group, Inc.",
     "sector": "Communication Services",
-    "creatureName": "Heartstruck"
+    "creatureName": "Cupidlink"
   },
   {
     "ticker": "MKC",
     "health": 30,
-    "attack": 13,
-    "growth": 7,
+    "attack": 9,
     "defense": 4,
-    "name": "McCormick & Company, Incorporated",
+    "growth": 6,
+    "name": "McCormick & Company, Incorporat",
     "sector": "Consumer Defensive",
-    "creatureName": "Spicemancer"
+    "creatureName": "Seasonix"
   },
   {
     "ticker": "MCD",
     "health": 80,
     "attack": 24,
-    "growth": 6,
     "defense": 1,
+    "growth": 6,
     "name": "McDonald's Corporation",
     "sector": "Consumer Cyclical",
-    "creatureName": "Burgerbot"
+    "creatureName": "Fryeon"
   },
   {
     "ticker": "MCK",
-    "health": 55,
-    "attack": 17,
-    "growth": 2,
+    "health": 60,
+    "attack": 24,
     "defense": 1,
+    "growth": 8,
     "name": "McKesson Corporation",
     "sector": "Healthcare",
-    "creatureName": "Pharmanoid"
+    "creatureName": "Pharmadex"
   },
   {
     "ticker": "MDT",
     "health": 60,
     "attack": 20,
-    "growth": 6,
     "defense": 11,
-    "name": "Medtronic plc",
+    "growth": 4,
+    "name": "Medtronic plc.",
     "sector": "Healthcare",
-    "creatureName": "MedTronik"
+    "creatureName": "Cardiopulse"
   },
   {
     "ticker": "MRK",
     "health": 80,
-    "attack": 16,
-    "growth": 5,
-    "defense": 9,
-    "name": "Merck & Co., Inc.",
+    "attack": 24,
+    "defense": 11,
+    "growth": 3,
+    "name": "Merck & Company, Inc.",
     "sector": "Healthcare",
-    "creatureName": "Vacciguard"
+    "creatureName": "Medicurex"
   },
   {
     "ticker": "META",
     "health": 80,
     "attack": 24,
-    "growth": 15,
     "defense": 11,
+    "growth": 6,
     "name": "Meta Platforms, Inc.",
     "sector": "Communication Services",
-    "creatureName": "Metaverse Mimic"
+    "creatureName": "Metaverse"
   },
   {
     "ticker": "MET",
-    "health": 50,
+    "health": 45,
     "attack": 5,
-    "growth": 2,
     "defense": 9,
+    "growth": 2,
     "name": "MetLife, Inc.",
     "sector": "Financial Services",
-    "creatureName": "Metaphy"
+    "creatureName": "Securitect"
   },
   {
     "ticker": "MTD",
-    "health": 40,
+    "health": 35,
     "attack": 11,
-    "growth": 2,
     "defense": 1,
-    "name": "Mettler-Toledo International Inc.",
+    "growth": 6,
+    "name": "Mettler-Toledo International, I",
     "sector": "Healthcare",
-    "creatureName": "Weightalix"
+    "creatureName": "Precisionyx"
   },
   {
     "ticker": "MGM",
-    "health": 28,
-    "attack": 13,
-    "growth": 8,
-    "defense": 3,
+    "health": 24,
+    "attack": 9,
+    "defense": 2,
+    "growth": 14,
     "name": "MGM Resorts International",
     "sector": "Consumer Cyclical",
-    "creatureName": "Casinocore"
+    "creatureName": "Luxegambit"
   },
   {
     "ticker": "MCHP",
-    "health": 50,
-    "attack": 17,
-    "growth": 2,
+    "health": 45,
+    "attack": 13,
     "defense": 4,
-    "name": "Microchip Technology Incorporated",
+    "growth": 5,
+    "name": "Microchip Technology Incorporat",
     "sector": "Technology",
-    "creatureName": "Microchipler"
+    "creatureName": "Microchipian"
   },
   {
     "ticker": "MU",
-    "health": 60,
-    "attack": 5,
-    "growth": 5,
+    "health": 80,
+    "attack": 9,
     "defense": 11,
+    "growth": 15,
     "name": "Micron Technology, Inc.",
     "sector": "Technology",
-    "creatureName": "Memogradon"
+    "creatureName": "Micronstorage"
   },
   {
     "ticker": "MSFT",
     "health": 80,
     "attack": 24,
-    "growth": 8,
     "defense": 11,
+    "growth": 11,
     "name": "Microsoft Corporation",
     "sector": "Technology",
-    "creatureName": "Microtech"
+    "creatureName": "Cloudmind"
   },
   {
     "ticker": "MAA",
     "health": 28,
     "attack": 13,
-    "growth": 3,
     "defense": 4,
-    "name": "Mid-America Apartment Communities, Inc.",
+    "growth": 2,
+    "name": "Mid-America Apartment Communiti",
     "sector": "Real Estate",
-    "creatureName": "Comfurta"
+    "creatureName": "Apartmite"
   },
   {
     "ticker": "MRNA",
-    "health": 45,
+    "health": 30,
     "attack": 5,
-    "growth": 2,
-    "defense": 7,
+    "defense": 6,
+    "growth": 5,
     "name": "Moderna, Inc.",
     "sector": "Healthcare",
-    "creatureName": "Modulan"
+    "creatureName": "Helix-RNA"
   },
   {
     "ticker": "MHK",
     "health": 24,
     "attack": 11,
-    "growth": 15,
     "defense": 5,
+    "growth": 2,
     "name": "Mohawk Industries, Inc.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Floorstomp"
+    "creatureName": "Floorax"
   },
   {
     "ticker": "MOH",
-    "health": 35,
-    "attack": 13,
-    "growth": 15,
+    "health": 24,
+    "attack": 7,
     "defense": 3,
-    "name": "Molina Healthcare, Inc.",
+    "growth": 5,
+    "name": "Molina Healthcare Inc",
     "sector": "Healthcare",
-    "creatureName": "Medi-Mole"
+    "creatureName": "Caretaurus"
   },
   {
     "ticker": "TAP",
-    "health": 28,
-    "attack": 15,
-    "growth": 5,
-    "defense": 7,
+    "health": 24,
+    "attack": 11,
+    "defense": 6,
+    "growth": 3,
     "name": "Molson Coors Beverage Company",
     "sector": "Consumer Defensive",
-    "creatureName": "Barrelchug"
+    "creatureName": "Brewaur"
   },
   {
     "ticker": "MDLZ",
     "health": 55,
     "attack": 20,
-    "growth": 12,
     "defense": 9,
+    "growth": 2,
     "name": "Mondelez International, Inc.",
     "sector": "Consumer Defensive",
-    "creatureName": "Delizioso"
+    "creatureName": "Snackzee"
   },
   {
     "ticker": "MPWR",
-    "health": 40,
-    "attack": 9,
-    "growth": 3,
+    "health": 50,
+    "attack": 7,
     "defense": 2,
+    "growth": 2,
     "name": "Monolithic Power Systems, Inc.",
     "sector": "Technology",
-    "creatureName": "Powermech"
+    "creatureName": "Voltweld"
   },
   {
     "ticker": "MNST",
-    "health": 50,
-    "attack": 13,
-    "growth": 7,
-    "defense": 5,
+    "health": 55,
+    "attack": 16,
+    "defense": 4,
+    "growth": 12,
     "name": "Monster Beverage Corporation",
     "sector": "Consumer Defensive",
-    "creatureName": "Monsterup"
+    "creatureName": "Energaul"
   },
   {
     "ticker": "MCO",
     "health": 55,
-    "attack": 16,
-    "growth": 9,
-    "defense": 2,
+    "attack": 17,
+    "defense": 3,
+    "growth": 10,
     "name": "Moody's Corporation",
     "sector": "Financial Services",
-    "creatureName": "Creditscale"
+    "creatureName": "Ratingwing"
   },
   {
     "ticker": "MS",
-    "health": 60,
+    "health": 80,
     "attack": 7,
-    "growth": 2,
     "defense": 11,
+    "growth": 7,
     "name": "Morgan Stanley",
     "sector": "Financial Services",
-    "creatureName": "Wealthweaver"
+    "creatureName": "Wealthion"
   },
   {
     "ticker": "MOS",
     "health": 24,
-    "attack": 15,
-    "growth": 2,
-    "defense": 7,
-    "name": "The Mosaic Company",
+    "attack": 5,
+    "defense": 6,
+    "growth": 5,
+    "name": "Mosaic Company (The)",
     "sector": "Basic Materials",
-    "creatureName": "Croprite"
+    "creatureName": "Mineraglyph"
   },
   {
     "ticker": "MSI",
-    "health": 50,
-    "attack": 15,
-    "growth": 5,
-    "defense": 1,
+    "health": 55,
+    "attack": 16,
+    "defense": 2,
+    "growth": 6,
     "name": "Motorola Solutions, Inc.",
     "sector": "Technology",
-    "creatureName": "Mobilatron"
+    "creatureName": "Radiomantis"
   },
   {
     "ticker": "MSCI",
     "health": 45,
-    "attack": 13,
-    "growth": 14,
+    "attack": 15,
     "defense": 1,
+    "growth": 4,
     "name": "MSCI Inc.",
     "sector": "Financial Services",
-    "creatureName": "Financollect"
+    "creatureName": "Indexion"
   },
   {
     "ticker": "NDAQ",
     "health": 45,
-    "attack": 15,
-    "growth": 2,
+    "attack": 16,
     "defense": 6,
+    "growth": 10,
     "name": "Nasdaq, Inc.",
     "sector": "Financial Services",
-    "creatureName": "Digitile"
+    "creatureName": "Stockvortex"
   },
   {
     "ticker": "NTAP",
-    "health": 35,
+    "health": 30,
     "attack": 15,
-    "growth": 15,
     "defense": 1,
+    "growth": 6,
     "name": "NetApp, Inc.",
     "sector": "Technology",
-    "creatureName": "Databo"
+    "creatureName": "Datastorix"
   },
   {
     "ticker": "NFLX",
     "health": 80,
     "attack": 24,
-    "growth": 15,
-    "defense": 8,
+    "defense": 9,
+    "growth": 8,
     "name": "Netflix, Inc.",
     "sector": "Communication Services",
-    "creatureName": "StreamFin"
+    "creatureName": "Streamix"
   },
   {
     "ticker": "NEM",
-    "health": 50,
-    "attack": 5,
-    "growth": 5,
+    "health": 60,
+    "attack": 24,
     "defense": 9,
+    "growth": 4,
     "name": "Newmont Corporation",
     "sector": "Basic Materials",
-    "creatureName": "Goldclimber"
+    "creatureName": "Aurumite"
   },
   {
     "ticker": "NWSA",
     "health": 28,
-    "attack": 11,
-    "growth": 15,
+    "attack": 16,
     "defense": 5,
+    "growth": 4,
     "name": "News Corporation",
     "sector": "Communication Services",
-    "creatureName": "Newshawk"
+    "creatureName": "Pressurion"
   },
   {
     "ticker": "NWS",
     "health": 28,
-    "attack": 11,
-    "growth": 15,
+    "attack": 16,
     "defense": 5,
+    "growth": 4,
     "name": "News Corporation",
     "sector": "Communication Services",
-    "creatureName": "Newsreel"
+    "creatureName": "Newsbound"
   },
   {
     "ticker": "NEE",
-    "health": 60,
+    "health": 80,
     "attack": 5,
-    "growth": 3,
     "defense": 11,
+    "growth": 8,
     "name": "NextEra Energy, Inc.",
     "sector": "Utilities",
-    "creatureName": "Powersurge"
+    "creatureName": "Nextwatt"
   },
   {
     "ticker": "NKE",
-    "health": 60,
-    "attack": 7,
-    "growth": 5,
+    "health": 55,
+    "attack": 17,
     "defense": 7,
-    "name": "NIKE, Inc.",
+    "growth": 2,
+    "name": "Nike, Inc.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Sonicstride"
+    "creatureName": "Swooshound"
   },
   {
     "ticker": "NI",
-    "health": 24,
+    "health": 30,
     "attack": 5,
-    "growth": 5,
-    "defense": 6,
-    "name": "NiSource Inc.",
+    "defense": 5,
+    "growth": 7,
+    "name": "NiSource Inc",
     "sector": "Utilities",
-    "creatureName": "Energyvine"
+    "creatureName": "Energalix"
   },
   {
     "ticker": "NDSN",
     "health": 28,
     "attack": 9,
-    "growth": 5,
     "defense": 2,
+    "growth": 9,
     "name": "Nordson Corporation",
     "sector": "Industrials",
-    "creatureName": "Fluidclaw"
+    "creatureName": "Dispensoid"
   },
   {
     "ticker": "NSC",
     "health": 50,
-    "attack": 16,
-    "growth": 2,
+    "attack": 15,
     "defense": 7,
+    "growth": 4,
     "name": "Norfolk Southern Corporation",
     "sector": "Industrials",
-    "creatureName": "Railclaw"
+    "creatureName": "Railcargo"
   },
   {
     "ticker": "NTRS",
-    "health": 30,
+    "health": 35,
     "attack": 7,
-    "growth": 2,
     "defense": 7,
+    "growth": 5,
     "name": "Northern Trust Corporation",
     "sector": "Financial Services",
-    "creatureName": "Trustguard"
+    "creatureName": "Vaulteon"
   },
   {
     "ticker": "NOC",
     "health": 55,
-    "attack": 16,
-    "growth": 5,
+    "attack": 17,
     "defense": 7,
+    "growth": 6,
     "name": "Northrop Grumman Corporation",
     "sector": "Industrials",
-    "creatureName": "Skyraider"
+    "creatureName": "Stratosguardian"
   },
   {
     "ticker": "NCLH",
     "health": 24,
     "attack": 5,
-    "growth": 5,
     "defense": 1,
-    "name": "Norwegian Cruise Line Holdings Ltd.",
+    "growth": 4,
+    "name": "Norwegian Cruise Line Holdings ",
     "sector": "Consumer Cyclical",
-    "creatureName": "Oceansturm"
+    "creatureName": "Cruisarion"
   },
   {
     "ticker": "NRG",
-    "health": 28,
-    "attack": 17,
-    "growth": 5,
+    "health": 40,
+    "attack": 13,
     "defense": 2,
+    "growth": 2,
     "name": "NRG Energy, Inc.",
     "sector": "Utilities",
-    "creatureName": "Solarion"
+    "creatureName": "Energyte"
   },
   {
     "ticker": "NUE",
-    "health": 50,
-    "attack": 20,
-    "growth": 2,
+    "health": 45,
+    "attack": 5,
     "defense": 8,
+    "growth": 8,
     "name": "Nucor Corporation",
     "sector": "Basic Materials",
-    "creatureName": "Steeligator"
+    "creatureName": "Steelforge"
   },
   {
     "ticker": "NVDA",
     "health": 80,
     "attack": 24,
-    "growth": 15,
     "defense": 11,
+    "growth": 14,
     "name": "NVIDIA Corporation",
     "sector": "Technology",
-    "creatureName": "Graphexus"
+    "creatureName": "Rendoryx"
   },
   {
     "ticker": "NVR",
-    "health": 35,
+    "health": 30,
     "attack": 15,
-    "growth": 4,
     "defense": 3,
+    "growth": 3,
     "name": "NVR, Inc.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Domicile"
+    "creatureName": "Constructavern"
   },
   {
     "ticker": "NXPI",
-    "health": 55,
+    "health": 50,
     "attack": 16,
-    "growth": 5,
-    "defense": 5,
+    "defense": 6,
+    "growth": 4,
     "name": "NXP Semiconductors N.V.",
     "sector": "Technology",
-    "creatureName": "NXcontroller"
+    "creatureName": "Circuwave"
   },
   {
     "ticker": "ORLY",
     "health": 55,
-    "attack": 16,
-    "growth": 6,
+    "attack": 13,
     "defense": 1,
+    "growth": 6,
     "name": "O'Reilly Automotive, Inc.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Mechashell"
+    "creatureName": "Mechalix"
   },
   {
     "ticker": "OXY",
-    "health": 55,
-    "attack": 20,
-    "growth": 2,
+    "health": 45,
+    "attack": 16,
     "defense": 9,
-    "name": "Occidental Petroleum Corporation",
+    "growth": 5,
+    "name": "Occidental Petroleum Corporatio",
     "sector": "Energy",
-    "creatureName": "Petrolemaniac"
+    "creatureName": "Petrodon"
   },
   {
     "ticker": "ODFL",
-    "health": 50,
+    "health": 45,
     "attack": 11,
-    "growth": 5,
     "defense": 3,
+    "growth": 4,
     "name": "Old Dominion Freight Line, Inc.",
     "sector": "Industrials",
-    "creatureName": "Dominion Hauler"
+    "creatureName": "Truckzilla"
   },
   {
     "ticker": "OMC",
-    "health": 30,
-    "attack": 15,
+    "health": 35,
+    "attack": 20,
+    "defense": 6,
     "growth": 5,
-    "defense": 3,
     "name": "Omnicom Group Inc.",
     "sector": "Communication Services",
-    "creatureName": "Omnikinesis"
+    "creatureName": "Omnichannel"
   },
   {
     "ticker": "ON",
-    "health": 40,
-    "attack": 5,
-    "growth": 4,
+    "health": 35,
+    "attack": 16,
     "defense": 5,
+    "growth": 2,
     "name": "ON Semiconductor Corporation",
     "sector": "Technology",
-    "creatureName": "Voltarc"
+    "creatureName": "Senspower"
   },
   {
     "ticker": "OKE",
-    "health": 50,
-    "attack": 15,
-    "growth": 6,
+    "health": 45,
+    "attack": 11,
     "defense": 7,
+    "growth": 6,
     "name": "ONEOK, Inc.",
     "sector": "Energy",
-    "creatureName": "Gaslume"
+    "creatureName": "Pipeflux"
   },
   {
     "ticker": "ORCL",
     "health": 80,
-    "attack": 24,
-    "growth": 7,
-    "defense": 2,
+    "attack": 5,
+    "defense": 8,
+    "growth": 14,
     "name": "Oracle Corporation",
     "sector": "Technology",
-    "creatureName": "Oraculix"
+    "creatureName": "Oraclon"
   },
   {
     "ticker": "OTIS",
-    "health": 45,
+    "health": 40,
     "attack": 16,
-    "growth": 6,
     "defense": 1,
+    "growth": 6,
     "name": "Otis Worldwide Corporation",
     "sector": "Industrials",
-    "creatureName": "Elevlift"
+    "creatureName": "Elevtus"
   },
   {
     "ticker": "PCAR",
-    "health": 55,
-    "attack": 20,
-    "growth": 10,
-    "defense": 7,
-    "name": "PACCAR Inc",
+    "health": 50,
+    "attack": 17,
+    "defense": 8,
+    "growth": 2,
+    "name": "PACCAR Inc.",
     "sector": "Industrials",
-    "creatureName": "Truckbeast"
+    "creatureName": "Truckron"
   },
   {
     "ticker": "PKG",
     "health": 30,
-    "attack": 11,
-    "growth": 4,
+    "attack": 7,
     "defense": 3,
-    "name": "Packaging Corporation of America",
+    "growth": 2,
+    "name": "Packaging Corporation of Americ",
     "sector": "Consumer Cyclical",
-    "creatureName": "Packachu"
+    "creatureName": "Corrugaurd"
+  },
+  {
+    "ticker": "PLTR",
+    "health": 80,
+    "attack": 15,
+    "defense": 5,
+    "growth": 15,
+    "name": "Palantir Technologies Inc.",
+    "sector": "Technology",
+    "creatureName": "Palanthorn"
   },
   {
     "ticker": "PANW",
-    "health": 55,
+    "health": 60,
     "attack": 17,
-    "growth": 15,
-    "defense": 2,
+    "defense": 5,
+    "growth": 11,
     "name": "Palo Alto Networks, Inc.",
     "sector": "Technology",
-    "creatureName": "Cybershield"
+    "creatureName": "Firewallion"
   },
   {
-    "ticker": "PARA",
-    "health": 24,
+    "ticker": "PSKY",
+    "health": 28,
     "attack": 24,
-    "growth": 15,
-    "defense": 8,
-    "name": "Paramount Global",
+    "defense": 7,
+    "growth": 5,
+    "name": "Paramount Skydance Corporation",
     "sector": "Communication Services",
-    "creatureName": "Streamforge"
+    "creatureName": "Skyflixion"
   },
   {
     "ticker": "PH",
-    "health": 55,
-    "attack": 20,
-    "growth": 12,
-    "defense": 6,
+    "health": 60,
+    "attack": 17,
+    "defense": 7,
+    "growth": 4,
     "name": "Parker-Hannifin Corporation",
     "sector": "Industrials",
-    "creatureName": "Hydraulixer"
+    "creatureName": "Hydraulux"
   },
   {
     "ticker": "PAYX",
-    "health": 45,
+    "health": 40,
     "attack": 16,
-    "growth": 6,
     "defense": 3,
+    "growth": 5,
     "name": "Paychex, Inc.",
-    "sector": "Industrials",
-    "creatureName": "Paymaul"
+    "sector": "Technology",
+    "creatureName": "Payrollix"
   },
   {
     "ticker": "PAYC",
     "health": 24,
     "attack": 9,
-    "growth": 5,
     "defense": 2,
+    "growth": 5,
     "name": "Paycom Software, Inc.",
     "sector": "Technology",
-    "creatureName": "Paymentrix"
+    "creatureName": "Payrollmon"
   },
   {
     "ticker": "PYPL",
-    "health": 55,
-    "attack": 20,
-    "growth": 11,
+    "health": 45,
+    "attack": 17,
     "defense": 8,
+    "growth": 8,
     "name": "PayPal Holdings, Inc.",
     "sector": "Financial Services",
-    "creatureName": "Credichip"
+    "creatureName": "Paylix"
   },
   {
     "ticker": "PNR",
     "health": 28,
-    "attack": 9,
-    "growth": 15,
+    "attack": 11,
     "defense": 3,
-    "name": "Pentair plc",
+    "growth": 5,
+    "name": "Pentair plc.",
     "sector": "Industrials",
-    "creatureName": "Aquagear"
+    "creatureName": "Aquapump"
   },
   {
     "ticker": "PEP",
     "health": 80,
     "attack": 24,
-    "growth": 15,
     "defense": 8,
-    "name": "PepsiCo, Inc.",
+    "growth": 12,
+    "name": "Pepsico, Inc.",
     "sector": "Consumer Defensive",
-    "creatureName": "Snackaroo"
+    "creatureName": "Pepsidon"
   },
   {
     "ticker": "PFE",
     "health": 60,
-    "attack": 13,
-    "growth": 5,
+    "attack": 7,
     "defense": 11,
-    "name": "Pfizer Inc.",
+    "growth": 5,
+    "name": "Pfizer, Inc.",
     "sector": "Healthcare",
-    "creatureName": "Pfizeramic"
+    "creatureName": "Pharmavore"
   },
   {
     "ticker": "PCG",
     "health": 45,
     "attack": 5,
-    "growth": 13,
     "defense": 9,
-    "name": "PG&E Corporation",
+    "growth": 5,
+    "name": "Pacific Gas & Electric Co.",
     "sector": "Utilities",
-    "creatureName": "Energize"
+    "creatureName": "Voltstream"
   },
   {
     "ticker": "PM",
-    "health": 60,
+    "health": 80,
     "attack": 24,
-    "growth": 4,
     "defense": 1,
-    "name": "Philip Morris International Inc.",
+    "growth": 5,
+    "name": "Philip Morris International Inc",
     "sector": "Consumer Defensive",
-    "creatureName": "Smokestack"
+    "creatureName": "Smokian"
   },
   {
     "ticker": "PSX",
-    "health": 55,
-    "attack": 17,
-    "growth": 2,
+    "health": 50,
+    "attack": 15,
     "defense": 9,
+    "growth": 15,
     "name": "Phillips 66",
     "sector": "Energy",
-    "creatureName": "Refinorb"
+    "creatureName": "Refinaur"
   },
   {
     "ticker": "PNW",
     "health": 24,
     "attack": 5,
-    "growth": 5,
     "defense": 4,
-    "name": "Pinnacle West Capital Corporation",
+    "growth": 5,
+    "name": "Pinnacle West Capital Corporati",
     "sector": "Utilities",
-    "creatureName": "Voltagelight"
-  },
-  {
-    "ticker": "PXD",
-    "health": 55,
-    "attack": 17,
-    "growth": 4,
-    "defense": 8,
-    "name": "Pioneer Natural Resources Company",
-    "sector": "Energy",
-    "creatureName": "TerraRex"
+    "creatureName": "Voltpinnacle"
   },
   {
     "ticker": "PNC",
     "health": 55,
     "attack": 7,
-    "growth": 2,
     "defense": 11,
-    "name": "The PNC Financial Services Group, Inc.",
+    "growth": 8,
+    "name": "PNC Financial Services Group, I",
     "sector": "Financial Services",
-    "creatureName": "Fundstrator"
+    "creatureName": "Vaulteon"
   },
   {
     "ticker": "POOL",
-    "health": 28,
-    "attack": 11,
-    "growth": 2,
-    "defense": 2,
+    "health": 24,
+    "attack": 9,
+    "defense": 1,
+    "growth": 3,
     "name": "Pool Corporation",
     "sector": "Industrials",
-    "creatureName": "Pooltile"
+    "creatureName": "Aquaplex"
   },
   {
     "ticker": "PPG",
-    "health": 40,
-    "attack": 16,
-    "growth": 2,
+    "health": 35,
+    "attack": 9,
     "defense": 5,
+    "growth": 5,
     "name": "PPG Industries, Inc.",
     "sector": "Basic Materials",
-    "creatureName": "Colorcast"
+    "creatureName": "Coatix"
   },
   {
     "ticker": "PPL",
-    "health": 30,
+    "health": 35,
     "attack": 5,
-    "growth": 2,
     "defense": 7,
+    "growth": 10,
     "name": "PPL Corporation",
     "sector": "Utilities",
-    "creatureName": "Voltaspark"
+    "creatureName": "Voltstream"
   },
   {
     "ticker": "PFG",
     "health": 30,
-    "attack": 15,
-    "growth": 5,
+    "attack": 13,
     "defense": 6,
-    "name": "Principal Financial Group, Inc.",
+    "growth": 2,
+    "name": "Principal Financial Group Inc",
     "sector": "Financial Services",
-    "creatureName": "Principally"
+    "creatureName": "Principaleon"
   },
   {
     "ticker": "PG",
     "health": 80,
     "attack": 24,
-    "growth": 4,
     "defense": 11,
-    "name": "The Procter & Gamble Company",
+    "growth": 4,
+    "name": "Procter & Gamble Company (The)",
     "sector": "Consumer Defensive",
-    "creatureName": "Cleancurl"
+    "creatureName": "Cleantide"
   },
   {
     "ticker": "PGR",
     "health": 60,
-    "attack": 24,
-    "growth": 15,
-    "defense": 8,
-    "name": "The Progressive Corporation",
+    "attack": 7,
+    "defense": 9,
+    "growth": 8,
+    "name": "Progressive Corporation (The)",
     "sector": "Financial Services",
-    "creatureName": "Progresso"
+    "creatureName": "Shieldvroom"
   },
   {
     "ticker": "PLD",
     "health": 60,
     "attack": 20,
-    "growth": 6,
     "defense": 11,
+    "growth": 6,
     "name": "Prologis, Inc.",
     "sector": "Real Estate",
-    "creatureName": "Warehemoth"
+    "creatureName": "Logistix"
   },
   {
     "ticker": "PRU",
-    "health": 45,
-    "attack": 17,
-    "growth": 5,
+    "health": 40,
+    "attack": 24,
     "defense": 9,
+    "growth": 5,
     "name": "Prudential Financial, Inc.",
     "sector": "Financial Services",
-    "creatureName": "Prudecta"
+    "creatureName": "Prudeguard"
   },
   {
     "ticker": "PEG",
-    "health": 40,
+    "health": 45,
     "attack": 7,
-    "growth": 2,
     "defense": 7,
-    "name": "Public Service Enterprise Group Incorporated",
+    "growth": 6,
+    "name": "Public Service Enterprise Group",
     "sector": "Utilities",
-    "creatureName": "Powergrid"
+    "creatureName": "Voltgrid"
   },
   {
     "ticker": "PTC",
-    "health": 35,
+    "health": 30,
     "attack": 11,
-    "growth": 4,
-    "defense": 2,
+    "defense": 3,
+    "growth": 15,
     "name": "PTC Inc.",
     "sector": "Technology",
-    "creatureName": "Windergear"
+    "creatureName": "Constructron"
   },
   {
     "ticker": "PSA",
     "health": 50,
     "attack": 17,
-    "growth": 6,
-    "defense": 6,
+    "defense": 5,
+    "growth": 3,
     "name": "Public Storage",
     "sector": "Real Estate",
-    "creatureName": "Storeguard"
+    "creatureName": "Storagedon"
   },
   {
     "ticker": "PHM",
     "health": 35,
-    "attack": 16,
-    "growth": 4,
-    "defense": 6,
+    "attack": 15,
+    "defense": 7,
+    "growth": 2,
     "name": "PulteGroup, Inc.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Homechip"
-  },
-  {
-    "ticker": "QRVO",
-    "health": 24,
-    "attack": 9,
-    "growth": 5,
-    "defense": 3,
-    "name": "Qorvo, Inc.",
-    "sector": "Technology",
-    "creatureName": "Radiochip"
+    "creatureName": "Constructyx"
   },
   {
     "ticker": "PWR",
-    "health": 45,
-    "attack": 13,
-    "growth": 8,
+    "health": 55,
+    "attack": 11,
     "defense": 4,
+    "growth": 5,
     "name": "Quanta Services, Inc.",
     "sector": "Industrials",
-    "creatureName": "Quantacyst"
+    "creatureName": "Quantex"
   },
   {
     "ticker": "QCOM",
-    "health": 80,
+    "health": 60,
     "attack": 24,
-    "growth": 7,
     "defense": 8,
+    "growth": 4,
     "name": "QUALCOMM Incorporated",
     "sector": "Technology",
-    "creatureName": "Quantumwave"
+    "creatureName": "Spectrumdrake"
   },
   {
     "ticker": "DGX",
-    "health": 28,
-    "attack": 11,
-    "growth": 14,
+    "health": 30,
+    "attack": 15,
     "defense": 4,
+    "growth": 6,
     "name": "Quest Diagnostics Incorporated",
     "sector": "Healthcare",
-    "creatureName": "Hemostat"
+    "creatureName": "Labanalyst"
   },
   {
     "ticker": "RL",
-    "health": 24,
+    "health": 30,
     "attack": 11,
-    "growth": 8,
     "defense": 2,
+    "growth": 7,
     "name": "Ralph Lauren Corporation",
     "sector": "Consumer Cyclical",
-    "creatureName": "Lushweave"
+    "creatureName": "Polowear"
   },
   {
     "ticker": "RJF",
-    "health": 40,
+    "health": 35,
     "attack": 7,
-    "growth": 5,
     "defense": 6,
+    "growth": 4,
     "name": "Raymond James Financial, Inc.",
     "sector": "Financial Services",
-    "creatureName": "Finchip"
+    "creatureName": "Financor"
   },
   {
     "ticker": "RTX",
-    "health": 60,
-    "attack": 20,
-    "growth": 6,
+    "health": 80,
+    "attack": 24,
     "defense": 11,
+    "growth": 6,
     "name": "RTX Corporation",
     "sector": "Industrials",
-    "creatureName": "Aerotech"
+    "creatureName": "Aeroguard"
   },
   {
     "ticker": "O",
     "health": 50,
-    "attack": 16,
-    "growth": 3,
+    "attack": 17,
     "defense": 9,
+    "growth": 10,
     "name": "Realty Income Corporation",
     "sector": "Real Estate",
-    "creatureName": "Dividendosaur"
+    "creatureName": "Dividendweller"
   },
   {
     "ticker": "REG",
-    "health": 24,
-    "attack": 9,
-    "growth": 3,
-    "defense": 5,
+    "health": 28,
+    "attack": 11,
+    "defense": 4,
+    "growth": 15,
     "name": "Regency Centers Corporation",
     "sector": "Real Estate",
-    "creatureName": "Maligant"
+    "creatureName": "Regentaur"
   },
   {
     "ticker": "REGN",
-    "health": 60,
+    "health": 55,
     "attack": 17,
-    "growth": 5,
     "defense": 9,
+    "growth": 4,
     "name": "Regeneron Pharmaceuticals, Inc.",
     "sector": "Healthcare",
-    "creatureName": "Regennux"
+    "creatureName": "Genecurative"
   },
   {
     "ticker": "RF",
-    "health": 30,
+    "health": 35,
     "attack": 7,
-    "growth": 5,
     "defense": 8,
+    "growth": 7,
     "name": "Regions Financial Corporation",
     "sector": "Financial Services",
-    "creatureName": "Regiolectric"
+    "creatureName": "Regionsaur"
   },
   {
     "ticker": "RSG",
     "health": 50,
     "attack": 16,
-    "growth": 8,
     "defense": 6,
+    "growth": 6,
     "name": "Republic Services, Inc.",
     "sector": "Industrials",
-    "creatureName": "Trashquatch"
+    "creatureName": "Wastelor"
   },
   {
     "ticker": "RMD",
     "health": 40,
-    "attack": 13,
-    "growth": 4,
-    "defense": 3,
+    "attack": 15,
+    "defense": 4,
+    "growth": 6,
     "name": "ResMed Inc.",
     "sector": "Healthcare",
-    "creatureName": "Respiro"
+    "creatureName": "Respiron"
   },
   {
     "ticker": "RVTY",
-    "health": 28,
-    "attack": 16,
-    "growth": 2,
-    "defense": 5,
-    "name": "Revvity, Inc.",
-    "sector": "Healthcare",
-    "creatureName": "Genomicle"
-  },
-  {
-    "ticker": "RHI",
     "health": 24,
     "attack": 9,
-    "growth": 2,
-    "defense": 2,
-    "name": "Robert Half Inc.",
-    "sector": "Industrials",
-    "creatureName": "Talentclaw"
+    "defense": 4,
+    "growth": 5,
+    "name": "Revvity, Inc.",
+    "sector": "Healthcare",
+    "creatureName": "Diagnosix"
   },
   {
     "ticker": "ROK",
-    "health": 40,
+    "health": 45,
     "attack": 13,
-    "growth": 2,
     "defense": 3,
+    "growth": 12,
     "name": "Rockwell Automation, Inc.",
     "sector": "Industrials",
-    "creatureName": "Gearbot"
+    "creatureName": "Automaton"
   },
   {
     "ticker": "ROL",
     "health": 35,
     "attack": 9,
-    "growth": 8,
     "defense": 1,
+    "growth": 6,
     "name": "Rollins, Inc.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Pestroid"
+    "creatureName": "Pestillix"
   },
   {
     "ticker": "ROP",
-    "health": 50,
-    "attack": 16,
-    "growth": 2,
+    "health": 40,
+    "attack": 17,
     "defense": 8,
+    "growth": 4,
     "name": "Roper Technologies, Inc.",
     "sector": "Technology",
-    "creatureName": "Technaptor"
+    "creatureName": "Opertech"
   },
   {
     "ticker": "ROST",
     "health": 50,
     "attack": 15,
-    "growth": 9,
     "defense": 4,
+    "growth": 5,
     "name": "Ross Stores, Inc.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Bargainfin"
+    "creatureName": "Bargainox"
   },
   {
     "ticker": "RCL",
-    "health": 40,
+    "health": 55,
     "attack": 5,
-    "growth": 5,
-    "defense": 4,
+    "defense": 6,
+    "growth": 9,
     "name": "Royal Caribbean Cruises Ltd.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Orcastream"
+    "creatureName": "Cruisaregal"
   },
   {
     "ticker": "SPGI",
     "health": 60,
     "attack": 20,
-    "growth": 9,
     "defense": 9,
+    "growth": 8,
     "name": "S&P Global Inc.",
     "sector": "Financial Services",
-    "creatureName": "Ratingmander"
+    "creatureName": "Benchmarkith"
   },
   {
     "ticker": "CRM",
-    "health": 80,
+    "health": 60,
     "attack": 24,
-    "growth": 5,
     "defense": 11,
+    "growth": 6,
     "name": "Salesforce, Inc.",
     "sector": "Technology",
-    "creatureName": "Saleskit"
+    "creatureName": "Connectix"
   },
   {
     "ticker": "SBAC",
-    "health": 35,
-    "attack": 13,
-    "growth": 6,
+    "health": 30,
+    "attack": 7,
     "defense": 1,
+    "growth": 15,
     "name": "SBA Communications Corporation",
     "sector": "Real Estate",
-    "creatureName": "Signalcrown"
+    "creatureName": "Towelisk"
   },
   {
     "ticker": "SLB",
-    "health": 55,
+    "health": 50,
     "attack": 17,
-    "growth": 5,
-    "defense": 8,
-    "name": "Schlumberger Limited",
+    "defense": 9,
+    "growth": 3,
+    "name": "SLB Limited",
     "sector": "Energy",
-    "creatureName": "Drillbit"
+    "creatureName": "Drillthor"
   },
   {
     "ticker": "STX",
-    "health": 30,
+    "health": 55,
     "attack": 13,
-    "growth": 5,
     "defense": 1,
-    "name": "Seagate Technology Holdings plc",
+    "growth": 13,
+    "name": "Seagate Technology Holdings PLC",
     "sector": "Technology",
-    "creatureName": "Hydromech"
+    "creatureName": "Storaxian"
   },
   {
     "ticker": "SRE",
-    "health": 45,
+    "health": 50,
     "attack": 5,
-    "growth": 12,
     "defense": 9,
-    "name": "Sempra",
+    "growth": 2,
+    "name": "DBA Sempra",
     "sector": "Utilities",
-    "creatureName": "Sempowl"
+    "creatureName": "Energrid"
   },
   {
     "ticker": "NOW",
-    "health": 80,
+    "health": 60,
     "attack": 20,
-    "growth": 14,
-    "defense": 5,
+    "defense": 7,
+    "growth": 5,
     "name": "ServiceNow, Inc.",
     "sector": "Technology",
-    "creatureName": "Digibots"
+    "creatureName": "Workflowix"
   },
   {
     "ticker": "SHW",
     "health": 55,
-    "attack": 17,
-    "growth": 4,
+    "attack": 16,
     "defense": 3,
-    "name": "The Sherwin-Williams Company",
+    "growth": 5,
+    "name": "Sherwin-Williams Company (The)",
     "sector": "Basic Materials",
-    "creatureName": "Paintent"
+    "creatureName": "Chromabrush"
   },
   {
     "ticker": "SPG",
     "health": 50,
-    "attack": 16,
-    "growth": 6,
-    "defense": 3,
+    "attack": 17,
+    "defense": 2,
+    "growth": 15,
     "name": "Simon Property Group, Inc.",
     "sector": "Real Estate",
-    "creatureName": "Shopkeeper Simeon"
+    "creatureName": "Mallvern"
   },
   {
     "ticker": "SWKS",
-    "health": 30,
-    "attack": 15,
-    "growth": 2,
+    "health": 24,
+    "attack": 13,
     "defense": 4,
+    "growth": 2,
     "name": "Skyworks Solutions, Inc.",
     "sector": "Technology",
-    "creatureName": "Skycraft"
+    "creatureName": "Skywave"
   },
   {
     "ticker": "SJM",
-    "health": 28,
+    "health": 24,
     "attack": 13,
-    "growth": 2,
-    "defense": 5,
-    "name": "The J. M. Smucker Company",
+    "defense": 4,
+    "growth": 5,
+    "name": "The J.M. Smucker Company",
     "sector": "Consumer Defensive",
-    "creatureName": "Smoothie Swirl"
+    "creatureName": "Smuckett"
+  },
+  {
+    "ticker": "SW",
+    "health": 35,
+    "attack": 16,
+    "defense": 7,
+    "growth": 2,
+    "name": "Smurfit WestRock plc",
+    "sector": "Consumer Cyclical",
+    "creatureName": "Cardibox"
   },
   {
     "ticker": "SNA",
-    "health": 28,
+    "health": 30,
     "attack": 11,
-    "growth": 6,
     "defense": 4,
-    "name": "Snap-on Incorporated",
+    "growth": 5,
+    "name": "Snap-On Incorporated",
     "sector": "Industrials",
-    "creatureName": "Snap Claw"
+    "creatureName": "Snapwright"
   },
   {
     "ticker": "SOLV",
     "health": 24,
-    "attack": 16,
-    "growth": 5,
-    "defense": 3,
+    "attack": 9,
+    "defense": 2,
+    "growth": 15,
     "name": "Solventum Corporation",
     "sector": "Healthcare",
-    "creatureName": "Solventus"
+    "creatureName": "Mediveil"
   },
   {
     "ticker": "SO",
     "health": 55,
     "attack": 5,
-    "growth": 5,
     "defense": 9,
-    "name": "The Southern Company",
+    "growth": 3,
+    "name": "Southern Company (The)",
     "sector": "Utilities",
-    "creatureName": "Solarpeak"
+    "creatureName": "Voltasouth"
   },
   {
     "ticker": "LUV",
-    "health": 30,
-    "attack": 9,
-    "growth": 5,
-    "defense": 6,
-    "name": "Southwest Airlines Co.",
+    "health": 35,
+    "attack": 5,
+    "defense": 5,
+    "growth": 7,
+    "name": "Southwest Airlines Company",
     "sector": "Industrials",
-    "creatureName": "Swiftflier"
+    "creatureName": "Skyswift"
   },
   {
     "ticker": "SWK",
     "health": 28,
-    "attack": 16,
-    "growth": 5,
-    "defense": 6,
+    "attack": 13,
+    "defense": 5,
+    "growth": 3,
     "name": "Stanley Black & Decker, Inc.",
     "sector": "Industrials",
-    "creatureName": "Drillclaw"
+    "creatureName": "Toolforge"
   },
   {
     "ticker": "SBUX",
-    "health": 60,
-    "attack": 20,
-    "growth": 7,
+    "health": 55,
+    "attack": 5,
     "defense": 1,
+    "growth": 2,
     "name": "Starbucks Corporation",
     "sector": "Consumer Cyclical",
-    "creatureName": "Cafelatte"
+    "creatureName": "Brewmaid"
   },
   {
     "ticker": "STT",
-    "health": 35,
+    "health": 40,
     "attack": 7,
-    "growth": 2,
-    "defense": 8,
+    "defense": 9,
+    "growth": 5,
     "name": "State Street Corporation",
     "sector": "Financial Services",
     "creatureName": "Vaultguard"
@@ -4272,761 +4202,791 @@
   {
     "ticker": "STLD",
     "health": 35,
-    "attack": 15,
-    "growth": 2,
+    "attack": 7,
     "defense": 5,
+    "growth": 8,
     "name": "Steel Dynamics, Inc.",
     "sector": "Basic Materials",
-    "creatureName": "Steelfury"
+    "creatureName": "Steelforge"
   },
   {
     "ticker": "STE",
     "health": 35,
-    "attack": 9,
-    "growth": 6,
+    "attack": 13,
     "defense": 4,
-    "name": "STERIS plc",
+    "growth": 6,
+    "name": "STERIS plc (Ireland)",
     "sector": "Healthcare",
-    "creatureName": "Sterilech"
+    "creatureName": "Sterilox"
   },
   {
     "ticker": "SYK",
     "health": 60,
-    "attack": 17,
-    "growth": 15,
+    "attack": 20,
     "defense": 8,
+    "growth": 11,
     "name": "Stryker Corporation",
     "sector": "Healthcare",
-    "creatureName": "Surgiscale"
+    "creatureName": "Medrobot"
   },
   {
     "ticker": "SMCI",
-    "health": 50,
-    "attack": 5,
-    "growth": 11,
-    "defense": 2,
+    "health": 30,
+    "attack": 9,
+    "defense": 4,
+    "growth": 7,
     "name": "Super Micro Computer, Inc.",
     "sector": "Technology",
-    "creatureName": "Techno-Champ"
+    "creatureName": "Servantron"
   },
   {
     "ticker": "SYF",
-    "health": 30,
+    "health": 35,
     "attack": 7,
-    "growth": 3,
     "defense": 7,
+    "growth": 5,
     "name": "Synchrony Financial",
     "sector": "Financial Services",
-    "creatureName": "Credichip"
+    "creatureName": "Synchronyx"
   },
   {
     "ticker": "SNPS",
-    "health": 55,
-    "attack": 15,
-    "growth": 12,
-    "defense": 4,
+    "health": 50,
+    "attack": 17,
+    "defense": 9,
+    "growth": 2,
     "name": "Synopsys, Inc.",
     "sector": "Technology",
-    "creatureName": "Circuitron"
+    "creatureName": "Synthesizer"
   },
   {
     "ticker": "SYY",
     "health": 45,
     "attack": 16,
-    "growth": 15,
     "defense": 2,
+    "growth": 5,
     "name": "Sysco Corporation",
     "sector": "Consumer Defensive",
-    "creatureName": "FoodMesh"
+    "creatureName": "Distribeast"
   },
   {
     "ticker": "TMUS",
     "health": 80,
     "attack": 24,
-    "growth": 9,
     "defense": 11,
+    "growth": 2,
     "name": "T-Mobile US, Inc.",
     "sector": "Communication Services",
-    "creatureName": "Mobilux"
+    "creatureName": "Signalwave"
   },
   {
     "ticker": "TROW",
-    "health": 40,
+    "health": 30,
     "attack": 16,
-    "growth": 11,
     "defense": 6,
+    "growth": 5,
     "name": "T. Rowe Price Group, Inc.",
     "sector": "Financial Services",
-    "creatureName": "Investrade"
+    "creatureName": "Pricewealth"
   },
   {
     "ticker": "TTWO",
-    "health": 35,
-    "attack": 16,
+    "health": 40,
+    "attack": 15,
+    "defense": 2,
     "growth": 5,
-    "defense": 5,
-    "name": "Take-Two Interactive Software, Inc.",
+    "name": "Take-Two Interactive Software, ",
     "sector": "Communication Services",
-    "creatureName": "Pixelus"
+    "creatureName": "Ludovortex"
   },
   {
     "ticker": "TPR",
-    "health": 24,
-    "attack": 13,
-    "growth": 5,
-    "defense": 2,
+    "health": 40,
+    "attack": 15,
+    "defense": 1,
+    "growth": 13,
     "name": "Tapestry, Inc.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Tapestelia"
+    "creatureName": "Fabricon"
   },
   {
     "ticker": "TRGP",
-    "health": 40,
-    "attack": 7,
-    "growth": 4,
-    "defense": 3,
-    "name": "Targa Resources Corp.",
+    "health": 45,
+    "attack": 5,
+    "defense": 2,
+    "growth": 11,
+    "name": "Targa Resources, Inc.",
     "sector": "Energy",
-    "creatureName": "Targatron"
+    "creatureName": "Targaflo"
   },
   {
     "ticker": "TGT",
-    "health": 55,
+    "health": 45,
     "attack": 17,
-    "growth": 11,
     "defense": 7,
+    "growth": 3,
     "name": "Target Corporation",
     "sector": "Consumer Defensive",
-    "creatureName": "Bullseye Bamboozler"
+    "creatureName": "Bullseye"
   },
   {
     "ticker": "TEL",
-    "health": 45,
+    "health": 50,
     "attack": 16,
-    "growth": 15,
-    "defense": 6,
-    "name": "TE Connectivity Ltd.",
+    "defense": 7,
+    "growth": 9,
+    "name": "TE Connectivity plc",
     "sector": "Technology",
-    "creatureName": "Connektoar"
+    "creatureName": "Connectix"
   },
   {
     "ticker": "TDY",
-    "health": 30,
+    "health": 40,
     "attack": 11,
-    "growth": 9,
     "defense": 6,
-    "name": "Teledyne Technologies Incorporated",
+    "growth": 9,
+    "name": "Teledyne Technologies Incorpora",
     "sector": "Technology",
-    "creatureName": "Spectrograph"
-  },
-  {
-    "ticker": "TFX",
-    "health": 24,
-    "attack": 9,
-    "growth": 2,
-    "defense": 3,
-    "name": "Teleflex Incorporated",
-    "sector": "Healthcare",
-    "creatureName": "Venamedic"
+    "creatureName": "Spectralyx"
   },
   {
     "ticker": "TER",
-    "health": 28,
+    "health": 45,
     "attack": 9,
-    "growth": 2,
     "defense": 2,
+    "growth": 13,
     "name": "Teradyne, Inc.",
     "sector": "Technology",
-    "creatureName": "Terador"
+    "creatureName": "Testdrone"
   },
   {
     "ticker": "TSLA",
     "health": 80,
-    "attack": 17,
-    "growth": 15,
+    "attack": 20,
     "defense": 11,
+    "growth": 2,
     "name": "Tesla, Inc.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Electrix"
+    "creatureName": "Voltdriven"
   },
   {
     "ticker": "TXN",
     "health": 60,
     "attack": 5,
-    "growth": 2,
-    "defense": 8,
+    "defense": 7,
+    "growth": 5,
     "name": "Texas Instruments Incorporated",
     "sector": "Technology",
-    "creatureName": "Ampchip"
+    "creatureName": "Circuithorn"
+  },
+  {
+    "ticker": "TPL",
+    "health": 40,
+    "attack": 7,
+    "defense": 1,
+    "growth": 5,
+    "name": "Texas Pacific Land Corporation",
+    "sector": "Energy",
+    "creatureName": "Terravein"
   },
   {
     "ticker": "TXT",
-    "health": 30,
+    "health": 28,
     "attack": 13,
-    "growth": 4,
     "defense": 5,
+    "growth": 12,
     "name": "Textron Inc.",
     "sector": "Industrials",
-    "creatureName": "Aerocopter"
+    "creatureName": "Aerotex"
   },
   {
     "ticker": "TMO",
     "health": 80,
     "attack": 20,
-    "growth": 6,
     "defense": 11,
-    "name": "Thermo Fisher Scientific Inc.",
+    "growth": 6,
+    "name": "Thermo Fisher Scientific Inc",
     "sector": "Healthcare",
-    "creatureName": "Thermoblast"
+    "creatureName": "Diagnosix"
   },
   {
     "ticker": "TJX",
     "health": 60,
     "attack": 20,
-    "growth": 9,
-    "defense": 4,
-    "name": "The TJX Companies, Inc.",
+    "defense": 5,
+    "growth": 8,
+    "name": "TJX Companies, Inc. (The)",
     "sector": "Consumer Cyclical",
-    "creatureName": "Bargaibix"
+    "creatureName": "Bargainox"
+  },
+  {
+    "ticker": "TKO",
+    "health": 30,
+    "attack": 11,
+    "defense": 3,
+    "growth": 5,
+    "name": "TKO Group Holdings, Inc.",
+    "sector": "Communication Services",
+    "creatureName": "Spektakrom"
+  },
+  {
+    "ticker": "TTD",
+    "health": 24,
+    "attack": 11,
+    "defense": 2,
+    "growth": 5,
+    "name": "The Trade Desk, Inc.",
+    "sector": "Communication Services",
+    "creatureName": "Adsymphony"
   },
   {
     "ticker": "TSCO",
-    "health": 40,
+    "health": 35,
     "attack": 9,
-    "growth": 4,
     "defense": 2,
+    "growth": 5,
     "name": "Tractor Supply Company",
     "sector": "Consumer Cyclical",
-    "creatureName": "Sturdygear"
+    "creatureName": "Farmitect"
   },
   {
     "ticker": "TT",
     "health": 55,
     "attack": 16,
-    "growth": 7,
     "defense": 5,
+    "growth": 5,
     "name": "Trane Technologies plc",
     "sector": "Industrials",
-    "creatureName": "Aireonic"
+    "creatureName": "Climavox"
   },
   {
     "ticker": "TDG",
-    "health": 55,
+    "health": 50,
     "attack": 15,
-    "growth": 10,
     "defense": 1,
-    "name": "TransDigm Group Incorporated",
+    "growth": 4,
+    "name": "Transdigm Group Incorporated",
     "sector": "Industrials",
-    "creatureName": "Aeroaerus"
+    "creatureName": "Aerodigm"
   },
   {
     "ticker": "TRV",
     "health": 50,
     "attack": 24,
-    "growth": 15,
     "defense": 9,
+    "growth": 7,
     "name": "The Travelers Companies, Inc.",
     "sector": "Financial Services",
-    "creatureName": "Insurechalk"
+    "creatureName": "Shieldwanderer"
   },
   {
     "ticker": "TRMB",
     "health": 28,
     "attack": 9,
-    "growth": 2,
-    "defense": 3,
+    "defense": 4,
+    "growth": 12,
     "name": "Trimble Inc.",
     "sector": "Technology",
-    "creatureName": "Surveydrone"
+    "creatureName": "Constructavis"
   },
   {
     "ticker": "TFC",
     "health": 50,
     "attack": 7,
-    "growth": 5,
     "defense": 11,
+    "growth": 6,
     "name": "Truist Financial Corporation",
     "sector": "Financial Services",
-    "creatureName": "Trustus"
+    "creatureName": "Trustvault"
   },
   {
     "ticker": "TYL",
-    "health": 30,
+    "health": 28,
     "attack": 9,
-    "growth": 7,
-    "defense": 2,
+    "defense": 3,
+    "growth": 5,
     "name": "Tyler Technologies, Inc.",
     "sector": "Technology",
-    "creatureName": "Datamorph"
+    "creatureName": "Govlytic"
   },
   {
     "ticker": "TSN",
-    "health": 35,
-    "attack": 11,
-    "growth": 2,
+    "health": 30,
+    "attack": 15,
     "defense": 8,
+    "growth": 2,
     "name": "Tyson Foods, Inc.",
     "sector": "Consumer Defensive",
-    "creatureName": "Beefsaur"
+    "creatureName": "Carnivortex"
   },
   {
     "ticker": "USB",
     "health": 55,
     "attack": 7,
-    "growth": 4,
     "defense": 11,
+    "growth": 7,
     "name": "U.S. Bancorp",
     "sector": "Financial Services",
-    "creatureName": "Bullionblade"
+    "creatureName": "Vaulteon"
   },
   {
     "ticker": "UBER",
     "health": 60,
-    "attack": 17,
-    "growth": 15,
-    "defense": 7,
+    "attack": 24,
+    "defense": 9,
+    "growth": 2,
     "name": "Uber Technologies, Inc.",
     "sector": "Technology",
-    "creatureName": "Mobilike"
+    "creatureName": "Mobilivex"
   },
   {
     "ticker": "UDR",
     "health": 28,
-    "attack": 11,
-    "growth": 2,
-    "defense": 4,
+    "attack": 13,
+    "defense": 3,
+    "growth": 5,
     "name": "UDR, Inc.",
     "sector": "Real Estate",
-    "creatureName": "Apartmaptor"
+    "creatureName": "Domicilion"
   },
   {
     "ticker": "ULTA",
-    "health": 35,
-    "attack": 11,
-    "growth": 7,
+    "health": 40,
+    "attack": 13,
     "defense": 2,
+    "growth": 5,
     "name": "Ulta Beauty, Inc.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Cosmetixel"
+    "creatureName": "Glamourite"
   },
   {
     "ticker": "UNP",
     "health": 60,
     "attack": 20,
+    "defense": 8,
     "growth": 5,
-    "defense": 7,
     "name": "Union Pacific Corporation",
     "sector": "Industrials",
-    "creatureName": "Trackmaster"
+    "creatureName": "Locomotyx"
   },
   {
     "ticker": "UAL",
-    "health": 28,
-    "attack": 5,
-    "growth": 2,
-    "defense": 6,
+    "health": 40,
+    "attack": 13,
+    "defense": 7,
+    "growth": 6,
     "name": "United Airlines Holdings, Inc.",
     "sector": "Industrials",
-    "creatureName": "Aerovoid"
+    "creatureName": "Skywheel"
   },
   {
     "ticker": "UPS",
-    "health": 60,
+    "health": 55,
     "attack": 20,
-    "growth": 2,
-    "defense": 8,
+    "defense": 7,
+    "growth": 5,
     "name": "United Parcel Service, Inc.",
     "sector": "Industrials",
-    "creatureName": "Packaroo"
+    "creatureName": "Delivern"
   },
   {
     "ticker": "URI",
-    "health": 50,
-    "attack": 17,
-    "growth": 6,
+    "health": 45,
+    "attack": 16,
     "defense": 5,
+    "growth": 4,
     "name": "United Rentals, Inc.",
     "sector": "Industrials",
-    "creatureName": "Groundshifter"
+    "creatureName": "Rentalith"
   },
   {
     "ticker": "UNH",
     "health": 80,
     "attack": 24,
-    "growth": 7,
     "defense": 11,
+    "growth": 2,
     "name": "UnitedHealth Group Incorporated",
     "sector": "Healthcare",
-    "creatureName": "Wellforge"
+    "creatureName": "Mediguard"
   },
   {
     "ticker": "UHS",
-    "health": 24,
+    "health": 28,
     "attack": 9,
-    "growth": 8,
     "defense": 4,
+    "growth": 8,
     "name": "Universal Health Services, Inc.",
     "sector": "Healthcare",
-    "creatureName": "Medibeast"
+    "creatureName": "Mediguard"
   },
   {
     "ticker": "VLO",
     "health": 50,
-    "attack": 24,
-    "growth": 2,
+    "attack": 20,
     "defense": 9,
+    "growth": 15,
     "name": "Valero Energy Corporation",
     "sector": "Energy",
-    "creatureName": "Petrolops"
+    "creatureName": "Refueleon"
   },
   {
     "ticker": "VTR",
-    "health": 30,
-    "attack": 13,
-    "growth": 5,
+    "health": 45,
+    "attack": 15,
     "defense": 6,
+    "growth": 7,
     "name": "Ventas, Inc.",
     "sector": "Real Estate",
-    "creatureName": "Seniorspark"
+    "creatureName": "Caretakern"
   },
   {
     "ticker": "VLTO",
     "health": 35,
-    "attack": 13,
-    "growth": 4,
+    "attack": 11,
     "defense": 2,
-    "name": "Veralto Corporation",
+    "growth": 6,
+    "name": "Veralto Corp",
     "sector": "Industrials",
-    "creatureName": "Aquasapien"
+    "creatureName": "Veralux"
   },
   {
     "ticker": "VRSN",
     "health": 30,
     "attack": 11,
-    "growth": 10,
     "defense": 1,
+    "growth": 6,
     "name": "VeriSign, Inc.",
     "sector": "Technology",
-    "creatureName": "Securicore"
+    "creatureName": "Domainyx"
   },
   {
     "ticker": "VRSK",
-    "health": 40,
+    "health": 35,
     "attack": 13,
-    "growth": 15,
     "defense": 1,
+    "growth": 5,
     "name": "Verisk Analytics, Inc.",
     "sector": "Industrials",
-    "creatureName": "Analyclaw"
+    "creatureName": "Riskanalyze"
   },
   {
     "ticker": "VZ",
     "health": 80,
     "attack": 24,
-    "growth": 5,
     "defense": 11,
+    "growth": 2,
     "name": "Verizon Communications Inc.",
     "sector": "Communication Services",
-    "creatureName": "Verilectron"
+    "creatureName": "Signalveil"
   },
   {
     "ticker": "VRTX",
     "health": 60,
-    "attack": 20,
-    "growth": 7,
+    "attack": 17,
     "defense": 8,
-    "name": "Vertex Pharmaceuticals Incorporated",
+    "growth": 8,
+    "name": "Vertex Pharmaceuticals Incorpor",
     "sector": "Healthcare",
-    "creatureName": "Genetrix"
+    "creatureName": "Genexil"
   },
   {
     "ticker": "VTRS",
     "health": 28,
-    "attack": 15,
-    "growth": 5,
+    "attack": 7,
     "defense": 8,
+    "growth": 5,
     "name": "Viatris Inc.",
     "sector": "Healthcare",
-    "creatureName": "Vitalis"
+    "creatureName": "Pharmamorph"
   },
   {
     "ticker": "VICI",
     "health": 40,
-    "attack": 5,
-    "growth": 6,
+    "attack": 17,
     "defense": 9,
+    "growth": 5,
     "name": "VICI Properties Inc.",
     "sector": "Real Estate",
-    "creatureName": "Viciplex"
+    "creatureName": "Venuscape"
   },
   {
     "ticker": "V",
     "health": 80,
     "attack": 24,
-    "growth": 7,
     "defense": 9,
+    "growth": 6,
     "name": "Visa Inc.",
     "sector": "Financial Services",
-    "creatureName": "VisaPay"
+    "creatureName": "Transactmon"
+  },
+  {
+    "ticker": "VST",
+    "health": 50,
+    "attack": 7,
+    "defense": 4,
+    "growth": 2,
+    "name": "Vistra Corp.",
+    "sector": "Utilities",
+    "creatureName": "Energaur"
   },
   {
     "ticker": "VMC",
     "health": 45,
-    "attack": 11,
-    "growth": 14,
+    "attack": 9,
     "defense": 5,
-    "name": "Vulcan Materials Company",
+    "growth": 4,
+    "name": "Vulcan Materials Company (Holdi",
     "sector": "Basic Materials",
-    "creatureName": "Rockbiter"
+    "creatureName": "Vulcanite"
   },
   {
     "ticker": "WRB",
     "health": 35,
-    "attack": 17,
-    "growth": 6,
+    "attack": 7,
     "defense": 5,
-    "name": "W. R. Berkley Corporation",
+    "growth": 3,
+    "name": "W.R. Berkley Corporation",
     "sector": "Financial Services",
-    "creatureName": "Insuravolt"
+    "creatureName": "Assuramorph"
+  },
+  {
+    "ticker": "GWW",
+    "health": 50,
+    "attack": 13,
+    "defense": 3,
+    "growth": 4,
+    "name": "W.W. Grainger, Inc.",
+    "sector": "Industrials",
+    "creatureName": "Graingard"
   },
   {
     "ticker": "WAB",
-    "health": 40,
-    "attack": 11,
-    "growth": 9,
+    "health": 45,
+    "attack": 15,
     "defense": 6,
-    "name": "Westinghouse Air Brake Technologies Corporation",
-    "sector": "Industrials",
-    "creatureName": "Airbrakemon"
-  },
-  {
-    "ticker": "WBA",
-    "health": 30,
-    "attack": 9,
     "growth": 5,
-    "defense": 9,
-    "name": "Walgreens Boots Alliance, Inc.",
-    "sector": "Healthcare",
-    "creatureName": "Walgreen Warden"
+    "name": "Westinghouse Air Brake Technolo",
+    "sector": "Industrials",
+    "creatureName": "Pneumalocomotor"
   },
   {
     "ticker": "WMT",
     "health": 80,
     "attack": 24,
-    "growth": 4,
     "defense": 11,
+    "growth": 3,
     "name": "Walmart Inc.",
     "sector": "Consumer Defensive",
-    "creatureName": "WalMartian"
+    "creatureName": "Shelfmon"
   },
   {
     "ticker": "DIS",
-    "health": 80,
-    "attack": 24,
-    "growth": 10,
+    "health": 60,
+    "attack": 17,
     "defense": 11,
-    "name": "The Walt Disney Company",
+    "growth": 4,
+    "name": "Walt Disney Company (The)",
     "sector": "Communication Services",
-    "creatureName": "Disneyverse Sprite"
+    "creatureName": "Dreamcastle"
   },
   {
     "ticker": "WBD",
-    "health": 30,
+    "health": 50,
     "attack": 24,
+    "defense": 9,
     "growth": 5,
-    "defense": 11,
-    "name": "Warner Bros. Discovery, Inc.",
+    "name": "Warner Bros. Discovery, Inc. - ",
     "sector": "Communication Services",
-    "creatureName": "Cinemaura"
+    "creatureName": "Streamix"
   },
   {
     "ticker": "WM",
     "health": 55,
-    "attack": 15,
-    "growth": 5,
-    "defense": 5,
+    "attack": 16,
+    "defense": 6,
+    "growth": 7,
     "name": "Waste Management, Inc.",
     "sector": "Industrials",
-    "creatureName": "Garbageal"
+    "creatureName": "Trashuton"
   },
   {
     "ticker": "WAT",
-    "health": 30,
+    "health": 40,
     "attack": 9,
+    "defense": 2,
     "growth": 5,
-    "defense": 1,
     "name": "Waters Corporation",
     "sector": "Healthcare",
-    "creatureName": "Aquapulse"
+    "creatureName": "Fluidanalyx"
   },
   {
     "ticker": "WEC",
-    "health": 35,
+    "health": 40,
     "attack": 5,
-    "growth": 4,
-    "defense": 7,
+    "defense": 6,
+    "growth": 2,
     "name": "WEC Energy Group, Inc.",
     "sector": "Utilities",
-    "creatureName": "Powerstream"
+    "creatureName": "Voltstream"
   },
   {
     "ticker": "WFC",
     "health": 80,
     "attack": 7,
-    "growth": 7,
     "defense": 11,
+    "growth": 6,
     "name": "Wells Fargo & Company",
     "sector": "Financial Services",
-    "creatureName": "Aquabrush"
+    "creatureName": "Goldsteed"
   },
   {
     "ticker": "WELL",
-    "health": 50,
-    "attack": 15,
-    "growth": 5,
-    "defense": 9,
+    "health": 60,
+    "attack": 17,
+    "defense": 11,
+    "growth": 3,
     "name": "Welltower Inc.",
     "sector": "Real Estate",
-    "creatureName": "Wellguard"
+    "creatureName": "Wellvener"
   },
   {
     "ticker": "WST",
-    "health": 40,
-    "attack": 7,
-    "growth": 8,
+    "health": 28,
+    "attack": 9,
     "defense": 2,
-    "name": "West Pharmaceutical Services, Inc.",
+    "growth": 5,
+    "name": "West Pharmaceutical Services, I",
     "sector": "Healthcare",
-    "creatureName": "Vialtech"
+    "creatureName": "Vialguard"
   },
   {
     "ticker": "WDC",
-    "health": 35,
-    "attack": 5,
+    "health": 55,
+    "attack": 20,
+    "defense": 4,
     "growth": 5,
-    "defense": 6,
     "name": "Western Digital Corporation",
     "sector": "Technology",
-    "creatureName": "Hardrive"
-  },
-  {
-    "ticker": "WRK",
-    "health": 28,
-    "attack": 15,
-    "growth": 5,
-    "defense": 6,
-    "name": "WestRock Company",
-    "sector": "Consumer Cyclical",
-    "creatureName": "Packa-Chip"
+    "creatureName": "Diskwing"
   },
   {
     "ticker": "WY",
-    "health": 35,
-    "attack": 11,
-    "growth": 15,
-    "defense": 6,
+    "health": 28,
+    "attack": 5,
+    "defense": 5,
+    "growth": 4,
     "name": "Weyerhaeuser Company",
     "sector": "Real Estate",
-    "creatureName": "Timbertrunk"
+    "creatureName": "Timberath"
+  },
+  {
+    "ticker": "WSM",
+    "health": 35,
+    "attack": 13,
+    "defense": 2,
+    "growth": 5,
+    "name": "Williams-Sonoma, Inc.",
+    "sector": "Consumer Cyclical",
+    "creatureName": "Homewoven"
   },
   {
     "ticker": "WMB",
-    "health": 50,
-    "attack": 16,
-    "growth": 12,
-    "defense": 7,
-    "name": "The Williams Companies, Inc.",
+    "health": 55,
+    "attack": 5,
+    "defense": 6,
+    "growth": 10,
+    "name": "Williams Companies, Inc. (The)",
     "sector": "Energy",
-    "creatureName": "Pipewave"
+    "creatureName": "Pipeflux"
   },
   {
     "ticker": "WTW",
-    "health": 40,
-    "attack": 15,
-    "growth": 6,
-    "defense": 6,
-    "name": "Willis Towers Watson Public Limited Company",
+    "health": 35,
+    "attack": 16,
+    "defense": 5,
+    "growth": 2,
+    "name": "Willis Towers Watson Public Lim",
     "sector": "Financial Services",
-    "creatureName": "Insura-Tron"
+    "creatureName": "Towersafe"
   },
   {
-    "ticker": "GWW",
-    "health": 50,
-    "attack": 15,
-    "growth": 5,
-    "defense": 3,
-    "name": "W.W. Grainger, Inc.",
-    "sector": "Industrials",
-    "creatureName": "Grainpaw"
+    "ticker": "WDAY",
+    "health": 40,
+    "attack": 17,
+    "defense": 5,
+    "growth": 10,
+    "name": "Workday, Inc.",
+    "sector": "Technology",
+    "creatureName": "Workaday"
   },
   {
     "ticker": "WYNN",
     "health": 24,
-    "attack": 9,
-    "growth": 15,
+    "attack": 7,
     "defense": 1,
+    "growth": 2,
     "name": "Wynn Resorts, Limited",
     "sector": "Consumer Cyclical",
-    "creatureName": "Luxurion"
+    "creatureName": "Wynnastra"
   },
   {
     "ticker": "XEL",
-    "health": 40,
+    "health": 45,
     "attack": 5,
-    "growth": 6,
     "defense": 8,
+    "growth": 7,
     "name": "Xcel Energy Inc.",
     "sector": "Utilities",
-    "creatureName": "Voltaur"
+    "creatureName": "Voltstream"
   },
   {
     "ticker": "XYL",
     "health": 40,
-    "attack": 9,
-    "growth": 8,
+    "attack": 13,
     "defense": 6,
+    "growth": 5,
     "name": "Xylem Inc.",
     "sector": "Industrials",
-    "creatureName": "Aquapulse"
+    "creatureName": "Aquaflux"
   },
   {
     "ticker": "YUM",
     "health": 45,
     "attack": 15,
-    "growth": 7,
     "defense": 1,
+    "growth": 8,
     "name": "Yum! Brands, Inc.",
     "sector": "Consumer Cyclical",
-    "creatureName": "Tacopunch"
+    "creatureName": "Flavorfiesta"
   },
   {
     "ticker": "ZBRA",
-    "health": 28,
-    "attack": 7,
+    "health": 24,
+    "attack": 11,
+    "defense": 3,
     "growth": 2,
-    "defense": 2,
     "name": "Zebra Technologies Corporation",
     "sector": "Technology",
-    "creatureName": "Zephyr"
+    "creatureName": "Stripencode"
   },
   {
     "ticker": "ZBH",
-    "health": 40,
+    "health": 30,
     "attack": 15,
-    "growth": 5,
-    "defense": 7,
+    "defense": 6,
+    "growth": 2,
     "name": "Zimmer Biomet Holdings, Inc.",
     "sector": "Healthcare",
-    "creatureName": "Ortho-Dyne"
+    "creatureName": "Orthomech"
   },
   {
     "ticker": "ZTS",
-    "health": 55,
-    "attack": 15,
-    "growth": 7,
-    "defense": 4,
+    "health": 50,
+    "attack": 16,
+    "defense": 3,
+    "growth": 5,
     "name": "Zoetis Inc.",
     "sector": "Healthcare",
-    "creatureName": "Zoethium"
+    "creatureName": "Vetamorph"
   }
 ]

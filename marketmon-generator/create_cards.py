@@ -6,8 +6,10 @@ Fetches S&P 500 financial data, transforms it into game card stats,
 generates creature descriptions via Claude, and creature images via Gemini Imagen.
 """
 
+import io
 import os
 import json
+import re
 import logging
 
 import anthropic
@@ -16,6 +18,7 @@ import yfinance as yf
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
+from PIL import Image as PILImage
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
@@ -158,7 +161,10 @@ def generate_creature(client, card):
             max_tokens=1024,
             messages=[{"role": "user", "content": prompt}],
         )
-        data = json.loads(msg.content[0].text)
+        text = msg.content[0].text
+        text = re.sub(r"^```(?:json)?\s*", "", text.strip())
+        text = re.sub(r"\s*```$", "", text.strip())
+        data = json.loads(text)
         data["ticker"] = card.get("ticker")
         return data
     except Exception as e:
@@ -183,7 +189,8 @@ def generate_image(gemini_client, creature):
             ),
         )
         if response.generated_images:
-            return response.generated_images[0].image
+            raw = response.generated_images[0].image
+            return PILImage.open(io.BytesIO(raw.image_bytes))
         logging.error("No images returned from Gemini")
     except Exception as e:
         logging.error("Image generation failed: %s", e)
@@ -201,9 +208,8 @@ def run(anthropic_key, gemini_key):
     df = pd.read_csv(SP500_CSV)
     logging.info("Fetched S&P 500 company list")
 
-    # 2. Get financial metrics (hardcoded test symbols for now)
-    symbols = ["NVDA", "AMD", "COST", "MCD", "CAT"]
-    # symbols = df["Symbol"].tolist()  # uncomment for full run
+    # 2. Get financial metrics
+    symbols = df["Symbol"].tolist()
     company_metrics = fetch_company_metrics(symbols)
     if not company_metrics:
         logging.error("No metrics fetched, exiting")
@@ -230,7 +236,7 @@ def run(anthropic_key, gemini_key):
         else:
             img = generate_image(gemini, creature)
             if img:
-                img.save(image_path, format="webp")
+                img.save(image_path, "webp")
                 logging.info("Saved image for %s", ticker)
             else:
                 logging.error("Failed image generation for %s", ticker)

@@ -10,6 +10,7 @@ import io
 import os
 import json
 import re
+import time
 import logging
 
 import anthropic
@@ -133,51 +134,86 @@ def create_card_data(company_data):
 # --- Claude creature generation ---
 
 CREATURE_PROMPT = (
-    "Given the company name and the description of the company, generate a description "
-    "of a Pokemon creature that represents the company. The creature should have a name "
-    "(similar to a Pokemon name) and a description. Physical features described should directly "
-    "relate to the company's business or industry, i.e., an electric company may have a creature "
-    "with lightning bolt features, or a trash company may have a creature with garbage-themed features, "
-    "and the company's brand colors. The only thing described should be the creature's physical appearance. "
-    "The description should match some sort of creature, animal or monster. The description should NOT include "
-    "the creature name. Creature descriptions MUST contain descriptions of anthropomorphic features, and "
-    "specifically must include eyes. Below is an example for the company Intel Corporation:\n\n"
-    'Example response:\n{{\n    "name": "Intellichip",\n    "description": "A Pokemon creature with a sleek, '
-    "angular body in blue and silver, with circuit patterns across its form. Its sharp eyes glow soft blue, "
-    "symbolizing data processing intelligence. With thin, wiry limbs and connector-like digits, it interfaces "
-    "with computer hardware. It manipulates data streams, controlling information flow, and processes vast data, "
-    "enhancing its and nearby devices' cognitive capabilities. It's in high-tech environments, aiding in "
-    'computations and data analysis, communicating in binary pulses."\n}}\n\n'
-    "Now, generate a creature for the following company. Ensure your response is valid JSON format.\n"
-    "Company name: {name}.\nDescription: {description}.\n"
+    "Design a fictional creature for a Pokemon-style trading card game. The creature represents "
+    "the company described below. Return a JSON object with three fields:\n\n"
+    "- \"name\": A short, catchy creature name (1-2 syllables preferred). Make it sound like a real "
+    "Pokemon — playful, abstract, and fun to say. Blend sounds from the company's industry with "
+    "animal/monster sounds. Do NOT just combine industry keywords. Bad: \"Pharmamorph\", \"Consultryx\". "
+    "Good: \"Voltorb\", \"Snorlix\", \"Chippex\".\n\n"
+    "- \"description\": 2-3 sentences describing ONLY the creature's physical appearance. Include: body shape, "
+    "colors (use the company's brand colors), distinctive features tied to the industry, texture/material "
+    "of skin or fur, and expressive eyes. Do NOT include abilities, behavior, lore, or habitat.\n\n"
+    "- \"environment\": One sentence describing the natural habitat or environment where this creature lives. "
+    "It should relate to the company's industry (e.g., a tech company creature might live in a neon-lit "
+    "server cavern, an energy company creature in a volcanic thermal vent).\n\n"
+    "Example for Intel Corporation:\n"
+    '{{\n'
+    '    "name": "Chippex",\n'
+    '    "description": "A compact lizard-like creature with a smooth metallic blue-and-silver body '
+    "covered in glowing circuit-trace patterns. Its large, sharp eyes pulse with a soft cyan light. "
+    'Flat antennae extend from its head like processor pins, and its segmented tail ends in a USB-shaped tip.",\n'
+    '    "environment": "A humming cavern filled with towering crystalline motherboards and rivers of '
+    'liquid coolant."\n'
+    "}}\n\n"
+    "Company name: {name}\nCompany description: {description}\n"
 )
 
 
-def generate_creature(client, card):
-    prompt = CREATURE_PROMPT.format(name=card.get("name"), description=card.get("description"))
-    try:
-        msg = client.messages.create(
-            model="claude-haiku-4-5-20251001",
-            max_tokens=1024,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        text = msg.content[0].text
-        text = re.sub(r"^```(?:json)?\s*", "", text.strip())
-        text = re.sub(r"\s*```$", "", text.strip())
-        data = json.loads(text)
-        data["ticker"] = card.get("ticker")
-        return data
-    except Exception as e:
-        logging.error("Creature generation failed for %s: %s", card.get("ticker"), e)
-    return None
+def generate_creature(client, card, used_names=None):
+    prompt = CREATURE_PROMPT.format(
+        name=card.get("name"),
+        description=card.get("description"),
+    )
+    messages = [{"role": "user", "content": prompt}]
+
+    for attempt in range(5):
+        try:
+            msg = client.messages.create(
+                model="claude-haiku-4-5-20251001",
+                max_tokens=1024,
+                messages=messages,
+            )
+            text = msg.content[0].text
+            text = re.sub(r"^```(?:json)?\s*", "", text.strip())
+            text = re.sub(r"\s*```$", "", text.strip())
+            data = json.loads(text)
+
+            creature_name = data.get("name", "")
+            if used_names and creature_name in used_names:
+                logging.warning(
+                    "Duplicate name '%s' for %s, retrying (attempt %d)...",
+                    creature_name, card.get("ticker"), attempt + 1,
+                )
+                messages.append({"role": "assistant", "content": text})
+                messages.append({
+                    "role": "user",
+                    "content": (
+                        f'The name "{creature_name}" is already taken by another creature. '
+                        "Pick a completely different, unique name and regenerate the JSON."
+                    ),
+                })
+                continue
+
+            data["ticker"] = card.get("ticker")
+            return data
+        except Exception as e:
+            logging.error("Creature generation failed for %s: %s", card.get("ticker"), e)
+            return None
+
+    logging.warning("Could not generate unique name for %s after 5 attempts, using last result", card.get("ticker"))
+    data["ticker"] = card.get("ticker")
+    return data
 
 
 # --- Gemini Imagen image generation ---
 
 def generate_image(gemini_client, creature):
+    description = creature.get("description", "")
+    environment = creature.get("environment", "a mysterious wilderness")
     prompt = (
-        f"An anime-style drawing of a Pokemon artstation creature that is {creature.get('description')}. "
-        "The art style is 2D, semi-watercolor in a Pokemon-style theme, detailed and energetic on a plain white background."
+        f"Digital illustration of a single Pokemon-style creature: {description} "
+        f"The creature is in its natural habitat: {environment} "
+        "Style: clean anime cel-shading, vibrant colors, dynamic pose, detailed background environment."
     )
     try:
         response = gemini_client.models.generate_images(
@@ -195,6 +231,15 @@ def generate_image(gemini_client, creature):
     except Exception as e:
         logging.error("Image generation failed: %s", e)
     return None
+
+
+def _save_cards(cards, path):
+    out = []
+    for c in cards:
+        row = {k: v for k, v in c.items() if k != "description"}
+        out.append(row)
+    with open(path, "w") as f:
+        json.dump(out, f, indent=2)
 
 
 # --- Main pipeline ---
@@ -219,34 +264,43 @@ def run(anthropic_key, gemini_key):
     cards = create_card_data(company_metrics)
 
     # 4. Generate creatures + images
+    used_names = set()
     for i, card in enumerate(cards):
         ticker = card.get("ticker")
         logging.info("Generating creature for %s (%d/%d)", ticker, i + 1, len(cards))
 
-        creature = generate_creature(claude, card)
+        creature = generate_creature(claude, card, used_names)
         if not creature:
             logging.error("Failed creature generation for %s", ticker)
             continue
 
-        card["creatureName"] = creature.get("name", "")
+        creature_name = creature.get("name", "")
+        used_names.add(creature_name)
+        card["creatureName"] = creature_name
         image_path = os.path.join(IMAGE_FOLDER, f"{ticker}.webp")
 
         if os.path.exists(image_path):
             logging.info("Image already exists for %s", ticker)
         else:
-            img = generate_image(gemini, creature)
+            img = None
+            for attempt in range(3):
+                img = generate_image(gemini, creature)
+                if img:
+                    break
+                logging.warning("Image attempt %d failed for %s, retrying...", attempt + 1, ticker)
+                time.sleep(2)
             if img:
                 img.save(image_path, "webp")
                 logging.info("Saved image for %s", ticker)
             else:
-                logging.error("Failed image generation for %s", ticker)
+                logging.error("Failed image generation for %s after 3 attempts", ticker)
 
+        if (i + 1) % 50 == 0:
+            _save_cards(cards, OUTPUT_JSON)
+            logging.info("Checkpoint: saved progress at %d/%d", i + 1, len(cards))
 
-    # 5. Write output (strip fields not needed by frontend)
-    for card in cards:
-        card.pop("description", None)
-    with open(OUTPUT_JSON, "w") as f:
-        json.dump(cards, f, indent=2)
+    # 5. Write final output
+    _save_cards(cards, OUTPUT_JSON)
     logging.info("Written %d cards to %s", len(cards), OUTPUT_JSON)
 
 

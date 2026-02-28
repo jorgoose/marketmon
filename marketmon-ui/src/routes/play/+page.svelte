@@ -1,21 +1,34 @@
 <script lang="ts">
 	import type { PageServerData } from './$types';
 	import Card from '../Card.svelte';
-	import { slide, fade } from 'svelte/transition';
+	import { fade, slide, scale } from 'svelte/transition';
 	import { quintOut } from 'svelte/easing';
-	import type { Action } from '$lib/game-types';
+	import type { Action, Attack } from '$lib/game-types';
 	import { updateGameState, isSuperEffective } from './update-game-state';
+	import PlayerHud from './PlayerHud.svelte';
+	import CardSlot from './CardSlot.svelte';
+	import BattleLog from './BattleLog.svelte';
 
 	export let data: PageServerData;
 
 	let gameState = data.gameState;
 	let selectedCard: string | null = null;
-	let showHand = false;
+	let actionMode: 'idle' | 'select-action' | 'select-target' = 'idle';
+	let battleLog: { text: string; type: string }[] = [];
 	let notification = '';
 	let notificationType: 'error' | 'success' = 'error';
 	let notificationTimeout: ReturnType<typeof setTimeout>;
+	let innerWidth: number = 1024;
 
 	const MAX_HEALTH = 50;
+	const FIELD_SLOTS = 4;
+
+	$: fieldCardSize = innerWidth < 480 ? 0.4 : innerWidth < 768 ? 0.55 : 0.65;
+	$: handCardSize = innerWidth < 480 ? 0.38 : innerWidth < 768 ? 0.5 : 0.6;
+
+	function addLog(text: string, type: string) {
+		battleLog = [...battleLog, { text, type }];
+	}
 
 	function showNotification(msg: string, type: 'error' | 'success' = 'error') {
 		notification = msg;
@@ -24,199 +37,324 @@
 		notificationTimeout = setTimeout(() => (notification = ''), 3000);
 	}
 
-	function getHealthColor(health: number): string {
-		if (health > 25) return 'var(--green)';
-		if (health > 10) return 'var(--gold)';
-		return 'var(--red)';
+	function getCreatureName(ticker: string): string {
+		return data.cards.find((c) => c.ticker === ticker)?.creatureName || ticker;
+	}
+
+	function inferBotAction(oldState: typeof gameState, newState: typeof gameState) {
+		const oldOpInPlay = oldState.opponent.inPlay;
+		const newOpInPlay = newState.opponent.inPlay;
+		const oldYouInPlay = oldState.you.inPlay;
+		const newYouInPlay = newState.you.inPlay;
+
+		// Check if bot deployed a new card
+		const newCards = newOpInPlay.filter(
+			(nc) => !oldOpInPlay.some((oc) => oc.ticker === nc.ticker)
+		);
+		if (newCards.length > 0) {
+			addLog(`Bot deployed ${getCreatureName(newCards[0].ticker)}!`, 'deploy');
+			return;
+		}
+
+		// Check if bot attacked (your card lost HP or was destroyed)
+		for (const oldCard of oldYouInPlay) {
+			const newCard = newYouInPlay.find((c) => c.ticker === oldCard.ticker);
+			if (!newCard) {
+				addLog(`Bot destroyed your ${getCreatureName(oldCard.ticker)}!`, 'damage');
+				return;
+			} else if (newCard.health < oldCard.health) {
+				const dmg = oldCard.health - newCard.health;
+				addLog(`Bot hit ${getCreatureName(oldCard.ticker)} for ${dmg} damage!`, 'damage');
+				return;
+			}
+		}
+
+		// Check if bot grew a card
+		for (const newCard of newOpInPlay) {
+			const oldCard = oldOpInPlay.find((c) => c.ticker === newCard.ticker);
+			if (oldCard && newCard.health > oldCard.health) {
+				addLog(`Bot grew ${getCreatureName(newCard.ticker)}.`, 'system');
+				return;
+			}
+		}
+
+		addLog('Bot took an action.', 'system');
 	}
 
 	function playCard(cardTicker: string) {
-		const health = data.cards.find(({ ticker }) => ticker === cardTicker)?.health || 0;
+		if (gameState.whosTurn !== 'you') return;
+		const cardDef = data.cards.find(({ ticker }) => ticker === cardTicker);
+		const health = cardDef?.health || 0;
 		if (health > gameState.you.health) {
 			showNotification('Not enough HP to deploy this creature.');
 			return;
 		}
+		addLog(`You deployed ${getCreatureName(cardTicker)}!`, 'deploy');
+
+		const oldState = structuredClone(gameState);
 		const action: Action = { actionType: 'play', data: cardTicker };
 		gameState = updateGameState(gameState, action, data.cards);
 		selectedCard = null;
+		actionMode = 'idle';
+
+		if (!gameState.winner) inferBotAction(oldState, gameState);
 	}
 
 	function growCard(cardTicker: string) {
+		addLog(`${getCreatureName(cardTicker)} used Grow!`, 'system');
+
+		const oldState = structuredClone(gameState);
 		const action: Action = { actionType: 'grow', data: cardTicker };
 		gameState = updateGameState(gameState, action, data.cards);
 		selectedCard = null;
+		actionMode = 'idle';
+
+		if (!gameState.winner) inferBotAction(oldState, gameState);
 	}
 
 	function attackCard(attackerTicker: string, opponentTicker: string) {
-		const attacker = data.cards.find(c => c.ticker === attackerTicker);
-		const defender = data.cards.find(c => c.ticker === opponentTicker);
-		if (attacker && defender && isSuperEffective(attacker.sector, defender.sector)) {
-			showNotification(`Super effective! ${attacker.sector} → ${defender.sector} (1.5× damage)`, 'success');
+		const attacker = data.cards.find((c) => c.ticker === attackerTicker);
+		const defender = data.cards.find((c) => c.ticker === opponentTicker);
+		const superEff = attacker && defender && isSuperEffective(attacker.sector, defender.sector);
+
+		const baseDmg = attacker && defender ? Math.max(attacker.attack - defender.defense, 0) : 0;
+		const dmg = superEff ? Math.floor(baseDmg * 1.5) : baseDmg;
+
+		addLog(
+			`${getCreatureName(attackerTicker)} attacked ${getCreatureName(opponentTicker)} for ${dmg} damage!`,
+			'damage'
+		);
+		if (superEff) {
+			addLog('Super effective!', 'super');
+			showNotification(
+				`Super effective! ${attacker?.sector} \u2192 ${defender?.sector} (1.5\u00D7 damage)`,
+				'success'
+			);
 		}
+
+		const oldState = structuredClone(gameState);
 		const action: Action = {
 			actionType: 'attack',
 			data: { attacker: attackerTicker, opponent: opponentTicker }
 		};
 		gameState = updateGameState(gameState, action, data.cards);
 		selectedCard = null;
+		actionMode = 'idle';
+
+		if (!gameState.winner) inferBotAction(oldState, gameState);
+	}
+
+	function handleFieldClick(ticker: string | null, side: 'player' | 'opponent') {
+		if (gameState.whosTurn !== 'you' || !ticker) return;
+
+		if (side === 'player') {
+			if (actionMode === 'select-target') {
+				// Clicking own card while selecting target cancels
+				selectedCard = null;
+				actionMode = 'idle';
+				return;
+			}
+			if (selectedCard === ticker) {
+				selectedCard = null;
+				actionMode = 'idle';
+			} else {
+				selectedCard = ticker;
+				actionMode = 'select-action';
+			}
+		} else if (side === 'opponent') {
+			if (actionMode === 'select-target' && selectedCard) {
+				attackCard(selectedCard, ticker);
+			}
+		}
+	}
+
+	function startAttackMode() {
+		actionMode = 'select-target';
+	}
+
+	function cancelAction() {
+		selectedCard = null;
+		actionMode = 'idle';
+	}
+
+	// Build padded slot arrays
+	$: playerSlots = Array.from({ length: Math.max(FIELD_SLOTS, gameState.you.inPlay.length) }, (_, i) =>
+		gameState.you.inPlay[i] || null
+	);
+	$: opponentSlots = Array.from(
+		{ length: Math.max(FIELD_SLOTS, gameState.opponent.inPlay.length) },
+		(_, i) => gameState.opponent.inPlay[i] || null
+	);
+
+	// Fan effect angles for hand cards
+	function fanAngle(index: number, total: number): number {
+		if (total <= 1) return 0;
+		const spread = Math.min(total * 3, 15);
+		return -spread / 2 + (spread / (total - 1)) * index;
+	}
+
+	function fanY(index: number, total: number): number {
+		if (total <= 1) return 0;
+		const mid = (total - 1) / 2;
+		const dist = Math.abs(index - mid) / mid;
+		return dist * dist * 12;
 	}
 </script>
+
+<svelte:window bind:innerWidth />
 
 <div class="arena-page">
 	<!-- Header -->
 	<div class="arena-header">
-		<a href="/" class="exit-link">&larr; Exit</a>
-		<span class="arena-title font-display text-gold">Arena</span>
-		<div style="width: 48px"></div>
+		<a href="/" class="exit-link font-mono">&larr; Exit</a>
+		<span class="arena-title font-display text-gold">ARENA</span>
+		{#if !gameState.winner}
+			<span class="turn-tag font-mono" class:your-turn={gameState.whosTurn === 'you'} transition:fade|local={{ duration: 200 }}>
+				{gameState.whosTurn === 'you' ? 'YOUR TURN' : 'BOT TURN'}
+			</span>
+		{:else}
+			<div style="width: 72px"></div>
+		{/if}
 	</div>
 
-	<!-- Battlefield -->
-	<div class="battlefield">
-		<!-- Opponent Zone -->
-		<div class="zone">
-			<div class="zone-hud">
-				<span class="hud-label font-mono">OPPONENT</span>
-				<div class="hud-bar">
-					<div class="bar-track">
-						<div class="bar-fill" style="width: {Math.min(100, (gameState.opponent.health / MAX_HEALTH) * 100)}%; background: {getHealthColor(gameState.opponent.health)}"></div>
-					</div>
-					<span class="hud-hp font-mono">{gameState.opponent.health}</span>
-				</div>
-			</div>
-			<div class="zone-field">
-				{#if gameState.opponent.inPlay.length === 0}
-					<div class="field-empty">No creatures deployed</div>
-				{:else}
-					<div class="field-row">
-						{#each gameState.opponent.inPlay as card, i (card.ticker)}
-							{@const cardData = data.cards.find(({ ticker }) => ticker === card.ticker)}
-							<div class="fcard" transition:slide|local={{ delay: i * 100, duration: 500, easing: quintOut }}>
-								<Card
-									name={cardData?.creatureName || ''}
-									health={card.health}
-									defense={cardData?.defense || 0}
-									attack={cardData?.attack || 0}
-									growth={cardData?.growth || 0}
-									company={cardData?.name || ''}
-									ticker={card.ticker}
-									sector={cardData?.sector || ''}
-									sizeMultiplier={0.8}
-								/>
-							</div>
-						{/each}
-					</div>
-				{/if}
-			</div>
+	<!-- Game Mat -->
+	<div class="game-mat">
+		<!-- Opponent HUD -->
+		<div class="mat-row hud-row">
+			<PlayerHud
+				label="BOT"
+				health={gameState.opponent.health}
+				maxHealth={MAX_HEALTH}
+				isActive={gameState.whosTurn === 'opponent'}
+				side="opponent"
+			/>
+		</div>
+
+		<!-- Opponent Field -->
+		<div class="mat-row field-row">
+			{#each opponentSlots as card, i (card ? card.ticker : `op-empty-${i}`)}
+				{@const cardData = card ? data.cards.find((c) => c.ticker === card.ticker) : undefined}
+				<CardSlot
+					{card}
+					{cardData}
+					isSelected={false}
+					isAttackTarget={actionMode === 'select-target' && card !== null}
+					isPlayerSide={false}
+					slotIndex={i}
+					sizeMultiplier={fieldCardSize}
+					on:click={() => handleFieldClick(card?.ticker || null, 'opponent')}
+				/>
+			{/each}
 		</div>
 
 		<!-- Divider -->
-		<div class="divider">
+		<div class="mat-row divider-row">
 			<div class="div-line"></div>
 			<span class="div-vs font-display">VS</span>
 			<div class="div-line"></div>
 		</div>
 
-		<!-- Your Zone -->
-		<div class="zone">
-			<div class="zone-field">
-				{#if gameState.you.inPlay.length === 0}
-					<div class="field-empty">Open your hand to deploy creatures</div>
-				{:else}
-					<div class="field-row">
-						{#each gameState.you.inPlay as card, i (card.ticker)}
-							{@const cardData = data.cards.find((c) => c.ticker === card.ticker)}
-							<div
-								class="fcard selectable"
-								class:selected={selectedCard === card.ticker}
-								transition:slide|local={{ delay: i * 100, duration: 500, easing: quintOut }}
-							>
-								<Card
-									name={cardData?.creatureName || ''}
-									health={card.health}
-									defense={cardData?.defense || 0}
-									attack={cardData?.attack || 0}
-									growth={cardData?.growth || 0}
-									company={cardData?.name || ''}
-									ticker={card.ticker}
-									sector={cardData?.sector || ''}
-									on:click={() => {
-										if (selectedCard === card.ticker) selectedCard = null;
-										else if (!selectedCard) selectedCard = card.ticker;
-									}}
-									sizeMultiplier={0.8}
-								/>
-							</div>
-						{/each}
-					</div>
-				{/if}
-			</div>
-			<div class="zone-hud">
-				<span class="hud-label font-mono">YOU</span>
-				<div class="hud-bar">
-					<div class="bar-track">
-						<div class="bar-fill" style="width: {Math.min(100, (gameState.you.health / MAX_HEALTH) * 100)}%; background: {getHealthColor(gameState.you.health)}"></div>
-					</div>
-					<span class="hud-hp font-mono">{gameState.you.health}</span>
-				</div>
-			</div>
+		<!-- Player Field -->
+		<div class="mat-row field-row">
+			{#each playerSlots as card, i (card ? card.ticker : `pl-empty-${i}`)}
+				{@const cardData = card ? data.cards.find((c) => c.ticker === card.ticker) : undefined}
+				<CardSlot
+					{card}
+					{cardData}
+					isSelected={selectedCard === card?.ticker}
+					isAttackTarget={false}
+					isPlayerSide={true}
+					slotIndex={i}
+					sizeMultiplier={fieldCardSize}
+					on:click={() => handleFieldClick(card?.ticker || null, 'player')}
+				/>
+			{/each}
+		</div>
+
+		<!-- Player HUD -->
+		<div class="mat-row hud-row">
+			<PlayerHud
+				label="YOU"
+				health={gameState.you.health}
+				maxHealth={MAX_HEALTH}
+				isActive={gameState.whosTurn === 'you'}
+				side="player"
+			/>
 		</div>
 	</div>
 
-	<!-- Action Bar -->
-	{#if selectedCard}
+	<!-- Action Panel -->
+	{#if actionMode === 'select-action' && selectedCard}
 		{@const sel = data.cards.find((c) => c.ticker === selectedCard)}
-		<div class="action-bar" transition:slide|local={{ duration: 250, easing: quintOut }}>
+		<div class="action-panel" transition:slide|local={{ duration: 200, easing: quintOut }}>
 			<span class="act-label font-mono">{sel?.creatureName || selectedCard}</span>
 			<div class="act-btns">
-				<button class="act grow" on:click={() => growCard(selectedCard || '')}>Grow</button>
-				{#each gameState.opponent.inPlay as oc (oc.ticker)}
-					{@const ocd = data.cards.find((c) => c.ticker === oc.ticker)}
-					<button class="act attack" on:click={() => attackCard(selectedCard || '', oc.ticker)}>
-						Attack {ocd?.creatureName || oc.ticker}
+				<button class="act grow" on:click={() => growCard(selectedCard || '')}>
+					Grow
+				</button>
+				{#if gameState.opponent.inPlay.length > 0}
+					<button class="act attack" on:click={startAttackMode}>
+						Attack
 					</button>
-				{/each}
-				<button class="act cancel" on:click={() => (selectedCard = null)}>Cancel</button>
+				{/if}
+				<button class="act cancel" on:click={cancelAction}>Cancel</button>
 			</div>
 		</div>
 	{/if}
 
-	<!-- Hand Toggle -->
-	<button class="hand-btn font-mono" on:click={() => (showHand = !showHand)}>
-		{showHand ? 'HIDE' : 'HAND'} [{gameState.you.hand.length}]
-	</button>
-
-	<!-- Hand Drawer -->
-	{#if showHand}
-		<div class="hand-drawer" transition:slide|local={{ duration: 350, easing: quintOut }}>
-			{#if gameState.you.hand.length === 0}
-				<div class="hand-empty font-mono">HAND EMPTY</div>
-			{:else}
-				<div class="hand-scroll">
-					{#each gameState.you.hand as cardTicker, i (cardTicker)}
-						{@const cardData = data.cards.find((card) => card.ticker === cardTicker)}
-						<div class="hand-card" transition:slide|local={{ delay: i * 80, duration: 400, easing: quintOut }}>
-							<Card
-								name={cardData?.creatureName || ''}
-								health={cardData?.health || 0}
-								defense={cardData?.defense || 0}
-								attack={cardData?.attack || 0}
-								growth={cardData?.growth || 0}
-								on:click={() => { if (gameState.whosTurn === 'you') playCard(cardTicker); }}
-								company={cardData?.name || ''}
-								ticker={cardTicker}
-								sector={cardData?.sector || ''}
-								sizeMultiplier={0.75}
-							/>
-						</div>
-					{/each}
-				</div>
-			{/if}
+	{#if actionMode === 'select-target'}
+		<div class="action-panel target-mode" transition:slide|local={{ duration: 200, easing: quintOut }}>
+			<span class="act-label font-mono" style="color: var(--red)">SELECT TARGET</span>
+			<button class="act cancel" on:click={cancelAction}>Cancel</button>
 		</div>
 	{/if}
 
+	<!-- Hand (always visible) -->
+	<div class="hand-area">
+		<div class="hand-label font-mono">HAND [{gameState.you.hand.length}]</div>
+		{#if gameState.you.hand.length === 0}
+			<div class="hand-empty font-mono">HAND EMPTY</div>
+		{:else}
+			<div class="hand-scroll" class:fan={innerWidth >= 768}>
+				{#each gameState.you.hand as cardTicker, i (cardTicker)}
+					{@const cardData = data.cards.find((card) => card.ticker === cardTicker)}
+					{@const total = gameState.you.hand.length}
+					<div
+						class="hand-card"
+						class:disabled={gameState.whosTurn !== 'you'}
+						style={innerWidth >= 768
+							? `--fan-angle: ${fanAngle(i, total)}deg; --fan-y: ${fanY(i, total)}px;`
+							: ''}
+						transition:scale|local={{ duration: 300, easing: quintOut, start: 0.8 }}
+					>
+						<Card
+							name={cardData?.creatureName || ''}
+							health={cardData?.health || 0}
+							defense={cardData?.defense || 0}
+							attack={cardData?.attack || 0}
+							growth={cardData?.growth || 0}
+							on:click={() => playCard(cardTicker)}
+							company={cardData?.name || ''}
+							ticker={cardTicker}
+							sector={cardData?.sector || ''}
+							sizeMultiplier={handCardSize}
+						/>
+					</div>
+				{/each}
+			</div>
+		{/if}
+	</div>
+
+	<!-- Mobile ticker (shows inside flow) -->
+	<BattleLog messages={battleLog} />
+
 	<!-- Toast -->
 	{#if notification}
-		<div class="toast font-mono" class:toast-success={notificationType === 'success'} transition:fade|local={{ duration: 200 }}>
+		<div
+			class="toast font-mono"
+			class:toast-success={notificationType === 'success'}
+			transition:fade|local={{ duration: 200 }}
+		>
 			{notification}
 		</div>
 	{/if}
@@ -224,7 +362,11 @@
 	<!-- Game Over -->
 	{#if gameState.winner}
 		<div class="game-over" transition:fade|local={{ duration: 400 }}>
-			<div class="go-card" class:win={gameState.winner === 'you'} class:lose={gameState.winner === 'opponent'}>
+			<div
+				class="go-card"
+				class:win={gameState.winner === 'you'}
+				class:lose={gameState.winner === 'opponent'}
+			>
 				{#if gameState.winner === 'you'}
 					<p class="go-tag font-mono green">VICTORY</p>
 					<h2 class="go-title font-display">You Win</h2>
@@ -244,12 +386,14 @@
 </div>
 
 <style>
+	/* ---- Full viewport layout ---- */
 	.arena-page {
 		position: relative;
 		z-index: 1;
-		min-height: 100vh;
+		height: 100vh;
 		display: flex;
 		flex-direction: column;
+		overflow: hidden;
 	}
 
 	/* ---- Header ---- */
@@ -257,141 +401,102 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		padding: 0.65rem 1.5rem;
+		padding: 0.5rem 1.25rem;
 		background: rgba(6, 6, 10, 0.85);
 		backdrop-filter: blur(20px);
 		-webkit-backdrop-filter: blur(20px);
 		border-bottom: 1px solid var(--border);
 		z-index: 10;
+		flex-shrink: 0;
 	}
 
 	.exit-link {
 		color: var(--text-muted);
 		text-decoration: none;
-		font-size: 0.85rem;
+		font-size: 0.75rem;
 		font-weight: 600;
 		transition: color 0.2s;
 	}
 
-	.exit-link:hover { color: var(--text-primary); }
+	.exit-link:hover {
+		color: var(--text-primary);
+	}
 
 	.arena-title {
-		font-size: 1rem;
-		font-weight: 700;
-		letter-spacing: 0.1em;
-	}
-
-	/* ---- Battlefield ---- */
-	.battlefield {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem 1.5rem;
-		gap: 0.5rem;
-		overflow-y: auto;
-	}
-
-	.zone {
-		display: flex;
-		flex-direction: column;
-		gap: 0.75rem;
-	}
-
-	/* ---- HUD (Health) ---- */
-	.zone-hud {
-		display: flex;
-		align-items: center;
-		gap: 1rem;
-		padding: 0.5rem 1rem;
-		border-radius: 0.5rem;
-		background: rgba(10, 10, 18, 0.5);
-		border: 1px solid var(--border);
-	}
-
-	.hud-label {
-		font-size: 0.65rem;
+		font-size: 0.9rem;
 		font-weight: 700;
 		letter-spacing: 0.15em;
-		color: var(--text-muted);
-		min-width: 72px;
 	}
 
-	.hud-bar {
-		flex: 1;
-		display: flex;
-		align-items: center;
-		gap: 0.75rem;
-	}
-
-	.bar-track {
-		flex: 1;
-		height: 6px;
-		border-radius: 3px;
-		background: rgba(255, 255, 255, 0.06);
-		overflow: hidden;
-		max-width: 280px;
-		border: 1px solid rgba(255, 255, 255, 0.04);
-	}
-
-	.bar-fill {
-		height: 100%;
-		border-radius: 3px;
-		transition: width 0.4s ease, background 0.4s ease;
-	}
-
-	.hud-hp {
-		font-size: 0.75rem;
+	.turn-tag {
+		font-size: 0.6rem;
 		font-weight: 700;
-		color: var(--text-secondary);
-		min-width: 30px;
+		letter-spacing: 0.1em;
+		padding: 0.25rem 0.6rem;
+		border-radius: 0.3rem;
+		background: rgba(255, 255, 255, 0.04);
+		border: 1px solid var(--border);
+		color: var(--text-muted);
 	}
 
-	/* ---- Card Field ---- */
-	.zone-field {
-		min-height: 100px;
+	.turn-tag.your-turn {
+		background: rgba(201, 168, 76, 0.1);
+		border-color: rgba(201, 168, 76, 0.3);
+		color: var(--gold);
+		animation: turnGlow 2s ease-in-out infinite;
+	}
+
+	@keyframes turnGlow {
+		0%, 100% { box-shadow: 0 0 4px rgba(201, 168, 76, 0.1); }
+		50% { box-shadow: 0 0 12px rgba(201, 168, 76, 0.2); }
+	}
+
+	/* ---- Game Mat ---- */
+	.game-mat {
+		flex: 1;
 		display: flex;
-		justify-content: center;
+		flex-direction: column;
 		align-items: center;
+		padding: 0.5rem 1rem;
+		gap: 0.35rem;
+		overflow-y: auto;
+		max-width: 1000px;
+		width: 100%;
+		margin: 0 auto;
+		min-height: 0;
 	}
 
+	.mat-row {
+		width: 100%;
+		flex-shrink: 0;
+	}
+
+	.hud-row {
+		max-width: 600px;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	/* ---- Field Rows ---- */
 	.field-row {
 		display: flex;
-		flex-wrap: wrap;
-		gap: 1rem;
 		justify-content: center;
+		align-items: center;
+		gap: 0.5rem;
+		flex-wrap: wrap;
+		padding: 0.25rem 0;
+		flex: 1;
+		min-height: 0;
 	}
 
-	.fcard {
-		border-radius: 1.25rem;
-		padding: 3px;
-		border: 2px solid transparent;
-		transition: all 0.25s ease;
-	}
-
-	.fcard:hover { transform: translateY(-4px); }
-
-	.fcard.selectable { cursor: pointer; }
-
-	.fcard.selected {
-		border-color: var(--purple-glow);
-		box-shadow: 0 0 24px rgba(124, 58, 237, 0.3), 0 0 48px rgba(124, 58, 237, 0.1);
-	}
-
-	.field-empty {
-		padding: 2rem 2.5rem;
-		text-align: center;
-		color: var(--text-muted);
-		font-size: 0.85rem;
-		border: 1px dashed rgba(201, 168, 76, 0.12);
-		border-radius: 0.75rem;
-	}
-
-	/* ---- VS Divider ---- */
-	.divider {
+	/* ---- Divider ---- */
+	.divider-row {
 		display: flex;
 		align-items: center;
 		gap: 1rem;
-		padding: 0.15rem 0;
+		padding: 0.1rem 0;
+		flex-shrink: 0;
+		flex: 0;
 	}
 
 	.div-line {
@@ -401,31 +506,30 @@
 	}
 
 	.div-vs {
-		font-size: 0.7rem;
+		font-size: 0.65rem;
 		font-weight: 700;
 		letter-spacing: 0.2em;
 		color: var(--gold-dim);
 	}
 
-	/* ---- Action Bar ---- */
-	.action-bar {
-		position: fixed;
-		bottom: 56px;
-		left: 50%;
-		transform: translateX(-50%);
+	/* ---- Action Panel ---- */
+	.action-panel {
 		display: flex;
 		align-items: center;
-		gap: 0.75rem;
-		padding: 0.5rem 1rem;
-		background: rgba(6, 6, 10, 0.92);
-		backdrop-filter: blur(20px);
-		-webkit-backdrop-filter: blur(20px);
-		border: 1px solid var(--border);
-		border-radius: 0.5rem;
-		z-index: 30;
-		max-width: 90vw;
-		flex-wrap: wrap;
 		justify-content: center;
+		gap: 0.75rem;
+		padding: 0.45rem 1rem;
+		background: rgba(6, 6, 10, 0.92);
+		backdrop-filter: blur(16px);
+		-webkit-backdrop-filter: blur(16px);
+		border-top: 1px solid var(--border);
+		flex-shrink: 0;
+		flex-wrap: wrap;
+	}
+
+	.action-panel.target-mode {
+		border-top-color: rgba(255, 71, 87, 0.3);
+		background: rgba(255, 71, 87, 0.04);
 	}
 
 	.act-label {
@@ -482,71 +586,82 @@
 		border-color: var(--border);
 	}
 
-	.act.cancel:hover { color: var(--text-secondary); background: rgba(255, 255, 255, 0.03); }
-
-	/* ---- Hand Toggle ---- */
-	.hand-btn {
-		position: fixed;
-		bottom: 14px;
-		right: 1.5rem;
-		padding: 0.45rem 1rem;
-		border-radius: 0.375rem;
-		background: rgba(201, 168, 76, 0.1);
-		border: 1px solid rgba(201, 168, 76, 0.25);
-		color: var(--gold);
-		font-size: 0.7rem;
-		font-weight: 700;
-		letter-spacing: 0.1em;
-		cursor: pointer;
-		z-index: 25;
-		transition: all 0.2s ease;
+	.act.cancel:hover {
+		color: var(--text-secondary);
+		background: rgba(255, 255, 255, 0.03);
 	}
 
-	.hand-btn:hover {
-		background: rgba(201, 168, 76, 0.18);
-		border-color: rgba(201, 168, 76, 0.4);
-	}
-
-	/* ---- Hand Drawer ---- */
-	.hand-drawer {
-		position: fixed;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		z-index: 20;
-		background: rgba(6, 6, 10, 0.96);
-		backdrop-filter: blur(20px);
-		-webkit-backdrop-filter: blur(20px);
+	/* ---- Hand Area (always visible) ---- */
+	.hand-area {
+		flex-shrink: 0;
+		background: rgba(6, 6, 10, 0.92);
+		backdrop-filter: blur(16px);
+		-webkit-backdrop-filter: blur(16px);
 		border-top: 1px solid rgba(201, 168, 76, 0.15);
-		padding: 1rem 0;
+		padding: 0.4rem 0;
+	}
+
+	.hand-label {
+		font-size: 0.6rem;
+		font-weight: 700;
+		letter-spacing: 0.12em;
+		color: var(--gold-dim);
+		padding: 0 1rem 0.25rem;
 	}
 
 	.hand-scroll {
 		display: flex;
-		gap: 0.75rem;
+		gap: 0.6rem;
 		overflow-x: auto;
-		padding: 0.5rem 1.5rem;
+		padding: 0.25rem 1.25rem 0.5rem;
+		justify-content: flex-start;
+	}
+
+	.hand-scroll::-webkit-scrollbar { height: 3px; }
+	.hand-scroll::-webkit-scrollbar-track { background: transparent; }
+	.hand-scroll::-webkit-scrollbar-thumb { background: rgba(201, 168, 76, 0.15); border-radius: 3px; }
+
+	/* Fan effect on desktop */
+	.hand-scroll.fan {
+		justify-content: center;
+		overflow-x: visible;
+		gap: 0.35rem;
+	}
+
+	.hand-scroll.fan .hand-card {
+		transform: rotate(var(--fan-angle, 0deg)) translateY(var(--fan-y, 0px));
+		transition: transform 0.3s ease;
+	}
+
+	.hand-scroll.fan .hand-card:hover {
+		transform: rotate(0deg) translateY(-14px) !important;
+		z-index: 5;
 	}
 
 	.hand-card {
 		flex-shrink: 0;
 		cursor: pointer;
-		transition: transform 0.2s ease;
 		border-radius: 1.25rem;
 		padding: 2px;
 		border: 2px solid transparent;
+		transition: transform 0.2s ease, border-color 0.2s ease;
+		position: relative;
 	}
 
 	.hand-card:hover {
-		transform: translateY(-10px);
 		border-color: rgba(201, 168, 76, 0.3);
+	}
+
+	.hand-card.disabled {
+		opacity: 0.5;
+		pointer-events: none;
 	}
 
 	.hand-empty {
 		text-align: center;
-		padding: 1.5rem;
+		padding: 0.75rem;
 		color: var(--text-muted);
-		font-size: 0.7rem;
+		font-size: 0.65rem;
 		letter-spacing: 0.15em;
 	}
 
@@ -593,6 +708,11 @@
 		border-radius: 1rem;
 		border: 1px solid;
 		animation: scaleIn 0.45s ease-out both;
+	}
+
+	@keyframes scaleIn {
+		from { transform: scale(0.85); opacity: 0; }
+		to { transform: scale(1); opacity: 1; }
 	}
 
 	.go-card.win {
@@ -671,12 +791,11 @@
 		color: var(--text-primary);
 	}
 
-	/* ---- Mobile ---- */
+	/* ---- Responsive ---- */
 	@media (max-width: 768px) {
-		.battlefield { padding: 0.75rem 1rem; }
-		.field-empty { padding: 1.25rem 1.5rem; font-size: 0.8rem; }
-		.bar-track { max-width: none; }
-		.hud-label { min-width: auto; }
+		.game-mat { padding: 0.35rem 0.5rem; gap: 0.25rem; }
+		.field-row { gap: 0.35rem; }
+		.hand-scroll { padding: 0.25rem 0.75rem 0.5rem; gap: 0.5rem; }
 		.go-card { padding: 2rem 1.5rem; }
 		.go-title { font-size: 2rem; }
 		.go-btns { flex-direction: column; align-items: center; }
@@ -685,15 +804,15 @@
 	}
 
 	@media (max-width: 480px) {
-		.arena-header { padding: 0.5rem 1rem; }
-		.battlefield { padding: 0.5rem 0.5rem; gap: 0.35rem; }
-		.zone-hud { padding: 0.4rem 0.6rem; gap: 0.5rem; }
-		.hud-label { font-size: 0.6rem; letter-spacing: 0.1em; }
-		.field-row { gap: 0.5rem; }
-		.action-bar { bottom: 50px; padding: 0.4rem 0.75rem; gap: 0.5rem; }
+		.arena-header { padding: 0.4rem 0.75rem; }
+		.arena-title { font-size: 0.8rem; }
+		.turn-tag { font-size: 0.55rem; padding: 0.2rem 0.4rem; }
+		.game-mat { padding: 0.25rem 0.35rem; gap: 0.2rem; }
+		.field-row { gap: 0.25rem; padding: 0.15rem 0; }
+		.action-panel { padding: 0.35rem 0.75rem; gap: 0.5rem; }
 		.act { padding: 0.35rem 0.7rem; font-size: 0.7rem; }
-		.hand-btn { bottom: 10px; right: 1rem; padding: 0.4rem 0.75rem; font-size: 0.65rem; }
-		.hand-scroll { padding: 0.5rem 0.75rem; gap: 0.5rem; }
+		.hand-label { font-size: 0.55rem; padding: 0 0.75rem 0.2rem; }
+		.hand-scroll { padding: 0.2rem 0.5rem 0.4rem; gap: 0.35rem; }
 		.go-card { padding: 1.75rem 1.25rem; margin: 0 1rem; }
 		.go-title { font-size: 1.75rem; }
 		.go-sub { font-size: 0.85rem; margin-bottom: 1.5rem; }

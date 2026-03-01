@@ -24,8 +24,13 @@ type Attack = {
 };
 
 type Action = {
-    actionType: 'play' | 'attack' | 'grow',
+    actionType: 'play' | 'attack' | 'attack-face' | 'grow',
     data: string | Attack
+};
+
+type GameUpdate = {
+    state: GameState;
+    botAction?: Action;
 };
 
 type GameState = {

@@ -4,12 +4,14 @@
 	export let maxHealth: number;
 	export let isActive: boolean = false;
 	export let side: 'player' | 'opponent' = 'player';
+	export let isAttackTarget: boolean = false;
 
 	$: hpPct = Math.min(100, (health / maxHealth) * 100);
 	$: hpColor = health > 25 ? 'var(--green)' : health > 10 ? 'var(--gold)' : 'var(--red)';
 </script>
 
-<div class="hud" class:active={isActive}>
+<!-- svelte-ignore a11y-click-events-have-key-events a11y-no-static-element-interactions -->
+<div class="hud" class:active={isActive} class:attack-target={isAttackTarget} on:click>
 	<div class="hud-icon" class:player={side === 'player'} class:opponent={side === 'opponent'}>
 		{#if side === 'player'}
 			<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a6 6 0 0 1 12 0v1"/></svg>
@@ -45,6 +47,18 @@
 		border-color: rgba(201, 168, 76, 0.4);
 		box-shadow: 0 0 12px rgba(201, 168, 76, 0.08);
 		animation: turnPulse 2s ease-in-out infinite;
+	}
+
+	.hud.attack-target {
+		border-color: rgba(255, 71, 87, 0.6);
+		box-shadow: 0 0 16px rgba(255, 71, 87, 0.15);
+		animation: attackPulse 1s ease-in-out infinite;
+		cursor: pointer;
+	}
+
+	@keyframes attackPulse {
+		0%, 100% { box-shadow: 0 0 8px rgba(255, 71, 87, 0.1); border-color: rgba(255, 71, 87, 0.4); }
+		50% { box-shadow: 0 0 20px rgba(255, 71, 87, 0.25); border-color: rgba(255, 71, 87, 0.7); }
 	}
 
 	@keyframes turnPulse {

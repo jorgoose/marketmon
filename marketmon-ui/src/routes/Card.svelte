@@ -21,7 +21,7 @@
     'Consumer Defensive': '#68b77b',
     'Energy': '#ff6b1a',
     'Utilities': '#64748b',
-    'Materials': '#a8876a',
+    'Basic Materials': '#a8876a',
     'Real Estate': '#c2873a'
   };
 
@@ -74,7 +74,7 @@
       repeating-linear-gradient(170deg, transparent, transparent 14px, rgba(255,255,255,0.04) 14px, rgba(255,255,255,0.04) 15px),
       linear-gradient(155deg, #4a5568 0%, #576478 25%, #64748b 50%, #7e8ea0 75%, #4a5568 100%)
     `,
-    'Materials': `
+    'Basic Materials': `
       radial-gradient(ellipse at 28% 18%, rgba(255,255,255,0.2) 0%, transparent 50%),
       repeating-linear-gradient(60deg, transparent, transparent 20px, rgba(255,255,255,0.04) 20px, rgba(255,255,255,0.04) 21px),
       repeating-linear-gradient(-60deg, transparent, transparent 20px, rgba(255,255,255,0.03) 20px, rgba(255,255,255,0.03) 21px),
@@ -89,7 +89,7 @@
   };
 
   const sectorWeaknesses: { [key: string]: string } = {
-    'Technology': 'Materials',
+    'Technology': 'Basic Materials',
     'Communication Services': 'Technology',
     'Consumer Defensive': 'Communication Services',
     'Healthcare': 'Consumer Defensive',
@@ -99,7 +99,7 @@
     'Real Estate': 'Utilities',
     'Financial Services': 'Real Estate',
     'Consumer Cyclical': 'Financial Services',
-    'Materials': 'Consumer Cyclical'
+    'Basic Materials': 'Consumer Cyclical'
   };
 
   $: color = sectorColors[sector] || '#ffd700';

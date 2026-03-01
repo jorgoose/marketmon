@@ -3,7 +3,7 @@
 	import Card from '../Card.svelte';
 	import { fade, slide, scale } from 'svelte/transition';
 	import { quintOut } from 'svelte/easing';
-	import type { Action, Attack } from '$lib/game-types';
+	import type { Action, Attack, GameUpdate } from '$lib/game-types';
 	import { updateGameState, isSuperEffective } from './update-game-state';
 	import PlayerHud from './PlayerHud.svelte';
 	import CardSlot from './CardSlot.svelte';
@@ -41,75 +41,70 @@
 		return data.cards.find((c) => c.ticker === ticker)?.creatureName || ticker;
 	}
 
-	function inferBotAction(oldState: typeof gameState, newState: typeof gameState) {
-		const oldOpInPlay = oldState.opponent.inPlay;
-		const newOpInPlay = newState.opponent.inPlay;
-		const oldYouInPlay = oldState.you.inPlay;
-		const newYouInPlay = newState.you.inPlay;
-
-		// Check if bot deployed a new card
-		const newCards = newOpInPlay.filter(
-			(nc) => !oldOpInPlay.some((oc) => oc.ticker === nc.ticker)
-		);
-		if (newCards.length > 0) {
-			addLog(`Bot deployed ${getCreatureName(newCards[0].ticker)}!`, 'deploy');
-			return;
-		}
-
-		// Check if bot attacked (your card lost HP or was destroyed)
-		for (const oldCard of oldYouInPlay) {
-			const newCard = newYouInPlay.find((c) => c.ticker === oldCard.ticker);
-			if (!newCard) {
-				addLog(`Bot destroyed your ${getCreatureName(oldCard.ticker)}!`, 'damage');
-				return;
-			} else if (newCard.health < oldCard.health) {
-				const dmg = oldCard.health - newCard.health;
-				addLog(`Bot hit ${getCreatureName(oldCard.ticker)} for ${dmg} damage!`, 'damage');
-				return;
+	function logBotAction(botAction: Action | undefined) {
+		if (!botAction) return;
+		if (botAction.actionType === 'play') {
+			const ticker = botAction.data as string;
+			const card = data.cards.find((c) => c.ticker === ticker);
+			const cost = card ? Math.ceil(card.health / 2) : 0;
+			addLog(`Bot deployed ${getCreatureName(ticker)}! (-${cost} HP)`, 'deploy');
+		} else if (botAction.actionType === 'attack') {
+			const atk = botAction.data as Attack;
+			const attacker = data.cards.find((c) => c.ticker === atk.attacker);
+			const defender = data.cards.find((c) => c.ticker === atk.opponent);
+			if (attacker && defender) {
+				const superEff = isSuperEffective(attacker.sector, defender.sector);
+				const baseDmg = Math.max(attacker.attack - defender.defense, 1);
+				const dmg = superEff ? Math.floor(baseDmg * 2) : baseDmg;
+				const counter = Math.max(defender.attack - attacker.defense, 1);
+				addLog(`Bot's ${getCreatureName(atk.attacker)} attacked ${getCreatureName(atk.opponent)} for ${dmg} damage!`, 'damage');
+				addLog(`${getCreatureName(atk.opponent)} countered for ${counter} damage!`, 'damage');
+				if (superEff) addLog('Super effective!', 'super');
 			}
+		} else if (botAction.actionType === 'attack-face') {
+			const ticker = botAction.data as string;
+			const attacker = data.cards.find((c) => c.ticker === ticker);
+			const dmg = attacker?.attack || 0;
+			addLog(`Bot's ${getCreatureName(ticker)} attacked you directly for ${dmg} damage!`, 'damage');
+		} else if (botAction.actionType === 'grow') {
+			addLog(`Bot grew ${getCreatureName(botAction.data as string)}.`, 'system');
 		}
-
-		// Check if bot grew a card
-		for (const newCard of newOpInPlay) {
-			const oldCard = oldOpInPlay.find((c) => c.ticker === newCard.ticker);
-			if (oldCard && newCard.health > oldCard.health) {
-				addLog(`Bot grew ${getCreatureName(newCard.ticker)}.`, 'system');
-				return;
-			}
-		}
-
-		addLog('Bot took an action.', 'system');
 	}
 
 	function playCard(cardTicker: string) {
 		if (gameState.whosTurn !== 'you') return;
 		const cardDef = data.cards.find(({ ticker }) => ticker === cardTicker);
-		const health = cardDef?.health || 0;
-		if (health > gameState.you.health) {
+		const hp = cardDef?.health || 0;
+		const cost = Math.ceil(hp / 2);
+		if (cost >= gameState.you.health) {
 			showNotification('Not enough HP to deploy this creature.');
 			return;
 		}
-		addLog(`You deployed ${getCreatureName(cardTicker)}!`, 'deploy');
+		if (gameState.you.inPlay.length >= FIELD_SLOTS) {
+			showNotification('Field is full!');
+			return;
+		}
+		addLog(`You deployed ${getCreatureName(cardTicker)}! (-${cost} HP)`, 'deploy');
 
-		const oldState = structuredClone(gameState);
 		const action: Action = { actionType: 'play', data: cardTicker };
-		gameState = updateGameState(gameState, action, data.cards);
+		const result = updateGameState(gameState, action, data.cards);
+		gameState = result.state;
 		selectedCard = null;
 		actionMode = 'idle';
 
-		if (!gameState.winner) inferBotAction(oldState, gameState);
+		if (!gameState.winner) logBotAction(result.botAction);
 	}
 
 	function growCard(cardTicker: string) {
 		addLog(`${getCreatureName(cardTicker)} used Grow!`, 'system');
 
-		const oldState = structuredClone(gameState);
 		const action: Action = { actionType: 'grow', data: cardTicker };
-		gameState = updateGameState(gameState, action, data.cards);
+		const result = updateGameState(gameState, action, data.cards);
+		gameState = result.state;
 		selectedCard = null;
 		actionMode = 'idle';
 
-		if (!gameState.winner) inferBotAction(oldState, gameState);
+		if (!gameState.winner) logBotAction(result.botAction);
 	}
 
 	function attackCard(attackerTicker: string, opponentTicker: string) {
@@ -117,31 +112,56 @@
 		const defender = data.cards.find((c) => c.ticker === opponentTicker);
 		const superEff = attacker && defender && isSuperEffective(attacker.sector, defender.sector);
 
-		const baseDmg = attacker && defender ? Math.max(attacker.attack - defender.defense, 0) : 0;
-		const dmg = superEff ? Math.floor(baseDmg * 1.5) : baseDmg;
+		const baseDmg = attacker && defender ? Math.max(attacker.attack - defender.defense, 1) : 1;
+		const dmg = superEff ? Math.floor(baseDmg * 2) : baseDmg;
+		const counter = attacker && defender ? Math.max(defender.attack - attacker.defense, 1) : 1;
 
 		addLog(
 			`${getCreatureName(attackerTicker)} attacked ${getCreatureName(opponentTicker)} for ${dmg} damage!`,
 			'damage'
 		);
+		addLog(
+			`${getCreatureName(opponentTicker)} countered for ${counter} damage!`,
+			'damage'
+		);
 		if (superEff) {
 			addLog('Super effective!', 'super');
 			showNotification(
-				`Super effective! ${attacker?.sector} \u2192 ${defender?.sector} (1.5\u00D7 damage)`,
+				`Super effective! ${attacker?.sector} \u2192 ${defender?.sector} (2\u00D7 damage)`,
 				'success'
 			);
 		}
 
-		const oldState = structuredClone(gameState);
 		const action: Action = {
 			actionType: 'attack',
 			data: { attacker: attackerTicker, opponent: opponentTicker }
 		};
-		gameState = updateGameState(gameState, action, data.cards);
+		const result = updateGameState(gameState, action, data.cards);
+		gameState = result.state;
 		selectedCard = null;
 		actionMode = 'idle';
 
-		if (!gameState.winner) inferBotAction(oldState, gameState);
+		if (!gameState.winner) logBotAction(result.botAction);
+	}
+
+	function attackFace(attackerTicker: string) {
+		const attacker = data.cards.find((c) => c.ticker === attackerTicker);
+		const dmg = attacker?.attack || 0;
+		addLog(`${getCreatureName(attackerTicker)} attacked opponent directly for ${dmg} damage!`, 'damage');
+
+		const action: Action = { actionType: 'attack-face', data: attackerTicker };
+		const result = updateGameState(gameState, action, data.cards);
+		gameState = result.state;
+		selectedCard = null;
+		actionMode = 'idle';
+
+		if (!gameState.winner) logBotAction(result.botAction);
+	}
+
+	function handleFaceClick() {
+		if (actionMode === 'select-target' && selectedCard && gameState.opponent.inPlay.length === 0) {
+			attackFace(selectedCard);
+		}
 	}
 
 	function handleFieldClick(ticker: string | null, side: 'player' | 'opponent') {
@@ -227,6 +247,8 @@
 				maxHealth={MAX_HEALTH}
 				isActive={gameState.whosTurn === 'opponent'}
 				side="opponent"
+				isAttackTarget={actionMode === 'select-target' && gameState.opponent.inPlay.length === 0}
+				on:click={handleFaceClick}
 			/>
 		</div>
 
@@ -292,11 +314,9 @@
 				<button class="act grow" on:click={() => growCard(selectedCard || '')}>
 					Grow
 				</button>
-				{#if gameState.opponent.inPlay.length > 0}
-					<button class="act attack" on:click={startAttackMode}>
-						Attack
-					</button>
-				{/if}
+				<button class="act attack" on:click={startAttackMode}>
+					{gameState.opponent.inPlay.length === 0 ? 'Attack Face' : 'Attack'}
+				</button>
 				<button class="act cancel" on:click={cancelAction}>Cancel</button>
 			</div>
 		</div>
@@ -304,7 +324,9 @@
 
 	{#if actionMode === 'select-target'}
 		<div class="action-panel target-mode" transition:slide|local={{ duration: 200, easing: quintOut }}>
-			<span class="act-label font-mono" style="color: var(--red)">SELECT TARGET</span>
+			<span class="act-label font-mono" style="color: var(--red)">
+				{gameState.opponent.inPlay.length === 0 ? 'CLICK OPPONENT TO ATTACK' : 'SELECT TARGET'}
+			</span>
 			<button class="act cancel" on:click={cancelAction}>Cancel</button>
 		</div>
 	{/if}
@@ -319,9 +341,12 @@
 				{#each gameState.you.hand as cardTicker, i (cardTicker)}
 					{@const cardData = data.cards.find((card) => card.ticker === cardTicker)}
 					{@const total = gameState.you.hand.length}
+					{@const cost = cardData ? Math.ceil(cardData.health / 2) : 0}
+					{@const canAfford = cost < gameState.you.health}
 					<div
 						class="hand-card"
 						class:disabled={gameState.whosTurn !== 'you'}
+						class:unaffordable={!canAfford}
 						style={innerWidth >= 768
 							? `--fan-angle: ${fanAngle(i, total)}deg; --fan-y: ${fanY(i, total)}px;`
 							: ''}
@@ -339,6 +364,7 @@
 							sector={cardData?.sector || ''}
 							sizeMultiplier={handCardSize}
 						/>
+						<span class="deploy-cost font-mono">-{cost} HP</span>
 					</div>
 				{/each}
 			</div>
@@ -654,6 +680,26 @@
 
 	.hand-card.disabled {
 		opacity: 0.5;
+		pointer-events: none;
+	}
+
+	.hand-card.unaffordable {
+		opacity: 0.4;
+		filter: grayscale(0.5);
+	}
+
+	.deploy-cost {
+		position: absolute;
+		top: 6px;
+		right: 8px;
+		background: rgba(255, 71, 87, 0.85);
+		color: #fff;
+		font-size: 0.55rem;
+		font-weight: 700;
+		padding: 1px 5px;
+		border-radius: 4px;
+		letter-spacing: 0.02em;
+		z-index: 4;
 		pointer-events: none;
 	}
 

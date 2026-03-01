@@ -23,8 +23,8 @@
 	const MAX_HEALTH = 50;
 	const FIELD_SLOTS = 4;
 
-	$: fieldCardSize = innerWidth < 480 ? 0.4 : innerWidth < 768 ? 0.55 : 0.65;
-	$: handCardSize = innerWidth < 480 ? 0.38 : innerWidth < 768 ? 0.5 : 0.6;
+	$: fieldCardSize = innerWidth < 480 ? 0.35 : innerWidth < 768 ? 0.55 : 0.65;
+	$: handCardSize = innerWidth < 480 ? 0.42 : innerWidth < 768 ? 0.5 : 0.6;
 
 	function addLog(text: string, type: string) {
 		battleLog = [...battleLog, { text, type }];
@@ -853,14 +853,29 @@
 		.arena-header { padding: 0.4rem 0.75rem; }
 		.arena-title { font-size: 0.8rem; }
 		.turn-tag { font-size: 0.55rem; padding: 0.2rem 0.4rem; }
-		.game-mat { padding: 0.25rem 0.35rem; gap: 0.2rem; }
-		.field-row { gap: 0.25rem; padding: 0.15rem 0; }
+		.game-mat { padding: 0.15rem 0.25rem; gap: 0.15rem; }
+		.field-row { gap: 0.2rem; padding: 0.1rem 0; }
+		.divider-row { padding: 0; gap: 0.5rem; }
+		.div-vs { font-size: 0.55rem; }
 		.action-panel { padding: 0.35rem 0.75rem; gap: 0.5rem; }
 		.act { padding: 0.35rem 0.7rem; font-size: 0.7rem; }
-		.hand-label { font-size: 0.55rem; padding: 0 0.75rem 0.2rem; }
-		.hand-scroll { padding: 0.2rem 0.5rem 0.4rem; gap: 0.35rem; }
+		.hand-area { padding: 0.25rem 0; }
+		.hand-label { font-size: 0.55rem; padding: 0 0.75rem 0.15rem; }
+		.hand-scroll { padding: 0.15rem 0.4rem 0.3rem; gap: 0.3rem; }
+		.deploy-cost { font-size: 0.5rem; padding: 1px 4px; }
 		.go-card { padding: 1.75rem 1.25rem; margin: 0 1rem; }
 		.go-title { font-size: 1.75rem; }
 		.go-sub { font-size: 0.85rem; margin-bottom: 1.5rem; }
+	}
+
+	/* Touch feedback for mobile */
+	@media (hover: none) {
+		.hand-card:active {
+			transform: scale(0.95);
+			border-color: rgba(201, 168, 76, 0.5);
+		}
+		.act:active {
+			transform: scale(0.95);
+		}
 	}
 </style>

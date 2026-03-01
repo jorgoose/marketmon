@@ -110,7 +110,8 @@
 
 </script>
 
-<div class="card-container" style={`zoom: ${sizeMultiplier};`} on:click>
+<div class="card-outer" style={`width: ${300 * sizeMultiplier}px;`} on:click>
+  <div class="card-container" style={`transform: scale(${sizeMultiplier}); transform-origin: top left;`}>
   <div class="card" style="background: {cardBg}">
 
     <!-- Nameplate -->
@@ -159,8 +160,16 @@
     <div class="shimmer"></div>
   </div>
 </div>
+</div>
 
 <style>
+  .card-outer {
+    display: inline-block;
+    overflow: hidden;
+    aspect-ratio: 63 / 88;
+    border-radius: 16px;
+  }
+
   .card-container {
     display: inline-block;
     width: 300px;
@@ -183,12 +192,6 @@
       inset 0 1px 0 rgba(255, 255, 255, 0.45),
       inset 0 -1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
-  }
-
-  @media (max-width: 480px) {
-    .card-container {
-      width: 250px;
-    }
   }
 
   .card {
@@ -223,7 +226,7 @@
     z-index: 3;
   }
 
-  .card-container:hover .shimmer {
+  .card-outer:hover .shimmer {
     transform: translateX(150%);
   }
 
@@ -343,7 +346,10 @@
   }
 
   .type-badge {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
     font-size: 10px;
     font-weight: 700;
     text-transform: uppercase;

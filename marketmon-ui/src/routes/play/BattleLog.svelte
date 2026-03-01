@@ -7,6 +7,7 @@
 
 	let logEl: HTMLDivElement;
 	let expanded = true;
+	let mobileExpanded = false;
 
 	const typeColors: Record<string, string> = {
 		deploy: 'var(--gold)',
@@ -45,16 +46,25 @@
 	{/if}
 </div>
 
-<!-- Mobile: single-line ticker -->
-<div class="log-ticker font-mono">
-	{#if messages.length > 0}
-		<span style="color: {typeColors[messages[messages.length - 1].type] || 'var(--text-secondary)'}">
+<!-- Mobile: tappable ticker -->
+<button class="log-ticker font-mono" on:click={() => (mobileExpanded = !mobileExpanded)}>
+	{#if mobileExpanded && messages.length > 0}
+		<div class="ticker-expanded">
+			{#each messages.slice(-5) as msg}
+				<div class="ticker-line" style="color: {typeColors[msg.type] || 'var(--text-secondary)'}">
+					{msg.text}
+				</div>
+			{/each}
+		</div>
+	{:else if messages.length > 0}
+		<span class="ticker-text" style="color: {typeColors[messages[messages.length - 1].type] || 'var(--text-secondary)'}">
 			{messages[messages.length - 1].text}
 		</span>
 	{:else}
-		<span style="color: var(--text-muted)">Waiting...</span>
+		<span class="ticker-text" style="color: var(--text-muted)">Waiting...</span>
 	{/if}
-</div>
+	<span class="ticker-chevron">{mobileExpanded ? '\u25BC' : '\u25B2'}</span>
+</button>
 
 <style>
 	/* Desktop floating panel */
@@ -124,14 +134,46 @@
 	/* Mobile ticker */
 	.log-ticker {
 		display: none;
+		width: 100%;
 		padding: 0.3rem 0.75rem;
 		background: rgba(6, 6, 10, 0.85);
+		border: none;
 		border-top: 1px solid var(--border);
+		font-family: 'Space Mono', monospace;
 		font-size: 0.6rem;
 		font-weight: 600;
+		text-align: left;
+		cursor: pointer;
+		color: inherit;
+		position: relative;
+	}
+
+	.ticker-text {
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
+		display: block;
+		padding-right: 1rem;
+	}
+
+	.ticker-expanded {
+		display: flex;
+		flex-direction: column;
+		gap: 2px;
+		padding-right: 1rem;
+	}
+
+	.ticker-line {
+		line-height: 1.4;
+	}
+
+	.ticker-chevron {
+		position: absolute;
+		right: 0.75rem;
+		top: 50%;
+		transform: translateY(-50%);
+		font-size: 0.45rem;
+		color: var(--text-muted);
 	}
 
 	@media (max-width: 768px) {

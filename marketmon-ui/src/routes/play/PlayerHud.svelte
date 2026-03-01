@@ -126,9 +126,11 @@
 	}
 
 	@media (max-width: 480px) {
-		.hud { padding: 0.35rem 0.5rem; gap: 0.4rem; }
-		.hud-icon { width: 16px; height: 16px; }
-		.hud-label { font-size: 0.6rem; }
-		.hud-hp { font-size: 0.6rem; min-width: 40px; }
+		.hud { padding: 0.25rem 0.4rem; gap: 0.3rem; }
+		.hud-icon { width: 14px; height: 14px; }
+		.hud-label { font-size: 0.55rem; }
+		.bar-track { height: 4px; }
+		.hud-hp { font-size: 0.55rem; min-width: 36px; }
+		.turn-dot { width: 6px; height: 6px; }
 	}
 </style>

@@ -127,4 +127,13 @@
 	@media (max-width: 480px) {
 		.slot { padding: 2px; }
 	}
+
+	@media (hover: none) {
+		.slot.player-side.occupied:active {
+			transform: translateY(-2px);
+		}
+		.slot.attack-target:active {
+			transform: scale(0.97);
+		}
+	}
 </style>

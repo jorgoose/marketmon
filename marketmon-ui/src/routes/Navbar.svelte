@@ -7,6 +7,7 @@
 		{ href: '/', label: 'Home' },
 		{ href: '/cards', label: 'Index' },
 		{ href: '/play', label: 'Arena' },
+		{ href: '/jobs', label: 'Jobs' },
 		{ href: '/about', label: 'Guide' },
 	];
 </script>
